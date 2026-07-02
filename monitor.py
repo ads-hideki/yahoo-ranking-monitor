@@ -29,6 +29,7 @@ SHOT_DIR = os.path.join(BASE, "screenshots")
 PRODUCTS_JSON = os.path.join(DATA_DIR, "products.json")
 HISTORY_CSV = os.path.join(DATA_DIR, "history.csv")
 LATEST_JSON = os.path.join(DATA_DIR, "latest.json")
+WINS_JSON = os.path.join(DATA_DIR, "wins.json")
 
 NAV_CODES = {"guide", "info", "search", "index", "store", "user",
              "review", "company", "law", "privacy", "category"}
@@ -162,6 +163,49 @@ def fetch_ranking(page, cat_id):
             "update_date": md.group(1) if md else "", "items": ordered}
 
 
+def compute_win_stats(mapping):
+    """history.csv から各商品の『1位獲得回数』を集計して wins.json に保存。
+    1回=監視スロット（朝/夜）単位。Yahooのデイリー更新が1日2回のため、
+    同じスロットでの手動再実行を重複カウントしないよう (商品, 日付, 朝/夜) で排除する。"""
+    if not os.path.exists(HISTORY_CSV):
+        return {}
+    stats = {}          # code -> dict
+    seen = set()        # (code, date, slot) 重複排除
+    with open(HISTORY_CSV, encoding="utf-8-sig") as f:
+        for row in csv.DictReader(f):
+            if str(row.get("rank")) != "1":
+                continue
+            code = (row.get("item_code") or "").lower()
+            try:
+                dt = datetime.datetime.fromisoformat(row["datetime_jst"])
+            except Exception:
+                continue
+            date = dt.strftime("%Y-%m-%d")
+            slot = "朝" if dt.hour < 14 else "夜"
+            key = (code, date, slot)
+            if key in seen:
+                continue
+            seen.add(key)
+            s = stats.setdefault(code, {"count": 0, "events": [],
+                                        "first": date, "last": date})
+            s["count"] += 1
+            s["events"].append(f"{date} {slot}")
+            s["first"] = min(s["first"], date)
+            s["last"] = max(s["last"], date)
+            s["category_name"] = row.get("category_name", "")
+            s["category_id"] = row.get("category_id", "")
+    # タイトルは現行マッピング優先
+    for code, s in stats.items():
+        s["title"] = mapping.get(code, {}).get("title") or ""
+    ordered = dict(sorted(stats.items(), key=lambda kv: kv[1]["count"], reverse=True))
+    out = {"generated_at": now_jst().isoformat(),
+           "note": "count = 1位を観測した監視スロット数（朝/夜単位）。",
+           "products": ordered}
+    json.dump(out, open(WINS_JSON, "w", encoding="utf-8"),
+              ensure_ascii=False, indent=1)
+    return ordered
+
+
 def screenshot_top(page, path):
     """ランキングページ上部（順位・カテゴリ名・更新日が写る範囲）を保存"""
     page.mouse.wheel(0, -50000)
@@ -248,7 +292,15 @@ def main():
                    "winners": winners}, open(LATEST_JSON, "w", encoding="utf-8"),
                   ensure_ascii=False, indent=1)
 
-        print(f"\n[結果] 1位獲得 {len(winners)} 件 / 順位記録 {len(rows)} 行")
+        # 1位獲得回数の累計を集計
+        wins = compute_win_stats(mapping)
+
+        print(f"\n[結果] 今回1位 {len(winners)} 件 / 順位記録 {len(rows)} 行")
+        if wins:
+            print("[累計1位獲得回数（朝/夜スロット単位）]")
+            for code, s in wins.items():
+                print(f"  {s['count']:3d}回  {code} [{s.get('category_name','')}] "
+                      f"{s['first']}〜{s['last']}")
         browser.close()
 
 

@@ -1,18 +1,21 @@
 name: Yahoo ranking monitor
 
-# デイリー=1日1回（全取得）／リアルタイム=2時間おき。
-# デイリーランキングは実質1日1回更新のため取得は1日1回、リアルタイムは変動が速いので2時間おき。
+# デイリー=1日1回（全取得）／リアルタイム=2時間おき。毎朝9時に1位をメール通知。
 # GitHub Actions の cron は UTC 指定（JST−9時間）。
-#   ・"30 23 * * *"  = JST 08:30 … デイリー＋リアルタイムを全取得（1日1回）
-#   ・"0 */2 * * *"  = 2時間おき   … リアルタイムのみ取得
+#   ・"0 0 * * *"                          = JST 09:00 … 全取得（デイリー+リアルタイム）＋メール送信
+#   ・"0 2,4,...,22 * * *"（09時以外の2時間おき）= リアルタイムのみ取得
 # ※GitHubのcronは混雑時に数分〜遅延することがある（仕様）。
 on:
   schedule:
-    - cron: "30 23 * * *"   # JST 08:30 … 全取得（デイリー+リアルタイム）
-    - cron: "0 */2 * * *"   # 2時間おき … リアルタイムのみ
-  workflow_dispatch:        # 手動実行（全取得）
+    - cron: "0 0 * * *"                              # JST 09:00 … 全取得＋メール
+    - cron: "0 2,4,6,8,10,12,14,16,18,20,22 * * *"   # 2時間おき（09時以外）… リアルタイムのみ
+  workflow_dispatch:                                  # 手動実行（全取得）
+    inputs:
+      send_email:
+        description: "テストメールも送る（true/false）"
+        type: boolean
+        default: false
 
-# 結果（スクショ・履歴）をリポジトリにコミットするための書き込み権限
 permissions:
   contents: write
 
@@ -24,6 +27,9 @@ jobs:
   monitor:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    env:
+      # メール用シークレットが設定されているときだけ送信する（未設定なら送信スキップ）
+      HAS_MAIL: ${{ secrets.MAIL_USERNAME != '' && secrets.MAIL_PASSWORD != '' && secrets.MAIL_TO != '' }}
     steps:
       - uses: actions/checkout@v4
 
@@ -38,10 +44,10 @@ jobs:
 
       - name: Run monitor
         run: |
-          if [ "${{ github.event.schedule }}" = "0 */2 * * *" ]; then
+          if [ "${{ github.event.schedule }}" = "0 2,4,6,8,10,12,14,16,18,20,22 * * *" ]; then
             python monitor.py --only realtime   # 2時間おき：リアルタイムのみ
           else
-            python monitor.py                   # 1日1回/手動：全取得
+            python monitor.py                   # 09:00/手動：全取得
           fi
 
       - name: Commit results
@@ -56,3 +62,35 @@ jobs:
             git pull --rebase origin main || true
             git push
           fi
+
+      # ---- 毎朝9時（または手動でsend_email=true）に1位をメール通知 ----
+      - name: Build email
+        if: github.event.schedule == '0 0 * * *' || github.event.inputs.send_email == 'true'
+        run: python notify_email.py
+
+      - name: Read email fields
+        id: mail
+        if: github.event.schedule == '0 0 * * *' || github.event.inputs.send_email == 'true'
+        run: |
+          echo "subject=$(cat email_subject.txt)" >> "$GITHUB_OUTPUT"
+          echo "attach=$(cat email_attach.txt)" >> "$GITHUB_OUTPUT"
+          {
+            echo "body<<__BODY_EOF__"
+            cat email_body.html
+            echo "__BODY_EOF__"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Send mail
+        if: env.HAS_MAIL == 'true' && (github.event.schedule == '0 0 * * *' || github.event.inputs.send_email == 'true')
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          subject: ${{ steps.mail.outputs.subject }}
+          to: ${{ secrets.MAIL_TO }}
+          from: Yahoo Ranking Monitor <${{ secrets.MAIL_USERNAME }}>
+          html_body: ${{ steps.mail.outputs.body }}
+          attachments: ${{ steps.mail.outputs.attach }}

@@ -6,3 +6,6 @@ venv/
 scratchpad/
 desktop.ini
 Thumbs.db
+email_subject.txt
+email_body.html
+email_attach.txt

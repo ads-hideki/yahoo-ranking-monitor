@@ -94,6 +94,32 @@ python monitor.py --map-only # 対応表の生成のみ
 - 全取得の時刻：`"30 23 * * *"`（=JST 08:30）
 - リアルタイム間隔：`"0 */2 * * *"`（2時間おき。3時間なら `"0 */3 * * *"`）
 
+## 毎朝9時のメール通知
+
+毎朝 **JST 09:00** に、その時点のデイリー1位・リアルタイム1位の商品を
+メールで通知します（Gmail の SMTP から送信、1位スクショを添付）。
+
+送信を有効にするには、GitHub リポジトリに **3つのシークレット** を登録してください
+（**Settings → Secrets and variables → Actions → New repository secret**）。
+
+| シークレット名 | 値 |
+|---|---|
+| `MAIL_USERNAME` | 送信元の Gmail アドレス（例: ads.hideki@gmail.com） |
+| `MAIL_PASSWORD` | Gmail の **アプリパスワード**（後述。通常のログインPWは不可） |
+| `MAIL_TO` | 送信先アドレス（複数はカンマ区切り可） |
+
+### Gmail アプリパスワードの取得
+
+1. Google アカウントで **2段階認証** を有効化（未設定の場合）
+2. https://myaccount.google.com/apppasswords を開く
+3. 「アプリ名」を入力（例: `yahoo-ranking`）して作成 → **16桁のパスワード**が表示される
+4. それを `MAIL_PASSWORD` に登録（スペースは詰めても可）
+
+### 動作
+- シークレット3つが揃っていれば、毎朝9時の実行で自動送信されます
+- シークレット未設定の間は送信ステップはスキップ（実行は成功のまま）
+- テスト送信: Actions → Run workflow → **send_email に true** を指定して実行
+
 ## 注意点
 
 - Yahoo 側のHTML構造変更に依存します。取得0件・順位が全て「圏外」になった場合は

@@ -68,12 +68,24 @@ jobs:
         if: github.event.schedule == '0 0 * * *' || github.event.inputs.send_email == 'true'
         run: python notify_email.py
 
+      # 本文に埋め込む画像（当日撮影分）が Pages で公開されるまで待つ
+      - name: Wait for images on Pages
+        if: github.event.schedule == '0 0 * * *' || github.event.inputs.send_email == 'true'
+        run: |
+          while IFS= read -r url; do
+            [ -z "$url" ] && continue
+            for i in $(seq 1 30); do
+              code=$(curl -s -o /dev/null -w "%{http_code}" "$url")
+              if [ "$code" = "200" ]; then echo "OK   $url"; break; fi
+              echo "wait $i ($code) $url"; sleep 10
+            done
+          done < email_images.txt || true
+
       - name: Read email fields
         id: mail
         if: github.event.schedule == '0 0 * * *' || github.event.inputs.send_email == 'true'
         run: |
           echo "subject=$(cat email_subject.txt)" >> "$GITHUB_OUTPUT"
-          echo "attach=$(cat email_attach.txt)" >> "$GITHUB_OUTPUT"
           {
             echo "body<<__BODY_EOF__"
             cat email_body.html
@@ -94,4 +106,3 @@ jobs:
           to: ${{ secrets.MAIL_TO }}
           from: Yahoo Ranking Monitor <${{ secrets.MAIL_USERNAME }}>
           html_body: ${{ steps.mail.outputs.body }}
-          attachments: ${{ steps.mail.outputs.attach }}

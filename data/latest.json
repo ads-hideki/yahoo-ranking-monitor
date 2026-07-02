@@ -1,5 +1,5 @@
 {
- "run_at": "2026-07-03T06:14:10.771917+09:00",
+ "run_at": "2026-07-03T07:11:17.671596+09:00",
  "categories_checked": 37,
  "daily": [
   {
@@ -8,7 +8,7 @@
    "code": "ads003",
    "title": "バッグインバッグ 小さめ 自立 フェルト 監修 インナーバッグ バックインバック 底板 軽量 アンコール Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/7/2",
-   "screenshot": "screenshots/daily/20260702_cat23591_レディースバッグインバッグ_ads003.png"
+   "screenshot": "screenshots/daily/ads003/20260703_cat23591_レディースバッグインバッグ.png"
   },
   {
    "category_id": "35462",
@@ -16,35 +16,27 @@
    "code": "ads001",
    "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 入学 折らずにお届け 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/7/2",
-   "screenshot": "screenshots/daily/20260702_cat35462_レディースビジネスバッグ_ads001.png"
+   "screenshot": "screenshots/daily/ads001/20260703_cat35462_レディースビジネスバッグ.png"
   }
  ],
  "realtime": [
-  {
-   "category_id": "4352",
-   "category_name": "マザーズバッグ",
-   "code": "ads023",
-   "title": "マザーズリュック マザーズバッグ ママ リュック 大容量 ブランド 軽量 軽い ギフト Annekor アンコール 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/3",
-   "screenshot": "screenshots/realtime/20260703_cat4352_マザーズバッグ_ads023.png"
-  },
   {
    "category_id": "45462",
    "category_name": "お香、インセンス",
    "code": "ads066",
    "title": "お香 アロマ 白檀 沈香 金木犀 ホワイトセージ おしゃれ お試し オシャレ 横置き 対応 セット リラクゼーション ヨガ お香 のような お線香 線香 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/7/3",
-   "screenshot": "screenshots/realtime/20260703_cat45462_お香、インセンス_ads066.png"
+   "screenshot": "screenshots/realtime/ads066/20260703_cat45462_お香、インセンス.png"
   },
   {
-   "category_id": "68713",
-   "category_name": "レディース二つ折り財布",
-   "code": "ads090",
-   "title": "二つ折り財布 レディース 本革 二つ折り 財布 ミニ財布 バイカラー フラップ コンパクト 大容量 スキミング防止 おしゃれ 爆買｜バッグ 雑貨 Annekor アンコール",
+   "category_id": "68710",
+   "category_name": "レディース長財布",
+   "code": "ads089",
+   "title": "長財布 レディース 本革 財布 小さい財布 大容量 薄い お札が折れない ブランド 使いやすい バイカラー 小さな長財布 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/7/3",
-   "screenshot": "screenshots/realtime/20260703_cat68713_レディース二つ折り財布_ads090.png"
+   "screenshot": "screenshots/realtime/ads089/20260703_cat68710_レディース長財布.png"
   }
  ],
- "realtime_updated": "2026-07-03T06:14:10.771917+09:00",
- "daily_updated": "2026-07-02T17:04:41.490242+09:00"
+ "realtime_updated": "2026-07-03T07:11:17.671596+09:00",
+ "daily_updated": "2026-07-03T07:11:17.671596+09:00"
 }

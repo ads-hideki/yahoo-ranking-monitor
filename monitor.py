@@ -174,21 +174,27 @@ def parse_ranking(page, cat_id):
 
 
 def shot_top_row(page, path):
-    """メインランキング1位の行要素だけを高解像度で保存"""
-    a = page.query_selector("a[href*='ranking-crk01_01']")
-    if not a:
-        return False
-    row = a.evaluate_handle("el => el.closest('.line') || el.closest('li')").as_element()
-    if not row:
-        return False
-    try:
-        row.scroll_into_view_if_needed()
-        page.wait_for_timeout(400)
-        row.screenshot(path=path)
-        return True
-    except Exception as e:
-        print(f"    行スクショ失敗: {e}")
-        return False
+    """メインランキング1位の行要素だけを高解像度で保存（リトライ付き）"""
+    for attempt in range(3):
+        try:
+            a = page.query_selector("a[href*='ranking-crk01_01']")
+            if not a:
+                page.wait_for_timeout(1000)
+                continue
+            row = a.evaluate_handle(
+                "el => el.closest('.line') || el.closest('li') "
+                "|| el.closest('[class*=item]') || el.parentElement").as_element()
+            if not row:
+                page.wait_for_timeout(800)
+                continue
+            row.scroll_into_view_if_needed(timeout=6000)
+            page.wait_for_timeout(500)
+            row.screenshot(path=path)
+            return True
+        except Exception as e:
+            print(f"    行スクショ再試行{attempt+1}: {e}")
+            page.wait_for_timeout(800)
+    return False
 
 
 # ---- 集計 -----------------------------------------------------------------
@@ -237,7 +243,7 @@ def compute_win_stats(mapping):
 # ---- 管理画面(HTML)生成 ----------------------------------------------------
 def _card(w, wins_for_period, show_count=True):
     code = w["code"].lower()
-    img = html.escape(w["screenshot"])
+    img = html.escape(w.get("screenshot", ""))
     title = html.escape(w["title"])
     cat = html.escape(w["category_name"])
     upd = html.escape(w.get("update_label", ""))
@@ -245,10 +251,12 @@ def _card(w, wins_for_period, show_count=True):
     if show_count:  # デイリーのみ累計を表示（リアルタイムは累計対象外）
         cnt = wins_for_period.get(code, {}).get("count", 0)
         badge = f'<span class="badge">累計1位 {cnt}日</span>'
+    img_html = (f'<a href="{img}" target="_blank"><img src="{img}" alt="{title}"></a>'
+                if img else '<div style="color:#aaa;font-size:12px">（スクショ取得待ち）</div>')
     return f"""
     <div class="card">
       <div class="cat">{cat}</div>
-      <a href="{img}" target="_blank"><img src="{img}" alt="{title}"></a>
+      {img_html}
       <div class="meta">
         {badge}<span class="upd">更新: {upd}</span>
       </div>
@@ -401,15 +409,21 @@ def main():
                                  it["code"], it["rank"],
                                  mapping.get(it['code'].lower(), {}).get('title', it['title'])])
                 if is_top_ours:
-                    fname = f"{stamp}_cat{cat_id}_{sanitize(rk['category_name'])}_{top['code']}.png"
-                    rel = os.path.join("screenshots", period, fname)
-                    if shot_top_row(page, os.path.join(BASE, rel)):
-                        winners[period].append({
-                            "category_id": cat_id,
-                            "category_name": rk["category_name"],
-                            "code": top["code"], "title": top["title"],
-                            "update_label": rk["update_label"],
-                            "screenshot": rel.replace(os.sep, "/")})
+                    # 品番ごとのフォルダに格納: screenshots/{period}/{code}/{日付}_cat{ID}_{カテゴリ}.png
+                    code = top["code"]
+                    subdir = os.path.join("screenshots", period, code)
+                    os.makedirs(os.path.join(BASE, subdir), exist_ok=True)
+                    rel = os.path.join(subdir, f"{stamp}_cat{cat_id}_{sanitize(rk['category_name'])}.png")
+                    shot_ok = shot_top_row(page, os.path.join(BASE, rel))
+                    if not shot_ok:
+                        print(f"    ※ {period} 1位 {code} のスクショ取得失敗（受賞は記録）")
+                    # スクショ成否に関わらず受賞は記録（画像は撮れた場合のみパス）
+                    winners[period].append({
+                        "category_id": cat_id,
+                        "category_name": rk["category_name"],
+                        "code": code, "title": top["title"],
+                        "update_label": rk["update_label"],
+                        "screenshot": rel.replace(os.sep, "/") if shot_ok else ""})
             print(" ".join(line) + f" [{mapping.get(next(iter(our_in_cat)),{}).get('title','')[:14]}]")
 
         # 履歴CSV追記（period 列を含む）

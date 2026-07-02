@@ -33,9 +33,11 @@ def load_json(path, default):
 
 
 def find_shot_url(period, cat_id, code):
-    """該当商品の最新スクショの Pages 公開URL（無ければ空）"""
-    pat = os.path.join(BASE, "screenshots", period, f"*_cat{cat_id}_*_{code}.png")
-    files = sorted(glob.glob(pat))
+    """該当商品の最新スクショの Pages 公開URL（無ければ空）
+    新: screenshots/{period}/{code}/*.png ／ 旧: screenshots/{period}/*_{code}.png"""
+    files = sorted(glob.glob(os.path.join(BASE, "screenshots", period, code, "*.png")))
+    if not files:  # 旧フラット構造も一応拾う
+        files = sorted(glob.glob(os.path.join(BASE, "screenshots", period, f"*_cat{cat_id}_*_{code}.png")))
     if not files:
         return ""
     rel = os.path.relpath(files[-1], BASE).replace(os.sep, "/")

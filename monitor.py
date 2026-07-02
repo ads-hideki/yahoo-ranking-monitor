@@ -2,27 +2,30 @@
 """
 Yahoo!ショッピング カテゴリランキング 1位監視システム
 ------------------------------------------------------
-annekor1 店舗の全商品について、各商品が属する Yahoo カテゴリの
-「カテゴリランキング（デイリー）」を巡回し、自店商品が1位を獲得した場合に
-その順位を示すスクリーンショットを保存する。
+annekor1 店舗の全商品について、各商品が属する Yahoo カテゴリランキングの
+「デイリー」と「リアルタイム」の両方を1日2回巡回し、自店商品が1位を獲得したら
+その1位の行だけを高解像度でスクリーンショット保存し、管理画面(index.html)に表示する。
 
 - 全商品リスト  : /annekor1/search.html を b= オフセットで巡回して取得
 - 商品→カテゴリ : 各商品ページの "categoryId":"NNN" を抽出
 - 順位判定      : https://shopping.yahoo.co.jp/categoryranking/{cat}/list の
-                  メインランキング(crk01_01)の並び順で判定
-- 1位検知時     : ランキングページ上部のスクショを screenshots/ に保存
+                  メインランキング(crk01_01)の並び順で判定（デイリー/リアルタイム両方）
+- 1位検知時     : 1位の行要素だけを screenshots/{period}/ に高解像度で保存
+- 表示          : index.html（管理画面）にデイリー/リアルタイムの各1位を表示
 
 使い方:
-    python monitor.py            # 通常実行（マッピングはキャッシュを使用、無ければ自動生成）
+    python monitor.py            # 通常実行
     python monitor.py --refresh  # 商品→カテゴリのマッピングを作り直してから実行
-    python monitor.py --map-only # マッピング生成のみ（順位チェックしない）
+    python monitor.py --map-only # マッピング生成のみ
 """
-import os, re, sys, csv, json, argparse, datetime
+import os, re, csv, json, argparse, datetime, html
 from playwright.sync_api import sync_playwright
 
 # ---- 設定 -----------------------------------------------------------------
 STORE = "annekor1"
-PERIOD = "daily"  # daily=デイリー（1日2回監視向け）。realtime/annual も指定可
+# 監視する集計期間（label はタブ文言）。両方監視する。
+PERIODS = [("daily", "デイリー"), ("realtime", "リアルタイム")]
+
 BASE = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE, "data")
 SHOT_DIR = os.path.join(BASE, "screenshots")
@@ -30,6 +33,7 @@ PRODUCTS_JSON = os.path.join(DATA_DIR, "products.json")
 HISTORY_CSV = os.path.join(DATA_DIR, "history.csv")
 LATEST_JSON = os.path.join(DATA_DIR, "latest.json")
 WINS_JSON = os.path.join(DATA_DIR, "wins.json")
+DASHBOARD = os.path.join(BASE, "index.html")
 
 NAV_CODES = {"guide", "info", "search", "index", "store", "user",
              "review", "company", "law", "privacy", "category"}
@@ -43,7 +47,7 @@ def now_jst():
     return datetime.datetime.now(JST)
 
 
-def sanitize(s, n=40):
+def sanitize(s, n=30):
     s = re.sub(r'[\\/:*?"<>|\s]+', "_", (s or "").strip())
     return s[:n].strip("_") or "x"
 
@@ -82,20 +86,17 @@ def crawl_products(page):
 
 # ---- 商品→カテゴリ抽出 -----------------------------------------------------
 def fetch_category(page, code):
-    """商品ページから categoryId を抽出"""
     page.goto(f"https://store.shopping.yahoo.co.jp/{STORE}/{code}.html",
               wait_until="domcontentloaded", timeout=60000)
-    html = page.content()
-    m = re.search(r'"categoryId"\s*:\s*"?(\d+)"?', html)
+    html_ = page.content()
+    m = re.search(r'"categoryId"\s*:\s*"?(\d+)"?', html_)
     if not m:
         page.wait_for_timeout(1500)
-        html = page.content()
-        m = re.search(r'"categoryId"\s*:\s*"?(\d+)"?', html)
+        m = re.search(r'"categoryId"\s*:\s*"?(\d+)"?', page.content())
     return m.group(1) if m else None
 
 
 def build_mapping(page, refresh=False):
-    """products.json を読み込み、無い/未取得のものだけカテゴリ取得"""
     mapping = {}
     if os.path.exists(PRODUCTS_JSON) and not refresh:
         mapping = json.load(open(PRODUCTS_JSON, encoding="utf-8"))
@@ -109,7 +110,6 @@ def build_mapping(page, refresh=False):
             rec["categoryId"] = cat
             print(f"  [{i}/{len(titles)}] {code} -> cat {cat}")
         mapping[code] = rec
-    # 消えた商品は残しても害はないが、現存フラグを付ける
     for code in mapping:
         mapping[code]["active"] = code in titles
     os.makedirs(DATA_DIR, exist_ok=True)
@@ -119,20 +119,31 @@ def build_mapping(page, refresh=False):
 
 
 # ---- ランキング取得 --------------------------------------------------------
-def fetch_ranking(page, cat_id):
-    """カテゴリランキングページを開き、メインランキングの並びを返す。
-    return: dict(category_name, update_date, items=[{rank,store,code,url,title}])"""
+def open_ranking(page, cat_id):
+    """カテゴリランキングページを開く（デフォルト=デイリー）"""
     url = f"https://shopping.yahoo.co.jp/categoryranking/{cat_id}/list"
     page.goto(url, wait_until="networkidle", timeout=60000)
-    page.wait_for_timeout(1200)
-    # デイリー以外を選ぶ場合はここでタブ操作（デフォルトはデイリー）
-    # 上位を読み込むため軽くスクロール
-    for _ in range(3):
+    page.wait_for_timeout(1000)
+
+
+def select_period(page, period):
+    """realtime のときリアルタイムタブをクリック。daily はデフォルトのまま。"""
+    if period == "realtime":
+        try:
+            page.get_by_text("リアルタイム", exact=True).first.click()
+            page.wait_for_timeout(2500)
+        except Exception as e:
+            print(f"    リアルタイム切替失敗: {e}")
+    # 上位読み込みのため軽くスクロールして最上部へ戻す
+    for _ in range(2):
         page.mouse.wheel(0, 3000)
-        page.wait_for_timeout(400)
-    page.mouse.wheel(0, -20000)
+        page.wait_for_timeout(300)
+    page.mouse.wheel(0, -30000)
     page.wait_for_timeout(300)
 
+
+def parse_ranking(page, cat_id):
+    """現在表示中のランキング並びを返す"""
     items = page.eval_on_selector_all(
         "a[href*='ranking-crk01_01']",
         """(as) => as.map(a => {
@@ -140,11 +151,9 @@ def fetch_ranking(page, cat_id):
              const m = h.match(/store\\.shopping\\.yahoo\\.co\\.jp\\/([^\\/]+)\\/([A-Za-z0-9_\\-]+)\\.html/);
              if(!m) return null;
              const img = a.querySelector('img');
-             return {store:m[1], code:m[2],
-                     url:h.split('?')[0],
+             return {store:m[1], code:m[2], url:h.split('?')[0],
                      title:(img?img.getAttribute('alt'):'')||a.innerText||''};
            }).filter(Boolean)""")
-    # 出現順で重複排除 → rank付与
     seen, ordered = set(), []
     for it in items:
         key = (it["store"], it["code"])
@@ -158,59 +167,161 @@ def fetch_ranking(page, cat_id):
     title = page.title() or ""
     cat_name = re.sub(r"^【[^】]*】", "", title)
     cat_name = re.sub(r"の(おすすめ人気)?ランキング.*$", "", cat_name).strip()
-    md = re.search(r"更新日[:：]?\s*([\d]{4}[/／][\d]{1,2}[/／][\d]{1,2})", page.content())
+    md = re.search(r"更新[日時][:：]?\s*([0-9]{4}[/／][0-9]{1,2}[/／][0-9]{1,2}"
+                   r"(?:\s*[0-9]{1,2}[:：][0-9]{1,2})?)", page.content())
     return {"category_id": cat_id, "category_name": cat_name,
-            "update_date": md.group(1) if md else "", "items": ordered}
+            "update_label": (md.group(1).strip() if md else ""), "items": ordered}
 
 
+def shot_top_row(page, path):
+    """メインランキング1位の行要素だけを高解像度で保存"""
+    a = page.query_selector("a[href*='ranking-crk01_01']")
+    if not a:
+        return False
+    row = a.evaluate_handle("el => el.closest('.line') || el.closest('li')").as_element()
+    if not row:
+        return False
+    try:
+        row.scroll_into_view_if_needed()
+        page.wait_for_timeout(400)
+        row.screenshot(path=path)
+        return True
+    except Exception as e:
+        print(f"    行スクショ失敗: {e}")
+        return False
+
+
+# ---- 集計 -----------------------------------------------------------------
 def compute_win_stats(mapping):
-    """history.csv から各商品の『1位獲得回数』を集計して wins.json に保存。
-    1回=監視スロット（朝/夜）単位。Yahooのデイリー更新が1日2回のため、
-    同じスロットでの手動再実行を重複カウントしないよう (商品, 日付, 朝/夜) で排除する。"""
-    if not os.path.exists(HISTORY_CSV):
-        return {}
-    stats = {}          # code -> dict
-    seen = set()        # (code, date, slot) 重複排除
-    with open(HISTORY_CSV, encoding="utf-8-sig") as f:
-        for row in csv.DictReader(f):
-            if str(row.get("rank")) != "1":
-                continue
-            code = (row.get("item_code") or "").lower()
-            try:
-                dt = datetime.datetime.fromisoformat(row["datetime_jst"])
-            except Exception:
-                continue
-            date = dt.strftime("%Y-%m-%d")
-            slot = "朝" if dt.hour < 14 else "夜"
-            key = (code, date, slot)
-            if key in seen:
-                continue
-            seen.add(key)
-            s = stats.setdefault(code, {"count": 0, "events": [],
-                                        "first": date, "last": date})
-            s["count"] += 1
-            s["events"].append(f"{date} {slot}")
-            s["first"] = min(s["first"], date)
-            s["last"] = max(s["last"], date)
-            s["category_name"] = row.get("category_name", "")
-            s["category_id"] = row.get("category_id", "")
-    # タイトルは現行マッピング優先
-    for code, s in stats.items():
-        s["title"] = mapping.get(code, {}).get("title") or ""
-    ordered = dict(sorted(stats.items(), key=lambda kv: kv[1]["count"], reverse=True))
+    """history.csv から各商品の『1位獲得回数』を period 別に集計して wins.json に保存。
+    1回=監視スロット（朝/夜）単位。(period, 商品, 日付, 朝/夜) で重複排除する。"""
+    result = {p: {} for p, _ in PERIODS}
+    if os.path.exists(HISTORY_CSV):
+        seen = set()
+        with open(HISTORY_CSV, encoding="utf-8-sig") as f:
+            for row in csv.DictReader(f):
+                if str(row.get("rank")) != "1":
+                    continue
+                period = row.get("period") or "daily"
+                if period not in result:
+                    continue
+                code = (row.get("item_code") or "").lower()
+                try:
+                    dt = datetime.datetime.fromisoformat(row["datetime_jst"])
+                except Exception:
+                    continue
+                date = dt.strftime("%Y-%m-%d")
+                slot = "朝" if dt.hour < 14 else "夜"
+                key = (period, code, date, slot)
+                if key in seen:
+                    continue
+                seen.add(key)
+                s = result[period].setdefault(
+                    code, {"count": 0, "events": [], "first": date, "last": date})
+                s["count"] += 1
+                s["events"].append(f"{date} {slot}")
+                s["first"] = min(s["first"], date)
+                s["last"] = max(s["last"], date)
+                s["category_name"] = row.get("category_name", "")
+                s["category_id"] = row.get("category_id", "")
+    for period in result:
+        for code, s in result[period].items():
+            s["title"] = mapping.get(code, {}).get("title") or ""
+        result[period] = dict(sorted(result[period].items(),
+                                     key=lambda kv: kv[1]["count"], reverse=True))
     out = {"generated_at": now_jst().isoformat(),
-           "note": "count = 1位を観測した監視スロット数（朝/夜単位）。",
-           "products": ordered}
+           "note": "count = 各集計期間で1位を観測した監視スロット数（朝/夜単位）。"}
+    out.update(result)
     json.dump(out, open(WINS_JSON, "w", encoding="utf-8"),
               ensure_ascii=False, indent=1)
-    return ordered
+    return result
 
 
-def screenshot_top(page, path):
-    """ランキングページ上部（順位・カテゴリ名・更新日が写る範囲）を保存"""
-    page.mouse.wheel(0, -50000)
-    page.wait_for_timeout(500)
-    page.screenshot(path=path, clip={"x": 0, "y": 0, "width": 1280, "height": 1500})
+# ---- 管理画面(HTML)生成 ----------------------------------------------------
+def _card(w, wins_for_period):
+    code = w["code"].lower()
+    cnt = wins_for_period.get(code, {}).get("count", 0)
+    img = html.escape(w["screenshot"])
+    title = html.escape(w["title"])
+    cat = html.escape(w["category_name"])
+    upd = html.escape(w.get("update_label", ""))
+    return f"""
+    <div class="card">
+      <div class="cat">{cat}</div>
+      <a href="{img}" target="_blank"><img src="{img}" alt="{title}"></a>
+      <div class="meta">
+        <span class="badge">累計1位 {cnt}回</span>
+        <span class="upd">更新: {upd}</span>
+      </div>
+      <div class="title">{title}</div>
+      <div class="code">{html.escape(w['code'])}</div>
+    </div>"""
+
+
+def _section(period_key, period_label, latest, wins):
+    winners = latest.get(period_key, [])
+    if winners:
+        cards = "\n".join(_card(w, wins.get(period_key, {})) for w in winners)
+        body = f'<div class="grid">{cards}</div>'
+    else:
+        body = '<p class="none">現在このランキングで1位の商品はありません。</p>'
+    return f"""
+  <section>
+    <h2>{period_label} <small>1位獲得中 {len(winners)}件</small></h2>
+    {body}
+  </section>"""
+
+
+def generate_dashboard(latest, wins):
+    run_at = latest.get("run_at", "")
+    try:
+        run_disp = datetime.datetime.fromisoformat(run_at).strftime("%Y/%m/%d %H:%M")
+    except Exception:
+        run_disp = run_at
+    sections = "\n".join(_section(k, lbl, latest, wins) for k, lbl in PERIODS)
+    doc = f"""<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>annekor1 ランキング1位 監視ダッシュボード</title>
+<style>
+  :root {{ font-family: "Segoe UI", "Hiragino Sans", "Meiryo", sans-serif; }}
+  body {{ margin:0; background:#f5f6f8; color:#222; }}
+  header {{ background:#c8102e; color:#fff; padding:16px 24px; }}
+  header h1 {{ margin:0; font-size:20px; }}
+  header .sub {{ font-size:13px; opacity:.9; margin-top:4px; }}
+  main {{ max-width:1080px; margin:0 auto; padding:20px; }}
+  section {{ margin-bottom:28px; }}
+  h2 {{ font-size:18px; border-left:6px solid #c8102e; padding-left:10px; margin:18px 0 12px; }}
+  h2 small {{ font-weight:normal; font-size:13px; color:#666; margin-left:8px; }}
+  .grid {{ display:grid; grid-template-columns:1fr; gap:14px; }}
+  .card {{ background:#fff; border:1px solid #e2e4e8; border-radius:10px; padding:12px 14px;
+           box-shadow:0 1px 3px rgba(0,0,0,.05); }}
+  .card .cat {{ font-size:13px; color:#c8102e; font-weight:bold; margin-bottom:6px; }}
+  .card img {{ width:100%; max-width:1000px; height:auto; border:1px solid #eee; border-radius:6px; display:block; }}
+  .card .meta {{ display:flex; gap:10px; align-items:center; margin-top:8px; }}
+  .badge {{ background:#fff4e5; color:#b26a00; border:1px solid #ffd591; border-radius:12px;
+            padding:2px 10px; font-size:13px; font-weight:bold; }}
+  .upd {{ font-size:12px; color:#888; }}
+  .title {{ font-size:13px; color:#333; margin-top:6px; line-height:1.4; }}
+  .code {{ font-size:11px; color:#aaa; margin-top:2px; }}
+  .none {{ color:#888; background:#fff; border:1px dashed #ccc; border-radius:8px; padding:16px; }}
+  footer {{ text-align:center; color:#999; font-size:12px; padding:20px; }}
+</style>
+</head>
+<body>
+<header>
+  <h1>annekor1 カテゴリランキング 1位監視</h1>
+  <div class="sub">最終更新: {html.escape(run_disp)}（JST・1日2回 朝/夜 自動更新）</div>
+</header>
+<main>
+{sections}
+</main>
+<footer>Yahoo!ショッピング annekor1 / 自動生成ダッシュボード</footer>
+</body>
+</html>"""
+    open(DASHBOARD, "w", encoding="utf-8").write(doc)
 
 
 # ---- メイン ---------------------------------------------------------------
@@ -221,15 +332,16 @@ def main():
     args = ap.parse_args()
 
     os.makedirs(DATA_DIR, exist_ok=True)
-    os.makedirs(SHOT_DIR, exist_ok=True)
+    for pk, _ in PERIODS:
+        os.makedirs(os.path.join(SHOT_DIR, pk), exist_ok=True)
     ts = now_jst()
     stamp = ts.strftime("%Y%m%d_%H%M")
 
     with sync_playwright() as p:
         browser = p.chromium.launch()
         page = browser.new_page(
-            viewport={"width": 1280, "height": 1500},
-            user_agent=UA, locale="ja-JP")
+            viewport={"width": 1000, "height": 1600},
+            device_scale_factor=2, user_agent=UA, locale="ja-JP")
 
         mapping = build_mapping(page, refresh=args.refresh)
         if args.map_only:
@@ -237,7 +349,6 @@ def main():
             print("map-only 完了")
             return
 
-        # 現存商品を categoryId でグループ化
         our_codes = {c for c, r in mapping.items()
                      if r.get("active") and r.get("categoryId")}
         cats = {}
@@ -245,62 +356,69 @@ def main():
             cats.setdefault(mapping[c]["categoryId"], []).append(c)
         print(f"[monitor] 対象カテゴリ {len(cats)} 種 / 対象商品 {len(our_codes)} 件")
 
-        rows, winners = [], []
+        rows = []
+        winners = {pk: [] for pk, _ in PERIODS}
         for cat_id, codes in sorted(cats.items()):
+            our_in_cat = {c.lower() for c in codes}
             try:
-                rk = fetch_ranking(page, cat_id)
+                open_ranking(page, cat_id)
             except Exception as e:
                 print(f"  cat {cat_id}: 取得失敗 {e}")
                 continue
-            # このカテゴリで自店商品の順位を探す
-            our_in_cat = {c.lower() for c in codes}
-            hits = [it for it in rk["items"]
-                    if it["store"] == STORE and it["code"].lower() in our_in_cat]
-            top = rk["items"][0] if rk["items"] else None
-            is_top_ours = bool(top and top["store"] == STORE
-                               and top["code"].lower() in our_in_cat)
-            best = min([h["rank"] for h in hits], default=None)
-            print(f"  cat {cat_id} [{rk['category_name']}] "
-                  f"自店最高={best if best else '圏外'}位 "
-                  f"{'★1位獲得!' if is_top_ours else ''}")
+            line = [f"  cat {cat_id}"]
+            for period, label in PERIODS:
+                try:
+                    select_period(page, period)
+                    rk = parse_ranking(page, cat_id)
+                except Exception as e:
+                    print(f"  cat {cat_id} {label}: 失敗 {e}")
+                    continue
+                hits = [it for it in rk["items"]
+                        if it["store"] == STORE and it["code"].lower() in our_in_cat]
+                top = rk["items"][0] if rk["items"] else None
+                is_top_ours = bool(top and top["store"] == STORE
+                                   and top["code"].lower() in our_in_cat)
+                best = min([h["rank"] for h in hits], default=None)
+                line.append(f"{label}={best if best else '圏外'}位"
+                            f"{'★1位' if is_top_ours else ''}")
+                for it in hits:
+                    rows.append([ts.isoformat(), period, cat_id, rk["category_name"],
+                                 it["code"], it["rank"],
+                                 mapping.get(it['code'].lower(), {}).get('title', it['title'])])
+                if is_top_ours:
+                    fname = f"{stamp}_cat{cat_id}_{sanitize(rk['category_name'])}_{top['code']}.png"
+                    rel = os.path.join("screenshots", period, fname)
+                    if shot_top_row(page, os.path.join(BASE, rel)):
+                        winners[period].append({
+                            "category_id": cat_id,
+                            "category_name": rk["category_name"],
+                            "code": top["code"], "title": top["title"],
+                            "update_label": rk["update_label"],
+                            "screenshot": rel.replace(os.sep, "/")})
+            print(" ".join(line) + f" [{mapping.get(next(iter(our_in_cat)),{}).get('title','')[:14]}]")
 
-            for it in hits:
-                rows.append([ts.isoformat(), cat_id, rk["category_name"],
-                             it["code"], it["rank"], mapping.get(it['code'].lower(), {}).get('title', it['title'])])
-            if is_top_ours:
-                fname = f"{stamp}_cat{cat_id}_{sanitize(rk['category_name'],20)}_{top['code']}_1i.png"
-                path = os.path.join(SHOT_DIR, fname)
-                screenshot_top(page, path)
-                winners.append({"category_id": cat_id,
-                                "category_name": rk["category_name"],
-                                "code": top["code"], "title": top["title"],
-                                "update_date": rk["update_date"],
-                                "screenshot": os.path.relpath(path, BASE).replace(os.sep, "/")})
-                print(f"    -> スクショ保存: {fname}")
-
-        # 履歴CSV追記
+        # 履歴CSV追記（period 列を含む）
         new_file = not os.path.exists(HISTORY_CSV)
         with open(HISTORY_CSV, "a", newline="", encoding="utf-8-sig") as f:
             w = csv.writer(f)
             if new_file:
-                w.writerow(["datetime_jst", "category_id", "category_name",
-                            "item_code", "rank", "title"])
+                w.writerow(["datetime_jst", "period", "category_id",
+                            "category_name", "item_code", "rank", "title"])
             w.writerows(rows)
 
-        json.dump({"run_at": ts.isoformat(), "period": PERIOD,
-                   "categories_checked": len(cats),
-                   "winners": winners}, open(LATEST_JSON, "w", encoding="utf-8"),
+        latest = {"run_at": ts.isoformat(), "categories_checked": len(cats)}
+        for pk, _ in PERIODS:
+            latest[pk] = winners[pk]
+        json.dump(latest, open(LATEST_JSON, "w", encoding="utf-8"),
                   ensure_ascii=False, indent=1)
 
-        # 1位獲得回数の累計を集計
         wins = compute_win_stats(mapping)
+        generate_dashboard(latest, wins)
 
-        print(f"\n[結果] 今回1位 {len(winners)} 件 / 順位記録 {len(rows)} 行")
-        if wins:
-            print("[累計1位獲得回数（朝/夜スロット単位）]")
-            for code, s in wins.items():
-                print(f"  {s['count']:3d}回  {code} [{s.get('category_name','')}] "
-                      f"{s['first']}〜{s['last']}")
+        print("\n[結果]")
+        for pk, label in PERIODS:
+            print(f"  {label}: 今回1位 {len(winners[pk])}件")
+        print(f"  順位記録 {len(rows)} 行 / 管理画面: index.html")
         browser.close()
 
 

@@ -340,7 +340,7 @@ def main():
     with sync_playwright() as p:
         browser = p.chromium.launch()
         page = browser.new_page(
-            viewport={"width": 1000, "height": 1600},
+            viewport={"width": 1500, "height": 1600},
             device_scale_factor=2, user_agent=UA, locale="ja-JP")
 
         mapping = build_mapping(page, refresh=args.refresh)

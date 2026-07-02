@@ -1,15 +1,16 @@
 name: Yahoo ranking monitor
 
-# 1日2回＋手動実行。Yahooのデイリーランキングは概ね 8時頃/20時頃 に更新されるため、
-# その少し後（JST 08:30 / 20:30）に取得する。
-# GitHub Actions の cron は UTC 指定のため 9時間引く。
-#   JST 08:30 = UTC 23:30（前日） / JST 20:30 = UTC 11:30
-# ※GitHubのcronは混雑時に数分〜遅延することがある（仕様）。少し余裕を持たせている。
+# デイリー=1日1回（全取得）／リアルタイム=2時間おき。
+# デイリーランキングは実質1日1回更新のため取得は1日1回、リアルタイムは変動が速いので2時間おき。
+# GitHub Actions の cron は UTC 指定（JST−9時間）。
+#   ・"30 23 * * *"  = JST 08:30 … デイリー＋リアルタイムを全取得（1日1回）
+#   ・"0 */2 * * *"  = 2時間おき   … リアルタイムのみ取得
+# ※GitHubのcronは混雑時に数分〜遅延することがある（仕様）。
 on:
   schedule:
-    - cron: "30 23 * * *"   # JST 08:30
-    - cron: "30 11 * * *"   # JST 20:30
-  workflow_dispatch:        # 手動実行ボタン
+    - cron: "30 23 * * *"   # JST 08:30 … 全取得（デイリー+リアルタイム）
+    - cron: "0 */2 * * *"   # 2時間おき … リアルタイムのみ
+  workflow_dispatch:        # 手動実行（全取得）
 
 # 結果（スクショ・履歴）をリポジトリにコミットするための書き込み権限
 permissions:
@@ -36,7 +37,12 @@ jobs:
           python -m playwright install --with-deps chromium
 
       - name: Run monitor
-        run: python monitor.py
+        run: |
+          if [ "${{ github.event.schedule }}" = "0 */2 * * *" ]; then
+            python monitor.py --only realtime   # 2時間おき：リアルタイムのみ
+          else
+            python monitor.py                   # 1日1回/手動：全取得
+          fi
 
       - name: Commit results
         run: |
@@ -47,5 +53,6 @@ jobs:
             echo "変更なし（コミットするものがありません）"
           else
             git commit -m "ranking update: $(date -u +'%Y-%m-%d %H:%MUTC')"
+            git pull --rebase origin main || true
             git push
           fi

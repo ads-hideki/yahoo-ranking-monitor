@@ -193,81 +193,91 @@ def shot_top_row(page, path):
 
 # ---- 集計 -----------------------------------------------------------------
 def compute_win_stats(mapping):
-    """history.csv から各商品の『1位獲得回数』を period 別に集計して wins.json に保存。
-    1回=監視スロット（朝/夜）単位。(period, 商品, 日付, 朝/夜) で重複排除する。"""
-    result = {p: {} for p, _ in PERIODS}
+    """history.csv から『デイリーで1位になった日数』を集計して wins.json に保存。
+    count = デイリー1位の日数（1日1回まで＝(商品,日付)で重複排除）。
+    デイリーは実質1日1回更新のため、取得回数に関係なく1日=最大1回で数える。
+    リアルタイムは累計対象外。"""
+    daily = {}
     if os.path.exists(HISTORY_CSV):
         seen = set()
         with open(HISTORY_CSV, encoding="utf-8-sig") as f:
             for row in csv.DictReader(f):
                 if str(row.get("rank")) != "1":
                     continue
-                period = row.get("period") or "daily"
-                if period not in result:
+                if (row.get("period") or "daily") != "daily":
                     continue
                 code = (row.get("item_code") or "").lower()
                 try:
-                    dt = datetime.datetime.fromisoformat(row["datetime_jst"])
+                    date = datetime.datetime.fromisoformat(
+                        row["datetime_jst"]).strftime("%Y-%m-%d")
                 except Exception:
                     continue
-                date = dt.strftime("%Y-%m-%d")
-                slot = "朝" if dt.hour < 14 else "夜"
-                key = (period, code, date, slot)
-                if key in seen:
+                if (code, date) in seen:
                     continue
-                seen.add(key)
-                s = result[period].setdefault(
-                    code, {"count": 0, "events": [], "first": date, "last": date})
+                seen.add((code, date))
+                s = daily.setdefault(
+                    code, {"count": 0, "days": [], "first": date, "last": date})
                 s["count"] += 1
-                s["events"].append(f"{date} {slot}")
+                s["days"].append(date)
                 s["first"] = min(s["first"], date)
                 s["last"] = max(s["last"], date)
                 s["category_name"] = row.get("category_name", "")
                 s["category_id"] = row.get("category_id", "")
-    for period in result:
-        for code, s in result[period].items():
-            s["title"] = mapping.get(code, {}).get("title") or ""
-        result[period] = dict(sorted(result[period].items(),
-                                     key=lambda kv: kv[1]["count"], reverse=True))
+    for code, s in daily.items():
+        s["title"] = mapping.get(code, {}).get("title") or ""
+    daily = dict(sorted(daily.items(), key=lambda kv: kv[1]["count"], reverse=True))
     out = {"generated_at": now_jst().isoformat(),
-           "note": "count = 各集計期間で1位を観測した監視スロット数（朝/夜単位）。"}
-    out.update(result)
+           "note": "count = デイリーで1位になった日数（1日1回まで）。リアルタイムは累計対象外。",
+           "daily": daily}
     json.dump(out, open(WINS_JSON, "w", encoding="utf-8"),
               ensure_ascii=False, indent=1)
-    return result
+    return {"daily": daily}
 
 
 # ---- 管理画面(HTML)生成 ----------------------------------------------------
-def _card(w, wins_for_period):
+def _card(w, wins_for_period, show_count=True):
     code = w["code"].lower()
-    cnt = wins_for_period.get(code, {}).get("count", 0)
     img = html.escape(w["screenshot"])
     title = html.escape(w["title"])
     cat = html.escape(w["category_name"])
     upd = html.escape(w.get("update_label", ""))
+    badge = ""
+    if show_count:  # デイリーのみ累計を表示（リアルタイムは累計対象外）
+        cnt = wins_for_period.get(code, {}).get("count", 0)
+        badge = f'<span class="badge">累計1位 {cnt}日</span>'
     return f"""
     <div class="card">
       <div class="cat">{cat}</div>
       <a href="{img}" target="_blank"><img src="{img}" alt="{title}"></a>
       <div class="meta">
-        <span class="badge">累計1位 {cnt}回</span>
-        <span class="upd">更新: {upd}</span>
+        {badge}<span class="upd">更新: {upd}</span>
       </div>
       <div class="title">{title}</div>
       <div class="code">{html.escape(w['code'])}</div>
     </div>"""
 
 
+def _fmt_dt(iso):
+    try:
+        return datetime.datetime.fromisoformat(iso).strftime("%m/%d %H:%M")
+    except Exception:
+        return ""
+
+
 def _section(period_key, period_label, latest, wins):
     winners = latest.get(period_key, [])
+    upd = _fmt_dt(latest.get(period_key + "_updated", ""))
+    upd_txt = f"／最終取得 {upd}" if upd else ""
     if winners:
-        cards = "\n".join(_card(w, wins.get(period_key, {})) for w in winners)
+        cards = "\n".join(
+            _card(w, wins.get(period_key, {}), show_count=(period_key == "daily"))
+            for w in winners)
         body = f'<div class="grid">{cards}</div>'
     else:
         body = '<p class="none">現在このランキングで1位の商品はありません。</p>'
     return f"""
   <section>
-    <h2>{period_label} <small>1位獲得中 {len(winners)}件</small></h2>
+    <h2>{period_label} <small>1位獲得中 {len(winners)}件{upd_txt}</small></h2>
     {body}
   </section>"""
 
@@ -313,7 +323,7 @@ def generate_dashboard(latest, wins):
 <body>
 <header>
   <h1>annekor1 カテゴリランキング 1位監視</h1>
-  <div class="sub">最終更新: {html.escape(run_disp)}（JST・1日2回 朝/夜 自動更新）</div>
+  <div class="sub">最終更新: {html.escape(run_disp)}（JST）｜デイリー=1日1回 / リアルタイム=2時間おき 自動更新</div>
 </header>
 <main>
 {sections}
@@ -329,13 +339,18 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--refresh", action="store_true", help="商品→カテゴリを作り直す")
     ap.add_argument("--map-only", action="store_true", help="マッピングのみ")
+    ap.add_argument("--only", choices=["daily", "realtime"], default=None,
+                    help="指定した集計期間だけ取得（省略時は両方）")
     args = ap.parse_args()
+
+    # 今回取得する集計期間（--only 指定時はその1つだけ）
+    run_periods = [(k, l) for k, l in PERIODS if (args.only is None or k == args.only)]
 
     os.makedirs(DATA_DIR, exist_ok=True)
     for pk, _ in PERIODS:
         os.makedirs(os.path.join(SHOT_DIR, pk), exist_ok=True)
     ts = now_jst()
-    stamp = ts.strftime("%Y%m%d_%H%M")
+    stamp = ts.strftime("%Y%m%d")  # スクショは日付単位（同日同一1位は上書き＝1日1枚）
 
     with sync_playwright() as p:
         browser = p.chromium.launch()
@@ -357,7 +372,7 @@ def main():
         print(f"[monitor] 対象カテゴリ {len(cats)} 種 / 対象商品 {len(our_codes)} 件")
 
         rows = []
-        winners = {pk: [] for pk, _ in PERIODS}
+        winners = {pk: [] for pk, _ in run_periods}
         for cat_id, codes in sorted(cats.items()):
             our_in_cat = {c.lower() for c in codes}
             try:
@@ -366,7 +381,7 @@ def main():
                 print(f"  cat {cat_id}: 取得失敗 {e}")
                 continue
             line = [f"  cat {cat_id}"]
-            for period, label in PERIODS:
+            for period, label in run_periods:
                 try:
                     select_period(page, period)
                     rk = parse_ranking(page, cat_id)
@@ -406,17 +421,28 @@ def main():
                             "category_name", "item_code", "rank", "title"])
             w.writerows(rows)
 
-        latest = {"run_at": ts.isoformat(), "categories_checked": len(cats)}
-        for pk, _ in PERIODS:
+        # latest.json は既存を読み込み、今回取得した期間だけ差し替える（分割実行対応）
+        latest = {}
+        if os.path.exists(LATEST_JSON):
+            try:
+                latest = json.load(open(LATEST_JSON, encoding="utf-8"))
+            except Exception:
+                latest = {}
+        latest["run_at"] = ts.isoformat()
+        latest["categories_checked"] = len(cats)
+        for pk, _ in run_periods:
             latest[pk] = winners[pk]
+            latest[pk + "_updated"] = ts.isoformat()
+        for pk, _ in PERIODS:               # 未実行期間もキーは保持
+            latest.setdefault(pk, [])
         json.dump(latest, open(LATEST_JSON, "w", encoding="utf-8"),
                   ensure_ascii=False, indent=1)
 
         wins = compute_win_stats(mapping)
         generate_dashboard(latest, wins)
 
-        print("\n[結果]")
-        for pk, label in PERIODS:
+        print("\n[結果] (取得: " + "/".join(l for _, l in run_periods) + ")")
+        for pk, label in run_periods:
             print(f"  {label}: 今回1位 {len(winners[pk])}件")
         print(f"  順位記録 {len(rows)} 行 / 管理画面: index.html")
         browser.close()

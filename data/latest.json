@@ -1,5 +1,5 @@
 {
- "run_at": "2026-07-03T14:58:39.919533+09:00",
+ "run_at": "2026-07-03T18:32:15.047367+09:00",
  "categories_checked": 37,
  "daily": [
   {
@@ -27,7 +27,16 @@
    "screenshot": "screenshots/daily/ads066/20260703_cat45462_お香、インセンス.png"
   }
  ],
- "realtime": [],
- "realtime_updated": "2026-07-03T14:58:39.919533+09:00",
+ "realtime": [
+  {
+   "category_id": "609",
+   "category_name": "生ごみ処理機",
+   "code": "ads058-l",
+   "title": "コンポスト バッグ Lサイズ おしゃれ 生ゴミ 大容量 不織布 コンポスト 容器 家庭用 生ゴミ処理機 説明書付 コンポストバッグ 生ごみ 有機栽培 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/3",
+   "screenshot": "screenshots/realtime/ads058-l/20260703_cat609_生ごみ処理機.png"
+  }
+ ],
+ "realtime_updated": "2026-07-03T18:32:15.047367+09:00",
  "daily_updated": "2026-07-03T10:28:08.617885+09:00"
 }

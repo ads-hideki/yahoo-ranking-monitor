@@ -1,5 +1,5 @@
 {
- "run_at": "2026-07-04T00:54:53.758090+09:00",
+ "run_at": "2026-07-04T02:37:44.410563+09:00",
  "categories_checked": 37,
  "daily": [
   {
@@ -29,14 +29,22 @@
  ],
  "realtime": [
   {
+   "category_id": "24144",
+   "category_name": "ポケットティッシュカバー",
+   "code": "ads084",
+   "title": "ポケットティッシュケース 本革 ポーチ 掛けられる ポケットティッシュケース 革 レザー バイカラー フラップ付 かわいい おしゃれ 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/4",
+   "screenshot": "screenshots/realtime/ads084/20260704_cat24144_ポケットティッシュカバー.png"
+  },
+  {
    "category_id": "45462",
    "category_name": "お香、インセンス",
    "code": "ads066",
    "title": "お香 アロマ 白檀 沈香 金木犀 ホワイトセージ おしゃれ お試し オシャレ 横置き 対応 セット リラクゼーション ヨガ お香 のような お線香 線香 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/3",
+   "update_label": "2026/7/4",
    "screenshot": "screenshots/realtime/ads066/20260704_cat45462_お香、インセンス.png"
   }
  ],
- "realtime_updated": "2026-07-04T00:54:53.758090+09:00",
+ "realtime_updated": "2026-07-04T02:37:44.410563+09:00",
  "daily_updated": "2026-07-03T10:28:08.617885+09:00"
 }

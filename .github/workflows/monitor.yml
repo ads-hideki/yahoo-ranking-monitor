@@ -50,6 +50,10 @@ jobs:
             python monitor.py                   # 09:00/手動：全取得
           fi
 
+      # GitHub上のスクショは直近14日分だけ保持（Z:側は同期スクリプトが永久保存）
+      - name: Prune old screenshots (keep 14 days)
+        run: python prune_screenshots.py
+
       - name: Commit results
         run: |
           git config user.name  "github-actions[bot]"

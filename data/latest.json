@@ -1,5 +1,5 @@
 {
- "run_at": "2026-07-04T14:51:06.936422+09:00",
+ "run_at": "2026-07-04T17:44:00.989271+09:00",
  "categories_checked": 37,
  "daily": [
   {
@@ -19,24 +19,7 @@
    "screenshot": "screenshots/daily/ads001/20260704_cat35462_レディースビジネスバッグ.png"
   }
  ],
- "realtime": [
-  {
-   "category_id": "23591",
-   "category_name": "レディースバッグインバッグ",
-   "code": "ads003",
-   "title": "バッグインバッグ 小さめ 自立 フェルト 監修 インナーバッグ バックインバック 底板 軽量 アンコール Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/4",
-   "screenshot": "screenshots/realtime/ads003/20260704_cat23591_レディースバッグインバッグ.png"
-  },
-  {
-   "category_id": "35462",
-   "category_name": "レディースビジネスバッグ",
-   "code": "ads041",
-   "title": "ビジネスバッグ レディース A4 軽量 自立 通勤 大容量 リクルートバッグ 就活 面接 トートバッグ 営業 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/4",
-   "screenshot": "screenshots/realtime/ads041/20260704_cat35462_レディースビジネスバッグ.png"
-  }
- ],
- "realtime_updated": "2026-07-04T14:51:06.936422+09:00",
+ "realtime": [],
+ "realtime_updated": "2026-07-04T17:44:00.989271+09:00",
  "daily_updated": "2026-07-04T10:27:55.077454+09:00"
 }

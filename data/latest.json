@@ -1,5 +1,5 @@
 {
- "run_at": "2026-07-05T10:43:06.720048+09:00",
+ "run_at": "2026-07-05T15:10:30.461924+09:00",
  "categories_checked": 37,
  "daily": [
   {
@@ -21,14 +21,22 @@
  ],
  "realtime": [
   {
+   "category_id": "35462",
+   "category_name": "レディースビジネスバッグ",
+   "code": "ads041",
+   "title": "ビジネスバッグ レディース A4 軽量 自立 通勤 大容量 リクルートバッグ 就活 面接 トートバッグ 営業 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/5",
+   "screenshot": "screenshots/realtime/ads041/20260705_cat35462_レディースビジネスバッグ.png"
+  },
+  {
    "category_id": "4352",
    "category_name": "マザーズバッグ",
-   "code": "ads008-xl",
-   "title": "マザーズバッグ トート 2WAY サイズ XL マザーズバック 高見え ショルダー 軽い 軽量 大容量 人気 おしゃれ Annekor アンコール 爆買｜バッグ 雑貨 Annekor アンコール",
+   "code": "ads008-m",
+   "title": "マザーズバッグ トート 2WAY サイズ M マザーズバック 高見え ショルダー 軽い 軽量 大容量 人気 おしゃれ Annekor アンコール 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/7/5",
-   "screenshot": "screenshots/realtime/ads008-xl/20260705_cat4352_マザーズバッグ.png"
+   "screenshot": "screenshots/realtime/ads008-m/20260705_cat4352_マザーズバッグ.png"
   }
  ],
- "realtime_updated": "2026-07-05T10:43:06.720048+09:00",
+ "realtime_updated": "2026-07-05T15:10:30.461924+09:00",
  "daily_updated": "2026-07-05T10:43:06.720048+09:00"
 }

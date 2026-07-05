@@ -1,25 +1,34 @@
 {
- "run_at": "2026-07-05T08:01:34.535565+09:00",
+ "run_at": "2026-07-05T10:43:06.720048+09:00",
  "categories_checked": 37,
  "daily": [
   {
-   "category_id": "23591",
-   "category_name": "レディースバッグインバッグ",
-   "code": "ads003",
-   "title": "バッグインバッグ 小さめ 自立 フェルト 監修 インナーバッグ バックインバック 底板 軽量 アンコール Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/4",
-   "screenshot": "screenshots/daily/ads003/20260704_cat23591_レディースバッグインバッグ.png"
+   "category_id": "45462",
+   "category_name": "お香、インセンス",
+   "code": "ads066",
+   "title": "お香 アロマ 白檀 沈香 金木犀 ホワイトセージ おしゃれ お試し オシャレ 横置き 対応 セット リラクゼーション ヨガ お香 のような お線香 線香 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/5",
+   "screenshot": "screenshots/daily/ads066/20260705_cat45462_お香、インセンス.png"
   },
   {
-   "category_id": "35462",
-   "category_name": "レディースビジネスバッグ",
-   "code": "ads001",
-   "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 入学 折らずにお届け 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/4",
-   "screenshot": "screenshots/daily/ads001/20260704_cat35462_レディースビジネスバッグ.png"
+   "category_id": "48240",
+   "category_name": "レディース名刺入れ",
+   "code": "ads033",
+   "title": "名刺入れ レディース 本革 メンズ 革 レザー ブランド 大容量 名刺ケース マグネット おしゃれ ギフト 就職 転職 Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/5",
+   "screenshot": "screenshots/daily/ads033/20260705_cat48240_レディース名刺入れ.png"
   }
  ],
- "realtime": [],
- "realtime_updated": "2026-07-05T08:01:34.535565+09:00",
- "daily_updated": "2026-07-04T10:27:55.077454+09:00"
+ "realtime": [
+  {
+   "category_id": "4352",
+   "category_name": "マザーズバッグ",
+   "code": "ads008-xl",
+   "title": "マザーズバッグ トート 2WAY サイズ XL マザーズバック 高見え ショルダー 軽い 軽量 大容量 人気 おしゃれ Annekor アンコール 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/5",
+   "screenshot": "screenshots/realtime/ads008-xl/20260705_cat4352_マザーズバッグ.png"
+  }
+ ],
+ "realtime_updated": "2026-07-05T10:43:06.720048+09:00",
+ "daily_updated": "2026-07-05T10:43:06.720048+09:00"
 }

@@ -1,6 +1,6 @@
 {
- "run_at": "2026-07-06T10:48:33.860643+09:00",
- "categories_checked": 37,
+ "run_at": "2026-07-06T15:41:43.665519+09:00",
+ "categories_checked": 38,
  "daily": [
   {
    "category_id": "4352",
@@ -11,32 +11,7 @@
    "screenshot": "screenshots/daily/ads004/20260706_cat4352_マザーズバッグ.png"
   }
  ],
- "realtime": [
-  {
-   "category_id": "37306",
-   "category_name": "レディースハンドバッグ",
-   "code": "ads026",
-   "title": "ハンドバッグ レディース 小さめ 2WAY ショルダーバッグ 軽い 軽量 ショルダー ブランド 入学式 フォーマル 結婚式 卒業式 入園 卒園 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/6",
-   "screenshot": "screenshots/realtime/ads026/20260706_cat37306_レディースハンドバッグ.png"
-  },
-  {
-   "category_id": "45462",
-   "category_name": "お香、インセンス",
-   "code": "ads066",
-   "title": "お香 アロマ 白檀 沈香 金木犀 ホワイトセージ おしゃれ お試し オシャレ 横置き 対応 セット リラクゼーション ヨガ お香 のような お線香 線香 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/6",
-   "screenshot": "screenshots/realtime/ads066/20260706_cat45462_お香、インセンス.png"
-  },
-  {
-   "category_id": "609",
-   "category_name": "生ごみ処理機",
-   "code": "ads058-s",
-   "title": "コンポスト バッグ 小型 Sサイズ おしゃれ 生ゴミ 不織布 バッグ 容器 家庭用 生ゴミ処理機 説明書付 コンポストバッグ 生ごみ 有機栽培 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/6",
-   "screenshot": "screenshots/realtime/ads058-s/20260706_cat609_生ごみ処理機.png"
-  }
- ],
- "realtime_updated": "2026-07-06T10:48:33.860643+09:00",
+ "realtime": [],
+ "realtime_updated": "2026-07-06T15:41:43.665519+09:00",
  "daily_updated": "2026-07-06T10:48:33.860643+09:00"
 }

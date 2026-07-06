@@ -1,5 +1,5 @@
 {
- "run_at": "2026-07-07T01:54:15.039151+09:00",
+ "run_at": "2026-07-07T05:04:30.202773+09:00",
  "categories_checked": 38,
  "daily": [
   {
@@ -13,14 +13,14 @@
  ],
  "realtime": [
   {
-   "category_id": "4352",
-   "category_name": "マザーズバッグ",
-   "code": "ads008-m",
-   "title": "マザーズバッグ トート 2WAY サイズ M マザーズバック 高見え ショルダー 軽い 軽量 大容量 人気 おしゃれ Annekor アンコール 爆買｜バッグ 雑貨 Annekor アンコール",
+   "category_id": "24144",
+   "category_name": "ポケットティッシュカバー",
+   "code": "ads084",
+   "title": "ポケットティッシュケース 本革 ポーチ 掛けられる ポケットティッシュケース 革 レザー バイカラー フラップ付 かわいい おしゃれ 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/7/7",
-   "screenshot": "screenshots/realtime/ads008-m/20260707_cat4352_マザーズバッグ.png"
+   "screenshot": "screenshots/realtime/ads084/20260707_cat24144_ポケットティッシュカバー.png"
   }
  ],
- "realtime_updated": "2026-07-07T01:54:15.039151+09:00",
+ "realtime_updated": "2026-07-07T05:04:30.202773+09:00",
  "daily_updated": "2026-07-06T10:48:33.860643+09:00"
 }

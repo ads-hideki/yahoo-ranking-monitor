@@ -1,5 +1,5 @@
 {
- "run_at": "2026-07-08T03:04:44.761126+09:00",
+ "run_at": "2026-07-08T08:06:25.083926+09:00",
  "categories_checked": 38,
  "daily": [
   {
@@ -21,22 +21,14 @@
  ],
  "realtime": [
   {
-   "category_id": "35462",
-   "category_name": "レディースビジネスバッグ",
-   "code": "ads041",
-   "title": "ビジネスバッグ レディース A4 軽量 自立 通勤 大容量 リクルートバッグ 就活 面接 トートバッグ 営業 爆買 超PayPay祭｜バッグ 雑貨 Annekor アンコール",
+   "category_id": "4352",
+   "category_name": "マザーズバッグ",
+   "code": "ads010",
+   "title": "マザーズリュック 軽量 大容量 多機能 小さめ マザーズバッグ バッグ ママバッグ おしゃれ 大容量 洗える 洗濯 丸ごと洗える ブランド 撥水 爆買 超PayPay祭｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/7/8",
-   "screenshot": "screenshots/realtime/ads041/20260708_cat35462_レディースビジネスバッグ.png"
-  },
-  {
-   "category_id": "68710",
-   "category_name": "レディース長財布",
-   "code": "ads089",
-   "title": "長財布 レディース 本革 財布 小さい財布 大容量 薄い お札が折れない ブランド 使いやすい バイカラー 小さな長財布 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/8",
-   "screenshot": "screenshots/realtime/ads089/20260708_cat68710_レディース長財布.png"
+   "screenshot": "screenshots/realtime/ads010/20260708_cat4352_マザーズバッグ.png"
   }
  ],
- "realtime_updated": "2026-07-08T03:04:44.761126+09:00",
+ "realtime_updated": "2026-07-08T08:06:25.083926+09:00",
  "daily_updated": "2026-07-07T10:45:58.945403+09:00"
 }

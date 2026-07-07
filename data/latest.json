@@ -1,5 +1,5 @@
 {
- "run_at": "2026-07-07T10:45:58.945403+09:00",
+ "run_at": "2026-07-07T15:13:48.516085+09:00",
  "categories_checked": 38,
  "daily": [
   {
@@ -21,6 +21,14 @@
  ],
  "realtime": [
   {
+   "category_id": "23591",
+   "category_name": "レディースバッグインバッグ",
+   "code": "ads003",
+   "title": "バッグインバッグ 小さめ 自立 フェルト 監修 インナーバッグ バックインバック 底板 軽量 アンコール Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/7",
+   "screenshot": "screenshots/realtime/ads003/20260707_cat23591_レディースバッグインバッグ.png"
+  },
+  {
    "category_id": "24144",
    "category_name": "ポケットティッシュカバー",
    "code": "ads084",
@@ -35,8 +43,16 @@
    "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 入学 折らずにお届け 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/7/7",
    "screenshot": "screenshots/realtime/ads001/20260707_cat35462_レディースビジネスバッグ.png"
+  },
+  {
+   "category_id": "4352",
+   "category_name": "マザーズバッグ",
+   "code": "ads010",
+   "title": "マザーズリュック 軽量 大容量 多機能 小さめ マザーズバッグ バッグ ママバッグ おしゃれ 大容量 洗える 洗濯 丸ごと洗える ブランド 撥水 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/7",
+   "screenshot": "screenshots/realtime/ads010/20260707_cat4352_マザーズバッグ.png"
   }
  ],
- "realtime_updated": "2026-07-07T10:45:58.945403+09:00",
+ "realtime_updated": "2026-07-07T15:13:48.516085+09:00",
  "daily_updated": "2026-07-07T10:45:58.945403+09:00"
 }

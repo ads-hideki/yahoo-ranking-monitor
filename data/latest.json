@@ -1,5 +1,5 @@
 {
- "run_at": "2026-07-07T23:48:00.608311+09:00",
+ "run_at": "2026-07-08T03:04:44.761126+09:00",
  "categories_checked": 38,
  "daily": [
   {
@@ -21,14 +21,22 @@
  ],
  "realtime": [
   {
-   "category_id": "37306",
-   "category_name": "レディースハンドバッグ",
-   "code": "ads026",
-   "title": "ハンドバッグ レディース 小さめ 2WAY ショルダーバッグ 軽い 軽量 ショルダー ブランド 入学式 フォーマル 結婚式 卒業式 入園 卒園 爆買 超PayPay祭｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/7",
-   "screenshot": "screenshots/realtime/ads026/20260707_cat37306_レディースハンドバッグ.png"
+   "category_id": "35462",
+   "category_name": "レディースビジネスバッグ",
+   "code": "ads041",
+   "title": "ビジネスバッグ レディース A4 軽量 自立 通勤 大容量 リクルートバッグ 就活 面接 トートバッグ 営業 爆買 超PayPay祭｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/8",
+   "screenshot": "screenshots/realtime/ads041/20260708_cat35462_レディースビジネスバッグ.png"
+  },
+  {
+   "category_id": "68710",
+   "category_name": "レディース長財布",
+   "code": "ads089",
+   "title": "長財布 レディース 本革 財布 小さい財布 大容量 薄い お札が折れない ブランド 使いやすい バイカラー 小さな長財布 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/8",
+   "screenshot": "screenshots/realtime/ads089/20260708_cat68710_レディース長財布.png"
   }
  ],
- "realtime_updated": "2026-07-07T23:48:00.608311+09:00",
+ "realtime_updated": "2026-07-08T03:04:44.761126+09:00",
  "daily_updated": "2026-07-07T10:45:58.945403+09:00"
 }

@@ -1,5 +1,5 @@
 {
- "run_at": "2026-07-07T20:13:12.046808+09:00",
+ "run_at": "2026-07-07T23:48:00.608311+09:00",
  "categories_checked": 38,
  "daily": [
   {
@@ -21,30 +21,14 @@
  ],
  "realtime": [
   {
-   "category_id": "24144",
-   "category_name": "ポケットティッシュカバー",
-   "code": "ads084",
-   "title": "ポケットティッシュケース 本革 ポーチ 掛けられる ポケットティッシュケース 革 レザー バイカラー フラップ付 かわいい おしゃれ 爆買 超PayPay祭｜バッグ 雑貨 Annekor アンコール",
+   "category_id": "37306",
+   "category_name": "レディースハンドバッグ",
+   "code": "ads026",
+   "title": "ハンドバッグ レディース 小さめ 2WAY ショルダーバッグ 軽い 軽量 ショルダー ブランド 入学式 フォーマル 結婚式 卒業式 入園 卒園 爆買 超PayPay祭｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/7/7",
-   "screenshot": "screenshots/realtime/ads084/20260707_cat24144_ポケットティッシュカバー.png"
-  },
-  {
-   "category_id": "4352",
-   "category_name": "マザーズバッグ",
-   "code": "ads010",
-   "title": "マザーズリュック 軽量 大容量 多機能 小さめ マザーズバッグ バッグ ママバッグ おしゃれ 大容量 洗える 洗濯 丸ごと洗える ブランド 撥水 爆買 超PayPay祭｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/7",
-   "screenshot": "screenshots/realtime/ads010/20260707_cat4352_マザーズバッグ.png"
-  },
-  {
-   "category_id": "68725",
-   "category_name": "その他レディース財布",
-   "code": "ads035",
-   "title": "ミニ財布 レディース 二つ折り 財布 本革 お札折らない 薄い 財布 コンパクト財布 キャッシュレス 極薄 スリム スキミング防止 一粒万倍日 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/7",
-   "screenshot": "screenshots/realtime/ads035/20260707_cat68725_その他レディース財布.png"
+   "screenshot": "screenshots/realtime/ads026/20260707_cat37306_レディースハンドバッグ.png"
   }
  ],
- "realtime_updated": "2026-07-07T20:13:12.046808+09:00",
+ "realtime_updated": "2026-07-07T23:48:00.608311+09:00",
  "daily_updated": "2026-07-07T10:45:58.945403+09:00"
 }

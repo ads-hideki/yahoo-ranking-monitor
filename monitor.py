@@ -217,7 +217,7 @@ def keyword_candidates(title, n=KEYWORD_N):
     """商品タイトル先頭側から連続2語のキーワード候補を最大n個生成"""
     t = title.split("｜")[0].split("|")[0]
     t = _KW_NOISE.sub(" ", t)
-    t = re.sub(r"[【】\[\]（）()／/,、]", " ", t)
+    t = re.sub(r"[【】\[\]（）()｜|／/＼\\★☆♪＿~〜,、!！]", " ", t)
     toks = [w for w in re.split(r"\s+", t)
             if len(w) >= 2 and not re.match(r"^[0-9]", w)]
     toks = toks[:12]
@@ -302,6 +302,12 @@ def discover_keywords(page, mapping, our_codes, stamp, ts):
                 continue
             items = rk["items"]
             if not items:
+                continue
+            # 自社独自フレーズ等で「結果が少なく競合ゼロ＝中身のない1位」を除外。
+            # 実在の検索語は十分な件数と他店の競合がある。
+            other_stores = {it["store"] for it in items
+                            if it["store"] and it["store"] != STORE}
+            if len(items) < 6 or len(other_stores) < 2:
                 continue
             top = items[0]
             if top["store"] != STORE or not top["code"] or top["code"].lower() not in ours:

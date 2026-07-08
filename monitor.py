@@ -143,23 +143,32 @@ def select_period(page, period):
 
 
 def parse_ranking(page, cat_id):
-    """現在表示中のランキング並びを返す"""
-    items = page.eval_on_selector_all(
-        "a[href*='ranking-crk01_01']",
-        """(as) => as.map(a => {
-             const h = a.getAttribute('href') || '';
-             const m = h.match(/store\\.shopping\\.yahoo\\.co\\.jp\\/([^\\/]+)\\/([A-Za-z0-9_\\-]+)\\.html/);
-             if(!m) return null;
-             const img = a.querySelector('img');
-             return {store:m[1], code:m[2], url:h.split('?')[0],
-                     title:(img?img.getAttribute('alt'):'')||a.innerText||''};
-           }).filter(Boolean)""")
-    seen, ordered = set(), []
-    for it in items:
-        key = (it["store"], it["code"])
-        if key in seen:
-            continue
-        seen.add(key)
+    """現在表示中のランキングを『行(=順位)単位』で返す。
+    価格比較リスト（最安値を見る）等の行も1件として数え、
+    店舗商品でない行は store/code=None（＝自店ではない）とする。
+    これにより実際の表示順位で1位判定できる（比較リストを飛ばして数える誤りを防ぐ）。"""
+    rows = page.evaluate(
+        """() => {
+             const anchors = [...document.querySelectorAll("a[href*='ranking-crk01_01']")];
+             const seen = new Set(), out = [];
+             for (const a of anchors) {
+               const line = a.closest('.line') || a.closest('li');
+               if (!line || seen.has(line)) continue;
+               seen.add(line);
+               const links = [...line.querySelectorAll('a')].map(x => x.getAttribute('href') || '');
+               const item = links.find(h => /store\\.shopping\\.yahoo\\.co\\.jp\\/[^\\/]+\\/[A-Za-z0-9_\\-]+\\.html/.test(h));
+               let store = null, code = null, url = '';
+               if (item) {
+                 const m = item.match(/store\\.shopping\\.yahoo\\.co\\.jp\\/([^\\/]+)\\/([A-Za-z0-9_\\-]+)\\.html/);
+                 store = m[1]; code = m[2]; url = item.split('?')[0];
+               }
+               const img = line.querySelector('img');
+               out.push({store, code, url, title: (img ? img.getAttribute('alt') : '') || ''});
+             }
+             return out;
+           }""")
+    ordered = []
+    for it in rows:
         it["rank"] = len(ordered) + 1
         it["title"] = (it["title"] or "").strip()
         ordered.append(it)

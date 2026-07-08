@@ -1,5 +1,5 @@
 {
- "run_at": "2026-07-08T14:26:33.616914+09:00",
+ "run_at": "2026-07-08T14:53:42.385030+09:00",
  "categories_checked": 38,
  "daily": [
   {
@@ -37,8 +37,8 @@
    "screenshot": "screenshots/realtime/ads066/20260708_cat45462_お香、インセンス.png"
   }
  ],
- "realtime_updated": "2026-07-08T14:26:33.616914+09:00",
- "daily_updated": "2026-07-08T12:21:37.890980+09:00",
+ "realtime_updated": "2026-07-08T14:53:42.385030+09:00",
+ "daily_updated": "2026-07-08T14:53:42.385030+09:00",
  "keyword": [
   {
    "code": "ads001",
@@ -92,13 +92,13 @@
   },
   {
    "code": "ads003",
-   "keyword": "小さめ 整理収納アドバイザー監修",
+   "keyword": "バッグインバッグ 小さめ",
    "category_id": "23591",
-   "category_name": "小さめ 整理収納アドバイザー監修",
+   "category_name": "バッグインバッグ 小さめ",
    "cat_label": "レディースバッグインバッグ",
    "title": "バッグインバッグ 小さめ 自立 フェルト 監修 インナーバッグ バックインバック 底板 軽量 アンコ...",
    "update_label": "2026/7/8",
-   "screenshot": "screenshots/keyword/ads003/20260708_小さめ_整理収納アドバイザー監修.png"
+   "screenshot": "screenshots/keyword/ads003/20260708_バッグインバッグ_小さめ.png"
   },
   {
    "code": "ads046",
@@ -119,66 +119,6 @@
    "title": "ショルダーバッグ レディース 大きめ 本革 軽い 斜めがけ 2way シンプル コンパクト 革 レザ...",
    "update_label": "2026/7/8",
    "screenshot": "screenshots/keyword/ads046/20260708_本革_レディース.png"
-  },
-  {
-   "code": "ads008-l",
-   "keyword": "＼TVドラマ衣装提供商品 マザーズバッグ",
-   "category_id": "4352",
-   "category_name": "＼TVドラマ衣装提供商品 マザーズバッグ",
-   "cat_label": "マザーズバッグ",
-   "title": "＼TVドラマ衣装提供商品／ マザーズバッグ トート 2WAY サイズ L マザーズバック 高見え シ...",
-   "update_label": "2026/7/8",
-   "screenshot": "screenshots/keyword/ads008-l/20260708_＼TVドラマ衣装提供商品_マザーズバッグ.png"
-  },
-  {
-   "code": "ads008-m",
-   "keyword": "マザーズバック 高見え",
-   "category_id": "4352",
-   "category_name": "マザーズバック 高見え",
-   "cat_label": "マザーズバッグ",
-   "title": "マザーズバッグ トート 2WAY サイズ M マザーズバック 高見え ショルダー 軽い 軽量 大容量...",
-   "update_label": "2026/7/8",
-   "screenshot": "screenshots/keyword/ads008-m/20260708_マザーズバック_高見え.png"
-  },
-  {
-   "code": "ads008-m",
-   "keyword": "高見え ショルダー",
-   "category_id": "4352",
-   "category_name": "高見え ショルダー",
-   "cat_label": "マザーズバッグ",
-   "title": "マザーズバッグ トート 2WAY サイズ M マザーズバック 高見え ショルダー 軽い 軽量 大容量...",
-   "update_label": "2026/7/8",
-   "screenshot": "screenshots/keyword/ads008-m/20260708_高見え_ショルダー.png"
-  },
-  {
-   "code": "ads008-xl",
-   "keyword": "サイズ XL",
-   "category_id": "4352",
-   "category_name": "サイズ XL",
-   "cat_label": "マザーズバッグ",
-   "title": "マザーズバッグ トート 2WAY サイズ XL マザーズバック 高見え ショルダー 軽い 軽量 大容...",
-   "update_label": "2026/7/8",
-   "screenshot": "screenshots/keyword/ads008-xl/20260708_サイズ_XL.png"
-  },
-  {
-   "code": "ads008-xl",
-   "keyword": "XL マザーズバック",
-   "category_id": "4352",
-   "category_name": "XL マザーズバック",
-   "cat_label": "マザーズバッグ",
-   "title": "マザーズバッグ トート 2WAY サイズ XL マザーズバック 高見え ショルダー 軽い 軽量 大容...",
-   "update_label": "2026/7/8",
-   "screenshot": "screenshots/keyword/ads008-xl/20260708_XL_マザーズバック.png"
-  },
-  {
-   "code": "ads010",
-   "keyword": "多機能 小さめ",
-   "category_id": "4352",
-   "category_name": "多機能 小さめ",
-   "cat_label": "マザーズバッグ",
-   "title": "マザーズリュック 軽量 大容量 多機能 小さめ マザーズバッグ バッグ ママバッグ おしゃれ 大容量...",
-   "update_label": "2026/7/8",
-   "screenshot": "screenshots/keyword/ads010/20260708_多機能_小さめ.png"
   },
   {
    "code": "ads010",
@@ -219,16 +159,6 @@
    "title": "ミニ財布 レディース 本革 財布 お札折らない カードケース 小さめ ブランド ジャバラ じゃばら ...",
    "update_label": "2026/7/8",
    "screenshot": "screenshots/keyword/ads017/20260708_お札折らない_カードケース.png"
-  },
-  {
-   "code": "ads024",
-   "keyword": "ロンシャン 縦型",
-   "category_id": "23591",
-   "category_name": "ロンシャン 縦型",
-   "cat_label": "レディースバッグインバッグ",
-   "title": "バッグインバッグ ロンシャン 縦型 リュック 自立 大きめ フェルト 水筒 LONGCHMP ルプリ...",
-   "update_label": "2026/7/8",
-   "screenshot": "screenshots/keyword/ads024/20260708_ロンシャン_縦型.png"
   },
   {
    "code": "ads026",
@@ -279,36 +209,6 @@
    "title": "バッグインバッグ 縦型 A4 自立 小さめ 横型 ナイロン 軽量 多機能 収納 インナーバッグ 旅行...",
    "update_label": "2026/7/8",
    "screenshot": "screenshots/keyword/ads029/20260708_小さめ_横型.png"
-  },
-  {
-   "code": "ads029",
-   "keyword": "横型 ナイロン",
-   "category_id": "23591",
-   "category_name": "横型 ナイロン",
-   "cat_label": "レディースバッグインバッグ",
-   "title": "バッグインバッグ 縦型 A4 自立 小さめ 横型 ナイロン 軽量 多機能 収納 インナーバッグ 旅行...",
-   "update_label": "2026/7/8",
-   "screenshot": "screenshots/keyword/ads029/20260708_横型_ナイロン.png"
-  },
-  {
-   "code": "ads031",
-   "keyword": "大容量 整理収納アドバイザー監修",
-   "category_id": "4352",
-   "category_name": "大容量 整理収納アドバイザー監修",
-   "cat_label": "マザーズバッグ",
-   "title": "マザーズバッグ リュック マザーズリュック 大容量 整理収納アドバイザー監修 ブランド 軽量 おしゃ...",
-   "update_label": "2026/7/8",
-   "screenshot": "screenshots/keyword/ads031/20260708_大容量_整理収納アドバイザー監修.png"
-  },
-  {
-   "code": "ads031",
-   "keyword": "整理収納アドバイザー監修 ブランド",
-   "category_id": "4352",
-   "category_name": "整理収納アドバイザー監修 ブランド",
-   "cat_label": "マザーズバッグ",
-   "title": "マザーズバッグ リュック マザーズリュック 大容量 整理収納アドバイザー監修 ブランド 軽量 おしゃ...",
-   "update_label": "2026/7/8",
-   "screenshot": "screenshots/keyword/ads031/20260708_整理収納アドバイザー監修_ブランド.png"
   },
   {
    "code": "ads035",
@@ -362,16 +262,6 @@
   },
   {
    "code": "ads043",
-   "keyword": "リール 名前",
-   "category_id": "48241",
-   "category_name": "リール 名前",
-   "cat_label": "レディースIDカードケース",
-   "title": "IDカードホルダー 本革 レディース リール 革 名前 横 型 IDカードケース 本革 両面 社員証...",
-   "update_label": "2026/7/8",
-   "screenshot": "screenshots/keyword/ads043/20260708_リール_名前.png"
-  },
-  {
-   "code": "ads043",
    "keyword": "名前 IDカードケース",
    "category_id": "48241",
    "category_name": "名前 IDカードケース",
@@ -379,16 +269,6 @@
    "title": "IDカードホルダー 本革 レディース リール 革 名前 横 型 IDカードケース 本革 両面 社員証...",
    "update_label": "2026/7/8",
    "screenshot": "screenshots/keyword/ads043/20260708_名前_IDカードケース.png"
-  },
-  {
-   "code": "ads047-s",
-   "keyword": "＼選べる2タイプ スマートキーケース",
-   "category_id": "42946",
-   "category_name": "＼選べる2タイプ スマートキーケース",
-   "cat_label": "スマートキーカバー",
-   "title": "＼選べる2タイプ／ スマートキーケース 窓付き 2個 本革 トヨタ レザー スズキ ホンダ 日産 バ...",
-   "update_label": "2026/7/8",
-   "screenshot": "screenshots/keyword/ads047-s/20260708_＼選べる2タイプ_スマートキーケース.png"
   },
   {
    "code": "ads049",
@@ -432,16 +312,6 @@
   },
   {
    "code": "ads055",
-   "keyword": "グッズ 除湿剤",
-   "category_id": "68518",
-   "category_name": "グッズ 除湿剤",
-   "cat_label": "靴用消臭剤",
-   "title": "靴 消臭 グッズ 除湿剤 繰り返し 竹炭 乾燥剤 繰り返し使用可 空気清浄 タンス クローゼット 脱...",
-   "update_label": "2026/7/8",
-   "screenshot": "screenshots/keyword/ads055/20260708_グッズ_除湿剤.png"
-  },
-  {
-   "code": "ads055",
    "keyword": "除湿剤 繰り返し",
    "category_id": "68518",
    "category_name": "除湿剤 繰り返し",
@@ -451,84 +321,14 @@
    "screenshot": "screenshots/keyword/ads055/20260708_除湿剤_繰り返し.png"
   },
   {
-   "code": "ads061",
-   "keyword": "グッズ 大容量",
+   "code": "ads055",
+   "keyword": "繰り返し 竹炭",
    "category_id": "68518",
-   "category_name": "グッズ 大容量",
+   "category_name": "繰り返し 竹炭",
    "cat_label": "靴用消臭剤",
    "title": "靴 消臭 グッズ 除湿剤 繰り返し 竹炭 乾燥剤 繰り返し使用可 空気清浄 タンス クローゼット 脱...",
    "update_label": "2026/7/8",
-   "screenshot": "screenshots/keyword/ads061/20260708_グッズ_大容量.png"
-  },
-  {
-   "code": "ads061",
-   "keyword": "大容量 除湿剤",
-   "category_id": "68518",
-   "category_name": "大容量 除湿剤",
-   "cat_label": "靴用消臭剤",
-   "title": "靴 消臭 グッズ 除湿剤 繰り返し 竹炭 乾燥剤 繰り返し使用可 空気清浄 タンス クローゼット 脱...",
-   "update_label": "2026/7/8",
-   "screenshot": "screenshots/keyword/ads061/20260708_大容量_除湿剤.png"
-  },
-  {
-   "code": "ads058",
-   "keyword": "コンポスト バッグ",
-   "category_id": "609",
-   "category_name": "コンポスト バッグ",
-   "cat_label": "生ごみ処理機",
-   "title": "コンポスト バッグ おしゃれ 生ゴミ 不織布 コンポスト 容器 家庭用 生ゴミ処理機 説明書付 コン...",
-   "update_label": "2026/7/8",
-   "screenshot": "screenshots/keyword/ads058/20260708_コンポスト_バッグ.png"
-  },
-  {
-   "code": "ads058",
-   "keyword": "バッグ おしゃれ",
-   "category_id": "609",
-   "category_name": "バッグ おしゃれ",
-   "cat_label": "生ごみ処理機",
-   "title": "コンポスト バッグ おしゃれ 生ゴミ 不織布 コンポスト 容器 家庭用 生ゴミ処理機 説明書付 コン...",
-   "update_label": "2026/7/8",
-   "screenshot": "screenshots/keyword/ads058/20260708_バッグ_おしゃれ.png"
-  },
-  {
-   "code": "ads058",
-   "keyword": "不織布 コンポスト",
-   "category_id": "609",
-   "category_name": "不織布 コンポスト",
-   "cat_label": "生ごみ処理機",
-   "title": "コンポスト バッグ おしゃれ 生ゴミ 不織布 コンポスト 容器 家庭用 生ゴミ処理機 説明書付 コン...",
-   "update_label": "2026/7/8",
-   "screenshot": "screenshots/keyword/ads058/20260708_不織布_コンポスト.png"
-  },
-  {
-   "code": "ads058-s",
-   "keyword": "バッグ 小型",
-   "category_id": "609",
-   "category_name": "バッグ 小型",
-   "cat_label": "生ごみ処理機",
-   "title": "コンポスト バッグ 小型 Sサイズ おしゃれ 生ゴミ 不織布 バッグ 容器 家庭用 生ゴミ処理機 説...",
-   "update_label": "2026/7/8",
-   "screenshot": "screenshots/keyword/ads058-s/20260708_バッグ_小型.png"
-  },
-  {
-   "code": "ads058-s",
-   "keyword": "小型 Sサイズ",
-   "category_id": "609",
-   "category_name": "小型 Sサイズ",
-   "cat_label": "生ごみ処理機",
-   "title": "コンポスト バッグ 小型 Sサイズ おしゃれ 生ゴミ 不織布 バッグ 容器 家庭用 生ゴミ処理機 説...",
-   "update_label": "2026/7/8",
-   "screenshot": "screenshots/keyword/ads058-s/20260708_小型_Sサイズ.png"
-  },
-  {
-   "code": "ads058-s",
-   "keyword": "Sサイズ おしゃれ",
-   "category_id": "609",
-   "category_name": "Sサイズ おしゃれ",
-   "cat_label": "生ごみ処理機",
-   "title": "コンポスト バッグ 小型 Sサイズ おしゃれ 生ゴミ 不織布 バッグ 容器 家庭用 生ゴミ処理機 説...",
-   "update_label": "2026/7/8",
-   "screenshot": "screenshots/keyword/ads058-s/20260708_Sサイズ_おしゃれ.png"
+   "screenshot": "screenshots/keyword/ads055/20260708_繰り返し_竹炭.png"
   },
   {
    "code": "ads060-5",
@@ -559,26 +359,6 @@
    "title": "引っ越し 挨拶 ギフト ラップ おしゃれ のし付き 5個セット 品物 挨拶品 袋付 引っ越しギフト ...",
    "update_label": "2026/7/8",
    "screenshot": "screenshots/keyword/ads060-5/20260708_ギフト_ラップ.png"
-  },
-  {
-   "code": "ads062-2",
-   "keyword": "竹炭 特大サイズ",
-   "category_id": "46596",
-   "category_name": "竹炭 特大サイズ",
-   "cat_label": "除湿、乾燥剤",
-   "title": "消臭 炭 除湿 調湿 繰り返し 竹炭 特大サイズ 2個セット 乾燥 天然素材 空間洗浄 空気清浄 ク...",
-   "update_label": "2026/7/8",
-   "screenshot": "screenshots/keyword/ads062-2/20260708_竹炭_特大サイズ.png"
-  },
-  {
-   "code": "ads065-1",
-   "keyword": "＼選べる3タイプ 室外機カバー",
-   "category_id": "50281",
-   "category_name": "＼選べる3タイプ 室外機カバー",
-   "cat_label": "室外機カバー",
-   "title": "＼選べる3タイプ／ 室外機カバー アルミ 業務用 エアコン 極厚 6層構造 大型 夏 節電 室外機 ...",
-   "update_label": "2026/7/8",
-   "screenshot": "screenshots/keyword/ads065-1/20260708_＼選べる3タイプ_室外機カバー.png"
   },
   {
    "code": "ads065-1",
@@ -651,36 +431,6 @@
    "screenshot": "screenshots/keyword/ads066-k/20260708_コーン_アロマ.png"
   },
   {
-   "code": "ads069",
-   "keyword": "シール粘着復活 大容量",
-   "category_id": "47249",
-   "category_name": "シール粘着復活 大容量",
-   "cat_label": "のり",
-   "title": "シール復活剤 シール液 シール粘着復活 大容量 20ml ボンボンドロップシール が作れる 手作り ...",
-   "update_label": "2026/7/8",
-   "screenshot": "screenshots/keyword/ads069/20260708_シール粘着復活_大容量.png"
-  },
-  {
-   "code": "ads069",
-   "keyword": "大容量 ボンボンドロップシール",
-   "category_id": "47249",
-   "category_name": "大容量 ボンボンドロップシール",
-   "cat_label": "のり",
-   "title": "シール復活剤 シール液 シール粘着復活 大容量 20ml ボンボンドロップシール が作れる 手作り ...",
-   "update_label": "2026/7/8",
-   "screenshot": "screenshots/keyword/ads069/20260708_大容量_ボンボンドロップシール.png"
-  },
-  {
-   "code": "ads069",
-   "keyword": "ボンボンドロップシール が作れる",
-   "category_id": "47249",
-   "category_name": "ボンボンドロップシール が作れる",
-   "cat_label": "のり",
-   "title": "シール復活剤 シール液 シール粘着復活 大容量 20ml ボンボンドロップシール が作れる 手作り ...",
-   "update_label": "2026/7/8",
-   "screenshot": "screenshots/keyword/ads069/20260708_ボンボンドロップシール_が作れる.png"
-  },
-  {
    "code": "ads084",
    "keyword": "ポケットティッシュケース 本革",
    "category_id": "24144",
@@ -692,23 +442,13 @@
   },
   {
    "code": "ads084",
-   "keyword": "本革 ポーチ",
+   "keyword": "ポケットティッシュケース レザー",
    "category_id": "24144",
-   "category_name": "本革 ポーチ",
+   "category_name": "ポケットティッシュケース レザー",
    "cat_label": "ポケットティッシュカバー",
    "title": "ポケットティッシュケース 本革 ポーチ 掛けられる ポケットティッシュケース 革 レザー バイカラー...",
    "update_label": "2026/7/8",
-   "screenshot": "screenshots/keyword/ads084/20260708_本革_ポーチ.png"
-  },
-  {
-   "code": "ads084",
-   "keyword": "ポーチ 掛けられる",
-   "category_id": "24144",
-   "category_name": "ポーチ 掛けられる",
-   "cat_label": "ポケットティッシュカバー",
-   "title": "ポケットティッシュケース 本革 ポーチ 掛けられる ポケットティッシュケース 革 レザー バイカラー...",
-   "update_label": "2026/7/8",
-   "screenshot": "screenshots/keyword/ads084/20260708_ポーチ_掛けられる.png"
+   "screenshot": "screenshots/keyword/ads084/20260708_ポケットティッシュケース_レザー.png"
   },
   {
    "code": "ads089",
@@ -729,16 +469,6 @@
    "title": "長財布 レディース 本革 財布 小さい財布 大容量 薄い お札が折れない ブランド 使いやすい バイ...",
    "update_label": "2026/7/8",
    "screenshot": "screenshots/keyword/ads089/20260708_小さい財布_大容量.png"
-  },
-  {
-   "code": "ads093",
-   "keyword": "本革 バイカラー",
-   "category_id": "37306",
-   "category_name": "本革 バイカラー",
-   "cat_label": "レディースハンドバッグ",
-   "title": "ハンドバッグ レディース 小さめ 本革 バイカラー トートバッグ 2way 軽量 革 軽い ショルダ...",
-   "update_label": "2026/7/8",
-   "screenshot": "screenshots/keyword/ads093/20260708_本革_バイカラー.png"
   },
   {
    "code": "ads094",
@@ -771,26 +501,6 @@
    "screenshot": "screenshots/keyword/ads094/20260708_ペーパーポット_ティッシュカバー.png"
   },
   {
-   "code": "ads096",
-   "keyword": "軽量 横長",
-   "category_id": "37306",
-   "category_name": "軽量 横長",
-   "cat_label": "レディースハンドバッグ",
-   "title": "ハンドバッグ レディース 小さめ 黒 本革 2way 軽量 横長 卒業式 入学式 フォーマル 軽い ...",
-   "update_label": "2026/7/8",
-   "screenshot": "screenshots/keyword/ads096/20260708_軽量_横長.png"
-  },
-  {
-   "code": "ads099",
-   "keyword": "ヌビバッグ フリル",
-   "category_id": "23558",
-   "category_name": "ヌビバッグ フリル",
-   "cat_label": "レディーストートバッグ",
-   "title": "ヌビバッグ フリル トート リボン ショルダー ショルダーバッグ 大容量 イブル バッグ 大容量 軽...",
-   "update_label": "2026/7/8",
-   "screenshot": "screenshots/keyword/ads099/20260708_ヌビバッグ_フリル.png"
-  },
-  {
    "code": "ads201-a",
    "keyword": "次亜塩素酸パウダー 生成",
    "category_id": "45235",
@@ -799,17 +509,7 @@
    "title": "次亜塩素酸 粉 次亜塩素酸水 除菌 次亜塩素酸パウダー 生成 500ppm 消臭 業務用 家庭用 子...",
    "update_label": "2026/7/8",
    "screenshot": "screenshots/keyword/ads201-a/20260708_次亜塩素酸パウダー_生成.png"
-  },
-  {
-   "code": "ads202",
-   "keyword": "＼1個1480円〜 消臭",
-   "category_id": "68518",
-   "category_name": "＼1個1480円〜 消臭",
-   "cat_label": "靴用消臭剤",
-   "title": "＼1個1480円〜／ 靴 消臭 靴消臭 靴 ニオイ におい グッズ 消臭パウダー スニーカー ブーツ...",
-   "update_label": "2026/7/8",
-   "screenshot": "screenshots/keyword/ads202/20260708_＼1個1480円〜_消臭.png"
   }
  ],
- "keyword_updated": "2026-07-08T12:21:37.890980+09:00"
+ "keyword_updated": "2026-07-08T14:53:42.385030+09:00"
 }

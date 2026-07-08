@@ -16,7 +16,7 @@ def main():
     cutoff = (datetime.datetime.now(JST).date()
               - datetime.timedelta(days=KEEP_DAYS))
     removed = 0
-    for period in ("daily", "realtime"):
+    for period in ("daily", "realtime", "keyword"):
         pdir = os.path.join(SHOT_DIR, period)
         if not os.path.isdir(pdir):
             continue

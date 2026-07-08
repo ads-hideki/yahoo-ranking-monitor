@@ -206,6 +206,131 @@ def shot_top_row(page, path):
     return False
 
 
+# ---- キーワードランキング(searchranking)自動発見 ---------------------------
+KEYWORD_N = 5  # 商品あたりの候補キーワード数（軽め）
+_KW_NOISE = re.compile(
+    r"(爆買|超PayPay祭|PayPayフリマ|PayPay|クーポン|送料無料|ポイント|"
+    r"Annekor|アンコール|annekor|JOY|楽天|Yahoo|１位|1位)", re.I)
+
+
+def keyword_candidates(title, n=KEYWORD_N):
+    """商品タイトル先頭側から連続2語のキーワード候補を最大n個生成"""
+    t = title.split("｜")[0].split("|")[0]
+    t = _KW_NOISE.sub(" ", t)
+    t = re.sub(r"[【】\[\]（）()／/,、]", " ", t)
+    toks = [w for w in re.split(r"\s+", t)
+            if len(w) >= 2 and not re.match(r"^[0-9]", w)]
+    toks = toks[:12]
+    seen, out = set(), []
+    for i in range(len(toks) - 1):
+        c = toks[i] + " " + toks[i + 1]
+        if c not in seen:
+            seen.add(c)
+            out.append(c)
+        if len(out) >= n:
+            break
+    return out
+
+
+def parse_search_ranking(page):
+    """searchranking ページを行(.line)単位で解析。店舗商品でない行は store/code=None。"""
+    rows = page.evaluate(
+        """() => {
+             const L = [...document.querySelectorAll('.line')]; const out = [];
+             for (const l of L) {
+               const ls = [...l.querySelectorAll('a')].map(x => x.getAttribute('href') || '');
+               const it = ls.find(h => /store\\.shopping\\.yahoo\\.co\\.jp\\/[^\\/]+\\/[A-Za-z0-9_\\-]+\\.html/.test(h));
+               let s = null, c = null;
+               if (it) { const m = it.match(/store\\.shopping\\.yahoo\\.co\\.jp\\/([^\\/]+)\\/([A-Za-z0-9_\\-]+)\\.html/); s = m[1]; c = m[2]; }
+               const img = l.querySelector('img');
+               out.push({store: s, code: c, title: (img ? img.getAttribute('alt') : '') || ''});
+             }
+             return out;
+           }""")
+    for i, it in enumerate(rows):
+        it["rank"] = i + 1
+        it["title"] = (it["title"] or "").strip()
+    m = re.search(r"更新[日時][:：]?\s*([0-9]{4}[/／][0-9]{1,2}[/／][0-9]{1,2}"
+                  r"(?:\s*[0-9]{1,2}[:：][0-9]{1,2})?)", page.content())
+    return {"items": rows, "page_title": page.title() or "",
+            "update_label": (m.group(1).strip() if m else "")}
+
+
+def shot_first_line(page, path):
+    """searchranking 1位（先頭の .line）だけを高解像度で保存"""
+    for _ in range(3):
+        try:
+            el = page.query_selector(".line")
+            if not el:
+                page.wait_for_timeout(700)
+                continue
+            el.scroll_into_view_if_needed(timeout=6000)
+            page.wait_for_timeout(400)
+            el.screenshot(path=path)
+            return True
+        except Exception as e:
+            print(f"    KWスクショ再試行: {e}")
+            page.wait_for_timeout(600)
+    return False
+
+
+def discover_keywords(page, mapping, our_codes, stamp, ts):
+    """各商品タイトル由来キーワードで searchranking を巡回し、自店1位を収集。
+    return: (winners, rows)  rows は history 追記用（period=keyword）"""
+    import urllib.parse
+    MAX_PER_PRODUCT = 3  # 冗長回避：1商品あたり掲載する1位キーワードの上限
+    ours = {c.lower() for c in our_codes}
+    winners, rows, seen_win, checked = [], [], set(), set()
+    per_code = {}
+    os.makedirs(os.path.join(SHOT_DIR, "keyword"), exist_ok=True)
+    for code in sorted(our_codes):
+        rec = mapping[code]
+        cat = rec.get("categoryId")
+        if not cat:
+            continue
+        for kw in keyword_candidates(rec.get("title", "")):
+            if (kw, cat) in checked:
+                continue
+            checked.add((kw, cat))
+            url = (f"https://shopping.yahoo.co.jp/searchranking?p={urllib.parse.quote(kw)}"
+                   f"&rcid={cat}&rterm=default&rmore=1")
+            try:
+                page.goto(url, wait_until="domcontentloaded", timeout=60000)
+                page.wait_for_timeout(800)
+                rk = parse_search_ranking(page)
+            except Exception:
+                continue
+            items = rk["items"]
+            if not items:
+                continue
+            top = items[0]
+            if top["store"] != STORE or not top["code"] or top["code"].lower() not in ours:
+                continue
+            wcode = top["code"]
+            if (wcode.lower(), kw) in seen_win:
+                continue
+            seen_win.add((wcode.lower(), kw))
+            if per_code.get(wcode.lower(), 0) >= MAX_PER_PRODUCT:
+                continue  # この商品は上限に達したので掲載スキップ
+            per_code[wcode.lower()] = per_code.get(wcode.lower(), 0) + 1
+            mcat = re.search(r"（([^）]+)）", rk["page_title"])
+            cat_label = mcat.group(1) if mcat else ""
+            subdir = os.path.join("screenshots", "keyword", wcode)
+            os.makedirs(os.path.join(BASE, subdir), exist_ok=True)
+            rel = os.path.join(subdir, f"{stamp}_{sanitize(kw, 24)}.png")
+            shot_ok = shot_first_line(page, os.path.join(BASE, rel))
+            winners.append({
+                "code": wcode, "keyword": kw, "category_id": cat,
+                "category_name": kw, "cat_label": cat_label,
+                "title": mapping.get(wcode.lower(), {}).get("title") or top["title"],
+                "update_label": rk["update_label"],
+                "screenshot": rel.replace(os.sep, "/") if shot_ok else ""})
+            rows.append([ts.isoformat(), "keyword", cat, kw, wcode, 1,
+                         mapping.get(wcode.lower(), {}).get("title", top["title"])])
+            print(f"    ★KW1位: '{kw}' ({cat_label}) -> {wcode}")
+    return winners, rows
+
+
 # ---- 集計 -----------------------------------------------------------------
 def compute_win_stats(mapping):
     """history.csv から『デイリーで1位になった日数』を集計して wins.json に保存。
@@ -299,6 +424,38 @@ def _section(period_key, period_label, latest, wins):
   </section>"""
 
 
+def _kw_card(w):
+    img = html.escape(w.get("screenshot", ""))
+    title = html.escape(w.get("title", ""))
+    kw = html.escape(w.get("keyword", ""))
+    catl = html.escape(w.get("cat_label", ""))
+    label = f"「{kw}」" + (f"（{catl}）" if catl else "") + " で1位 🏆"
+    img_html = (f'<a href="{img}" target="_blank"><img src="{img}" alt="{title}"></a>'
+                if img else '<div style="color:#aaa;font-size:12px">（スクショ取得待ち）</div>')
+    return f"""
+    <div class="card">
+      <div class="cat">{label}</div>
+      {img_html}
+      <div class="title">{title}</div>
+      <div class="code">{html.escape(w.get('code',''))}</div>
+    </div>"""
+
+
+def _keyword_section(latest):
+    winners = latest.get("keyword", [])
+    upd = _fmt_dt(latest.get("keyword_updated", ""))
+    upd_txt = f"／最終取得 {upd}" if upd else ""
+    if winners:
+        body = '<div class="grid">' + "\n".join(_kw_card(w) for w in winners) + "</div>"
+    else:
+        body = '<p class="none">現在1位のキーワードはありません。</p>'
+    return f"""
+  <section>
+    <h2>キーワードランキング <small>1位 {len(winners)}件{upd_txt}</small></h2>
+    {body}
+  </section>"""
+
+
 def generate_dashboard(latest, wins):
     run_at = latest.get("run_at", "")
     try:
@@ -306,6 +463,7 @@ def generate_dashboard(latest, wins):
     except Exception:
         run_disp = run_at
     sections = "\n".join(_section(k, lbl, latest, wins) for k, lbl in PERIODS)
+    sections += _keyword_section(latest)
     doc = f"""<!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -340,7 +498,7 @@ def generate_dashboard(latest, wins):
 <body>
 <header>
   <h1>annekor1 カテゴリランキング 1位監視</h1>
-  <div class="sub">最終更新: {html.escape(run_disp)}（JST）｜デイリー=1日1回 / リアルタイム=2時間おき 自動更新</div>
+  <div class="sub">最終更新: {html.escape(run_disp)}（JST）｜デイリー=1日1回 / リアルタイム=2時間おき / キーワード=1日1回 自動更新</div>
 </header>
 <main>
 {sections}
@@ -435,6 +593,14 @@ def main():
                         "screenshot": rel.replace(os.sep, "/") if shot_ok else ""})
             print(" ".join(line) + f" [{mapping.get(next(iter(our_in_cat)),{}).get('title','')[:14]}]")
 
+        # キーワードランキング（searchranking）自動発見：全取得（daily含む）のときのみ
+        kw_winners = []
+        if any(pk == "daily" for pk, _ in run_periods):
+            print("[keyword] キーワードランキングを自動発見中...")
+            kw_winners, kw_rows = discover_keywords(page, mapping, our_codes, stamp, ts)
+            rows.extend(kw_rows)
+            print(f"[keyword] 1位キーワード {len(kw_winners)} 件")
+
         # 履歴CSV追記（period 列を含む）
         new_file = not os.path.exists(HISTORY_CSV)
         with open(HISTORY_CSV, "a", newline="", encoding="utf-8-sig") as f:
@@ -456,8 +622,12 @@ def main():
         for pk, _ in run_periods:
             latest[pk] = winners[pk]
             latest[pk + "_updated"] = ts.isoformat()
+        if any(pk == "daily" for pk, _ in run_periods):   # キーワードは全取得時のみ更新
+            latest["keyword"] = kw_winners
+            latest["keyword_updated"] = ts.isoformat()
         for pk, _ in PERIODS:               # 未実行期間もキーは保持
             latest.setdefault(pk, [])
+        latest.setdefault("keyword", [])
         json.dump(latest, open(LATEST_JSON, "w", encoding="utf-8"),
                   ensure_ascii=False, indent=1)
 
@@ -467,6 +637,8 @@ def main():
         print("\n[結果] (取得: " + "/".join(l for _, l in run_periods) + ")")
         for pk, label in run_periods:
             print(f"  {label}: 今回1位 {len(winners[pk])}件")
+        if any(pk == "daily" for pk, _ in run_periods):
+            print(f"  キーワード: 1位 {len(kw_winners)}件")
         print(f"  順位記録 {len(rows)} 行 / 管理画面: index.html")
         browser.close()
 

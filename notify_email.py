@@ -95,6 +95,26 @@ def item_html(w, period, extra=""):
     return body, url
 
 
+def kw_item_html(w):
+    kw = html.escape(w.get("keyword", ""))
+    catl = html.escape(w.get("cat_label", ""))
+    title = html.escape(w.get("title", ""))
+    code = w.get("code", "")
+    shot = w.get("screenshot", "")
+    url = (DASH_URL + shot) if shot else ""
+    item_url = f"https://store.shopping.yahoo.co.jp/{STORE}/{html.escape(code)}.html"
+    img = (f'<div><img src="{html.escape(url)}" alt="{title}" width="640" '
+           f'style="width:100%;max-width:640px;height:auto;border:1px solid #eee;'
+           f'border-radius:6px;margin:6px 0"></div>' if url else "")
+    label = "「" + kw + "」" + (f"（{catl}）" if catl else "") + " で1位 🏆"
+    body = (f'<div style="margin:16px 0;padding-bottom:12px;border-bottom:1px solid #eee">'
+            f'<div style="font-size:15px"><b style="color:#c8102e">{label}</b></div>'
+            f'{img}'
+            f'<div style="font-size:13px;margin-top:4px">{title}</div>'
+            f'<div style="font-size:12px;margin-top:2px"><a href="{item_url}">商品ページ</a></div></div>')
+    return body, url
+
+
 def main():
     mapping = load_json(PRODUCTS, {})
     latest = load_json(LATEST, {})
@@ -116,6 +136,13 @@ def main():
         rt_html.append(h)
         if url:
             image_urls.append(url)
+    kw = latest.get("keyword", [])
+    kw_html = []
+    for w in kw:
+        h, url = kw_item_html(w)
+        kw_html.append(h)
+        if url:
+            image_urls.append(url)
 
     def section(label, n, items):
         head = (f'<h3 style="border-left:5px solid #c8102e;padding-left:8px;'
@@ -124,7 +151,7 @@ def main():
             return head + '<p style="color:#888">該当なし</p>'
         return head + "".join(items)
 
-    subject = f"【Yahoo1位】{dstr}分 デイリー{len(daily)}件・リアルタイム{len(rts)}件"
+    subject = f"【Yahoo1位】{dstr}分 デイリー{len(daily)}件・リアルタイム{len(rts)}件・キーワード{len(kw)}件"
     body = f"""<div style="font-family:'Hiragino Sans','Meiryo',sans-serif;color:#222;max-width:680px">
   <div style="background:#1f2d50;color:#fff;padding:18px 20px;border-radius:8px 8px 0 0">
     <div style="font-size:20px;font-weight:bold">🏆 ランキング1位速報</div>
@@ -134,6 +161,7 @@ def main():
     <p style="font-size:13px;color:#555">デイリー＝当日の1位／リアルタイム＝直近{WINDOW_HOURS}時間に1度でも1位になった商品。</p>
     {section("デイリーランキング", len(daily), daily_html)}
     {section("リアルタイムランキング", len(rts), rt_html)}
+    {section("キーワードランキング", len(kw), kw_html)}
     <hr>
     <p>最新の一覧はこちら → <a href="{DASH_URL}">管理画面ダッシュボード</a></p>
     <p style="color:#999;font-size:12px">毎朝9時に自動送信。画像が表示されない場合はメール上部の「画像を表示」をクリックしてください。</p>
@@ -152,7 +180,7 @@ def main():
     open(os.path.join(BASE, "email_body.html"), "w", encoding="utf-8").write(body)
     open(os.path.join(BASE, "email_images.txt"), "w", encoding="utf-8").write("\n".join(urls))
     print("件名:", subject)
-    print(f"デイリー {len(daily)}件 / リアルタイム {len(rts)}件 / 埋め込み画像 {len(urls)}件")
+    print(f"デイリー {len(daily)}件 / リアルタイム {len(rts)}件 / キーワード {len(kw)}件 / 埋め込み画像 {len(urls)}件")
 
 
 if __name__ == "__main__":

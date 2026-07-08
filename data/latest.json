@@ -1,5 +1,5 @@
 {
- "run_at": "2026-07-08T10:19:08.103526+09:00",
+ "run_at": "2026-07-08T11:11:38.217131+09:00",
  "categories_checked": 38,
  "daily": [
   {
@@ -25,17 +25,17 @@
    "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 入学 折らずにお届け 爆買 超PayPay祭｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/7/8",
    "screenshot": "screenshots/daily/ads001/20260708_cat35462_レディースビジネスバッグ.png"
-  },
-  {
-   "category_id": "67327",
-   "category_name": "食品用ラップ",
-   "code": "ads060-5",
-   "title": "引っ越し 挨拶 ギフト ラップ おしゃれ のし付き 5個セット 品物 挨拶品 袋付 引っ越しギフト 引っ越し祝い 引越し 粗品 サランラップ JOY 爆買 超PayPay祭｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/8",
-   "screenshot": "screenshots/daily/ads060-5/20260708_cat67327_食品用ラップ.png"
   }
  ],
  "realtime": [
+  {
+   "category_id": "35462",
+   "category_name": "レディースビジネスバッグ",
+   "code": "ads001",
+   "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 入学 折らずにお届け 爆買 超PayPay祭｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/8",
+   "screenshot": "screenshots/realtime/ads001/20260708_cat35462_レディースビジネスバッグ.png"
+  },
   {
    "category_id": "4352",
    "category_name": "マザーズバッグ",
@@ -43,8 +43,16 @@
    "title": "マザーズリュック 軽量 大容量 多機能 小さめ マザーズバッグ バッグ ママバッグ おしゃれ 大容量 洗える 洗濯 丸ごと洗える ブランド 撥水 爆買 超PayPay祭｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/7/8",
    "screenshot": "screenshots/realtime/ads010/20260708_cat4352_マザーズバッグ.png"
+  },
+  {
+   "category_id": "45462",
+   "category_name": "お香、インセンス",
+   "code": "ads066",
+   "title": "お香 アロマ 白檀 沈香 金木犀 ホワイトセージ おしゃれ お試し オシャレ 横置き 対応 セット リラクゼーション ヨガ お香 のような お線香 線香 超PayPay祭｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/8",
+   "screenshot": "screenshots/realtime/ads066/20260708_cat45462_お香、インセンス.png"
   }
  ],
- "realtime_updated": "2026-07-08T10:19:08.103526+09:00",
- "daily_updated": "2026-07-08T10:19:08.103526+09:00"
+ "realtime_updated": "2026-07-08T11:11:38.217131+09:00",
+ "daily_updated": "2026-07-08T11:11:38.217131+09:00"
 }

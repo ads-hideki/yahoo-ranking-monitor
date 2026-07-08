@@ -136,13 +136,23 @@ def main():
         rt_html.append(h)
         if url:
             image_urls.append(url)
+    # キーワードは件数が多くなるため、商品ごとにまとめたテキスト一覧にする（画像はダッシュボード）
     kw = latest.get("keyword", [])
-    kw_html = []
+    kw_groups = {}
     for w in kw:
-        h, url = kw_item_html(w)
-        kw_html.append(h)
-        if url:
-            image_urls.append(url)
+        g = kw_groups.setdefault(w.get("code", ""), {
+            "title": w.get("title", ""), "cat": w.get("cat_label", ""), "kws": []})
+        g["kws"].append(w.get("keyword", ""))
+    kw_block = ""
+    for code, g in kw_groups.items():
+        kws = "、".join("「" + html.escape(k) + "」" for k in g["kws"])
+        item_url = f"https://store.shopping.yahoo.co.jp/{STORE}/{html.escape(code)}.html"
+        kw_block += (f'<div style="margin:10px 0;padding-bottom:8px;border-bottom:1px solid #eee">'
+                     f'<b style="color:#c8102e">{html.escape(g["title"][:44])}</b>'
+                     f'<span style="font-size:12px;color:#888">（{html.escape(g["cat"])}）</span><br>'
+                     f'<span style="font-size:13px">{kws} で🏆1位</span>　'
+                     f'<a href="{item_url}" style="font-size:12px">商品ページ</a></div>')
+    kw_html = [kw_block] if kw else []
 
     def section(label, n, items):
         head = (f'<h3 style="border-left:5px solid #c8102e;padding-left:8px;'
@@ -158,7 +168,7 @@ def main():
     <div style="font-size:13px;opacity:.85;margin-top:4px">{dstr}分 / annekor1 カテゴリランキング</div>
   </div>
   <div style="padding:6px 4px">
-    <p style="font-size:13px;color:#555">デイリー＝当日の1位／リアルタイム＝直近{WINDOW_HOURS}時間に1度でも1位になった商品。</p>
+    <p style="font-size:13px;color:#555">デイリー＝当日の1位／リアルタイム＝直近{WINDOW_HOURS}時間に1度でも1位になった商品／キーワード＝キーワード検索での1位（画像は管理画面）。</p>
     {section("デイリーランキング", len(daily), daily_html)}
     {section("リアルタイムランキング", len(rts), rt_html)}
     {section("キーワードランキング", len(kw), kw_html)}

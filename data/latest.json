@@ -1,22 +1,38 @@
 {
- "run_at": "2026-07-08T08:06:25.083926+09:00",
+ "run_at": "2026-07-08T10:19:08.103526+09:00",
  "categories_checked": 38,
  "daily": [
   {
-   "category_id": "45462",
-   "category_name": "お香、インセンス",
-   "code": "ads066",
-   "title": "お香 アロマ 白檀 沈香 金木犀 ホワイトセージ おしゃれ お試し オシャレ 横置き 対応 セット リラクゼーション ヨガ お香 のような お線香 線香 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/7",
-   "screenshot": "screenshots/daily/ads066/20260707_cat45462_お香、インセンス.png"
+   "category_id": "23591",
+   "category_name": "レディースバッグインバッグ",
+   "code": "ads003",
+   "title": "バッグインバッグ 小さめ 自立 フェルト 監修 インナーバッグ バックインバック 底板 軽量 アンコール Annekor 爆買 超PayPay祭｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/8",
+   "screenshot": "screenshots/daily/ads003/20260708_cat23591_レディースバッグインバッグ.png"
   },
   {
-   "category_id": "48240",
-   "category_name": "レディース名刺入れ",
-   "code": "ads033",
-   "title": "名刺入れ レディース 本革 メンズ 革 レザー ブランド 大容量 名刺ケース マグネット おしゃれ ギフト 就職 転職 Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/7",
-   "screenshot": "screenshots/daily/ads033/20260707_cat48240_レディース名刺入れ.png"
+   "category_id": "24144",
+   "category_name": "ポケットティッシュカバー",
+   "code": "ads084",
+   "title": "ポケットティッシュケース 本革 ポーチ 掛けられる ポケットティッシュケース 革 レザー バイカラー フラップ付 かわいい おしゃれ 爆買 超PayPay祭｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/8",
+   "screenshot": "screenshots/daily/ads084/20260708_cat24144_ポケットティッシュカバー.png"
+  },
+  {
+   "category_id": "35462",
+   "category_name": "レディースビジネスバッグ",
+   "code": "ads001",
+   "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 入学 折らずにお届け 爆買 超PayPay祭｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/8",
+   "screenshot": "screenshots/daily/ads001/20260708_cat35462_レディースビジネスバッグ.png"
+  },
+  {
+   "category_id": "67327",
+   "category_name": "食品用ラップ",
+   "code": "ads060-5",
+   "title": "引っ越し 挨拶 ギフト ラップ おしゃれ のし付き 5個セット 品物 挨拶品 袋付 引っ越しギフト 引っ越し祝い 引越し 粗品 サランラップ JOY 爆買 超PayPay祭｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/8",
+   "screenshot": "screenshots/daily/ads060-5/20260708_cat67327_食品用ラップ.png"
   }
  ],
  "realtime": [
@@ -29,6 +45,6 @@
    "screenshot": "screenshots/realtime/ads010/20260708_cat4352_マザーズバッグ.png"
   }
  ],
- "realtime_updated": "2026-07-08T08:06:25.083926+09:00",
- "daily_updated": "2026-07-07T10:45:58.945403+09:00"
+ "realtime_updated": "2026-07-08T10:19:08.103526+09:00",
+ "daily_updated": "2026-07-08T10:19:08.103526+09:00"
 }

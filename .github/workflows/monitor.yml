@@ -40,7 +40,14 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
-          python -m playwright install --with-deps chromium
+          # playwright install は apt 取得の一時失敗(exit 100)が稀にあるためリトライ
+          n=0
+          until python -m playwright install --with-deps chromium; do
+            n=$((n+1))
+            if [ "$n" -ge 3 ]; then echo "playwright install が3回失敗しました"; exit 1; fi
+            echo "playwright install 失敗、$n 回目のリトライを20秒後に実行..."
+            sleep 20
+          done
 
       - name: Run monitor
         run: |

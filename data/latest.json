@@ -1,5 +1,5 @@
 {
- "run_at": "2026-07-08T23:25:46.392817+09:00",
+ "run_at": "2026-07-09T02:42:17.274675+09:00",
  "categories_checked": 38,
  "daily": [
   {
@@ -29,15 +29,23 @@
  ],
  "realtime": [
   {
-   "category_id": "45462",
-   "category_name": "お香、インセンス",
-   "code": "ads066",
-   "title": "お香 アロマ 白檀 沈香 金木犀 ホワイトセージ おしゃれ お試し オシャレ 横置き 対応 セット リラクゼーション ヨガ お香 のような お線香 線香 超PayPay祭｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/8",
-   "screenshot": "screenshots/realtime/ads066/20260708_cat45462_お香、インセンス.png"
+   "category_id": "35462",
+   "category_name": "レディースビジネスバッグ",
+   "code": "ads001",
+   "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 入学 折らずにお届け 爆買 超PayPay祭｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/9",
+   "screenshot": "screenshots/realtime/ads001/20260709_cat35462_レディースビジネスバッグ.png"
+  },
+  {
+   "category_id": "4352",
+   "category_name": "マザーズバッグ",
+   "code": "ads010",
+   "title": "マザーズリュック 軽量 大容量 多機能 小さめ マザーズバッグ バッグ ママバッグ おしゃれ 大容量 洗える 洗濯 丸ごと洗える ブランド 撥水 爆買 超PayPay祭｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/9",
+   "screenshot": "screenshots/realtime/ads010/20260709_cat4352_マザーズバッグ.png"
   }
  ],
- "realtime_updated": "2026-07-08T23:25:46.392817+09:00",
+ "realtime_updated": "2026-07-09T02:42:17.274675+09:00",
  "daily_updated": "2026-07-08T14:53:42.385030+09:00",
  "keyword": [
   {

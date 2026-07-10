@@ -1,5 +1,5 @@
 {
- "run_at": "2026-07-11T02:50:39.127404+09:00",
+ "run_at": "2026-07-11T04:39:29.460216+09:00",
  "categories_checked": 38,
  "daily": [
   {
@@ -21,23 +21,15 @@
  ],
  "realtime": [
   {
-   "category_id": "24098",
-   "category_name": "レディースパスケース、定期入れ",
-   "code": "ads049",
-   "title": "パスケース リール付 本革 レディース 定期入れ 小銭入れ カードケース ミニ財布 財布 おしゃれ かわいい 両面 ICカード 爆買 超PayPay祭｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/11",
-   "screenshot": "screenshots/realtime/ads049/20260711_cat24098_レディースパスケース、定期入れ.png"
-  },
-  {
    "category_id": "35462",
    "category_name": "レディースビジネスバッグ",
-   "code": "ads041",
-   "title": "ビジネスバッグ レディース A4 軽量 自立 通勤 大容量 リクルートバッグ 就活 面接 トートバッグ 営業 爆買 超PayPay祭｜バッグ 雑貨 Annekor アンコール",
+   "code": "ads022",
+   "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 折らずにお届け アンコール Annekor 爆買 超PayPay祭｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/7/11",
-   "screenshot": "screenshots/realtime/ads041/20260711_cat35462_レディースビジネスバッグ.png"
+   "screenshot": "screenshots/realtime/ads022/20260711_cat35462_レディースビジネスバッグ.png"
   }
  ],
- "realtime_updated": "2026-07-11T02:50:39.127404+09:00",
+ "realtime_updated": "2026-07-11T04:39:29.460216+09:00",
  "daily_updated": "2026-07-10T10:24:19.030852+09:00",
  "keyword": [
   {

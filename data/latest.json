@@ -1,5 +1,5 @@
 {
- "run_at": "2026-07-12T05:55:55.876739+09:00",
+ "run_at": "2026-07-12T07:55:52.161855+09:00",
  "categories_checked": 38,
  "daily": [
   {
@@ -53,22 +53,6 @@
  ],
  "realtime": [
   {
-   "category_id": "45462",
-   "category_name": "お香、インセンス",
-   "code": "ads066",
-   "title": "お香 アロマ 白檀 沈香 金木犀 ホワイトセージ おしゃれ お試し オシャレ 横置き 対応 セット リラクゼーション ヨガ お香 のような お線香 線香 超PayPay祭｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/12",
-   "screenshot": "screenshots/realtime/ads066/20260712_cat45462_お香、インセンス.png"
-  },
-  {
-   "category_id": "48240",
-   "category_name": "レディース名刺入れ",
-   "code": "ads033",
-   "title": "名刺入れ レディース 本革 メンズ 革 レザー ブランド 大容量 名刺ケース マグネット おしゃれ ギフト 就職 転職 Annekor｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/12",
-   "screenshot": "screenshots/realtime/ads033/20260712_cat48240_レディース名刺入れ.png"
-  },
-  {
    "category_id": "68725",
    "category_name": "その他レディース財布",
    "code": "ads035",
@@ -77,7 +61,7 @@
    "screenshot": "screenshots/realtime/ads035/20260712_cat68725_その他レディース財布.png"
   }
  ],
- "realtime_updated": "2026-07-12T05:55:55.876739+09:00",
+ "realtime_updated": "2026-07-12T07:55:52.161855+09:00",
  "daily_updated": "2026-07-11T10:17:56.100424+09:00",
  "keyword": [
   {

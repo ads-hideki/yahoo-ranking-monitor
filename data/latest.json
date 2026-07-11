@@ -1,5 +1,5 @@
 {
- "run_at": "2026-07-11T14:17:44.151441+09:00",
+ "run_at": "2026-07-11T17:03:23.536859+09:00",
  "categories_checked": 38,
  "daily": [
   {
@@ -51,8 +51,41 @@
    "screenshot": "screenshots/daily/ads090/20260711_cat68713_レディース二つ折り財布.png"
   }
  ],
- "realtime": [],
- "realtime_updated": "2026-07-11T14:17:44.151441+09:00",
+ "realtime": [
+  {
+   "category_id": "37190",
+   "category_name": "レディースブラックフォーマルバッグ",
+   "code": "ads082",
+   "title": "フォーマルバッグ 黒 大きめ 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 サブバッグ付 ペットボトルが入る ブラック バック 爆買 超PayPay祭｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/11",
+   "screenshot": "screenshots/realtime/ads082/20260711_cat37190_レディースブラックフォーマルバッグ.png"
+  },
+  {
+   "category_id": "48240",
+   "category_name": "レディース名刺入れ",
+   "code": "ads033",
+   "title": "名刺入れ レディース 本革 メンズ 革 レザー ブランド 大容量 名刺ケース マグネット おしゃれ ギフト 就職 転職 Annekor｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/11",
+   "screenshot": "screenshots/realtime/ads033/20260711_cat48240_レディース名刺入れ.png"
+  },
+  {
+   "category_id": "68725",
+   "category_name": "その他レディース財布",
+   "code": "ads035",
+   "title": "ミニ財布 レディース 二つ折り 財布 本革 お札折らない 薄い 財布 コンパクト財布 キャッシュレス 極薄 スリム スキミング防止 一粒万倍日｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/11",
+   "screenshot": "screenshots/realtime/ads035/20260711_cat68725_その他レディース財布.png"
+  },
+  {
+   "category_id": "74092",
+   "category_name": "車内収納用品",
+   "code": "ads067",
+   "title": "シートボックス 腰クッション 車用 収納ボックス 車内 クッション カー用品 大容量 車内収納 小物入れ 荷物入れ｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/11",
+   "screenshot": "screenshots/realtime/ads067/20260711_cat74092_車内収納用品.png"
+  }
+ ],
+ "realtime_updated": "2026-07-11T17:03:23.536859+09:00",
  "daily_updated": "2026-07-11T10:17:56.100424+09:00",
  "keyword": [
   {

@@ -1,5 +1,5 @@
 {
- "run_at": "2026-07-12T10:19:51.866836+09:00",
+ "run_at": "2026-07-12T14:33:44.601215+09:00",
  "categories_checked": 38,
  "daily": [
   {
@@ -53,15 +53,31 @@
  ],
  "realtime": [
   {
+   "category_id": "35462",
+   "category_name": "レディースビジネスバッグ",
+   "code": "ads022",
+   "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 折らずにお届け アンコール Annekor 爆買 超PayPay祭｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/12",
+   "screenshot": "screenshots/realtime/ads022/20260712_cat35462_レディースビジネスバッグ.png"
+  },
+  {
    "category_id": "45462",
    "category_name": "お香、インセンス",
    "code": "ads066",
    "title": "お香 アロマ 白檀 沈香 金木犀 ホワイトセージ おしゃれ お試し オシャレ 横置き 対応 セット リラクゼーション ヨガ お香 のような お線香 線香 超PayPay祭｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/7/12",
    "screenshot": "screenshots/realtime/ads066/20260712_cat45462_お香、インセンス.png"
+  },
+  {
+   "category_id": "4869",
+   "category_name": "マタニティグッズ、母子手帳ケース",
+   "code": "ads034",
+   "title": "母子手帳ケース ジャバラ 母子手帳 整理収納アドバイザー監修 3人分 2人分 マルチポーチ じゃばら カード 収納 マルチケース 爆買 超PayPay祭｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/12",
+   "screenshot": "screenshots/realtime/ads034/20260712_cat4869_マタニティグッズ、母子手帳ケース.png"
   }
  ],
- "realtime_updated": "2026-07-12T10:19:51.866836+09:00",
+ "realtime_updated": "2026-07-12T14:33:44.601215+09:00",
  "daily_updated": "2026-07-12T10:19:51.866836+09:00",
  "keyword": [
   {

@@ -16,7 +16,8 @@ def main():
     cutoff = (datetime.datetime.now(JST).date()
               - datetime.timedelta(days=KEEP_DAYS))
     removed = 0
-    for period in ("daily", "realtime", "keyword"):
+    # keyword は「獲得実績」として台帳＋スクショを永久保存するためプルーニング対象外
+    for period in ("daily", "realtime"):
         pdir = os.path.join(SHOT_DIR, period)
         if not os.path.isdir(pdir):
             continue

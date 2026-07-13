@@ -33,6 +33,7 @@ PRODUCTS_JSON = os.path.join(DATA_DIR, "products.json")
 HISTORY_CSV = os.path.join(DATA_DIR, "history.csv")
 LATEST_JSON = os.path.join(DATA_DIR, "latest.json")
 WINS_JSON = os.path.join(DATA_DIR, "wins.json")
+KEYWORD_WINS_JSON = os.path.join(DATA_DIR, "keyword_wins.json")  # 獲得済みキーワード台帳
 DASHBOARD = os.path.join(BASE, "index.html")
 
 NAV_CODES = {"guide", "info", "search", "index", "store", "user",
@@ -276,12 +277,24 @@ def shot_first_line(page, path):
 
 def discover_keywords(page, mapping, our_codes, stamp, ts):
     """各商品タイトル由来キーワードで searchranking を巡回し、自店1位を収集。
-    return: (winners, rows)  rows は history 追記用（period=keyword）"""
+    ★一度獲得済みの(商品,キーワード)は台帳(keyword_wins.json)で除外し、
+    新規獲得のみ history/メールに出す（2回目以降はスクショも撮らない）。
+    return: (new_winners, rows, ledger_list)"""
     import urllib.parse
-    MAX_PER_PRODUCT = 3  # 冗長回避：1商品あたり掲載する1位キーワードの上限
+    MAX_PER_PRODUCT = 3  # 台帳に載せる1商品あたりの上限
     ours = {c.lower() for c in our_codes}
-    winners, rows, seen_win, checked = [], [], set(), set()
+    ledger = {}
+    if os.path.exists(KEYWORD_WINS_JSON):
+        try:
+            ledger = json.load(open(KEYWORD_WINS_JSON, encoding="utf-8"))
+        except Exception:
+            ledger = {}
     per_code = {}
+    for v in ledger.values():
+        cc = (v.get("code") or "").lower()
+        per_code[cc] = per_code.get(cc, 0) + 1
+
+    new_winners, rows, checked = [], [], set()
     os.makedirs(os.path.join(SHOT_DIR, "keyword"), exist_ok=True)
     for code in sorted(our_codes):
         rec = mapping[code]
@@ -304,7 +317,6 @@ def discover_keywords(page, mapping, our_codes, stamp, ts):
             if not items:
                 continue
             # 自社独自フレーズ等で「結果が少なく競合ゼロ＝中身のない1位」を除外。
-            # 実在の検索語は十分な件数と他店の競合がある。
             other_stores = {it["store"] for it in items
                             if it["store"] and it["store"] != STORE}
             if len(items) < 6 or len(other_stores) < 2:
@@ -313,11 +325,11 @@ def discover_keywords(page, mapping, our_codes, stamp, ts):
             if top["store"] != STORE or not top["code"] or top["code"].lower() not in ours:
                 continue
             wcode = top["code"]
-            if (wcode.lower(), kw) in seen_win:
-                continue
-            seen_win.add((wcode.lower(), kw))
+            key = wcode.lower() + "|" + kw
+            if key in ledger:
+                continue  # 獲得済み＝2回目以降はスキップ（履歴・メール・スクショなし）
             if per_code.get(wcode.lower(), 0) >= MAX_PER_PRODUCT:
-                continue  # この商品は上限に達したので掲載スキップ
+                continue
             per_code[wcode.lower()] = per_code.get(wcode.lower(), 0) + 1
             mcat = re.search(r"（([^）]+)）", rk["page_title"])
             cat_label = mcat.group(1) if mcat else ""
@@ -325,16 +337,21 @@ def discover_keywords(page, mapping, our_codes, stamp, ts):
             os.makedirs(os.path.join(BASE, subdir), exist_ok=True)
             rel = os.path.join(subdir, f"{stamp}_{sanitize(kw, 24)}.png")
             shot_ok = shot_first_line(page, os.path.join(BASE, rel))
-            winners.append({
-                "code": wcode, "keyword": kw, "category_id": cat,
-                "category_name": kw, "cat_label": cat_label,
-                "title": mapping.get(wcode.lower(), {}).get("title") or top["title"],
-                "update_label": rk["update_label"],
-                "screenshot": rel.replace(os.sep, "/") if shot_ok else ""})
-            rows.append([ts.isoformat(), "keyword", cat, kw, wcode, 1,
-                         mapping.get(wcode.lower(), {}).get("title", top["title"])])
-            print(f"    ★KW1位: '{kw}' ({cat_label}) -> {wcode}")
-    return winners, rows
+            entry = {"code": wcode, "keyword": kw, "category_id": cat,
+                     "category_name": kw, "cat_label": cat_label,
+                     "title": mapping.get(wcode.lower(), {}).get("title") or top["title"],
+                     "update_label": rk["update_label"],
+                     "screenshot": rel.replace(os.sep, "/") if shot_ok else "",
+                     "first_date": ts.strftime("%Y-%m-%d")}
+            ledger[key] = entry
+            new_winners.append(entry)
+            rows.append([ts.isoformat(), "keyword", cat, kw, wcode, 1, entry["title"]])
+            print(f"    ★KW新規1位: '{kw}' ({cat_label}) -> {wcode}")
+    json.dump(ledger, open(KEYWORD_WINS_JSON, "w", encoding="utf-8"),
+              ensure_ascii=False, indent=1)
+    ledger_list = sorted(ledger.values(),
+                         key=lambda v: v.get("first_date", ""), reverse=True)
+    return new_winners, rows, ledger_list
 
 
 # ---- 集計 -----------------------------------------------------------------
@@ -435,6 +452,7 @@ def _kw_card(w):
     title = html.escape(w.get("title", ""))
     kw = html.escape(w.get("keyword", ""))
     catl = html.escape(w.get("cat_label", ""))
+    fd = html.escape(w.get("first_date", ""))
     label = f"「{kw}」" + (f"（{catl}）" if catl else "") + " で1位 🏆"
     img_html = (f'<a href="{img}" target="_blank"><img src="{img}" alt="{title}"></a>'
                 if img else '<div style="color:#aaa;font-size:12px">（スクショ取得待ち）</div>')
@@ -443,21 +461,22 @@ def _kw_card(w):
       <div class="cat">{label}</div>
       {img_html}
       <div class="title">{title}</div>
-      <div class="code">{html.escape(w.get('code',''))}</div>
+      <div class="code">{html.escape(w.get('code',''))}　獲得日: {fd}</div>
     </div>"""
 
 
 def _keyword_section(latest):
     winners = latest.get("keyword", [])
+    new_n = len(latest.get("keyword_new", []))
     upd = _fmt_dt(latest.get("keyword_updated", ""))
     upd_txt = f"／最終取得 {upd}" if upd else ""
     if winners:
         body = '<div class="grid">' + "\n".join(_kw_card(w) for w in winners) + "</div>"
     else:
-        body = '<p class="none">現在1位のキーワードはありません。</p>'
+        body = '<p class="none">まだキーワード1位の獲得はありません。</p>'
     return f"""
   <section>
-    <h2>キーワードランキング <small>1位 {len(winners)}件{upd_txt}</small></h2>
+    <h2>キーワード1位 獲得実績 <small>累計 {len(winners)}件（本日新規 {new_n}件）{upd_txt}</small></h2>
     {body}
   </section>"""
 
@@ -600,12 +619,12 @@ def main():
             print(" ".join(line) + f" [{mapping.get(next(iter(our_in_cat)),{}).get('title','')[:14]}]")
 
         # キーワードランキング（searchranking）自動発見：全取得（daily含む）のときのみ
-        kw_winners = []
+        kw_new, kw_ledger = [], []
         if any(pk == "daily" for pk, _ in run_periods):
             print("[keyword] キーワードランキングを自動発見中...")
-            kw_winners, kw_rows = discover_keywords(page, mapping, our_codes, stamp, ts)
+            kw_new, kw_rows, kw_ledger = discover_keywords(page, mapping, our_codes, stamp, ts)
             rows.extend(kw_rows)
-            print(f"[keyword] 1位キーワード {len(kw_winners)} 件")
+            print(f"[keyword] 新規1位 {len(kw_new)} 件 / 累計 {len(kw_ledger)} 件")
 
         # 履歴CSV追記（period 列を含む）
         new_file = not os.path.exists(HISTORY_CSV)
@@ -629,11 +648,13 @@ def main():
             latest[pk] = winners[pk]
             latest[pk + "_updated"] = ts.isoformat()
         if any(pk == "daily" for pk, _ in run_periods):   # キーワードは全取得時のみ更新
-            latest["keyword"] = kw_winners
+            latest["keyword"] = kw_ledger        # ダッシュボード＝累計台帳
+            latest["keyword_new"] = kw_new       # メール＝本日の新規のみ
             latest["keyword_updated"] = ts.isoformat()
         for pk, _ in PERIODS:               # 未実行期間もキーは保持
             latest.setdefault(pk, [])
         latest.setdefault("keyword", [])
+        latest.setdefault("keyword_new", [])
         json.dump(latest, open(LATEST_JSON, "w", encoding="utf-8"),
                   ensure_ascii=False, indent=1)
 
@@ -644,7 +665,7 @@ def main():
         for pk, label in run_periods:
             print(f"  {label}: 今回1位 {len(winners[pk])}件")
         if any(pk == "daily" for pk, _ in run_periods):
-            print(f"  キーワード: 1位 {len(kw_winners)}件")
+            print(f"  キーワード: 新規 {len(kw_new)}件 / 累計 {len(kw_ledger)}件")
         print(f"  順位記録 {len(rows)} 行 / 管理画面: index.html")
         browser.close()
 

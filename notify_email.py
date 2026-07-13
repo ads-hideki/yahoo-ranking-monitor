@@ -136,8 +136,8 @@ def main():
         rt_html.append(h)
         if url:
             image_urls.append(url)
-    # キーワードは件数が多くなるため、商品ごとにまとめたテキスト一覧にする（画像はダッシュボード）
-    kw = latest.get("keyword", [])
+    # キーワードは「本日の新規1位」のみ（獲得済みは再通知しない）。商品ごとのテキスト一覧。
+    kw = latest.get("keyword_new", [])
     kw_groups = {}
     for w in kw:
         g = kw_groups.setdefault(w.get("code", ""), {
@@ -161,17 +161,17 @@ def main():
             return head + '<p style="color:#888">該当なし</p>'
         return head + "".join(items)
 
-    subject = f"【Yahoo1位】{dstr}分 デイリー{len(daily)}件・リアルタイム{len(rts)}件・キーワード{len(kw)}件"
+    subject = f"【Yahoo1位】{dstr}分 デイリー{len(daily)}件・リアルタイム{len(rts)}件・キーワード新規{len(kw)}件"
     body = f"""<div style="font-family:'Hiragino Sans','Meiryo',sans-serif;color:#222;max-width:680px">
   <div style="background:#1f2d50;color:#fff;padding:18px 20px;border-radius:8px 8px 0 0">
     <div style="font-size:20px;font-weight:bold">🏆 ランキング1位速報</div>
     <div style="font-size:13px;opacity:.85;margin-top:4px">{dstr}分 / annekor1 カテゴリランキング</div>
   </div>
   <div style="padding:6px 4px">
-    <p style="font-size:13px;color:#555">デイリー＝当日の1位／リアルタイム＝直近{WINDOW_HOURS}時間に1度でも1位になった商品／キーワード＝キーワード検索での1位（画像は管理画面）。</p>
+    <p style="font-size:13px;color:#555">デイリー＝当日の1位／リアルタイム＝直近{WINDOW_HOURS}時間に1度でも1位になった商品／キーワード＝本日新たに1位獲得したキーワードのみ（累計・画像は管理画面）。</p>
     {section("デイリーランキング", len(daily), daily_html)}
     {section("リアルタイムランキング", len(rts), rt_html)}
-    {section("キーワードランキング", len(kw), kw_html)}
+    {section("キーワードランキング（本日の新規1位）", len(kw), kw_html)}
     <hr>
     <p>最新の一覧はこちら → <a href="{DASH_URL}">管理画面ダッシュボード</a></p>
     <p style="color:#999;font-size:12px">毎朝9時に自動送信。画像が表示されない場合はメール上部の「画像を表示」をクリックしてください。</p>
@@ -190,7 +190,7 @@ def main():
     open(os.path.join(BASE, "email_body.html"), "w", encoding="utf-8").write(body)
     open(os.path.join(BASE, "email_images.txt"), "w", encoding="utf-8").write("\n".join(urls))
     print("件名:", subject)
-    print(f"デイリー {len(daily)}件 / リアルタイム {len(rts)}件 / キーワード {len(kw)}件 / 埋め込み画像 {len(urls)}件")
+    print(f"デイリー {len(daily)}件 / リアルタイム {len(rts)}件 / キーワード新規 {len(kw)}件 / 埋め込み画像 {len(urls)}件")
 
 
 if __name__ == "__main__":

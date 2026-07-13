@@ -1,5 +1,5 @@
 {
- "run_at": "2026-07-13T10:20:57.494974+09:00",
+ "run_at": "2026-07-13T11:56:22.242584+09:00",
  "categories_checked": 38,
  "daily": [
   {
@@ -9,14 +9,6 @@
    "title": "ビジネスバッグ レディース A4 軽量 自立 通勤 大容量 リクルートバッグ 就活 面接 トートバッグ 営業 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/7/13",
    "screenshot": "screenshots/daily/ads041/20260713_cat35462_レディースビジネスバッグ.png"
-  },
-  {
-   "category_id": "4352",
-   "category_name": "マザーズバッグ",
-   "code": "ads004",
-   "title": "マザーズリュック 軽量 大容量 バッグ リュック マザーズバッグ バック ママ パパ ブランド 撥水 おしゃれ ペアレンツバッグ Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/daily/ads004/20260713_cat4352_マザーズバッグ.png"
   },
   {
    "category_id": "45462",
@@ -45,651 +37,567 @@
  ],
  "realtime": [
   {
-   "category_id": "4352",
-   "category_name": "マザーズバッグ",
-   "code": "ads004",
-   "title": "マザーズリュック 軽量 大容量 バッグ リュック マザーズバッグ バック ママ パパ ブランド 撥水 おしゃれ ペアレンツバッグ Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/realtime/ads004/20260713_cat4352_マザーズバッグ.png"
-  },
-  {
    "category_id": "68710",
    "category_name": "レディース長財布",
    "code": "ads089",
    "title": "長財布 レディース 本革 財布 小さい財布 大容量 薄い お札が折れない ブランド 使いやすい バイカラー 小さな長財布 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/7/13",
    "screenshot": "screenshots/realtime/ads089/20260713_cat68710_レディース長財布.png"
-  },
-  {
-   "category_id": "68725",
-   "category_name": "その他レディース財布",
-   "code": "ads035",
-   "title": "ミニ財布 レディース 二つ折り 財布 本革 お札折らない 薄い 財布 コンパクト財布 キャッシュレス 極薄 スリム スキミング防止 一粒万倍日 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/realtime/ads035/20260713_cat68725_その他レディース財布.png"
-  },
-  {
-   "category_id": "74092",
-   "category_name": "車内収納用品",
-   "code": "ads067",
-   "title": "シートボックス 腰クッション 車用 収納ボックス 車内 クッション カー用品 大容量 車内収納 小物入れ 荷物入れ 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/realtime/ads067/20260713_cat74092_車内収納用品.png"
   }
  ],
- "realtime_updated": "2026-07-13T10:20:57.494974+09:00",
- "daily_updated": "2026-07-13T10:20:57.494974+09:00",
+ "realtime_updated": "2026-07-13T11:56:22.242584+09:00",
+ "daily_updated": "2026-07-13T11:56:22.242584+09:00",
  "keyword": [
   {
    "code": "ads041",
    "keyword": "ビジネスバッグ レディース",
    "category_id": "35462",
-   "category_name": "ビジネスバッグ レディース",
    "cat_label": "レディースビジネスバッグ",
    "title": "ビジネスバッグ レディース A4 軽量 自立 通勤 大容量 リクルートバッグ 就活 面接 トートバッ...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads041/20260713_ビジネスバッグ_レディース.png"
+   "screenshot": "screenshots/keyword/ads041/20260713_ビジネスバッグ_レディース.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads041",
    "keyword": "レディース A4",
    "category_id": "35462",
-   "category_name": "レディース A4",
    "cat_label": "レディースビジネスバッグ",
    "title": "ビジネスバッグ レディース A4 軽量 自立 通勤 大容量 リクルートバッグ 就活 面接 トートバッ...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads041/20260713_レディース_A4.png"
+   "screenshot": "screenshots/keyword/ads041/20260713_レディース_A4.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads041",
    "keyword": "A4 軽量",
    "category_id": "35462",
-   "category_name": "A4 軽量",
    "cat_label": "レディースビジネスバッグ",
    "title": "ビジネスバッグ レディース A4 軽量 自立 通勤 大容量 リクルートバッグ 就活 面接 トートバッ...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads041/20260713_A4_軽量.png"
+   "screenshot": "screenshots/keyword/ads041/20260713_A4_軽量.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads004",
    "keyword": "マザーズリュック 軽量",
    "category_id": "4352",
-   "category_name": "マザーズリュック 軽量",
    "cat_label": "マザーズバッグ",
    "title": "マザーズリュック 軽量 大容量 バッグ リュック マザーズバッグ バック ママ パパ ブランド 撥水...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads004/20260713_マザーズリュック_軽量.png"
+   "screenshot": "screenshots/keyword/ads004/20260713_マザーズリュック_軽量.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads004",
    "keyword": "軽量 大容量",
    "category_id": "4352",
-   "category_name": "軽量 大容量",
    "cat_label": "マザーズバッグ",
    "title": "マザーズリュック 軽量 大容量 バッグ リュック マザーズバッグ バック ママ パパ ブランド 撥水...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads004/20260713_軽量_大容量.png"
+   "screenshot": "screenshots/keyword/ads004/20260713_軽量_大容量.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads004",
    "keyword": "大容量 バッグ",
    "category_id": "4352",
-   "category_name": "大容量 バッグ",
    "cat_label": "マザーズバッグ",
    "title": "マザーズリュック 軽量 大容量 バッグ リュック マザーズバッグ バック ママ パパ ブランド 撥水...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads004/20260713_大容量_バッグ.png"
+   "screenshot": "screenshots/keyword/ads004/20260713_大容量_バッグ.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads046",
    "keyword": "スマホショルダー 本革",
    "category_id": "23549",
-   "category_name": "スマホショルダー 本革",
    "cat_label": "レディースショルダーバッグ",
    "title": "ショルダーバッグ レディース 大きめ 本革 軽い 斜めがけ 2way シンプル コンパクト 革 レザ...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads046/20260713_スマホショルダー_本革.png"
+   "screenshot": "screenshots/keyword/ads046/20260713_スマホショルダー_本革.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads008-l",
    "keyword": "マザーズバッグ トート",
    "category_id": "4352",
-   "category_name": "マザーズバッグ トート",
    "cat_label": "マザーズバッグ",
    "title": "＼TVドラマ衣装提供商品／ マザーズバッグ トート 2WAY サイズ L マザーズバック 高見え シ...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads008-l/20260713_マザーズバッグ_トート.png"
+   "screenshot": "screenshots/keyword/ads008-l/20260713_マザーズバッグ_トート.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads008-l",
    "keyword": "トート サイズ",
    "category_id": "4352",
-   "category_name": "トート サイズ",
    "cat_label": "マザーズバッグ",
    "title": "＼TVドラマ衣装提供商品／ マザーズバッグ トート 2WAY サイズ L マザーズバック 高見え シ...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads008-l/20260713_トート_サイズ.png"
+   "screenshot": "screenshots/keyword/ads008-l/20260713_トート_サイズ.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads011",
    "keyword": "結婚式 本革",
    "category_id": "15830",
-   "category_name": "結婚式 本革",
    "cat_label": "メンズクラッチバッグ",
    "title": "クラッチバッグ メンズ 小さめ ブランド 結婚式 本革 レザー 2WAY 冠婚葬祭 セカンドバッグ ...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads011/20260713_結婚式_本革.png"
+   "screenshot": "screenshots/keyword/ads011/20260713_結婚式_本革.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads017",
    "keyword": "ミニ財布 レディース",
    "category_id": "48241",
-   "category_name": "ミニ財布 レディース",
    "cat_label": "レディースIDカードケース",
    "title": "ミニ財布 レディース 本革 財布 お札折らない カードケース 小さめ ブランド ジャバラ じゃばら ...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads017/20260713_ミニ財布_レディース.png"
+   "screenshot": "screenshots/keyword/ads017/20260713_ミニ財布_レディース.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads017",
    "keyword": "本革 財布",
    "category_id": "48241",
-   "category_name": "本革 財布",
    "cat_label": "レディースIDカードケース",
    "title": "ミニ財布 レディース 本革 財布 お札折らない カードケース 小さめ ブランド ジャバラ じゃばら ...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads017/20260713_本革_財布.png"
+   "screenshot": "screenshots/keyword/ads017/20260713_本革_財布.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads017",
    "keyword": "お札折らない カードケース",
    "category_id": "48241",
-   "category_name": "お札折らない カードケース",
    "cat_label": "レディースIDカードケース",
    "title": "ミニ財布 レディース 本革 財布 お札折らない カードケース 小さめ ブランド ジャバラ じゃばら ...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads017/20260713_お札折らない_カードケース.png"
+   "screenshot": "screenshots/keyword/ads017/20260713_お札折らない_カードケース.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads046",
    "keyword": "本革 斜めがけ",
    "category_id": "23549",
-   "category_name": "本革 斜めがけ",
    "cat_label": "レディースショルダーバッグ",
    "title": "ショルダーバッグ レディース 大きめ 本革 軽い 斜めがけ 2way シンプル コンパクト 革 レザ...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads046/20260713_本革_斜めがけ.png"
+   "screenshot": "screenshots/keyword/ads046/20260713_本革_斜めがけ.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads029-l",
    "keyword": "大きめ 横型",
    "category_id": "23591",
-   "category_name": "大きめ 横型",
    "cat_label": "レディースバッグインバッグ",
    "title": "バッグインバッグ A4 自立 大きめ 横型 ナイロン 軽量 多機能 収納 インナーバッグ 旅行 バッ...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads029-l/20260713_大きめ_横型.png"
+   "screenshot": "screenshots/keyword/ads029-l/20260713_大きめ_横型.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads032",
    "keyword": "ストラップ スマホポーチ",
    "category_id": "23549",
-   "category_name": "ストラップ スマホポーチ",
    "cat_label": "レディースショルダーバッグ",
    "title": "スマホショルダー レディース 本革 ブランド ストラップ スマホポーチ ショルダーバッグ サコッシュ...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads032/20260713_ストラップ_スマホポーチ.png"
+   "screenshot": "screenshots/keyword/ads032/20260713_ストラップ_スマホポーチ.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads033",
    "keyword": "レディース 本革",
    "category_id": "48240",
-   "category_name": "レディース 本革",
    "cat_label": "レディース名刺入れ",
    "title": "名刺入れ レディース 本革 メンズ 革 レザー ブランド 大容量 名刺ケース マグネット おしゃれ ...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads033/20260713_レディース_本革.png"
+   "screenshot": "screenshots/keyword/ads033/20260713_レディース_本革.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads033",
    "keyword": "本革 メンズ",
    "category_id": "48240",
-   "category_name": "本革 メンズ",
    "cat_label": "レディース名刺入れ",
    "title": "名刺入れ レディース 本革 メンズ 革 レザー ブランド 大容量 名刺ケース マグネット おしゃれ ...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads033/20260713_本革_メンズ.png"
+   "screenshot": "screenshots/keyword/ads033/20260713_本革_メンズ.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads033",
    "keyword": "レザー ブランド",
    "category_id": "48240",
-   "category_name": "レザー ブランド",
    "cat_label": "レディース名刺入れ",
    "title": "名刺入れ レディース 本革 メンズ 革 レザー ブランド 大容量 名刺ケース マグネット おしゃれ ...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads033/20260713_レザー_ブランド.png"
+   "screenshot": "screenshots/keyword/ads033/20260713_レザー_ブランド.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads034",
    "keyword": "マルチポーチ じゃばら...",
    "category_id": "4869",
-   "category_name": "マルチポーチ じゃばら...",
    "cat_label": "マタニティグッズ、母子手帳ケース",
    "title": "母子手帳ケース ジャバラ 母子手帳 整理収納アドバイザー監修 3人分 2人分 マルチポーチ じゃばら...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads034/20260713_マルチポーチ_じゃばら....png"
+   "screenshot": "screenshots/keyword/ads034/20260713_マルチポーチ_じゃばら....png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads035",
    "keyword": "ミニ財布 レディース",
    "category_id": "68725",
-   "category_name": "ミニ財布 レディース",
    "cat_label": "その他レディース財布",
    "title": "ミニ財布 レディース 二つ折り 財布 本革 お札折らない 薄い 財布 コンパクト財布 キャッシュレス...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads035/20260713_ミニ財布_レディース.png"
+   "screenshot": "screenshots/keyword/ads035/20260713_ミニ財布_レディース.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads035",
    "keyword": "レディース 二つ折り",
    "category_id": "68725",
-   "category_name": "レディース 二つ折り",
    "cat_label": "その他レディース財布",
    "title": "ミニ財布 レディース 二つ折り 財布 本革 お札折らない 薄い 財布 コンパクト財布 キャッシュレス...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads035/20260713_レディース_二つ折り.png"
+   "screenshot": "screenshots/keyword/ads035/20260713_レディース_二つ折り.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads035",
    "keyword": "二つ折り 財布",
    "category_id": "68725",
-   "category_name": "二つ折り 財布",
    "cat_label": "その他レディース財布",
    "title": "ミニ財布 レディース 二つ折り 財布 本革 お札折らない 薄い 財布 コンパクト財布 キャッシュレス...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads035/20260713_二つ折り_財布.png"
+   "screenshot": "screenshots/keyword/ads035/20260713_二つ折り_財布.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads042",
    "keyword": "本革 軽量",
    "category_id": "68725",
-   "category_name": "本革 軽量",
    "cat_label": "その他レディース財布",
    "title": "長財布 レディース 薄い 本革 軽量 大容量 財布 二つ折り 薄型 極薄 コンパクト財布 キャッシュ...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads042/20260713_本革_軽量.png"
+   "screenshot": "screenshots/keyword/ads042/20260713_本革_軽量.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads042",
    "keyword": "軽量 大容量",
    "category_id": "68725",
-   "category_name": "軽量 大容量",
    "cat_label": "その他レディース財布",
    "title": "長財布 レディース 薄い 本革 軽量 大容量 財布 二つ折り 薄型 極薄 コンパクト財布 キャッシュ...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads042/20260713_軽量_大容量.png"
+   "screenshot": "screenshots/keyword/ads042/20260713_軽量_大容量.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads044",
    "keyword": "本革 がま口",
    "category_id": "68713",
-   "category_name": "本革 がま口",
    "cat_label": "レディース二つ折り財布",
    "title": "二つ折り財布 レディース 本革 がま口 ミニ財布 レディース がま口 二つ折り ブランド 使いやすい...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads044/20260713_本革_がま口.png"
+   "screenshot": "screenshots/keyword/ads044/20260713_本革_がま口.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads044",
    "keyword": "がま口 ミニ財布",
    "category_id": "68713",
-   "category_name": "がま口 ミニ財布",
    "cat_label": "レディース二つ折り財布",
    "title": "二つ折り財布 レディース 本革 がま口 ミニ財布 レディース がま口 二つ折り ブランド 使いやすい...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads044/20260713_がま口_ミニ財布.png"
+   "screenshot": "screenshots/keyword/ads044/20260713_がま口_ミニ財布.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads046",
    "keyword": "大きめ 本革",
    "category_id": "23549",
-   "category_name": "大きめ 本革",
    "cat_label": "レディースショルダーバッグ",
    "title": "ショルダーバッグ レディース 大きめ 本革 軽い 斜めがけ 2way シンプル コンパクト 革 レザ...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads046/20260713_大きめ_本革.png"
+   "screenshot": "screenshots/keyword/ads046/20260713_大きめ_本革.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads049",
    "keyword": "パスケース リール付",
    "category_id": "24098",
-   "category_name": "パスケース リール付",
    "cat_label": "レディースパスケース、定期入れ",
    "title": "パスケース リール付 本革 レディース 定期入れ 小銭入れ カードケース ミニ財布 財布 おしゃれ ...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads049/20260713_パスケース_リール付.png"
+   "screenshot": "screenshots/keyword/ads049/20260713_パスケース_リール付.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads049",
    "keyword": "リール付 本革",
    "category_id": "24098",
-   "category_name": "リール付 本革",
    "cat_label": "レディースパスケース、定期入れ",
    "title": "パスケース リール付 本革 レディース 定期入れ 小銭入れ カードケース ミニ財布 財布 おしゃれ ...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads049/20260713_リール付_本革.png"
+   "screenshot": "screenshots/keyword/ads049/20260713_リール付_本革.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads049",
    "keyword": "定期入れ 小銭入れ",
    "category_id": "24098",
-   "category_name": "定期入れ 小銭入れ",
    "cat_label": "レディースパスケース、定期入れ",
    "title": "パスケース リール付 本革 レディース 定期入れ 小銭入れ カードケース ミニ財布 財布 おしゃれ ...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads049/20260713_定期入れ_小銭入れ.png"
+   "screenshot": "screenshots/keyword/ads049/20260713_定期入れ_小銭入れ.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads055",
    "keyword": "消臭 グッズ",
    "category_id": "68518",
-   "category_name": "消臭 グッズ",
    "cat_label": "靴用消臭剤",
    "title": "靴 消臭 グッズ 除湿剤 繰り返し 竹炭 乾燥剤 繰り返し使用可 空気清浄 タンス クローゼット 脱...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads055/20260713_消臭_グッズ.png"
+   "screenshot": "screenshots/keyword/ads055/20260713_消臭_グッズ.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads055",
    "keyword": "除湿剤 繰り返し",
    "category_id": "68518",
-   "category_name": "除湿剤 繰り返し",
    "cat_label": "靴用消臭剤",
    "title": "靴 消臭 グッズ 除湿剤 繰り返し 竹炭 乾燥剤 繰り返し使用可 空気清浄 タンス クローゼット 脱...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads055/20260713_除湿剤_繰り返し.png"
+   "screenshot": "screenshots/keyword/ads055/20260713_除湿剤_繰り返し.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads055",
    "keyword": "消臭 脱臭",
    "category_id": "68518",
-   "category_name": "消臭 脱臭",
    "cat_label": "靴用消臭剤",
    "title": "靴 消臭 グッズ 除湿剤 繰り返し 竹炭 乾燥剤 繰り返し使用可 空気清浄 タンス クローゼット 脱...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads055/20260713_消臭_脱臭.png"
+   "screenshot": "screenshots/keyword/ads055/20260713_消臭_脱臭.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads061",
    "keyword": "大容量 除湿剤",
    "category_id": "68518",
-   "category_name": "大容量 除湿剤",
    "cat_label": "靴用消臭剤",
    "title": "靴 消臭 グッズ 除湿剤 繰り返し 竹炭 乾燥剤 繰り返し使用可 空気清浄 タンス クローゼット 脱...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads061/20260713_大容量_除湿剤.png"
+   "screenshot": "screenshots/keyword/ads061/20260713_大容量_除湿剤.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads058",
    "keyword": "コンポスト バッグ",
    "category_id": "609",
-   "category_name": "コンポスト バッグ",
    "cat_label": "生ごみ処理機",
    "title": "コンポスト バッグ おしゃれ 生ゴミ 不織布 コンポスト 容器 家庭用 生ゴミ処理機 説明書付 コン...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads058/20260713_コンポスト_バッグ.png"
+   "screenshot": "screenshots/keyword/ads058/20260713_コンポスト_バッグ.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads058",
    "keyword": "バッグ おしゃれ",
    "category_id": "609",
-   "category_name": "バッグ おしゃれ",
    "cat_label": "生ごみ処理機",
    "title": "コンポスト バッグ おしゃれ 生ゴミ 不織布 コンポスト 容器 家庭用 生ゴミ処理機 説明書付 コン...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads058/20260713_バッグ_おしゃれ.png"
+   "screenshot": "screenshots/keyword/ads058/20260713_バッグ_おしゃれ.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads058",
    "keyword": "生ゴミ 不織布",
    "category_id": "609",
-   "category_name": "生ゴミ 不織布",
    "cat_label": "生ごみ処理機",
    "title": "コンポスト バッグ おしゃれ 生ゴミ 不織布 コンポスト 容器 家庭用 生ゴミ処理機 説明書付 コン...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads058/20260713_生ゴミ_不織布.png"
+   "screenshot": "screenshots/keyword/ads058/20260713_生ゴミ_不織布.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads060-5",
    "keyword": "ラップ おしゃれ",
    "category_id": "67327",
-   "category_name": "ラップ おしゃれ",
    "cat_label": "食品用ラップ",
    "title": "引っ越し 挨拶 ギフト ラップ おしゃれ のし付き 5個セット 品物 挨拶品 袋付 引っ越しギフト ...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads060-5/20260713_ラップ_おしゃれ.png"
+   "screenshot": "screenshots/keyword/ads060-5/20260713_ラップ_おしゃれ.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads066",
    "keyword": "お香 アロマ",
    "category_id": "45462",
-   "category_name": "お香 アロマ",
    "cat_label": "お香、インセンス",
    "title": "お香 アロマ 白檀 沈香 金木犀 ホワイトセージ おしゃれ お試し オシャレ 横置き 対応 セット ...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads066/20260713_お香_アロマ.png"
+   "screenshot": "screenshots/keyword/ads066/20260713_お香_アロマ.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads066",
    "keyword": "アロマ 白檀",
    "category_id": "45462",
-   "category_name": "アロマ 白檀",
    "cat_label": "お香、インセンス",
    "title": "お香 アロマ 白檀 沈香 金木犀 ホワイトセージ おしゃれ お試し オシャレ 横置き 対応 セット ...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads066/20260713_アロマ_白檀.png"
+   "screenshot": "screenshots/keyword/ads066/20260713_アロマ_白檀.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads066",
    "keyword": "白檀 沈香",
    "category_id": "45462",
-   "category_name": "白檀 沈香",
    "cat_label": "お香、インセンス",
    "title": "お香 アロマ 白檀 沈香 金木犀 ホワイトセージ おしゃれ お試し オシャレ 横置き 対応 セット ...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads066/20260713_白檀_沈香.png"
+   "screenshot": "screenshots/keyword/ads066/20260713_白檀_沈香.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads066-k",
    "keyword": "お香 コーン",
    "category_id": "45462",
-   "category_name": "お香 コーン",
    "cat_label": "お香、インセンス",
    "title": "お香 コーン アロマ 白檀 ホワイトセージ パロサント コーン型 おしゃれ お試し オシャレ 横置き...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads066-k/20260713_お香_コーン.png"
+   "screenshot": "screenshots/keyword/ads066-k/20260713_お香_コーン.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads066-k",
    "keyword": "コーン アロマ",
    "category_id": "45462",
-   "category_name": "コーン アロマ",
    "cat_label": "お香、インセンス",
    "title": "お香 コーン アロマ 白檀 ホワイトセージ パロサント コーン型 おしゃれ お試し オシャレ 横置き...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads066-k/20260713_コーン_アロマ.png"
+   "screenshot": "screenshots/keyword/ads066-k/20260713_コーン_アロマ.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads067",
    "keyword": "シートボックス 腰クッション",
    "category_id": "74092",
-   "category_name": "シートボックス 腰クッション",
    "cat_label": "車内収納用品",
    "title": "シートボックス 腰クッション 車用 収納ボックス 車内 クッション カー用品 大容量 車内収納 小物...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads067/20260713_シートボックス_腰クッション.png"
+   "screenshot": "screenshots/keyword/ads067/20260713_シートボックス_腰クッション.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads067",
    "keyword": "腰クッション 車用",
    "category_id": "74092",
-   "category_name": "腰クッション 車用",
    "cat_label": "車内収納用品",
    "title": "シートボックス 腰クッション 車用 収納ボックス 車内 クッション カー用品 大容量 車内収納 小物...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads067/20260713_腰クッション_車用.png"
+   "screenshot": "screenshots/keyword/ads067/20260713_腰クッション_車用.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads067",
    "keyword": "車用 収納ボックス",
    "category_id": "74092",
-   "category_name": "車用 収納ボックス",
    "cat_label": "車内収納用品",
    "title": "シートボックス 腰クッション 車用 収納ボックス 車内 クッション カー用品 大容量 車内収納 小物...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads067/20260713_車用_収納ボックス.png"
+   "screenshot": "screenshots/keyword/ads067/20260713_車用_収納ボックス.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads082",
    "keyword": "大きめ 葬式用バッグ",
    "category_id": "37190",
-   "category_name": "大きめ 葬式用バッグ",
    "cat_label": "レディースブラックフォーマルバッグ",
    "title": "フォーマルバッグ 黒 大きめ 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 サブバッグ付 ペット...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads082/20260713_大きめ_葬式用バッグ.png"
+   "screenshot": "screenshots/keyword/ads082/20260713_大きめ_葬式用バッグ.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads082",
    "keyword": "葬式 軽い",
    "category_id": "37190",
-   "category_name": "葬式 軽い",
    "cat_label": "レディースブラックフォーマルバッグ",
    "title": "フォーマルバッグ 黒 大きめ 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 サブバッグ付 ペット...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads082/20260713_葬式_軽い.png"
+   "screenshot": "screenshots/keyword/ads082/20260713_葬式_軽い.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads083",
    "keyword": "在庫限り スマホポーチ",
    "category_id": "23549",
-   "category_name": "在庫限り スマホポーチ",
    "cat_label": "レディースショルダーバッグ",
    "title": "＼在庫限り／ スマホポーチ ショルダー レディース 横型 縦型 財布 フラップ スマホショルダー バ...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads083/20260713_在庫限り_スマホポーチ.png"
+   "screenshot": "screenshots/keyword/ads083/20260713_在庫限り_スマホポーチ.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads037",
    "keyword": "横型 縦型",
    "category_id": "23549",
-   "category_name": "横型 縦型",
    "cat_label": "レディースショルダーバッグ",
    "title": "スマホポーチ ショルダー レディース スマホショルダー 入れたまま 財布 ブランド アンコール An...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads037/20260713_横型_縦型.png"
+   "screenshot": "screenshots/keyword/ads037/20260713_横型_縦型.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads008-l",
    "keyword": "トートバッグ レディース",
    "category_id": "4352",
-   "category_name": "トートバッグ レディース",
    "cat_label": "マザーズバッグ",
    "title": "＼TVドラマ衣装提供商品／ マザーズバッグ トート 2WAY サイズ L マザーズバック 高見え シ...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads008-l/20260713_トートバッグ_レディース.png"
+   "screenshot": "screenshots/keyword/ads008-l/20260713_トートバッグ_レディース.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads089",
    "keyword": "小さい財布 大容量",
    "category_id": "68710",
-   "category_name": "小さい財布 大容量",
    "cat_label": "レディース長財布",
    "title": "長財布 レディース 本革 財布 小さい財布 大容量 薄い お札が折れない ブランド 使いやすい バイ...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads089/20260713_小さい財布_大容量.png"
+   "screenshot": "screenshots/keyword/ads089/20260713_小さい財布_大容量.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads099",
    "keyword": "軽い ヌビ",
    "category_id": "23558",
-   "category_name": "軽い ヌビ",
    "cat_label": "レディーストートバッグ",
    "title": "ヌビバッグ フリル トート リボン ショルダー ショルダーバッグ 大容量 イブル バッグ 大容量 軽...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads099/20260713_軽い_ヌビ.png"
+   "screenshot": "screenshots/keyword/ads099/20260713_軽い_ヌビ.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads099",
    "keyword": "ヌビ トートバッグ",
    "category_id": "23558",
-   "category_name": "ヌビ トートバッグ",
    "cat_label": "レディーストートバッグ",
    "title": "ヌビバッグ フリル トート リボン ショルダー ショルダーバッグ 大容量 イブル バッグ 大容量 軽...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads099/20260713_ヌビ_トートバッグ.png"
+   "screenshot": "screenshots/keyword/ads099/20260713_ヌビ_トートバッグ.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads096",
    "keyword": "小さめ 本革",
    "category_id": "37306",
-   "category_name": "小さめ 本革",
    "cat_label": "レディースハンドバッグ",
    "title": "ハンドバッグ レディース 小さめ 黒 本革 2way 軽量 横長 卒業式 入学式 フォーマル 軽い ...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads096/20260713_小さめ_本革.png"
+   "screenshot": "screenshots/keyword/ads096/20260713_小さめ_本革.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads094",
    "keyword": "かわいい ペーパーポット",
    "category_id": "3596",
-   "category_name": "かわいい ペーパーポット",
    "cat_label": "ティッシュケース",
    "title": "ティッシュケース おしゃれ かわいい ペーパーポット ティッシュカバー ティッシュホルダー トイレッ...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads094/20260713_かわいい_ペーパーポット.png"
+   "screenshot": "screenshots/keyword/ads094/20260713_かわいい_ペーパーポット.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads094",
    "keyword": "ペーパーポット ティッシュカバー",
    "category_id": "3596",
-   "category_name": "ペーパーポット ティッシュカバー",
    "cat_label": "ティッシュケース",
    "title": "ティッシュケース おしゃれ かわいい ペーパーポット ティッシュカバー ティッシュホルダー トイレッ...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads094/20260713_ペーパーポット_ティッシュカバー.png"
+   "screenshot": "screenshots/keyword/ads094/20260713_ペーパーポット_ティッシュカバー.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads095",
    "keyword": "小さめ キューブバッグ",
    "category_id": "37306",
-   "category_name": "小さめ キューブバッグ",
    "cat_label": "レディースハンドバッグ",
    "title": "ハンドバッグ 本革 レディース 小さめ キューブバッグ バッグインバッグ レザー 革 バケツバッグ ...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads095/20260713_小さめ_キューブバッグ.png"
+   "screenshot": "screenshots/keyword/ads095/20260713_小さめ_キューブバッグ.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads096",
    "keyword": "軽量 横長",
    "category_id": "37306",
-   "category_name": "軽量 横長",
    "cat_label": "レディースハンドバッグ",
    "title": "ハンドバッグ レディース 小さめ 黒 本革 2way 軽量 横長 卒業式 入学式 フォーマル 軽い ...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads096/20260713_軽量_横長.png"
+   "screenshot": "screenshots/keyword/ads096/20260713_軽量_横長.png",
+   "first_date": "2026-07-08"
   },
   {
    "code": "ads099",
    "keyword": "リボン ショルダー",
    "category_id": "23558",
-   "category_name": "リボン ショルダー",
    "cat_label": "レディーストートバッグ",
    "title": "ヌビバッグ フリル トート リボン ショルダー ショルダーバッグ 大容量 イブル バッグ 大容量 軽...",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/keyword/ads099/20260713_リボン_ショルダー.png"
+   "screenshot": "screenshots/keyword/ads099/20260713_リボン_ショルダー.png",
+   "first_date": "2026-07-08"
   }
  ],
- "keyword_updated": "2026-07-13T10:20:57.494974+09:00"
+ "keyword_updated": "2026-07-13T11:56:22.242584+09:00",
+ "keyword_new": []
 }

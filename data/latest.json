@@ -1,5 +1,5 @@
 {
- "run_at": "2026-07-13T21:34:35.761288+09:00",
+ "run_at": "2026-07-14T01:38:01.376736+09:00",
  "categories_checked": 38,
  "daily": [
   {
@@ -35,25 +35,8 @@
    "screenshot": "screenshots/daily/ads067/20260713_cat74092_車内収納用品.png"
   }
  ],
- "realtime": [
-  {
-   "category_id": "35462",
-   "category_name": "レディースビジネスバッグ",
-   "code": "ads001",
-   "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 入学 折らずにお届け 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/realtime/ads001/20260713_cat35462_レディースビジネスバッグ.png"
-  },
-  {
-   "category_id": "46596",
-   "category_name": "除湿、乾燥剤",
-   "code": "ads062-2",
-   "title": "消臭 炭 除湿 調湿 繰り返し 竹炭 特大サイズ 2個セット 乾燥 天然素材 空間洗浄 空気清浄 クローゼット 脱臭 湿気 バッグ 衣類 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/13",
-   "screenshot": "screenshots/realtime/ads062-2/20260713_cat46596_除湿、乾燥剤.png"
-  }
- ],
- "realtime_updated": "2026-07-13T21:34:35.761288+09:00",
+ "realtime": [],
+ "realtime_updated": "2026-07-14T01:38:01.376736+09:00",
  "daily_updated": "2026-07-13T11:56:22.242584+09:00",
  "keyword": [
   {

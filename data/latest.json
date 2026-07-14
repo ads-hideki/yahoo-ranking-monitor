@@ -1,5 +1,5 @@
 {
- "run_at": "2026-07-14T17:16:32.092455+09:00",
+ "run_at": "2026-07-14T20:27:55.146406+09:00",
  "categories_checked": 38,
  "daily": [
   {
@@ -29,23 +29,23 @@
  ],
  "realtime": [
   {
-   "category_id": "15830",
-   "category_name": "メンズクラッチバッグ",
-   "code": "ads011",
-   "title": "クラッチバッグ メンズ 小さめ ブランド 結婚式 本革 レザー 2WAY 冠婚葬祭 セカンドバッグ アンコール Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/14",
-   "screenshot": "screenshots/realtime/ads011/20260714_cat15830_メンズクラッチバッグ.png"
-  },
-  {
    "category_id": "48240",
    "category_name": "レディース名刺入れ",
    "code": "ads033",
    "title": "名刺入れ レディース 本革 メンズ 革 レザー ブランド 大容量 名刺ケース マグネット おしゃれ ギフト 就職 転職 Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/7/14",
    "screenshot": "screenshots/realtime/ads033/20260714_cat48240_レディース名刺入れ.png"
+  },
+  {
+   "category_id": "50157",
+   "category_name": "書類ケース、図面ケース",
+   "code": "ads020",
+   "title": "通帳ケース 磁気防止 本革 カード おしゃれ スキミング防止 おすすめ 大容量 じゃばら 印鑑も入る 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/14",
+   "screenshot": "screenshots/realtime/ads020/20260714_cat50157_書類ケース、図面ケース.png"
   }
  ],
- "realtime_updated": "2026-07-14T17:16:32.092455+09:00",
+ "realtime_updated": "2026-07-14T20:27:55.146406+09:00",
  "daily_updated": "2026-07-14T10:10:38.294502+09:00",
  "keyword": [
   {

@@ -1,5 +1,5 @@
 {
- "run_at": "2026-07-14T22:55:16.521273+09:00",
+ "run_at": "2026-07-15T00:26:44.771879+09:00",
  "categories_checked": 38,
  "daily": [
   {
@@ -29,12 +29,12 @@
  ],
  "realtime": [
   {
-   "category_id": "47249",
-   "category_name": "のり",
-   "code": "ads069",
-   "title": "シール復活剤 シール液 シール粘着復活 大容量 20ml ボンボンドロップシール が作れる 手作り 貼ってはがせる シール帳 シル活 爆買｜バッグ 雑貨 Annekor アンコール",
+   "category_id": "35462",
+   "category_name": "レディースビジネスバッグ",
+   "code": "ads001",
+   "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 入学 折らずにお届け 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/7/14",
-   "screenshot": "screenshots/realtime/ads069/20260714_cat47249_のり.png"
+   "screenshot": "screenshots/realtime/ads001/20260715_cat35462_レディースビジネスバッグ.png"
   },
   {
    "category_id": "50157",
@@ -42,18 +42,10 @@
    "code": "ads020",
    "title": "通帳ケース 磁気防止 本革 カード おしゃれ スキミング防止 おすすめ 大容量 じゃばら 印鑑も入る 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/7/14",
-   "screenshot": "screenshots/realtime/ads020/20260714_cat50157_書類ケース、図面ケース.png"
-  },
-  {
-   "category_id": "68710",
-   "category_name": "レディース長財布",
-   "code": "ads089",
-   "title": "長財布 レディース 本革 財布 小さい財布 大容量 薄い お札が折れない ブランド 使いやすい バイカラー 小さな長財布 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/14",
-   "screenshot": "screenshots/realtime/ads089/20260714_cat68710_レディース長財布.png"
+   "screenshot": "screenshots/realtime/ads020/20260715_cat50157_書類ケース、図面ケース.png"
   }
  ],
- "realtime_updated": "2026-07-14T22:55:16.521273+09:00",
+ "realtime_updated": "2026-07-15T00:26:44.771879+09:00",
  "daily_updated": "2026-07-14T10:10:38.294502+09:00",
  "keyword": [
   {

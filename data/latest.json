@@ -1,5 +1,5 @@
 {
- "run_at": "2026-07-15T10:08:02.811839+09:00",
+ "run_at": "2026-07-15T13:56:06.937732+09:00",
  "categories_checked": 38,
  "daily": [
   {
@@ -29,15 +29,23 @@
  ],
  "realtime": [
   {
-   "category_id": "609",
-   "category_name": "生ごみ処理機",
-   "code": "ads058-s",
-   "title": "コンポスト バッグ 小型 Sサイズ おしゃれ 生ゴミ 不織布 バッグ 容器 家庭用 生ゴミ処理機 説明書付 コンポストバッグ 生ごみ 有機栽培 爆買｜バッグ 雑貨 Annekor アンコール",
+   "category_id": "4352",
+   "category_name": "マザーズバッグ",
+   "code": "ads004",
+   "title": "マザーズリュック 軽量 大容量 バッグ リュック マザーズバッグ バック ママ パパ ブランド 撥水 おしゃれ ペアレンツバッグ Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/7/15",
-   "screenshot": "screenshots/realtime/ads058-s/20260715_cat609_生ごみ処理機.png"
+   "screenshot": "screenshots/realtime/ads004/20260715_cat4352_マザーズバッグ.png"
+  },
+  {
+   "category_id": "45462",
+   "category_name": "お香、インセンス",
+   "code": "ads066",
+   "title": "お香 アロマ 白檀 沈香 金木犀 ホワイトセージ おしゃれ お試し オシャレ 横置き 対応 セット リラクゼーション ヨガ お香 のような お線香 線香 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/15",
+   "screenshot": "screenshots/realtime/ads066/20260715_cat45462_お香、インセンス.png"
   }
  ],
- "realtime_updated": "2026-07-15T10:08:02.811839+09:00",
+ "realtime_updated": "2026-07-15T13:56:06.937732+09:00",
  "daily_updated": "2026-07-15T10:08:02.811839+09:00",
  "keyword": [
   {

@@ -1,5 +1,5 @@
 {
- "run_at": "2026-07-15T08:00:43.156024+09:00",
+ "run_at": "2026-07-15T10:08:02.811839+09:00",
  "categories_checked": 38,
  "daily": [
   {
@@ -7,34 +7,8 @@
    "category_name": "レディースビジネスバッグ",
    "code": "ads041",
    "title": "ビジネスバッグ レディース A4 軽量 自立 通勤 大容量 リクルートバッグ 就活 面接 トートバッグ 営業 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/14",
-   "screenshot": "screenshots/daily/ads041/20260714_cat35462_レディースビジネスバッグ.png"
-  },
-  {
-   "category_id": "68710",
-   "category_name": "レディース長財布",
-   "code": "ads089",
-   "title": "長財布 レディース 本革 財布 小さい財布 大容量 薄い お札が折れない ブランド 使いやすい バイカラー 小さな長財布 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/14",
-   "screenshot": "screenshots/daily/ads089/20260714_cat68710_レディース長財布.png"
-  },
-  {
-   "category_id": "74092",
-   "category_name": "車内収納用品",
-   "code": "ads067",
-   "title": "シートボックス 腰クッション 車用 収納ボックス 車内 クッション カー用品 大容量 車内収納 小物入れ 荷物入れ 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/14",
-   "screenshot": "screenshots/daily/ads067/20260714_cat74092_車内収納用品.png"
-  }
- ],
- "realtime": [
-  {
-   "category_id": "35462",
-   "category_name": "レディースビジネスバッグ",
-   "code": "ads001",
-   "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 入学 折らずにお届け 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/7/15",
-   "screenshot": "screenshots/realtime/ads001/20260715_cat35462_レディースビジネスバッグ.png"
+   "screenshot": "screenshots/daily/ads041/20260715_cat35462_レディースビジネスバッグ.png"
   },
   {
    "category_id": "45462",
@@ -42,12 +16,129 @@
    "code": "ads066",
    "title": "お香 アロマ 白檀 沈香 金木犀 ホワイトセージ おしゃれ お試し オシャレ 横置き 対応 セット リラクゼーション ヨガ お香 のような お線香 線香 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/7/15",
-   "screenshot": "screenshots/realtime/ads066/20260715_cat45462_お香、インセンス.png"
+   "screenshot": "screenshots/daily/ads066/20260715_cat45462_お香、インセンス.png"
+  },
+  {
+   "category_id": "74092",
+   "category_name": "車内収納用品",
+   "code": "ads067",
+   "title": "シートボックス 腰クッション 車用 収納ボックス 車内 クッション カー用品 大容量 車内収納 小物入れ 荷物入れ 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/15",
+   "screenshot": "screenshots/daily/ads067/20260715_cat74092_車内収納用品.png"
   }
  ],
- "realtime_updated": "2026-07-15T08:00:43.156024+09:00",
- "daily_updated": "2026-07-14T10:10:38.294502+09:00",
+ "realtime": [
+  {
+   "category_id": "609",
+   "category_name": "生ごみ処理機",
+   "code": "ads058-s",
+   "title": "コンポスト バッグ 小型 Sサイズ おしゃれ 生ゴミ 不織布 バッグ 容器 家庭用 生ゴミ処理機 説明書付 コンポストバッグ 生ごみ 有機栽培 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/15",
+   "screenshot": "screenshots/realtime/ads058-s/20260715_cat609_生ごみ処理機.png"
+  }
+ ],
+ "realtime_updated": "2026-07-15T10:08:02.811839+09:00",
+ "daily_updated": "2026-07-15T10:08:02.811839+09:00",
  "keyword": [
+  {
+   "code": "ads011",
+   "keyword": "メンズ 小さめ",
+   "category_id": "15830",
+   "category_name": "メンズ 小さめ",
+   "cat_label": "メンズクラッチバッグ",
+   "title": "クラッチバッグ メンズ 小さめ ブランド 結婚式 本革 レザー 2WAY 冠婚葬祭 セカンドバッグ ...",
+   "update_label": "2026/7/15",
+   "screenshot": "screenshots/keyword/ads011/20260715_メンズ_小さめ.png",
+   "first_date": "2026-07-15"
+  },
+  {
+   "code": "ads011",
+   "keyword": "小さめ ブランド",
+   "category_id": "15830",
+   "category_name": "小さめ ブランド",
+   "cat_label": "メンズクラッチバッグ",
+   "title": "クラッチバッグ メンズ 小さめ ブランド 結婚式 本革 レザー 2WAY 冠婚葬祭 セカンドバッグ ...",
+   "update_label": "2026/7/15",
+   "screenshot": "screenshots/keyword/ads011/20260715_小さめ_ブランド.png",
+   "first_date": "2026-07-15"
+  },
+  {
+   "code": "ads030",
+   "keyword": "大容量 キッズ",
+   "category_id": "15828",
+   "category_name": "大容量 キッズ",
+   "cat_label": "ボディバッグ",
+   "title": "ボディバッグ メンズ 大容量 キッズ バッグ キッズ 持ち手 レディース 大きめ 斜めがけ ウエスト...",
+   "update_label": "2026/7/15",
+   "screenshot": "screenshots/keyword/ads030/20260715_大容量_キッズ.png",
+   "first_date": "2026-07-15"
+  },
+  {
+   "code": "ads030",
+   "keyword": "キッズ バッグ",
+   "category_id": "15828",
+   "category_name": "キッズ バッグ",
+   "cat_label": "ボディバッグ",
+   "title": "ボディバッグ メンズ 大容量 キッズ バッグ キッズ 持ち手 レディース 大きめ 斜めがけ ウエスト...",
+   "update_label": "2026/7/15",
+   "screenshot": "screenshots/keyword/ads030/20260715_キッズ_バッグ.png",
+   "first_date": "2026-07-15"
+  },
+  {
+   "code": "ads030",
+   "keyword": "バッグ キッズ",
+   "category_id": "15828",
+   "category_name": "バッグ キッズ",
+   "cat_label": "ボディバッグ",
+   "title": "ボディバッグ メンズ 大容量 キッズ バッグ キッズ 持ち手 レディース 大きめ 斜めがけ ウエスト...",
+   "update_label": "2026/7/15",
+   "screenshot": "screenshots/keyword/ads030/20260715_バッグ_キッズ.png",
+   "first_date": "2026-07-15"
+  },
+  {
+   "code": "ads058-l",
+   "keyword": "おしゃれ 生ゴミ",
+   "category_id": "609",
+   "category_name": "おしゃれ 生ゴミ",
+   "cat_label": "生ごみ処理機",
+   "title": "コンポスト バッグ Lサイズ おしゃれ 生ゴミ 大容量 不織布 コンポスト 容器 家庭用 生ゴミ処理...",
+   "update_label": "2026/7/15",
+   "screenshot": "screenshots/keyword/ads058-l/20260715_おしゃれ_生ゴミ.png",
+   "first_date": "2026-07-15"
+  },
+  {
+   "code": "ads060-4",
+   "keyword": "ラップ おしゃれ",
+   "category_id": "67327",
+   "category_name": "ラップ おしゃれ",
+   "cat_label": "食品用ラップ",
+   "title": "引っ越し 挨拶 ギフト ラップ おしゃれ のし付き 4個セット 品物 挨拶品 袋付 引っ越しギフト ...",
+   "update_label": "2026/7/15",
+   "screenshot": "screenshots/keyword/ads060-4/20260715_ラップ_おしゃれ.png",
+   "first_date": "2026-07-15"
+  },
+  {
+   "code": "ads098",
+   "keyword": "完全遮光 無地",
+   "category_id": "68776",
+   "category_name": "完全遮光 無地",
+   "cat_label": "レディースキャップ",
+   "title": "キャップ 深め レディース 完全遮光 夏 無地 帽子 深め 男女兼用 UV 綿100% メンズ コッ...",
+   "update_label": "2026/7/15",
+   "screenshot": "screenshots/keyword/ads098/20260715_完全遮光_無地.png",
+   "first_date": "2026-07-15"
+  },
+  {
+   "code": "ads201-a",
+   "keyword": "次亜塩素酸パウダー 生成",
+   "category_id": "45235",
+   "category_name": "次亜塩素酸パウダー 生成",
+   "cat_label": "除菌剤、抗菌剤",
+   "title": "次亜塩素酸 粉 次亜塩素酸水 除菌 次亜塩素酸パウダー 生成 500ppm 消臭 業務用 家庭用 子...",
+   "update_label": "2026/7/15",
+   "screenshot": "screenshots/keyword/ads201-a/20260715_次亜塩素酸パウダー_生成.png",
+   "first_date": "2026-07-15"
+  },
   {
    "code": "ads042",
    "keyword": "レディース 二つ折り",
@@ -708,117 +799,106 @@
    "first_date": "2026-07-08"
   }
  ],
- "keyword_updated": "2026-07-14T10:10:38.294502+09:00",
+ "keyword_updated": "2026-07-15T10:08:02.811839+09:00",
  "keyword_new": [
   {
-   "code": "ads042",
-   "keyword": "レディース 二つ折り",
-   "category_id": "68725",
-   "category_name": "レディース 二つ折り",
-   "cat_label": "その他レディース財布",
-   "title": "長財布 レディース 薄い 本革 軽量 大容量 財布 二つ折り 薄型 極薄 コンパクト財布 キャッシュ...",
-   "update_label": "2026/7/14",
-   "screenshot": "screenshots/keyword/ads042/20260714_レディース_二つ折り.png",
-   "first_date": "2026-07-14"
+   "code": "ads011",
+   "keyword": "メンズ 小さめ",
+   "category_id": "15830",
+   "category_name": "メンズ 小さめ",
+   "cat_label": "メンズクラッチバッグ",
+   "title": "クラッチバッグ メンズ 小さめ ブランド 結婚式 本革 レザー 2WAY 冠婚葬祭 セカンドバッグ ...",
+   "update_label": "2026/7/15",
+   "screenshot": "screenshots/keyword/ads011/20260715_メンズ_小さめ.png",
+   "first_date": "2026-07-15"
   },
   {
-   "code": "ads055-l",
-   "keyword": "大容量 除湿剤",
-   "category_id": "68518",
-   "category_name": "大容量 除湿剤",
-   "cat_label": "靴用消臭剤",
-   "title": "靴 消臭 炭 脱臭 グッズ 大容量 除湿剤 繰り返し 使用 竹炭 乾燥剤 空気清浄 タンス クローゼ...",
-   "update_label": "2026/7/14",
-   "screenshot": "screenshots/keyword/ads055-l/20260714_大容量_除湿剤.png",
-   "first_date": "2026-07-14"
+   "code": "ads011",
+   "keyword": "小さめ ブランド",
+   "category_id": "15830",
+   "category_name": "小さめ ブランド",
+   "cat_label": "メンズクラッチバッグ",
+   "title": "クラッチバッグ メンズ 小さめ ブランド 結婚式 本革 レザー 2WAY 冠婚葬祭 セカンドバッグ ...",
+   "update_label": "2026/7/15",
+   "screenshot": "screenshots/keyword/ads011/20260715_小さめ_ブランド.png",
+   "first_date": "2026-07-15"
+  },
+  {
+   "code": "ads030",
+   "keyword": "大容量 キッズ",
+   "category_id": "15828",
+   "category_name": "大容量 キッズ",
+   "cat_label": "ボディバッグ",
+   "title": "ボディバッグ メンズ 大容量 キッズ バッグ キッズ 持ち手 レディース 大きめ 斜めがけ ウエスト...",
+   "update_label": "2026/7/15",
+   "screenshot": "screenshots/keyword/ads030/20260715_大容量_キッズ.png",
+   "first_date": "2026-07-15"
+  },
+  {
+   "code": "ads030",
+   "keyword": "キッズ バッグ",
+   "category_id": "15828",
+   "category_name": "キッズ バッグ",
+   "cat_label": "ボディバッグ",
+   "title": "ボディバッグ メンズ 大容量 キッズ バッグ キッズ 持ち手 レディース 大きめ 斜めがけ ウエスト...",
+   "update_label": "2026/7/15",
+   "screenshot": "screenshots/keyword/ads030/20260715_キッズ_バッグ.png",
+   "first_date": "2026-07-15"
+  },
+  {
+   "code": "ads030",
+   "keyword": "バッグ キッズ",
+   "category_id": "15828",
+   "category_name": "バッグ キッズ",
+   "cat_label": "ボディバッグ",
+   "title": "ボディバッグ メンズ 大容量 キッズ バッグ キッズ 持ち手 レディース 大きめ 斜めがけ ウエスト...",
+   "update_label": "2026/7/15",
+   "screenshot": "screenshots/keyword/ads030/20260715_バッグ_キッズ.png",
+   "first_date": "2026-07-15"
   },
   {
    "code": "ads058-l",
-   "keyword": "コンポスト バッグ",
+   "keyword": "おしゃれ 生ゴミ",
    "category_id": "609",
-   "category_name": "コンポスト バッグ",
+   "category_name": "おしゃれ 生ゴミ",
    "cat_label": "生ごみ処理機",
    "title": "コンポスト バッグ Lサイズ おしゃれ 生ゴミ 大容量 不織布 コンポスト 容器 家庭用 生ゴミ処理...",
-   "update_label": "2026/7/14",
-   "screenshot": "screenshots/keyword/ads058-l/20260714_コンポスト_バッグ.png",
-   "first_date": "2026-07-14"
+   "update_label": "2026/7/15",
+   "screenshot": "screenshots/keyword/ads058-l/20260715_おしゃれ_生ゴミ.png",
+   "first_date": "2026-07-15"
   },
   {
-   "code": "ads058-l",
-   "keyword": "生ゴミ 不織布",
-   "category_id": "609",
-   "category_name": "生ゴミ 不織布",
-   "cat_label": "生ごみ処理機",
-   "title": "コンポスト バッグ Lサイズ おしゃれ 生ゴミ 大容量 不織布 コンポスト 容器 家庭用 生ゴミ処理...",
-   "update_label": "2026/7/14",
-   "screenshot": "screenshots/keyword/ads058-l/20260714_生ゴミ_不織布.png",
-   "first_date": "2026-07-14"
+   "code": "ads060-4",
+   "keyword": "ラップ おしゃれ",
+   "category_id": "67327",
+   "category_name": "ラップ おしゃれ",
+   "cat_label": "食品用ラップ",
+   "title": "引っ越し 挨拶 ギフト ラップ おしゃれ のし付き 4個セット 品物 挨拶品 袋付 引っ越しギフト ...",
+   "update_label": "2026/7/15",
+   "screenshot": "screenshots/keyword/ads060-4/20260715_ラップ_おしゃれ.png",
+   "first_date": "2026-07-15"
   },
   {
-   "code": "ads065-1",
-   "keyword": "アルミ 業務用",
-   "category_id": "50281",
-   "category_name": "アルミ 業務用",
-   "cat_label": "室外機カバー",
-   "title": "＼選べる3タイプ／ 室外機カバー アルミ 業務用 エアコン 極厚 6層構造 大型 夏 節電 室外機 ...",
-   "update_label": "2026/7/14",
-   "screenshot": "screenshots/keyword/ads065-1/20260714_アルミ_業務用.png",
-   "first_date": "2026-07-14"
+   "code": "ads098",
+   "keyword": "完全遮光 無地",
+   "category_id": "68776",
+   "category_name": "完全遮光 無地",
+   "cat_label": "レディースキャップ",
+   "title": "キャップ 深め レディース 完全遮光 夏 無地 帽子 深め 男女兼用 UV 綿100% メンズ コッ...",
+   "update_label": "2026/7/15",
+   "screenshot": "screenshots/keyword/ads098/20260715_完全遮光_無地.png",
+   "first_date": "2026-07-15"
   },
   {
-   "code": "ads082",
-   "keyword": "フォーマルバッグ 大きめ",
-   "category_id": "37190",
-   "category_name": "フォーマルバッグ 大きめ",
-   "cat_label": "レディースブラックフォーマルバッグ",
-   "title": "フォーマルバッグ 黒 大きめ 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 サブバッグ付 ペット...",
-   "update_label": "2026/7/14",
-   "screenshot": "screenshots/keyword/ads082/20260714_フォーマルバッグ_大きめ.png",
-   "first_date": "2026-07-14"
-  },
-  {
-   "code": "ads083",
-   "keyword": "横型 縦型",
-   "category_id": "23549",
-   "category_name": "横型 縦型",
-   "cat_label": "レディースショルダーバッグ",
-   "title": "＼在庫限り／ スマホポーチ ショルダー レディース 横型 縦型 財布 フラップ スマホショルダー バ...",
-   "update_label": "2026/7/14",
-   "screenshot": "screenshots/keyword/ads083/20260714_横型_縦型.png",
-   "first_date": "2026-07-14"
-  },
-  {
-   "code": "ads089",
-   "keyword": "長財布 レディース",
-   "category_id": "68710",
-   "category_name": "長財布 レディース",
-   "cat_label": "レディース長財布",
-   "title": "長財布 レディース 本革 財布 小さい財布 大容量 薄い お札が折れない ブランド 使いやすい バイ...",
-   "update_label": "2026/7/14",
-   "screenshot": "screenshots/keyword/ads089/20260714_長財布_レディース.png",
-   "first_date": "2026-07-14"
-  },
-  {
-   "code": "ads089",
-   "keyword": "レディース 本革",
-   "category_id": "68710",
-   "category_name": "レディース 本革",
-   "cat_label": "レディース長財布",
-   "title": "長財布 レディース 本革 財布 小さい財布 大容量 薄い お札が折れない ブランド 使いやすい バイ...",
-   "update_label": "2026/7/14",
-   "screenshot": "screenshots/keyword/ads089/20260714_レディース_本革.png",
-   "first_date": "2026-07-14"
-  },
-  {
-   "code": "ads202",
-   "keyword": "におい グッズ",
-   "category_id": "68518",
-   "category_name": "におい グッズ",
-   "cat_label": "靴用消臭剤",
-   "title": "＼1個1480円〜／ 靴 消臭 靴消臭 靴 ニオイ におい グッズ 消臭パウダー スニーカー ブーツ...",
-   "update_label": "2026/7/14",
-   "screenshot": "screenshots/keyword/ads202/20260714_におい_グッズ.png",
-   "first_date": "2026-07-14"
+   "code": "ads201-a",
+   "keyword": "次亜塩素酸パウダー 生成",
+   "category_id": "45235",
+   "category_name": "次亜塩素酸パウダー 生成",
+   "cat_label": "除菌剤、抗菌剤",
+   "title": "次亜塩素酸 粉 次亜塩素酸水 除菌 次亜塩素酸パウダー 生成 500ppm 消臭 業務用 家庭用 子...",
+   "update_label": "2026/7/15",
+   "screenshot": "screenshots/keyword/ads201-a/20260715_次亜塩素酸パウダー_生成.png",
+   "first_date": "2026-07-15"
   }
  ]
 }

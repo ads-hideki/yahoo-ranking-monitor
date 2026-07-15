@@ -657,5 +657,104 @@
   "update_label": "2026/7/14",
   "screenshot": "screenshots/keyword/ads202/20260714_におい_グッズ.png",
   "first_date": "2026-07-14"
+ },
+ "ads011|メンズ 小さめ": {
+  "code": "ads011",
+  "keyword": "メンズ 小さめ",
+  "category_id": "15830",
+  "category_name": "メンズ 小さめ",
+  "cat_label": "メンズクラッチバッグ",
+  "title": "クラッチバッグ メンズ 小さめ ブランド 結婚式 本革 レザー 2WAY 冠婚葬祭 セカンドバッグ ...",
+  "update_label": "2026/7/15",
+  "screenshot": "screenshots/keyword/ads011/20260715_メンズ_小さめ.png",
+  "first_date": "2026-07-15"
+ },
+ "ads011|小さめ ブランド": {
+  "code": "ads011",
+  "keyword": "小さめ ブランド",
+  "category_id": "15830",
+  "category_name": "小さめ ブランド",
+  "cat_label": "メンズクラッチバッグ",
+  "title": "クラッチバッグ メンズ 小さめ ブランド 結婚式 本革 レザー 2WAY 冠婚葬祭 セカンドバッグ ...",
+  "update_label": "2026/7/15",
+  "screenshot": "screenshots/keyword/ads011/20260715_小さめ_ブランド.png",
+  "first_date": "2026-07-15"
+ },
+ "ads030|大容量 キッズ": {
+  "code": "ads030",
+  "keyword": "大容量 キッズ",
+  "category_id": "15828",
+  "category_name": "大容量 キッズ",
+  "cat_label": "ボディバッグ",
+  "title": "ボディバッグ メンズ 大容量 キッズ バッグ キッズ 持ち手 レディース 大きめ 斜めがけ ウエスト...",
+  "update_label": "2026/7/15",
+  "screenshot": "screenshots/keyword/ads030/20260715_大容量_キッズ.png",
+  "first_date": "2026-07-15"
+ },
+ "ads030|キッズ バッグ": {
+  "code": "ads030",
+  "keyword": "キッズ バッグ",
+  "category_id": "15828",
+  "category_name": "キッズ バッグ",
+  "cat_label": "ボディバッグ",
+  "title": "ボディバッグ メンズ 大容量 キッズ バッグ キッズ 持ち手 レディース 大きめ 斜めがけ ウエスト...",
+  "update_label": "2026/7/15",
+  "screenshot": "screenshots/keyword/ads030/20260715_キッズ_バッグ.png",
+  "first_date": "2026-07-15"
+ },
+ "ads030|バッグ キッズ": {
+  "code": "ads030",
+  "keyword": "バッグ キッズ",
+  "category_id": "15828",
+  "category_name": "バッグ キッズ",
+  "cat_label": "ボディバッグ",
+  "title": "ボディバッグ メンズ 大容量 キッズ バッグ キッズ 持ち手 レディース 大きめ 斜めがけ ウエスト...",
+  "update_label": "2026/7/15",
+  "screenshot": "screenshots/keyword/ads030/20260715_バッグ_キッズ.png",
+  "first_date": "2026-07-15"
+ },
+ "ads058-l|おしゃれ 生ゴミ": {
+  "code": "ads058-l",
+  "keyword": "おしゃれ 生ゴミ",
+  "category_id": "609",
+  "category_name": "おしゃれ 生ゴミ",
+  "cat_label": "生ごみ処理機",
+  "title": "コンポスト バッグ Lサイズ おしゃれ 生ゴミ 大容量 不織布 コンポスト 容器 家庭用 生ゴミ処理...",
+  "update_label": "2026/7/15",
+  "screenshot": "screenshots/keyword/ads058-l/20260715_おしゃれ_生ゴミ.png",
+  "first_date": "2026-07-15"
+ },
+ "ads060-4|ラップ おしゃれ": {
+  "code": "ads060-4",
+  "keyword": "ラップ おしゃれ",
+  "category_id": "67327",
+  "category_name": "ラップ おしゃれ",
+  "cat_label": "食品用ラップ",
+  "title": "引っ越し 挨拶 ギフト ラップ おしゃれ のし付き 4個セット 品物 挨拶品 袋付 引っ越しギフト ...",
+  "update_label": "2026/7/15",
+  "screenshot": "screenshots/keyword/ads060-4/20260715_ラップ_おしゃれ.png",
+  "first_date": "2026-07-15"
+ },
+ "ads098|完全遮光 無地": {
+  "code": "ads098",
+  "keyword": "完全遮光 無地",
+  "category_id": "68776",
+  "category_name": "完全遮光 無地",
+  "cat_label": "レディースキャップ",
+  "title": "キャップ 深め レディース 完全遮光 夏 無地 帽子 深め 男女兼用 UV 綿100% メンズ コッ...",
+  "update_label": "2026/7/15",
+  "screenshot": "screenshots/keyword/ads098/20260715_完全遮光_無地.png",
+  "first_date": "2026-07-15"
+ },
+ "ads201-a|次亜塩素酸パウダー 生成": {
+  "code": "ads201-a",
+  "keyword": "次亜塩素酸パウダー 生成",
+  "category_id": "45235",
+  "category_name": "次亜塩素酸パウダー 生成",
+  "cat_label": "除菌剤、抗菌剤",
+  "title": "次亜塩素酸 粉 次亜塩素酸水 除菌 次亜塩素酸パウダー 生成 500ppm 消臭 業務用 家庭用 子...",
+  "update_label": "2026/7/15",
+  "screenshot": "screenshots/keyword/ads201-a/20260715_次亜塩素酸パウダー_生成.png",
+  "first_date": "2026-07-15"
  }
 }

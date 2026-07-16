@@ -1,5 +1,5 @@
 {
- "run_at": "2026-07-17T06:06:14.170637+09:00",
+ "run_at": "2026-07-17T08:01:21.416901+09:00",
  "categories_checked": 38,
  "daily": [
   {
@@ -37,15 +37,23 @@
  ],
  "realtime": [
   {
-   "category_id": "23591",
-   "category_name": "レディースバッグインバッグ",
-   "code": "ads003",
-   "title": "バッグインバッグ 小さめ 自立 フェルト 監修 インナーバッグ バックインバック 底板 軽量 アンコール Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
+   "category_id": "37306",
+   "category_name": "レディースハンドバッグ",
+   "code": "ads026",
+   "title": "ハンドバッグ レディース 小さめ 2WAY ショルダーバッグ 軽い 軽量 ショルダー ブランド 入学式 フォーマル 結婚式 卒業式 入園 卒園 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/7/17",
-   "screenshot": "screenshots/realtime/ads003/20260717_cat23591_レディースバッグインバッグ.png"
+   "screenshot": "screenshots/realtime/ads026/20260717_cat37306_レディースハンドバッグ.png"
+  },
+  {
+   "category_id": "68725",
+   "category_name": "その他レディース財布",
+   "code": "ads035",
+   "title": "ミニ財布 レディース 二つ折り 財布 本革 お札折らない 薄い 財布 コンパクト財布 キャッシュレス 極薄 スリム スキミング防止 一粒万倍日 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/17",
+   "screenshot": "screenshots/realtime/ads035/20260717_cat68725_その他レディース財布.png"
   }
  ],
- "realtime_updated": "2026-07-17T06:06:14.170637+09:00",
+ "realtime_updated": "2026-07-17T08:01:21.416901+09:00",
  "daily_updated": "2026-07-16T10:16:29.298283+09:00",
  "keyword": [
   {

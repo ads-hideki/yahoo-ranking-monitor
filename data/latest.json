@@ -1,5 +1,5 @@
 {
- "run_at": "2026-07-16T10:16:29.298283+09:00",
+ "run_at": "2026-07-16T14:15:26.928840+09:00",
  "categories_checked": 38,
  "daily": [
   {
@@ -35,8 +35,25 @@
    "screenshot": "screenshots/daily/ads067/20260716_cat74092_車内収納用品.png"
   }
  ],
- "realtime": [],
- "realtime_updated": "2026-07-16T10:16:29.298283+09:00",
+ "realtime": [
+  {
+   "category_id": "47249",
+   "category_name": "のり",
+   "code": "ads069",
+   "title": "シール復活剤 シール液 シール粘着復活 大容量 20ml ボンボンドロップシール が作れる 手作り 貼ってはがせる シール帳 シル活 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/16",
+   "screenshot": "screenshots/realtime/ads069/20260716_cat47249_のり.png"
+  },
+  {
+   "category_id": "68725",
+   "category_name": "その他レディース財布",
+   "code": "ads035",
+   "title": "ミニ財布 レディース 二つ折り 財布 本革 お札折らない 薄い 財布 コンパクト財布 キャッシュレス 極薄 スリム スキミング防止 一粒万倍日 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/16",
+   "screenshot": "screenshots/realtime/ads035/20260716_cat68725_その他レディース財布.png"
+  }
+ ],
+ "realtime_updated": "2026-07-16T14:15:26.928840+09:00",
  "daily_updated": "2026-07-16T10:16:29.298283+09:00",
  "keyword": [
   {

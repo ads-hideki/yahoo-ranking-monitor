@@ -1,5 +1,5 @@
 {
- "run_at": "2026-07-17T04:19:23.957914+09:00",
+ "run_at": "2026-07-17T06:06:14.170637+09:00",
  "categories_checked": 38,
  "daily": [
   {
@@ -37,14 +37,6 @@
  ],
  "realtime": [
   {
-   "category_id": "23558",
-   "category_name": "レディーストートバッグ",
-   "code": "ads021",
-   "title": "ミニトートバッグ 帆布 レディース キャンバス ショルダーバッグ 仕切り ランチバッグ 通勤バッグ 大容量 バッグ 小さめ 軽い おしゃれ かわいい 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/17",
-   "screenshot": "screenshots/realtime/ads021/20260717_cat23558_レディーストートバッグ.png"
-  },
-  {
    "category_id": "23591",
    "category_name": "レディースバッグインバッグ",
    "code": "ads003",
@@ -53,7 +45,7 @@
    "screenshot": "screenshots/realtime/ads003/20260717_cat23591_レディースバッグインバッグ.png"
   }
  ],
- "realtime_updated": "2026-07-17T04:19:23.957914+09:00",
+ "realtime_updated": "2026-07-17T06:06:14.170637+09:00",
  "daily_updated": "2026-07-16T10:16:29.298283+09:00",
  "keyword": [
   {

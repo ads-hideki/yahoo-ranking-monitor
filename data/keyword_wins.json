@@ -756,5 +756,115 @@
   "update_label": "2026/7/15",
   "screenshot": "screenshots/keyword/ads201-a/20260715_次亜塩素酸パウダー_生成.png",
   "first_date": "2026-07-15"
+ },
+ "ads001|ビジネスバッグ レディース": {
+  "code": "ads001",
+  "keyword": "ビジネスバッグ レディース",
+  "category_id": "35462",
+  "category_name": "ビジネスバッグ レディース",
+  "cat_label": "レディースビジネスバッグ",
+  "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学...",
+  "update_label": "2026/7/16",
+  "screenshot": "screenshots/keyword/ads001/20260716_ビジネスバッグ_レディース.png",
+  "first_date": "2026-07-16"
+ },
+ "ads001|レディース A4": {
+  "code": "ads001",
+  "keyword": "レディース A4",
+  "category_id": "35462",
+  "category_name": "レディース A4",
+  "cat_label": "レディースビジネスバッグ",
+  "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学...",
+  "update_label": "2026/7/16",
+  "screenshot": "screenshots/keyword/ads001/20260716_レディース_A4.png",
+  "first_date": "2026-07-16"
+ },
+ "ads001|A4 軽量": {
+  "code": "ads001",
+  "keyword": "A4 軽量",
+  "category_id": "35462",
+  "category_name": "A4 軽量",
+  "cat_label": "レディースビジネスバッグ",
+  "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学...",
+  "update_label": "2026/7/16",
+  "screenshot": "screenshots/keyword/ads001/20260716_A4_軽量.png",
+  "first_date": "2026-07-16"
+ },
+ "ads032|スマホショルダー 本革": {
+  "code": "ads032",
+  "keyword": "スマホショルダー 本革",
+  "category_id": "23549",
+  "category_name": "スマホショルダー 本革",
+  "cat_label": "レディースショルダーバッグ",
+  "title": "スマホショルダー レディース 本革 ブランド ストラップ スマホポーチ ショルダーバッグ サコッシュ...",
+  "update_label": "2026/7/16",
+  "screenshot": "screenshots/keyword/ads032/20260716_スマホショルダー_本革.png",
+  "first_date": "2026-07-16"
+ },
+ "ads096|小さめ ショルダーバッグ": {
+  "code": "ads096",
+  "keyword": "小さめ ショルダーバッグ",
+  "category_id": "37306",
+  "category_name": "小さめ ショルダーバッグ",
+  "cat_label": "レディースハンドバッグ",
+  "title": "ハンドバッグ レディース 小さめ 黒 本革 2way 軽量 横長 卒業式 入学式 フォーマル 軽い ...",
+  "update_label": "2026/7/16",
+  "screenshot": "screenshots/keyword/ads096/20260716_小さめ_ショルダーバッグ.png",
+  "first_date": "2026-07-16"
+ },
+ "ads032|本革 斜めがけ": {
+  "code": "ads032",
+  "keyword": "本革 斜めがけ",
+  "category_id": "23549",
+  "category_name": "本革 斜めがけ",
+  "cat_label": "レディースショルダーバッグ",
+  "title": "スマホショルダー レディース 本革 ブランド ストラップ スマホポーチ ショルダーバッグ サコッシュ...",
+  "update_label": "2026/7/16",
+  "screenshot": "screenshots/keyword/ads032/20260716_本革_斜めがけ.png",
+  "first_date": "2026-07-16"
+ },
+ "ads051|A4 二つ折り": {
+  "code": "ads051",
+  "keyword": "A4 二つ折り",
+  "category_id": "47412",
+  "category_name": "A4 二つ折り",
+  "cat_label": "バインダー",
+  "title": "バインダー A4 二つ折り おしゃれ クリップ ペンホルダー スマホ カード 多機能 名刺ホルダー ...",
+  "update_label": "2026/7/16",
+  "screenshot": "screenshots/keyword/ads051/20260716_A4_二つ折り.png",
+  "first_date": "2026-07-16"
+ },
+ "ads051|二つ折り おしゃれ": {
+  "code": "ads051",
+  "keyword": "二つ折り おしゃれ",
+  "category_id": "47412",
+  "category_name": "二つ折り おしゃれ",
+  "cat_label": "バインダー",
+  "title": "バインダー A4 二つ折り おしゃれ クリップ ペンホルダー スマホ カード 多機能 名刺ホルダー ...",
+  "update_label": "2026/7/16",
+  "screenshot": "screenshots/keyword/ads051/20260716_二つ折り_おしゃれ.png",
+  "first_date": "2026-07-16"
+ },
+ "ads051|おしゃれ クリップ": {
+  "code": "ads051",
+  "keyword": "おしゃれ クリップ",
+  "category_id": "47412",
+  "category_name": "おしゃれ クリップ",
+  "cat_label": "バインダー",
+  "title": "バインダー A4 二つ折り おしゃれ クリップ ペンホルダー スマホ カード 多機能 名刺ホルダー ...",
+  "update_label": "2026/7/16",
+  "screenshot": "screenshots/keyword/ads051/20260716_おしゃれ_クリップ.png",
+  "first_date": "2026-07-16"
+ },
+ "ads058-s|生ゴミ 不織布": {
+  "code": "ads058-s",
+  "keyword": "生ゴミ 不織布",
+  "category_id": "609",
+  "category_name": "生ゴミ 不織布",
+  "cat_label": "生ごみ処理機",
+  "title": "コンポスト バッグ 小型 Sサイズ おしゃれ 生ゴミ 不織布 バッグ 容器 家庭用 生ゴミ処理機 説...",
+  "update_label": "2026/7/16",
+  "screenshot": "screenshots/keyword/ads058-s/20260716_生ゴミ_不織布.png",
+  "first_date": "2026-07-16"
  }
 }

@@ -17,6 +17,7 @@ BASE = os.path.dirname(os.path.abspath(__file__))
 HISTORY = os.path.join(BASE, "data", "history.csv")
 PRODUCTS = os.path.join(BASE, "data", "products.json")
 LATEST = os.path.join(BASE, "data", "latest.json")
+WINS = os.path.join(BASE, "data", "wins.json")
 STORE = "annekor1"
 DASH_URL = "https://ads-hideki.github.io/yahoo-ranking-monitor/"
 WINDOW_HOURS = 24  # リアルタイム集計ウィンドウ（前日9時〜当日9時相当）
@@ -123,10 +124,12 @@ def main():
 
     daily = latest.get("daily", [])
     rts = realtime_wins(now, mapping)
+    daily_wins = load_json(WINS, {}).get("daily", {})
 
     image_urls, daily_html, rt_html = [], [], []
     for w in daily:
-        h, url = item_html(w, "daily")
+        cnt = daily_wins.get(w.get("code", "").lower(), {}).get("count", 0)
+        h, url = item_html(w, "daily", f"（累計1位 {cnt}日）")
         daily_html.append(h)
         if url:
             image_urls.append(url)

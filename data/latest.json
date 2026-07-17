@@ -1,5 +1,5 @@
 {
- "run_at": "2026-07-17T17:18:04.442989+09:00",
+ "run_at": "2026-07-17T20:24:19.411925+09:00",
  "categories_checked": 38,
  "daily": [
   {
@@ -35,17 +35,8 @@
    "screenshot": "screenshots/daily/ads067/20260717_cat74092_車内収納用品.png"
   }
  ],
- "realtime": [
-  {
-   "category_id": "24144",
-   "category_name": "ポケットティッシュカバー",
-   "code": "ads084",
-   "title": "ポケットティッシュケース 本革 ポーチ 掛けられる ポケットティッシュケース 革 レザー バイカラー フラップ付 かわいい おしゃれ 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/17",
-   "screenshot": "screenshots/realtime/ads084/20260717_cat24144_ポケットティッシュカバー.png"
-  }
- ],
- "realtime_updated": "2026-07-17T17:18:04.442989+09:00",
+ "realtime": [],
+ "realtime_updated": "2026-07-17T20:24:19.411925+09:00",
  "daily_updated": "2026-07-17T10:20:19.466772+09:00",
  "keyword": [
   {

@@ -1,5 +1,5 @@
 {
- "run_at": "2026-07-17T10:20:19.466772+09:00",
+ "run_at": "2026-07-17T14:18:14.586436+09:00",
  "categories_checked": 38,
  "daily": [
   {
@@ -35,17 +35,8 @@
    "screenshot": "screenshots/daily/ads067/20260717_cat74092_車内収納用品.png"
   }
  ],
- "realtime": [
-  {
-   "category_id": "23591",
-   "category_name": "レディースバッグインバッグ",
-   "code": "ads029-l",
-   "title": "バッグインバッグ A4 自立 大きめ 横型 ナイロン 軽量 多機能 収納 インナーバッグ 旅行 バッグインバック ミニバッグ 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/17",
-   "screenshot": "screenshots/realtime/ads029-l/20260717_cat23591_レディースバッグインバッグ.png"
-  }
- ],
- "realtime_updated": "2026-07-17T10:20:19.466772+09:00",
+ "realtime": [],
+ "realtime_updated": "2026-07-17T14:18:14.586436+09:00",
  "daily_updated": "2026-07-17T10:20:19.466772+09:00",
  "keyword": [
   {

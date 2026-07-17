@@ -1,5 +1,5 @@
 {
- "run_at": "2026-07-18T06:00:56.597110+09:00",
+ "run_at": "2026-07-18T07:54:05.935681+09:00",
  "categories_checked": 38,
  "daily": [
   {
@@ -37,23 +37,23 @@
  ],
  "realtime": [
   {
+   "category_id": "23591",
+   "category_name": "レディースバッグインバッグ",
+   "code": "ads003",
+   "title": "バッグインバッグ 小さめ 自立 フェルト 監修 インナーバッグ バックインバック 底板 軽量 アンコール Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/18",
+   "screenshot": "screenshots/realtime/ads003/20260718_cat23591_レディースバッグインバッグ.png"
+  },
+  {
    "category_id": "37190",
    "category_name": "レディースブラックフォーマルバッグ",
    "code": "ads082",
    "title": "フォーマルバッグ 黒 大きめ 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 サブバッグ付 ペットボトルが入る ブラック バック 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/7/18",
    "screenshot": "screenshots/realtime/ads082/20260718_cat37190_レディースブラックフォーマルバッグ.png"
-  },
-  {
-   "category_id": "4352",
-   "category_name": "マザーズバッグ",
-   "code": "ads008-l",
-   "title": "＼TVドラマ衣装提供商品／ マザーズバッグ トート 2WAY サイズ L マザーズバック 高見え ショルダー 軽い 軽量 大容量 人気 おしゃれ Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/18",
-   "screenshot": "screenshots/realtime/ads008-l/20260718_cat4352_マザーズバッグ.png"
   }
  ],
- "realtime_updated": "2026-07-18T06:00:56.597110+09:00",
+ "realtime_updated": "2026-07-18T07:54:05.935681+09:00",
  "daily_updated": "2026-07-17T10:20:19.466772+09:00",
  "keyword": [
   {

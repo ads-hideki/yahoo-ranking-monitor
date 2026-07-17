@@ -866,5 +866,93 @@
   "update_label": "2026/7/16",
   "screenshot": "screenshots/keyword/ads058-s/20260716_生ゴミ_不織布.png",
   "first_date": "2026-07-16"
+ },
+ "ads003|バッグインバッグ リュック": {
+  "code": "ads003",
+  "keyword": "バッグインバッグ リュック",
+  "category_id": "23591",
+  "category_name": "バッグインバッグ リュック",
+  "cat_label": "レディースバッグインバッグ",
+  "title": "バッグインバッグ 小さめ 自立 フェルト 監修 インナーバッグ バックインバック 底板 軽量 アンコ...",
+  "update_label": "2026/7/17",
+  "screenshot": "screenshots/keyword/ads003/20260717_バッグインバッグ_リュック.png",
+  "first_date": "2026-07-17"
+ },
+ "ads003|自立 小さめ": {
+  "code": "ads003",
+  "keyword": "自立 小さめ",
+  "category_id": "23591",
+  "category_name": "自立 小さめ",
+  "cat_label": "レディースバッグインバッグ",
+  "title": "バッグインバッグ 小さめ 自立 フェルト 監修 インナーバッグ バックインバック 底板 軽量 アンコ...",
+  "update_label": "2026/7/17",
+  "screenshot": "screenshots/keyword/ads003/20260717_自立_小さめ.png",
+  "first_date": "2026-07-17"
+ },
+ "ads003|バッグインバッグ 小さめ": {
+  "code": "ads003",
+  "keyword": "バッグインバッグ 小さめ",
+  "category_id": "23591",
+  "category_name": "バッグインバッグ 小さめ",
+  "cat_label": "レディースバッグインバッグ",
+  "title": "バッグインバッグ 小さめ 自立 フェルト 監修 インナーバッグ バックインバック 底板 軽量 アンコ...",
+  "update_label": "2026/7/17",
+  "screenshot": "screenshots/keyword/ads003/20260717_バッグインバッグ_小さめ.png",
+  "first_date": "2026-07-17"
+ },
+ "ads021|仕切り 小さめ": {
+  "code": "ads021",
+  "keyword": "仕切り 小さめ",
+  "category_id": "23558",
+  "category_name": "仕切り 小さめ",
+  "cat_label": "レディーストートバッグ",
+  "title": "ミニトートバッグ 帆布 レディース キャンバス ショルダーバッグ 仕切り ランチバッグ 通勤バッグ ...",
+  "update_label": "2026/7/17",
+  "screenshot": "screenshots/keyword/ads021/20260717_仕切り_小さめ.png",
+  "first_date": "2026-07-17"
+ },
+ "ads021|小さめ ショルダー": {
+  "code": "ads021",
+  "keyword": "小さめ ショルダー",
+  "category_id": "23558",
+  "category_name": "小さめ ショルダー",
+  "cat_label": "レディーストートバッグ",
+  "title": "ミニトートバッグ 帆布 レディース キャンバス ショルダーバッグ 仕切り ランチバッグ 通勤バッグ ...",
+  "update_label": "2026/7/17",
+  "screenshot": "screenshots/keyword/ads021/20260717_小さめ_ショルダー.png",
+  "first_date": "2026-07-17"
+ },
+ "ads021|ミニトートバッグ 帆布": {
+  "code": "ads021",
+  "keyword": "ミニトートバッグ 帆布",
+  "category_id": "23558",
+  "category_name": "ミニトートバッグ 帆布",
+  "cat_label": "レディーストートバッグ",
+  "title": "ミニトートバッグ 帆布 レディース キャンバス ショルダーバッグ 仕切り ランチバッグ 通勤バッグ ...",
+  "update_label": "2026/7/17",
+  "screenshot": "screenshots/keyword/ads021/20260717_ミニトートバッグ_帆布.png",
+  "first_date": "2026-07-17"
+ },
+ "ads007|本革 斜めがけ": {
+  "code": "ads007",
+  "keyword": "本革 斜めがけ",
+  "category_id": "23549",
+  "category_name": "本革 斜めがけ",
+  "cat_label": "レディースショルダーバッグ",
+  "title": "スマホショルダー 本革 レディース バッグ スマホポーチ ショルダーバッグ スマホポーチ 斜めがけ ...",
+  "update_label": "2026/7/17",
+  "screenshot": "screenshots/keyword/ads007/20260717_本革_斜めがけ.png",
+  "first_date": "2026-07-17"
+ },
+ "ads094|おしゃれ かわいい": {
+  "code": "ads094",
+  "keyword": "おしゃれ かわいい",
+  "category_id": "3596",
+  "category_name": "おしゃれ かわいい",
+  "cat_label": "ティッシュケース",
+  "title": "ティッシュケース おしゃれ かわいい ペーパーポット ティッシュカバー ティッシュホルダー トイレッ...",
+  "update_label": "2026/7/17",
+  "screenshot": "screenshots/keyword/ads094/20260717_おしゃれ_かわいい.png",
+  "first_date": "2026-07-17"
  }
 }

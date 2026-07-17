@@ -1,61 +1,141 @@
 {
- "run_at": "2026-07-17T08:01:21.416901+09:00",
+ "run_at": "2026-07-17T10:20:19.466772+09:00",
  "categories_checked": 38,
  "daily": [
+  {
+   "category_id": "23591",
+   "category_name": "レディースバッグインバッグ",
+   "code": "ads003",
+   "title": "バッグインバッグ 小さめ 自立 フェルト 監修 インナーバッグ バックインバック 底板 軽量 アンコール Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/17",
+   "screenshot": "screenshots/daily/ads003/20260717_cat23591_レディースバッグインバッグ.png"
+  },
   {
    "category_id": "35462",
    "category_name": "レディースビジネスバッグ",
    "code": "ads001",
    "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 入学 折らずにお届け 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/16",
-   "screenshot": "screenshots/daily/ads001/20260716_cat35462_レディースビジネスバッグ.png"
-  },
-  {
-   "category_id": "4352",
-   "category_name": "マザーズバッグ",
-   "code": "ads004",
-   "title": "マザーズリュック 軽量 大容量 バッグ リュック マザーズバッグ バック ママ パパ ブランド 撥水 おしゃれ ペアレンツバッグ Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/16",
-   "screenshot": "screenshots/daily/ads004/20260716_cat4352_マザーズバッグ.png"
+   "update_label": "2026/7/17",
+   "screenshot": "screenshots/daily/ads001/20260717_cat35462_レディースビジネスバッグ.png"
   },
   {
    "category_id": "45462",
    "category_name": "お香、インセンス",
    "code": "ads066",
    "title": "お香 アロマ 白檀 沈香 金木犀 ホワイトセージ おしゃれ お試し オシャレ 横置き 対応 セット リラクゼーション ヨガ お香 のような お線香 線香 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/16",
-   "screenshot": "screenshots/daily/ads066/20260716_cat45462_お香、インセンス.png"
+   "update_label": "2026/7/17",
+   "screenshot": "screenshots/daily/ads066/20260717_cat45462_お香、インセンス.png"
   },
   {
    "category_id": "74092",
    "category_name": "車内収納用品",
    "code": "ads067",
    "title": "シートボックス 腰クッション 車用 収納ボックス 車内 クッション カー用品 大容量 車内収納 小物入れ 荷物入れ 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/16",
-   "screenshot": "screenshots/daily/ads067/20260716_cat74092_車内収納用品.png"
+   "update_label": "2026/7/17",
+   "screenshot": "screenshots/daily/ads067/20260717_cat74092_車内収納用品.png"
   }
  ],
  "realtime": [
   {
-   "category_id": "37306",
-   "category_name": "レディースハンドバッグ",
-   "code": "ads026",
-   "title": "ハンドバッグ レディース 小さめ 2WAY ショルダーバッグ 軽い 軽量 ショルダー ブランド 入学式 フォーマル 結婚式 卒業式 入園 卒園 爆買｜バッグ 雑貨 Annekor アンコール",
+   "category_id": "23591",
+   "category_name": "レディースバッグインバッグ",
+   "code": "ads029-l",
+   "title": "バッグインバッグ A4 自立 大きめ 横型 ナイロン 軽量 多機能 収納 インナーバッグ 旅行 バッグインバック ミニバッグ 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/7/17",
-   "screenshot": "screenshots/realtime/ads026/20260717_cat37306_レディースハンドバッグ.png"
-  },
-  {
-   "category_id": "68725",
-   "category_name": "その他レディース財布",
-   "code": "ads035",
-   "title": "ミニ財布 レディース 二つ折り 財布 本革 お札折らない 薄い 財布 コンパクト財布 キャッシュレス 極薄 スリム スキミング防止 一粒万倍日 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/17",
-   "screenshot": "screenshots/realtime/ads035/20260717_cat68725_その他レディース財布.png"
+   "screenshot": "screenshots/realtime/ads029-l/20260717_cat23591_レディースバッグインバッグ.png"
   }
  ],
- "realtime_updated": "2026-07-17T08:01:21.416901+09:00",
- "daily_updated": "2026-07-16T10:16:29.298283+09:00",
+ "realtime_updated": "2026-07-17T10:20:19.466772+09:00",
+ "daily_updated": "2026-07-17T10:20:19.466772+09:00",
  "keyword": [
+  {
+   "code": "ads003",
+   "keyword": "バッグインバッグ リュック",
+   "category_id": "23591",
+   "category_name": "バッグインバッグ リュック",
+   "cat_label": "レディースバッグインバッグ",
+   "title": "バッグインバッグ 小さめ 自立 フェルト 監修 インナーバッグ バックインバック 底板 軽量 アンコ...",
+   "update_label": "2026/7/17",
+   "screenshot": "screenshots/keyword/ads003/20260717_バッグインバッグ_リュック.png",
+   "first_date": "2026-07-17"
+  },
+  {
+   "code": "ads003",
+   "keyword": "自立 小さめ",
+   "category_id": "23591",
+   "category_name": "自立 小さめ",
+   "cat_label": "レディースバッグインバッグ",
+   "title": "バッグインバッグ 小さめ 自立 フェルト 監修 インナーバッグ バックインバック 底板 軽量 アンコ...",
+   "update_label": "2026/7/17",
+   "screenshot": "screenshots/keyword/ads003/20260717_自立_小さめ.png",
+   "first_date": "2026-07-17"
+  },
+  {
+   "code": "ads003",
+   "keyword": "バッグインバッグ 小さめ",
+   "category_id": "23591",
+   "category_name": "バッグインバッグ 小さめ",
+   "cat_label": "レディースバッグインバッグ",
+   "title": "バッグインバッグ 小さめ 自立 フェルト 監修 インナーバッグ バックインバック 底板 軽量 アンコ...",
+   "update_label": "2026/7/17",
+   "screenshot": "screenshots/keyword/ads003/20260717_バッグインバッグ_小さめ.png",
+   "first_date": "2026-07-17"
+  },
+  {
+   "code": "ads021",
+   "keyword": "仕切り 小さめ",
+   "category_id": "23558",
+   "category_name": "仕切り 小さめ",
+   "cat_label": "レディーストートバッグ",
+   "title": "ミニトートバッグ 帆布 レディース キャンバス ショルダーバッグ 仕切り ランチバッグ 通勤バッグ ...",
+   "update_label": "2026/7/17",
+   "screenshot": "screenshots/keyword/ads021/20260717_仕切り_小さめ.png",
+   "first_date": "2026-07-17"
+  },
+  {
+   "code": "ads021",
+   "keyword": "小さめ ショルダー",
+   "category_id": "23558",
+   "category_name": "小さめ ショルダー",
+   "cat_label": "レディーストートバッグ",
+   "title": "ミニトートバッグ 帆布 レディース キャンバス ショルダーバッグ 仕切り ランチバッグ 通勤バッグ ...",
+   "update_label": "2026/7/17",
+   "screenshot": "screenshots/keyword/ads021/20260717_小さめ_ショルダー.png",
+   "first_date": "2026-07-17"
+  },
+  {
+   "code": "ads021",
+   "keyword": "ミニトートバッグ 帆布",
+   "category_id": "23558",
+   "category_name": "ミニトートバッグ 帆布",
+   "cat_label": "レディーストートバッグ",
+   "title": "ミニトートバッグ 帆布 レディース キャンバス ショルダーバッグ 仕切り ランチバッグ 通勤バッグ ...",
+   "update_label": "2026/7/17",
+   "screenshot": "screenshots/keyword/ads021/20260717_ミニトートバッグ_帆布.png",
+   "first_date": "2026-07-17"
+  },
+  {
+   "code": "ads007",
+   "keyword": "本革 斜めがけ",
+   "category_id": "23549",
+   "category_name": "本革 斜めがけ",
+   "cat_label": "レディースショルダーバッグ",
+   "title": "スマホショルダー 本革 レディース バッグ スマホポーチ ショルダーバッグ スマホポーチ 斜めがけ ...",
+   "update_label": "2026/7/17",
+   "screenshot": "screenshots/keyword/ads007/20260717_本革_斜めがけ.png",
+   "first_date": "2026-07-17"
+  },
+  {
+   "code": "ads094",
+   "keyword": "おしゃれ かわいい",
+   "category_id": "3596",
+   "category_name": "おしゃれ かわいい",
+   "cat_label": "ティッシュケース",
+   "title": "ティッシュケース おしゃれ かわいい ペーパーポット ティッシュカバー ティッシュホルダー トイレッ...",
+   "update_label": "2026/7/17",
+   "screenshot": "screenshots/keyword/ads094/20260717_おしゃれ_かわいい.png",
+   "first_date": "2026-07-17"
+  },
   {
    "code": "ads001",
    "keyword": "ビジネスバッグ レディース",
@@ -925,117 +1005,95 @@
    "first_date": "2026-07-08"
   }
  ],
- "keyword_updated": "2026-07-16T10:16:29.298283+09:00",
+ "keyword_updated": "2026-07-17T10:20:19.466772+09:00",
  "keyword_new": [
   {
-   "code": "ads001",
-   "keyword": "ビジネスバッグ レディース",
-   "category_id": "35462",
-   "category_name": "ビジネスバッグ レディース",
-   "cat_label": "レディースビジネスバッグ",
-   "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学...",
-   "update_label": "2026/7/16",
-   "screenshot": "screenshots/keyword/ads001/20260716_ビジネスバッグ_レディース.png",
-   "first_date": "2026-07-16"
+   "code": "ads003",
+   "keyword": "バッグインバッグ リュック",
+   "category_id": "23591",
+   "category_name": "バッグインバッグ リュック",
+   "cat_label": "レディースバッグインバッグ",
+   "title": "バッグインバッグ 小さめ 自立 フェルト 監修 インナーバッグ バックインバック 底板 軽量 アンコ...",
+   "update_label": "2026/7/17",
+   "screenshot": "screenshots/keyword/ads003/20260717_バッグインバッグ_リュック.png",
+   "first_date": "2026-07-17"
   },
   {
-   "code": "ads001",
-   "keyword": "レディース A4",
-   "category_id": "35462",
-   "category_name": "レディース A4",
-   "cat_label": "レディースビジネスバッグ",
-   "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学...",
-   "update_label": "2026/7/16",
-   "screenshot": "screenshots/keyword/ads001/20260716_レディース_A4.png",
-   "first_date": "2026-07-16"
+   "code": "ads003",
+   "keyword": "自立 小さめ",
+   "category_id": "23591",
+   "category_name": "自立 小さめ",
+   "cat_label": "レディースバッグインバッグ",
+   "title": "バッグインバッグ 小さめ 自立 フェルト 監修 インナーバッグ バックインバック 底板 軽量 アンコ...",
+   "update_label": "2026/7/17",
+   "screenshot": "screenshots/keyword/ads003/20260717_自立_小さめ.png",
+   "first_date": "2026-07-17"
   },
   {
-   "code": "ads001",
-   "keyword": "A4 軽量",
-   "category_id": "35462",
-   "category_name": "A4 軽量",
-   "cat_label": "レディースビジネスバッグ",
-   "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学...",
-   "update_label": "2026/7/16",
-   "screenshot": "screenshots/keyword/ads001/20260716_A4_軽量.png",
-   "first_date": "2026-07-16"
+   "code": "ads003",
+   "keyword": "バッグインバッグ 小さめ",
+   "category_id": "23591",
+   "category_name": "バッグインバッグ 小さめ",
+   "cat_label": "レディースバッグインバッグ",
+   "title": "バッグインバッグ 小さめ 自立 フェルト 監修 インナーバッグ バックインバック 底板 軽量 アンコ...",
+   "update_label": "2026/7/17",
+   "screenshot": "screenshots/keyword/ads003/20260717_バッグインバッグ_小さめ.png",
+   "first_date": "2026-07-17"
   },
   {
-   "code": "ads032",
-   "keyword": "スマホショルダー 本革",
-   "category_id": "23549",
-   "category_name": "スマホショルダー 本革",
-   "cat_label": "レディースショルダーバッグ",
-   "title": "スマホショルダー レディース 本革 ブランド ストラップ スマホポーチ ショルダーバッグ サコッシュ...",
-   "update_label": "2026/7/16",
-   "screenshot": "screenshots/keyword/ads032/20260716_スマホショルダー_本革.png",
-   "first_date": "2026-07-16"
+   "code": "ads021",
+   "keyword": "仕切り 小さめ",
+   "category_id": "23558",
+   "category_name": "仕切り 小さめ",
+   "cat_label": "レディーストートバッグ",
+   "title": "ミニトートバッグ 帆布 レディース キャンバス ショルダーバッグ 仕切り ランチバッグ 通勤バッグ ...",
+   "update_label": "2026/7/17",
+   "screenshot": "screenshots/keyword/ads021/20260717_仕切り_小さめ.png",
+   "first_date": "2026-07-17"
   },
   {
-   "code": "ads096",
-   "keyword": "小さめ ショルダーバッグ",
-   "category_id": "37306",
-   "category_name": "小さめ ショルダーバッグ",
-   "cat_label": "レディースハンドバッグ",
-   "title": "ハンドバッグ レディース 小さめ 黒 本革 2way 軽量 横長 卒業式 入学式 フォーマル 軽い ...",
-   "update_label": "2026/7/16",
-   "screenshot": "screenshots/keyword/ads096/20260716_小さめ_ショルダーバッグ.png",
-   "first_date": "2026-07-16"
+   "code": "ads021",
+   "keyword": "小さめ ショルダー",
+   "category_id": "23558",
+   "category_name": "小さめ ショルダー",
+   "cat_label": "レディーストートバッグ",
+   "title": "ミニトートバッグ 帆布 レディース キャンバス ショルダーバッグ 仕切り ランチバッグ 通勤バッグ ...",
+   "update_label": "2026/7/17",
+   "screenshot": "screenshots/keyword/ads021/20260717_小さめ_ショルダー.png",
+   "first_date": "2026-07-17"
   },
   {
-   "code": "ads032",
+   "code": "ads021",
+   "keyword": "ミニトートバッグ 帆布",
+   "category_id": "23558",
+   "category_name": "ミニトートバッグ 帆布",
+   "cat_label": "レディーストートバッグ",
+   "title": "ミニトートバッグ 帆布 レディース キャンバス ショルダーバッグ 仕切り ランチバッグ 通勤バッグ ...",
+   "update_label": "2026/7/17",
+   "screenshot": "screenshots/keyword/ads021/20260717_ミニトートバッグ_帆布.png",
+   "first_date": "2026-07-17"
+  },
+  {
+   "code": "ads007",
    "keyword": "本革 斜めがけ",
    "category_id": "23549",
    "category_name": "本革 斜めがけ",
    "cat_label": "レディースショルダーバッグ",
-   "title": "スマホショルダー レディース 本革 ブランド ストラップ スマホポーチ ショルダーバッグ サコッシュ...",
-   "update_label": "2026/7/16",
-   "screenshot": "screenshots/keyword/ads032/20260716_本革_斜めがけ.png",
-   "first_date": "2026-07-16"
+   "title": "スマホショルダー 本革 レディース バッグ スマホポーチ ショルダーバッグ スマホポーチ 斜めがけ ...",
+   "update_label": "2026/7/17",
+   "screenshot": "screenshots/keyword/ads007/20260717_本革_斜めがけ.png",
+   "first_date": "2026-07-17"
   },
   {
-   "code": "ads051",
-   "keyword": "A4 二つ折り",
-   "category_id": "47412",
-   "category_name": "A4 二つ折り",
-   "cat_label": "バインダー",
-   "title": "バインダー A4 二つ折り おしゃれ クリップ ペンホルダー スマホ カード 多機能 名刺ホルダー ...",
-   "update_label": "2026/7/16",
-   "screenshot": "screenshots/keyword/ads051/20260716_A4_二つ折り.png",
-   "first_date": "2026-07-16"
-  },
-  {
-   "code": "ads051",
-   "keyword": "二つ折り おしゃれ",
-   "category_id": "47412",
-   "category_name": "二つ折り おしゃれ",
-   "cat_label": "バインダー",
-   "title": "バインダー A4 二つ折り おしゃれ クリップ ペンホルダー スマホ カード 多機能 名刺ホルダー ...",
-   "update_label": "2026/7/16",
-   "screenshot": "screenshots/keyword/ads051/20260716_二つ折り_おしゃれ.png",
-   "first_date": "2026-07-16"
-  },
-  {
-   "code": "ads051",
-   "keyword": "おしゃれ クリップ",
-   "category_id": "47412",
-   "category_name": "おしゃれ クリップ",
-   "cat_label": "バインダー",
-   "title": "バインダー A4 二つ折り おしゃれ クリップ ペンホルダー スマホ カード 多機能 名刺ホルダー ...",
-   "update_label": "2026/7/16",
-   "screenshot": "screenshots/keyword/ads051/20260716_おしゃれ_クリップ.png",
-   "first_date": "2026-07-16"
-  },
-  {
-   "code": "ads058-s",
-   "keyword": "生ゴミ 不織布",
-   "category_id": "609",
-   "category_name": "生ゴミ 不織布",
-   "cat_label": "生ごみ処理機",
-   "title": "コンポスト バッグ 小型 Sサイズ おしゃれ 生ゴミ 不織布 バッグ 容器 家庭用 生ゴミ処理機 説...",
-   "update_label": "2026/7/16",
-   "screenshot": "screenshots/keyword/ads058-s/20260716_生ゴミ_不織布.png",
-   "first_date": "2026-07-16"
+   "code": "ads094",
+   "keyword": "おしゃれ かわいい",
+   "category_id": "3596",
+   "category_name": "おしゃれ かわいい",
+   "cat_label": "ティッシュケース",
+   "title": "ティッシュケース おしゃれ かわいい ペーパーポット ティッシュカバー ティッシュホルダー トイレッ...",
+   "update_label": "2026/7/17",
+   "screenshot": "screenshots/keyword/ads094/20260717_おしゃれ_かわいい.png",
+   "first_date": "2026-07-17"
   }
  ]
 }

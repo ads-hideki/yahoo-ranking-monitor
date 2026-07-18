@@ -1,40 +1,7 @@
 {
- "run_at": "2026-07-18T07:54:05.935681+09:00",
+ "run_at": "2026-07-18T10:12:33.272726+09:00",
  "categories_checked": 38,
- "daily": [
-  {
-   "category_id": "23591",
-   "category_name": "レディースバッグインバッグ",
-   "code": "ads003",
-   "title": "バッグインバッグ 小さめ 自立 フェルト 監修 インナーバッグ バックインバック 底板 軽量 アンコール Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/17",
-   "screenshot": "screenshots/daily/ads003/20260717_cat23591_レディースバッグインバッグ.png"
-  },
-  {
-   "category_id": "35462",
-   "category_name": "レディースビジネスバッグ",
-   "code": "ads001",
-   "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 入学 折らずにお届け 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/17",
-   "screenshot": "screenshots/daily/ads001/20260717_cat35462_レディースビジネスバッグ.png"
-  },
-  {
-   "category_id": "45462",
-   "category_name": "お香、インセンス",
-   "code": "ads066",
-   "title": "お香 アロマ 白檀 沈香 金木犀 ホワイトセージ おしゃれ お試し オシャレ 横置き 対応 セット リラクゼーション ヨガ お香 のような お線香 線香 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/17",
-   "screenshot": "screenshots/daily/ads066/20260717_cat45462_お香、インセンス.png"
-  },
-  {
-   "category_id": "74092",
-   "category_name": "車内収納用品",
-   "code": "ads067",
-   "title": "シートボックス 腰クッション 車用 収納ボックス 車内 クッション カー用品 大容量 車内収納 小物入れ 荷物入れ 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/17",
-   "screenshot": "screenshots/daily/ads067/20260717_cat74092_車内収納用品.png"
-  }
- ],
+ "daily": [],
  "realtime": [
   {
    "category_id": "23591",
@@ -45,17 +12,83 @@
    "screenshot": "screenshots/realtime/ads003/20260718_cat23591_レディースバッグインバッグ.png"
   },
   {
-   "category_id": "37190",
-   "category_name": "レディースブラックフォーマルバッグ",
-   "code": "ads082",
-   "title": "フォーマルバッグ 黒 大きめ 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 サブバッグ付 ペットボトルが入る ブラック バック 爆買｜バッグ 雑貨 Annekor アンコール",
+   "category_id": "45462",
+   "category_name": "お香、インセンス",
+   "code": "ads066",
+   "title": "お香 アロマ 白檀 沈香 金木犀 ホワイトセージ おしゃれ お試し オシャレ 横置き 対応 セット リラクゼーション ヨガ お香 のような お線香 線香 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/7/18",
-   "screenshot": "screenshots/realtime/ads082/20260718_cat37190_レディースブラックフォーマルバッグ.png"
+   "screenshot": "screenshots/realtime/ads066/20260718_cat45462_お香、インセンス.png"
   }
  ],
- "realtime_updated": "2026-07-18T07:54:05.935681+09:00",
- "daily_updated": "2026-07-17T10:20:19.466772+09:00",
+ "realtime_updated": "2026-07-18T10:12:33.272726+09:00",
+ "daily_updated": "2026-07-18T10:12:33.272726+09:00",
  "keyword": [
+  {
+   "code": "ads026",
+   "keyword": "小さめ ショルダーバッグ",
+   "category_id": "37306",
+   "category_name": "小さめ ショルダーバッグ",
+   "cat_label": "レディースハンドバッグ",
+   "title": "ハンドバッグ レディース 小さめ 2WAY ショルダーバッグ 軽い 軽量 ショルダー ブランド 入学...",
+   "update_label": "2026/7/18",
+   "screenshot": "screenshots/keyword/ads026/20260718_小さめ_ショルダーバッグ.png",
+   "first_date": "2026-07-18"
+  },
+  {
+   "code": "ads058-s",
+   "keyword": "おしゃれ 生ゴミ",
+   "category_id": "609",
+   "category_name": "おしゃれ 生ゴミ",
+   "cat_label": "生ごみ処理機",
+   "title": "コンポスト バッグ 小型 Sサイズ おしゃれ 生ゴミ 不織布 バッグ 容器 家庭用 生ゴミ処理機 説...",
+   "update_label": "2026/7/18",
+   "screenshot": "screenshots/keyword/ads058-s/20260718_おしゃれ_生ゴミ.png",
+   "first_date": "2026-07-18"
+  },
+  {
+   "code": "ads083-1",
+   "keyword": "横型 縦型",
+   "category_id": "23549",
+   "category_name": "横型 縦型",
+   "cat_label": "レディースショルダーバッグ",
+   "title": "スマホポーチ ショルダー レディース 横型 縦型 財布 フラップ スマホショルダー バイカラー 多機...",
+   "update_label": "2026/7/18",
+   "screenshot": "screenshots/keyword/ads083-1/20260718_横型_縦型.png",
+   "first_date": "2026-07-18"
+  },
+  {
+   "code": "ads083-1",
+   "keyword": "縦型 財布",
+   "category_id": "23549",
+   "category_name": "縦型 財布",
+   "cat_label": "レディースショルダーバッグ",
+   "title": "スマホポーチ ショルダー レディース 横型 縦型 財布 フラップ スマホショルダー バイカラー 多機...",
+   "update_label": "2026/7/18",
+   "screenshot": "screenshots/keyword/ads083-1/20260718_縦型_財布.png",
+   "first_date": "2026-07-18"
+  },
+  {
+   "code": "ads084",
+   "keyword": "ポケットティッシュケース レザー",
+   "category_id": "24144",
+   "category_name": "ポケットティッシュケース レザー",
+   "cat_label": "ポケットティッシュカバー",
+   "title": "ポケットティッシュケース 本革 ポーチ 掛けられる ポケットティッシュケース 革 レザー バイカラー...",
+   "update_label": "2026/7/18",
+   "screenshot": "screenshots/keyword/ads084/20260718_ポケットティッシュケース_レザー.png",
+   "first_date": "2026-07-18"
+  },
+  {
+   "code": "ads201-a",
+   "keyword": "除菌 次亜塩素酸パウダー",
+   "category_id": "45235",
+   "category_name": "除菌 次亜塩素酸パウダー",
+   "cat_label": "除菌剤、抗菌剤",
+   "title": "次亜塩素酸 粉 次亜塩素酸水 除菌 次亜塩素酸パウダー 生成 500ppm 消臭 業務用 家庭用 子...",
+   "update_label": "2026/7/18",
+   "screenshot": "screenshots/keyword/ads201-a/20260718_除菌_次亜塩素酸パウダー.png",
+   "first_date": "2026-07-18"
+  },
   {
    "code": "ads003",
    "keyword": "バッグインバッグ リュック",
@@ -1013,95 +1046,73 @@
    "first_date": "2026-07-08"
   }
  ],
- "keyword_updated": "2026-07-17T10:20:19.466772+09:00",
+ "keyword_updated": "2026-07-18T10:12:33.272726+09:00",
  "keyword_new": [
   {
-   "code": "ads003",
-   "keyword": "バッグインバッグ リュック",
-   "category_id": "23591",
-   "category_name": "バッグインバッグ リュック",
-   "cat_label": "レディースバッグインバッグ",
-   "title": "バッグインバッグ 小さめ 自立 フェルト 監修 インナーバッグ バックインバック 底板 軽量 アンコ...",
-   "update_label": "2026/7/17",
-   "screenshot": "screenshots/keyword/ads003/20260717_バッグインバッグ_リュック.png",
-   "first_date": "2026-07-17"
+   "code": "ads026",
+   "keyword": "小さめ ショルダーバッグ",
+   "category_id": "37306",
+   "category_name": "小さめ ショルダーバッグ",
+   "cat_label": "レディースハンドバッグ",
+   "title": "ハンドバッグ レディース 小さめ 2WAY ショルダーバッグ 軽い 軽量 ショルダー ブランド 入学...",
+   "update_label": "2026/7/18",
+   "screenshot": "screenshots/keyword/ads026/20260718_小さめ_ショルダーバッグ.png",
+   "first_date": "2026-07-18"
   },
   {
-   "code": "ads003",
-   "keyword": "自立 小さめ",
-   "category_id": "23591",
-   "category_name": "自立 小さめ",
-   "cat_label": "レディースバッグインバッグ",
-   "title": "バッグインバッグ 小さめ 自立 フェルト 監修 インナーバッグ バックインバック 底板 軽量 アンコ...",
-   "update_label": "2026/7/17",
-   "screenshot": "screenshots/keyword/ads003/20260717_自立_小さめ.png",
-   "first_date": "2026-07-17"
+   "code": "ads058-s",
+   "keyword": "おしゃれ 生ゴミ",
+   "category_id": "609",
+   "category_name": "おしゃれ 生ゴミ",
+   "cat_label": "生ごみ処理機",
+   "title": "コンポスト バッグ 小型 Sサイズ おしゃれ 生ゴミ 不織布 バッグ 容器 家庭用 生ゴミ処理機 説...",
+   "update_label": "2026/7/18",
+   "screenshot": "screenshots/keyword/ads058-s/20260718_おしゃれ_生ゴミ.png",
+   "first_date": "2026-07-18"
   },
   {
-   "code": "ads003",
-   "keyword": "バッグインバッグ 小さめ",
-   "category_id": "23591",
-   "category_name": "バッグインバッグ 小さめ",
-   "cat_label": "レディースバッグインバッグ",
-   "title": "バッグインバッグ 小さめ 自立 フェルト 監修 インナーバッグ バックインバック 底板 軽量 アンコ...",
-   "update_label": "2026/7/17",
-   "screenshot": "screenshots/keyword/ads003/20260717_バッグインバッグ_小さめ.png",
-   "first_date": "2026-07-17"
-  },
-  {
-   "code": "ads021",
-   "keyword": "仕切り 小さめ",
-   "category_id": "23558",
-   "category_name": "仕切り 小さめ",
-   "cat_label": "レディーストートバッグ",
-   "title": "ミニトートバッグ 帆布 レディース キャンバス ショルダーバッグ 仕切り ランチバッグ 通勤バッグ ...",
-   "update_label": "2026/7/17",
-   "screenshot": "screenshots/keyword/ads021/20260717_仕切り_小さめ.png",
-   "first_date": "2026-07-17"
-  },
-  {
-   "code": "ads021",
-   "keyword": "小さめ ショルダー",
-   "category_id": "23558",
-   "category_name": "小さめ ショルダー",
-   "cat_label": "レディーストートバッグ",
-   "title": "ミニトートバッグ 帆布 レディース キャンバス ショルダーバッグ 仕切り ランチバッグ 通勤バッグ ...",
-   "update_label": "2026/7/17",
-   "screenshot": "screenshots/keyword/ads021/20260717_小さめ_ショルダー.png",
-   "first_date": "2026-07-17"
-  },
-  {
-   "code": "ads021",
-   "keyword": "ミニトートバッグ 帆布",
-   "category_id": "23558",
-   "category_name": "ミニトートバッグ 帆布",
-   "cat_label": "レディーストートバッグ",
-   "title": "ミニトートバッグ 帆布 レディース キャンバス ショルダーバッグ 仕切り ランチバッグ 通勤バッグ ...",
-   "update_label": "2026/7/17",
-   "screenshot": "screenshots/keyword/ads021/20260717_ミニトートバッグ_帆布.png",
-   "first_date": "2026-07-17"
-  },
-  {
-   "code": "ads007",
-   "keyword": "本革 斜めがけ",
+   "code": "ads083-1",
+   "keyword": "横型 縦型",
    "category_id": "23549",
-   "category_name": "本革 斜めがけ",
+   "category_name": "横型 縦型",
    "cat_label": "レディースショルダーバッグ",
-   "title": "スマホショルダー 本革 レディース バッグ スマホポーチ ショルダーバッグ スマホポーチ 斜めがけ ...",
-   "update_label": "2026/7/17",
-   "screenshot": "screenshots/keyword/ads007/20260717_本革_斜めがけ.png",
-   "first_date": "2026-07-17"
+   "title": "スマホポーチ ショルダー レディース 横型 縦型 財布 フラップ スマホショルダー バイカラー 多機...",
+   "update_label": "2026/7/18",
+   "screenshot": "screenshots/keyword/ads083-1/20260718_横型_縦型.png",
+   "first_date": "2026-07-18"
   },
   {
-   "code": "ads094",
-   "keyword": "おしゃれ かわいい",
-   "category_id": "3596",
-   "category_name": "おしゃれ かわいい",
-   "cat_label": "ティッシュケース",
-   "title": "ティッシュケース おしゃれ かわいい ペーパーポット ティッシュカバー ティッシュホルダー トイレッ...",
-   "update_label": "2026/7/17",
-   "screenshot": "screenshots/keyword/ads094/20260717_おしゃれ_かわいい.png",
-   "first_date": "2026-07-17"
+   "code": "ads083-1",
+   "keyword": "縦型 財布",
+   "category_id": "23549",
+   "category_name": "縦型 財布",
+   "cat_label": "レディースショルダーバッグ",
+   "title": "スマホポーチ ショルダー レディース 横型 縦型 財布 フラップ スマホショルダー バイカラー 多機...",
+   "update_label": "2026/7/18",
+   "screenshot": "screenshots/keyword/ads083-1/20260718_縦型_財布.png",
+   "first_date": "2026-07-18"
+  },
+  {
+   "code": "ads084",
+   "keyword": "ポケットティッシュケース レザー",
+   "category_id": "24144",
+   "category_name": "ポケットティッシュケース レザー",
+   "cat_label": "ポケットティッシュカバー",
+   "title": "ポケットティッシュケース 本革 ポーチ 掛けられる ポケットティッシュケース 革 レザー バイカラー...",
+   "update_label": "2026/7/18",
+   "screenshot": "screenshots/keyword/ads084/20260718_ポケットティッシュケース_レザー.png",
+   "first_date": "2026-07-18"
+  },
+  {
+   "code": "ads201-a",
+   "keyword": "除菌 次亜塩素酸パウダー",
+   "category_id": "45235",
+   "category_name": "除菌 次亜塩素酸パウダー",
+   "cat_label": "除菌剤、抗菌剤",
+   "title": "次亜塩素酸 粉 次亜塩素酸水 除菌 次亜塩素酸パウダー 生成 500ppm 消臭 業務用 家庭用 子...",
+   "update_label": "2026/7/18",
+   "screenshot": "screenshots/keyword/ads201-a/20260718_除菌_次亜塩素酸パウダー.png",
+   "first_date": "2026-07-18"
   }
  ]
 }

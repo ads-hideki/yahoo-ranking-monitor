@@ -1,5 +1,5 @@
 {
- "run_at": "2026-07-19T22:27:25.017251+09:00",
+ "run_at": "2026-07-20T00:01:02.214196+09:00",
  "categories_checked": 38,
  "daily": [
   {
@@ -27,25 +27,8 @@
    "screenshot": "screenshots/daily/ads035/20260719_cat68725_その他レディース財布.png"
   }
  ],
- "realtime": [
-  {
-   "category_id": "35462",
-   "category_name": "レディースビジネスバッグ",
-   "code": "ads001",
-   "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 入学 折らずにお届け 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/19",
-   "screenshot": "screenshots/realtime/ads001/20260719_cat35462_レディースビジネスバッグ.png"
-  },
-  {
-   "category_id": "4352",
-   "category_name": "マザーズバッグ",
-   "code": "ads004",
-   "title": "マザーズリュック 軽量 大容量 バッグ リュック マザーズバッグ バック ママ パパ ブランド 撥水 おしゃれ ペアレンツバッグ Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/19",
-   "screenshot": "screenshots/realtime/ads004/20260719_cat4352_マザーズバッグ.png"
-  }
- ],
- "realtime_updated": "2026-07-19T22:27:25.017251+09:00",
+ "realtime": [],
+ "realtime_updated": "2026-07-20T00:01:02.214196+09:00",
  "daily_updated": "2026-07-19T10:17:43.511448+09:00",
  "keyword": [
   {

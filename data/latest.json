@@ -1,5 +1,5 @@
 {
- "run_at": "2026-07-19T17:25:57.109433+09:00",
+ "run_at": "2026-07-19T20:12:13.112534+09:00",
  "categories_checked": 38,
  "daily": [
   {
@@ -27,8 +27,25 @@
    "screenshot": "screenshots/daily/ads035/20260719_cat68725_その他レディース財布.png"
   }
  ],
- "realtime": [],
- "realtime_updated": "2026-07-19T17:25:57.109433+09:00",
+ "realtime": [
+  {
+   "category_id": "35462",
+   "category_name": "レディースビジネスバッグ",
+   "code": "ads001",
+   "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 入学 折らずにお届け 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/19",
+   "screenshot": "screenshots/realtime/ads001/20260719_cat35462_レディースビジネスバッグ.png"
+  },
+  {
+   "category_id": "48240",
+   "category_name": "レディース名刺入れ",
+   "code": "ads033",
+   "title": "名刺入れ レディース 本革 メンズ 革 レザー ブランド 大容量 名刺ケース マグネット おしゃれ ギフト 就職 転職 Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/19",
+   "screenshot": "screenshots/realtime/ads033/20260719_cat48240_レディース名刺入れ.png"
+  }
+ ],
+ "realtime_updated": "2026-07-19T20:12:13.112534+09:00",
  "daily_updated": "2026-07-19T10:17:43.511448+09:00",
  "keyword": [
   {

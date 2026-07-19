@@ -1020,5 +1020,60 @@
   "update_label": "2026/7/18",
   "screenshot": "screenshots/keyword/ads201-a/20260718_除菌_次亜塩素酸パウダー.png",
   "first_date": "2026-07-18"
+ },
+ "ads021-l|帆布 A4": {
+  "code": "ads021-l",
+  "keyword": "帆布 A4",
+  "category_id": "23558",
+  "category_name": "帆布 A4",
+  "cat_label": "レディーストートバッグ",
+  "title": "トートバッグ レディース 帆布トートバッグ キャンバス 仕切り ランチバッグ 通勤バッグ 大容量 バ...",
+  "update_label": "2026/7/19",
+  "screenshot": "screenshots/keyword/ads021-l/20260719_帆布_A4.png",
+  "first_date": "2026-07-19"
+ },
+ "ads043|名前 IDカードケース": {
+  "code": "ads043",
+  "keyword": "名前 IDカードケース",
+  "category_id": "48241",
+  "category_name": "名前 IDカードケース",
+  "cat_label": "レディースIDカードケース",
+  "title": "IDカードホルダー 本革 レディース リール 革 名前 横 型 IDカードケース 本革 両面 社員証...",
+  "update_label": "2026/7/19",
+  "screenshot": "screenshots/keyword/ads043/20260719_名前_IDカードケース.png",
+  "first_date": "2026-07-19"
+ },
+ "ads047-s|選べる2タイプ スマートキーケース": {
+  "code": "ads047-s",
+  "keyword": "選べる2タイプ スマートキーケース",
+  "category_id": "42946",
+  "category_name": "選べる2タイプ スマートキーケース",
+  "cat_label": "スマートキーカバー",
+  "title": "＼選べる2タイプ／ スマートキーケース 窓付き 2個 本革 トヨタ レザー スズキ ホンダ 日産 バ...",
+  "update_label": "2026/7/19",
+  "screenshot": "screenshots/keyword/ads047-s/20260719_選べる2タイプ_スマートキーケース.png",
+  "first_date": "2026-07-19"
+ },
+ "ads201-b|除菌 次亜塩素酸パウダー": {
+  "code": "ads201-b",
+  "keyword": "除菌 次亜塩素酸パウダー",
+  "category_id": "45235",
+  "category_name": "除菌 次亜塩素酸パウダー",
+  "cat_label": "除菌剤、抗菌剤",
+  "title": "次亜塩素酸 粉 次亜塩素酸水 除菌 プール 除菌 次亜塩素酸パウダー 生成 500ppm 消臭 業務...",
+  "update_label": "2026/7/19",
+  "screenshot": "screenshots/keyword/ads201-b/20260719_除菌_次亜塩素酸パウダー.png",
+  "first_date": "2026-07-19"
+ },
+ "ads201-b|次亜塩素酸パウダー 生成": {
+  "code": "ads201-b",
+  "keyword": "次亜塩素酸パウダー 生成",
+  "category_id": "45235",
+  "category_name": "次亜塩素酸パウダー 生成",
+  "cat_label": "除菌剤、抗菌剤",
+  "title": "次亜塩素酸 粉 次亜塩素酸水 除菌 プール 除菌 次亜塩素酸パウダー 生成 500ppm 消臭 業務...",
+  "update_label": "2026/7/19",
+  "screenshot": "screenshots/keyword/ads201-b/20260719_次亜塩素酸パウダー_生成.png",
+  "first_date": "2026-07-19"
  }
 }

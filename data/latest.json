@@ -1,5 +1,5 @@
 {
- "run_at": "2026-07-20T21:20:19.838481+09:00",
+ "run_at": "2026-07-21T00:54:13.840751+09:00",
  "categories_checked": 38,
  "daily": [
   {
@@ -37,15 +37,31 @@
  ],
  "realtime": [
   {
-   "category_id": "68710",
-   "category_name": "レディース長財布",
-   "code": "ads089",
-   "title": "長財布 レディース 本革 財布 小さい財布 大容量 薄い お札が折れない ブランド 使いやすい バイカラー 小さな長財布 爆買｜バッグ 雑貨 Annekor アンコール",
+   "category_id": "35462",
+   "category_name": "レディースビジネスバッグ",
+   "code": "ads001",
+   "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 入学 折らずにお届け 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/7/20",
-   "screenshot": "screenshots/realtime/ads089/20260720_cat68710_レディース長財布.png"
+   "screenshot": "screenshots/realtime/ads001/20260721_cat35462_レディースビジネスバッグ.png"
+  },
+  {
+   "category_id": "45462",
+   "category_name": "お香、インセンス",
+   "code": "ads066",
+   "title": "お香 アロマ 白檀 沈香 金木犀 ホワイトセージ おしゃれ お試し オシャレ 横置き 対応 セット リラクゼーション ヨガ お香 のような お線香 線香 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/20",
+   "screenshot": "screenshots/realtime/ads066/20260721_cat45462_お香、インセンス.png"
+  },
+  {
+   "category_id": "48240",
+   "category_name": "レディース名刺入れ",
+   "code": "ads033",
+   "title": "名刺入れ レディース 本革 メンズ 革 レザー ブランド 大容量 名刺ケース マグネット おしゃれ ギフト 就職 転職 Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/20",
+   "screenshot": "screenshots/realtime/ads033/20260721_cat48240_レディース名刺入れ.png"
   }
  ],
- "realtime_updated": "2026-07-20T21:20:19.838481+09:00",
+ "realtime_updated": "2026-07-21T00:54:13.840751+09:00",
  "daily_updated": "2026-07-20T11:49:49.968392+09:00",
  "keyword": [
   {

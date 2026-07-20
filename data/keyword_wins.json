@@ -1075,5 +1075,104 @@
   "update_label": "2026/7/19",
   "screenshot": "screenshots/keyword/ads201-b/20260719_次亜塩素酸パウダー_生成.png",
   "first_date": "2026-07-19"
+ },
+ "ads026|レディース 小さめ": {
+  "code": "ads026",
+  "keyword": "レディース 小さめ",
+  "category_id": "37306",
+  "category_name": "レディース 小さめ",
+  "cat_label": "レディースハンドバッグ",
+  "title": "ハンドバッグ レディース 小さめ 2WAY ショルダーバッグ 軽い 軽量 ショルダー ブランド 入学...",
+  "update_label": "2026/7/20",
+  "screenshot": "screenshots/keyword/ads026/20260720_レディース_小さめ.png",
+  "first_date": "2026-07-20"
+ },
+ "ads026|ショルダーバッグ 軽い": {
+  "code": "ads026",
+  "keyword": "ショルダーバッグ 軽い",
+  "category_id": "37306",
+  "category_name": "ショルダーバッグ 軽い",
+  "cat_label": "レディースハンドバッグ",
+  "title": "ハンドバッグ レディース 小さめ 2WAY ショルダーバッグ 軽い 軽量 ショルダー ブランド 入学...",
+  "update_label": "2026/7/20",
+  "screenshot": "screenshots/keyword/ads026/20260720_ショルダーバッグ_軽い.png",
+  "first_date": "2026-07-20"
+ },
+ "ads029|小さめ 横型": {
+  "code": "ads029",
+  "keyword": "小さめ 横型",
+  "category_id": "23591",
+  "category_name": "小さめ 横型",
+  "cat_label": "レディースバッグインバッグ",
+  "title": "バッグインバッグ 縦型 A4 自立 小さめ 横型 ナイロン 軽量 多機能 収納 インナーバッグ 旅行...",
+  "update_label": "2026/7/20",
+  "screenshot": "screenshots/keyword/ads029/20260720_小さめ_横型.png",
+  "first_date": "2026-07-20"
+ },
+ "ads090|二つ折り財布 レディース": {
+  "code": "ads090",
+  "keyword": "二つ折り財布 レディース",
+  "category_id": "68713",
+  "category_name": "二つ折り財布 レディース",
+  "cat_label": "レディース二つ折り財布",
+  "title": "二つ折り財布 レディース 本革 二つ折り 財布 ミニ財布 バイカラー フラップ コンパクト 大容量 ...",
+  "update_label": "2026/7/20",
+  "screenshot": "screenshots/keyword/ads090/20260720_二つ折り財布_レディース.png",
+  "first_date": "2026-07-20"
+ },
+ "ads090|レディース 本革": {
+  "code": "ads090",
+  "keyword": "レディース 本革",
+  "category_id": "68713",
+  "category_name": "レディース 本革",
+  "cat_label": "レディース二つ折り財布",
+  "title": "二つ折り財布 レディース 本革 二つ折り 財布 ミニ財布 バイカラー フラップ コンパクト 大容量 ...",
+  "update_label": "2026/7/20",
+  "screenshot": "screenshots/keyword/ads090/20260720_レディース_本革.png",
+  "first_date": "2026-07-20"
+ },
+ "ads090|ミニ財布 レディース": {
+  "code": "ads090",
+  "keyword": "ミニ財布 レディース",
+  "category_id": "68713",
+  "category_name": "ミニ財布 レディース",
+  "cat_label": "レディース二つ折り財布",
+  "title": "二つ折り財布 レディース 本革 二つ折り 財布 ミニ財布 バイカラー フラップ コンパクト 大容量 ...",
+  "update_label": "2026/7/20",
+  "screenshot": "screenshots/keyword/ads090/20260720_ミニ財布_レディース.png",
+  "first_date": "2026-07-20"
+ },
+ "ads047-s|スマートキーケース 窓付き": {
+  "code": "ads047-s",
+  "keyword": "スマートキーケース 窓付き",
+  "category_id": "42946",
+  "category_name": "スマートキーケース 窓付き",
+  "cat_label": "スマートキーカバー",
+  "title": "＼選べる2タイプ／ スマートキーケース 窓付き 2個 本革 トヨタ レザー スズキ ホンダ 日産 バ...",
+  "update_label": "2026/7/20",
+  "screenshot": "screenshots/keyword/ads047-s/20260720_スマートキーケース_窓付き.png",
+  "first_date": "2026-07-20"
+ },
+ "ads047-s|窓付き 本革": {
+  "code": "ads047-s",
+  "keyword": "窓付き 本革",
+  "category_id": "42946",
+  "category_name": "窓付き 本革",
+  "cat_label": "スマートキーカバー",
+  "title": "＼選べる2タイプ／ スマートキーケース 窓付き 2個 本革 トヨタ レザー スズキ ホンダ 日産 バ...",
+  "update_label": "2026/7/20",
+  "screenshot": "screenshots/keyword/ads047-s/20260720_窓付き_本革.png",
+  "first_date": "2026-07-20"
+ },
+ "ads058-s|コンポスト バッグ": {
+  "code": "ads058-s",
+  "keyword": "コンポスト バッグ",
+  "category_id": "609",
+  "category_name": "コンポスト バッグ",
+  "cat_label": "生ごみ処理機",
+  "title": "コンポスト バッグ 小型 Sサイズ おしゃれ 生ゴミ 不織布 バッグ 容器 家庭用 生ゴミ処理機 説...",
+  "update_label": "2026/7/20",
+  "screenshot": "screenshots/keyword/ads058-s/20260720_コンポスト_バッグ.png",
+  "first_date": "2026-07-20"
  }
 }

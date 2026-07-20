@@ -1,45 +1,168 @@
 {
- "run_at": "2026-07-20T07:57:24.170139+09:00",
+ "run_at": "2026-07-20T11:49:49.968392+09:00",
  "categories_checked": 38,
  "daily": [
   {
-   "category_id": "4352",
-   "category_name": "マザーズバッグ",
-   "code": "ads004",
-   "title": "マザーズリュック 軽量 大容量 バッグ リュック マザーズバッグ バック ママ パパ ブランド 撥水 おしゃれ ペアレンツバッグ Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/19",
-   "screenshot": "screenshots/daily/ads004/20260719_cat4352_マザーズバッグ.png"
+   "category_id": "35462",
+   "category_name": "レディースビジネスバッグ",
+   "code": "ads001",
+   "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 入学 折らずにお届け 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/20",
+   "screenshot": "screenshots/daily/ads001/20260720_cat35462_レディースビジネスバッグ.png"
   },
   {
    "category_id": "45462",
    "category_name": "お香、インセンス",
    "code": "ads066",
    "title": "お香 アロマ 白檀 沈香 金木犀 ホワイトセージ おしゃれ お試し オシャレ 横置き 対応 セット リラクゼーション ヨガ お香 のような お線香 線香 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/19",
-   "screenshot": "screenshots/daily/ads066/20260719_cat45462_お香、インセンス.png"
+   "update_label": "2026/7/20",
+   "screenshot": "screenshots/daily/ads066/20260720_cat45462_お香、インセンス.png"
+  },
+  {
+   "category_id": "68713",
+   "category_name": "レディース二つ折り財布",
+   "code": "ads090",
+   "title": "二つ折り財布 レディース 本革 二つ折り 財布 ミニ財布 バイカラー フラップ コンパクト 大容量 スキミング防止 おしゃれ 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/20",
+   "screenshot": "screenshots/daily/ads090/20260720_cat68713_レディース二つ折り財布.png"
   },
   {
    "category_id": "68725",
    "category_name": "その他レディース財布",
    "code": "ads035",
    "title": "ミニ財布 レディース 二つ折り 財布 本革 お札折らない 薄い 財布 コンパクト財布 キャッシュレス 極薄 スリム スキミング防止 一粒万倍日 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/19",
-   "screenshot": "screenshots/daily/ads035/20260719_cat68725_その他レディース財布.png"
+   "update_label": "2026/7/20",
+   "screenshot": "screenshots/daily/ads035/20260720_cat68725_その他レディース財布.png"
   }
  ],
  "realtime": [
   {
    "category_id": "35462",
    "category_name": "レディースビジネスバッグ",
-   "code": "ads041",
-   "title": "ビジネスバッグ レディース A4 軽量 自立 通勤 大容量 リクルートバッグ 就活 面接 トートバッグ 営業 爆買｜バッグ 雑貨 Annekor アンコール",
+   "code": "ads001",
+   "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 入学 折らずにお届け 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/7/20",
-   "screenshot": "screenshots/realtime/ads041/20260720_cat35462_レディースビジネスバッグ.png"
+   "screenshot": "screenshots/realtime/ads001/20260720_cat35462_レディースビジネスバッグ.png"
+  },
+  {
+   "category_id": "4352",
+   "category_name": "マザーズバッグ",
+   "code": "ads004",
+   "title": "マザーズリュック 軽量 大容量 バッグ リュック マザーズバッグ バック ママ パパ ブランド 撥水 おしゃれ ペアレンツバッグ Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/20",
+   "screenshot": "screenshots/realtime/ads004/20260720_cat4352_マザーズバッグ.png"
+  },
+  {
+   "category_id": "47249",
+   "category_name": "のり",
+   "code": "ads069",
+   "title": "シール復活剤 シール液 シール粘着復活 大容量 20ml ボンボンドロップシール が作れる 手作り 貼ってはがせる シール帳 シル活 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/20",
+   "screenshot": "screenshots/realtime/ads069/20260720_cat47249_のり.png"
   }
  ],
- "realtime_updated": "2026-07-20T07:57:24.170139+09:00",
- "daily_updated": "2026-07-19T10:17:43.511448+09:00",
+ "realtime_updated": "2026-07-20T11:49:49.968392+09:00",
+ "daily_updated": "2026-07-20T11:49:49.968392+09:00",
  "keyword": [
+  {
+   "code": "ads026",
+   "keyword": "レディース 小さめ",
+   "category_id": "37306",
+   "category_name": "レディース 小さめ",
+   "cat_label": "レディースハンドバッグ",
+   "title": "ハンドバッグ レディース 小さめ 2WAY ショルダーバッグ 軽い 軽量 ショルダー ブランド 入学...",
+   "update_label": "2026/7/20",
+   "screenshot": "screenshots/keyword/ads026/20260720_レディース_小さめ.png",
+   "first_date": "2026-07-20"
+  },
+  {
+   "code": "ads026",
+   "keyword": "ショルダーバッグ 軽い",
+   "category_id": "37306",
+   "category_name": "ショルダーバッグ 軽い",
+   "cat_label": "レディースハンドバッグ",
+   "title": "ハンドバッグ レディース 小さめ 2WAY ショルダーバッグ 軽い 軽量 ショルダー ブランド 入学...",
+   "update_label": "2026/7/20",
+   "screenshot": "screenshots/keyword/ads026/20260720_ショルダーバッグ_軽い.png",
+   "first_date": "2026-07-20"
+  },
+  {
+   "code": "ads029",
+   "keyword": "小さめ 横型",
+   "category_id": "23591",
+   "category_name": "小さめ 横型",
+   "cat_label": "レディースバッグインバッグ",
+   "title": "バッグインバッグ 縦型 A4 自立 小さめ 横型 ナイロン 軽量 多機能 収納 インナーバッグ 旅行...",
+   "update_label": "2026/7/20",
+   "screenshot": "screenshots/keyword/ads029/20260720_小さめ_横型.png",
+   "first_date": "2026-07-20"
+  },
+  {
+   "code": "ads090",
+   "keyword": "二つ折り財布 レディース",
+   "category_id": "68713",
+   "category_name": "二つ折り財布 レディース",
+   "cat_label": "レディース二つ折り財布",
+   "title": "二つ折り財布 レディース 本革 二つ折り 財布 ミニ財布 バイカラー フラップ コンパクト 大容量 ...",
+   "update_label": "2026/7/20",
+   "screenshot": "screenshots/keyword/ads090/20260720_二つ折り財布_レディース.png",
+   "first_date": "2026-07-20"
+  },
+  {
+   "code": "ads090",
+   "keyword": "レディース 本革",
+   "category_id": "68713",
+   "category_name": "レディース 本革",
+   "cat_label": "レディース二つ折り財布",
+   "title": "二つ折り財布 レディース 本革 二つ折り 財布 ミニ財布 バイカラー フラップ コンパクト 大容量 ...",
+   "update_label": "2026/7/20",
+   "screenshot": "screenshots/keyword/ads090/20260720_レディース_本革.png",
+   "first_date": "2026-07-20"
+  },
+  {
+   "code": "ads090",
+   "keyword": "ミニ財布 レディース",
+   "category_id": "68713",
+   "category_name": "ミニ財布 レディース",
+   "cat_label": "レディース二つ折り財布",
+   "title": "二つ折り財布 レディース 本革 二つ折り 財布 ミニ財布 バイカラー フラップ コンパクト 大容量 ...",
+   "update_label": "2026/7/20",
+   "screenshot": "screenshots/keyword/ads090/20260720_ミニ財布_レディース.png",
+   "first_date": "2026-07-20"
+  },
+  {
+   "code": "ads047-s",
+   "keyword": "スマートキーケース 窓付き",
+   "category_id": "42946",
+   "category_name": "スマートキーケース 窓付き",
+   "cat_label": "スマートキーカバー",
+   "title": "＼選べる2タイプ／ スマートキーケース 窓付き 2個 本革 トヨタ レザー スズキ ホンダ 日産 バ...",
+   "update_label": "2026/7/20",
+   "screenshot": "screenshots/keyword/ads047-s/20260720_スマートキーケース_窓付き.png",
+   "first_date": "2026-07-20"
+  },
+  {
+   "code": "ads047-s",
+   "keyword": "窓付き 本革",
+   "category_id": "42946",
+   "category_name": "窓付き 本革",
+   "cat_label": "スマートキーカバー",
+   "title": "＼選べる2タイプ／ スマートキーケース 窓付き 2個 本革 トヨタ レザー スズキ ホンダ 日産 バ...",
+   "update_label": "2026/7/20",
+   "screenshot": "screenshots/keyword/ads047-s/20260720_窓付き_本革.png",
+   "first_date": "2026-07-20"
+  },
+  {
+   "code": "ads058-s",
+   "keyword": "コンポスト バッグ",
+   "category_id": "609",
+   "category_name": "コンポスト バッグ",
+   "cat_label": "生ごみ処理機",
+   "title": "コンポスト バッグ 小型 Sサイズ おしゃれ 生ゴミ 不織布 バッグ 容器 家庭用 生ゴミ処理機 説...",
+   "update_label": "2026/7/20",
+   "screenshot": "screenshots/keyword/ads058-s/20260720_コンポスト_バッグ.png",
+   "first_date": "2026-07-20"
+  },
   {
    "code": "ads021-l",
    "keyword": "帆布 A4",
@@ -1118,62 +1241,106 @@
    "first_date": "2026-07-08"
   }
  ],
- "keyword_updated": "2026-07-19T10:17:43.511448+09:00",
+ "keyword_updated": "2026-07-20T11:49:49.968392+09:00",
  "keyword_new": [
   {
-   "code": "ads021-l",
-   "keyword": "帆布 A4",
-   "category_id": "23558",
-   "category_name": "帆布 A4",
-   "cat_label": "レディーストートバッグ",
-   "title": "トートバッグ レディース 帆布トートバッグ キャンバス 仕切り ランチバッグ 通勤バッグ 大容量 バ...",
-   "update_label": "2026/7/19",
-   "screenshot": "screenshots/keyword/ads021-l/20260719_帆布_A4.png",
-   "first_date": "2026-07-19"
+   "code": "ads026",
+   "keyword": "レディース 小さめ",
+   "category_id": "37306",
+   "category_name": "レディース 小さめ",
+   "cat_label": "レディースハンドバッグ",
+   "title": "ハンドバッグ レディース 小さめ 2WAY ショルダーバッグ 軽い 軽量 ショルダー ブランド 入学...",
+   "update_label": "2026/7/20",
+   "screenshot": "screenshots/keyword/ads026/20260720_レディース_小さめ.png",
+   "first_date": "2026-07-20"
   },
   {
-   "code": "ads043",
-   "keyword": "名前 IDカードケース",
-   "category_id": "48241",
-   "category_name": "名前 IDカードケース",
-   "cat_label": "レディースIDカードケース",
-   "title": "IDカードホルダー 本革 レディース リール 革 名前 横 型 IDカードケース 本革 両面 社員証...",
-   "update_label": "2026/7/19",
-   "screenshot": "screenshots/keyword/ads043/20260719_名前_IDカードケース.png",
-   "first_date": "2026-07-19"
+   "code": "ads026",
+   "keyword": "ショルダーバッグ 軽い",
+   "category_id": "37306",
+   "category_name": "ショルダーバッグ 軽い",
+   "cat_label": "レディースハンドバッグ",
+   "title": "ハンドバッグ レディース 小さめ 2WAY ショルダーバッグ 軽い 軽量 ショルダー ブランド 入学...",
+   "update_label": "2026/7/20",
+   "screenshot": "screenshots/keyword/ads026/20260720_ショルダーバッグ_軽い.png",
+   "first_date": "2026-07-20"
+  },
+  {
+   "code": "ads029",
+   "keyword": "小さめ 横型",
+   "category_id": "23591",
+   "category_name": "小さめ 横型",
+   "cat_label": "レディースバッグインバッグ",
+   "title": "バッグインバッグ 縦型 A4 自立 小さめ 横型 ナイロン 軽量 多機能 収納 インナーバッグ 旅行...",
+   "update_label": "2026/7/20",
+   "screenshot": "screenshots/keyword/ads029/20260720_小さめ_横型.png",
+   "first_date": "2026-07-20"
+  },
+  {
+   "code": "ads090",
+   "keyword": "二つ折り財布 レディース",
+   "category_id": "68713",
+   "category_name": "二つ折り財布 レディース",
+   "cat_label": "レディース二つ折り財布",
+   "title": "二つ折り財布 レディース 本革 二つ折り 財布 ミニ財布 バイカラー フラップ コンパクト 大容量 ...",
+   "update_label": "2026/7/20",
+   "screenshot": "screenshots/keyword/ads090/20260720_二つ折り財布_レディース.png",
+   "first_date": "2026-07-20"
+  },
+  {
+   "code": "ads090",
+   "keyword": "レディース 本革",
+   "category_id": "68713",
+   "category_name": "レディース 本革",
+   "cat_label": "レディース二つ折り財布",
+   "title": "二つ折り財布 レディース 本革 二つ折り 財布 ミニ財布 バイカラー フラップ コンパクト 大容量 ...",
+   "update_label": "2026/7/20",
+   "screenshot": "screenshots/keyword/ads090/20260720_レディース_本革.png",
+   "first_date": "2026-07-20"
+  },
+  {
+   "code": "ads090",
+   "keyword": "ミニ財布 レディース",
+   "category_id": "68713",
+   "category_name": "ミニ財布 レディース",
+   "cat_label": "レディース二つ折り財布",
+   "title": "二つ折り財布 レディース 本革 二つ折り 財布 ミニ財布 バイカラー フラップ コンパクト 大容量 ...",
+   "update_label": "2026/7/20",
+   "screenshot": "screenshots/keyword/ads090/20260720_ミニ財布_レディース.png",
+   "first_date": "2026-07-20"
   },
   {
    "code": "ads047-s",
-   "keyword": "選べる2タイプ スマートキーケース",
+   "keyword": "スマートキーケース 窓付き",
    "category_id": "42946",
-   "category_name": "選べる2タイプ スマートキーケース",
+   "category_name": "スマートキーケース 窓付き",
    "cat_label": "スマートキーカバー",
    "title": "＼選べる2タイプ／ スマートキーケース 窓付き 2個 本革 トヨタ レザー スズキ ホンダ 日産 バ...",
-   "update_label": "2026/7/19",
-   "screenshot": "screenshots/keyword/ads047-s/20260719_選べる2タイプ_スマートキーケース.png",
-   "first_date": "2026-07-19"
+   "update_label": "2026/7/20",
+   "screenshot": "screenshots/keyword/ads047-s/20260720_スマートキーケース_窓付き.png",
+   "first_date": "2026-07-20"
   },
   {
-   "code": "ads201-b",
-   "keyword": "除菌 次亜塩素酸パウダー",
-   "category_id": "45235",
-   "category_name": "除菌 次亜塩素酸パウダー",
-   "cat_label": "除菌剤、抗菌剤",
-   "title": "次亜塩素酸 粉 次亜塩素酸水 除菌 プール 除菌 次亜塩素酸パウダー 生成 500ppm 消臭 業務...",
-   "update_label": "2026/7/19",
-   "screenshot": "screenshots/keyword/ads201-b/20260719_除菌_次亜塩素酸パウダー.png",
-   "first_date": "2026-07-19"
+   "code": "ads047-s",
+   "keyword": "窓付き 本革",
+   "category_id": "42946",
+   "category_name": "窓付き 本革",
+   "cat_label": "スマートキーカバー",
+   "title": "＼選べる2タイプ／ スマートキーケース 窓付き 2個 本革 トヨタ レザー スズキ ホンダ 日産 バ...",
+   "update_label": "2026/7/20",
+   "screenshot": "screenshots/keyword/ads047-s/20260720_窓付き_本革.png",
+   "first_date": "2026-07-20"
   },
   {
-   "code": "ads201-b",
-   "keyword": "次亜塩素酸パウダー 生成",
-   "category_id": "45235",
-   "category_name": "次亜塩素酸パウダー 生成",
-   "cat_label": "除菌剤、抗菌剤",
-   "title": "次亜塩素酸 粉 次亜塩素酸水 除菌 プール 除菌 次亜塩素酸パウダー 生成 500ppm 消臭 業務...",
-   "update_label": "2026/7/19",
-   "screenshot": "screenshots/keyword/ads201-b/20260719_次亜塩素酸パウダー_生成.png",
-   "first_date": "2026-07-19"
+   "code": "ads058-s",
+   "keyword": "コンポスト バッグ",
+   "category_id": "609",
+   "category_name": "コンポスト バッグ",
+   "cat_label": "生ごみ処理機",
+   "title": "コンポスト バッグ 小型 Sサイズ おしゃれ 生ゴミ 不織布 バッグ 容器 家庭用 生ゴミ処理機 説...",
+   "update_label": "2026/7/20",
+   "screenshot": "screenshots/keyword/ads058-s/20260720_コンポスト_バッグ.png",
+   "first_date": "2026-07-20"
   }
  ]
 }

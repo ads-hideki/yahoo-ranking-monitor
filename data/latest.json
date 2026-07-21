@@ -1,5 +1,5 @@
 {
- "run_at": "2026-07-21T10:17:53.009584+09:00",
+ "run_at": "2026-07-21T14:25:27.529587+09:00",
  "categories_checked": 38,
  "daily": [
   {
@@ -45,23 +45,23 @@
  ],
  "realtime": [
   {
-   "category_id": "45462",
-   "category_name": "お香、インセンス",
-   "code": "ads066",
-   "title": "お香 アロマ 白檀 沈香 金木犀 ホワイトセージ おしゃれ お試し オシャレ 横置き 対応 セット リラクゼーション ヨガ お香 のような お線香 線香 爆買｜バッグ 雑貨 Annekor アンコール",
+   "category_id": "4352",
+   "category_name": "マザーズバッグ",
+   "code": "ads008-l",
+   "title": "＼TVドラマ衣装提供商品／ マザーズバッグ トート 2WAY サイズ L マザーズバック 高見え ショルダー 軽い 軽量 大容量 人気 おしゃれ Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/7/21",
-   "screenshot": "screenshots/realtime/ads066/20260721_cat45462_お香、インセンス.png"
+   "screenshot": "screenshots/realtime/ads008-l/20260721_cat4352_マザーズバッグ.png"
   },
   {
-   "category_id": "68713",
-   "category_name": "レディース二つ折り財布",
-   "code": "ads090",
-   "title": "二つ折り財布 レディース 本革 二つ折り 財布 ミニ財布 バイカラー フラップ コンパクト 大容量 スキミング防止 おしゃれ 爆買｜バッグ 雑貨 Annekor アンコール",
+   "category_id": "45462",
+   "category_name": "お香、インセンス",
+   "code": "ads066-k",
+   "title": "お香 コーン アロマ 白檀 ホワイトセージ パロサント コーン型 おしゃれ お試し オシャレ 横置き リラクゼーション ヨガ お香 のような お線香 線香 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/7/21",
-   "screenshot": "screenshots/realtime/ads090/20260721_cat68713_レディース二つ折り財布.png"
+   "screenshot": "screenshots/realtime/ads066-k/20260721_cat45462_お香、インセンス.png"
   }
  ],
- "realtime_updated": "2026-07-21T10:17:53.009584+09:00",
+ "realtime_updated": "2026-07-21T14:25:27.529587+09:00",
  "daily_updated": "2026-07-21T10:17:53.009584+09:00",
  "keyword": [
   {

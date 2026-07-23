@@ -1,43 +1,19 @@
 {
- "run_at": "2026-07-23T08:09:35.536463+09:00",
+ "run_at": "2026-07-23T10:23:27.148719+09:00",
  "categories_checked": 38,
- "daily": [
+ "daily": [],
+ "realtime": [
   {
-   "category_id": "35462",
-   "category_name": "レディースビジネスバッグ",
-   "code": "ads001",
-   "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 入学 折らずにお届け 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/22",
-   "screenshot": "screenshots/daily/ads001/20260722_cat35462_レディースビジネスバッグ.png"
-  },
-  {
-   "category_id": "4352",
-   "category_name": "マザーズバッグ",
-   "code": "ads004",
-   "title": "マザーズリュック 軽量 大容量 バッグ リュック マザーズバッグ バック ママ パパ ブランド 撥水 おしゃれ ペアレンツバッグ Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/22",
-   "screenshot": "screenshots/daily/ads004/20260722_cat4352_マザーズバッグ.png"
-  },
-  {
-   "category_id": "68713",
-   "category_name": "レディース二つ折り財布",
-   "code": "ads090",
-   "title": "二つ折り財布 レディース 本革 二つ折り 財布 ミニ財布 バイカラー フラップ コンパクト 大容量 スキミング防止 おしゃれ 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/22",
-   "screenshot": "screenshots/daily/ads090/20260722_cat68713_レディース二つ折り財布.png"
-  },
-  {
-   "category_id": "68725",
-   "category_name": "その他レディース財布",
-   "code": "ads035",
-   "title": "ミニ財布 レディース 二つ折り 財布 本革 お札折らない 薄い 財布 コンパクト財布 キャッシュレス 極薄 スリム スキミング防止 一粒万倍日 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/22",
-   "screenshot": "screenshots/daily/ads035/20260722_cat68725_その他レディース財布.png"
+   "category_id": "68710",
+   "category_name": "レディース長財布",
+   "code": "ads089",
+   "title": "長財布 レディース 本革 財布 小さい財布 大容量 薄い お札が折れない ブランド 使いやすい バイカラー 小さな長財布 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/23",
+   "screenshot": "screenshots/realtime/ads089/20260723_cat68710_レディース長財布.png"
   }
  ],
- "realtime": [],
- "realtime_updated": "2026-07-23T08:09:35.536463+09:00",
- "daily_updated": "2026-07-22T10:16:26.150472+09:00",
+ "realtime_updated": "2026-07-23T10:23:27.148719+09:00",
+ "daily_updated": "2026-07-23T10:23:27.148719+09:00",
  "keyword": [
   {
    "code": "ads065-1",
@@ -1249,18 +1225,6 @@
    "first_date": "2026-07-08"
   }
  ],
- "keyword_updated": "2026-07-22T10:16:26.150472+09:00",
- "keyword_new": [
-  {
-   "code": "ads065-1",
-   "keyword": "業務用 エアコン",
-   "category_id": "50281",
-   "category_name": "業務用 エアコン",
-   "cat_label": "室外機カバー",
-   "title": "＼選べる3タイプ／ 室外機カバー アルミ 業務用 エアコン 極厚 6層構造 大型 夏 節電 室外機 ...",
-   "update_label": "2026/7/22",
-   "screenshot": "screenshots/keyword/ads065-1/20260722_業務用_エアコン.png",
-   "first_date": "2026-07-22"
-  }
- ]
+ "keyword_updated": "2026-07-23T10:23:27.148719+09:00",
+ "keyword_new": []
 }

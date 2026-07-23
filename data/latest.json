@@ -1,9 +1,18 @@
 {
- "run_at": "2026-07-23T17:37:02.103466+09:00",
+ "run_at": "2026-07-23T20:53:42.155694+09:00",
  "categories_checked": 38,
  "daily": [],
- "realtime": [],
- "realtime_updated": "2026-07-23T17:37:02.103466+09:00",
+ "realtime": [
+  {
+   "category_id": "15830",
+   "category_name": "メンズクラッチバッグ",
+   "code": "ads011",
+   "title": "クラッチバッグ メンズ 小さめ ブランド 結婚式 本革 レザー 2WAY 冠婚葬祭 セカンドバッグ アンコール Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/23",
+   "screenshot": "screenshots/realtime/ads011/20260723_cat15830_メンズクラッチバッグ.png"
+  }
+ ],
+ "realtime_updated": "2026-07-23T20:53:42.155694+09:00",
  "daily_updated": "2026-07-23T10:23:27.148719+09:00",
  "keyword": [
   {

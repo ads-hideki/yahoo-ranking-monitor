@@ -1,11 +1,40 @@
 {
- "run_at": "2026-07-24T08:01:06.610557+09:00",
+ "run_at": "2026-07-24T10:19:24.158340+09:00",
  "categories_checked": 38,
- "daily": [],
- "realtime": [],
- "realtime_updated": "2026-07-24T08:01:06.610557+09:00",
- "daily_updated": "2026-07-23T10:23:27.148719+09:00",
+ "daily": [
+  {
+   "category_id": "15830",
+   "category_name": "メンズクラッチバッグ",
+   "code": "ads011",
+   "title": "クラッチバッグ メンズ 小さめ ブランド 結婚式 本革 レザー 2WAY 冠婚葬祭 セカンドバッグ アンコール Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/24",
+   "screenshot": "screenshots/daily/ads011/20260724_cat15830_メンズクラッチバッグ.png"
+  }
+ ],
+ "realtime": [
+  {
+   "category_id": "37190",
+   "category_name": "レディースブラックフォーマルバッグ",
+   "code": "ads082",
+   "title": "フォーマルバッグ 黒 大きめ 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 サブバッグ付 ペットボトルが入る ブラック バック 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/24",
+   "screenshot": "screenshots/realtime/ads082/20260724_cat37190_レディースブラックフォーマルバッグ.png"
+  }
+ ],
+ "realtime_updated": "2026-07-24T10:19:24.158340+09:00",
+ "daily_updated": "2026-07-24T10:19:24.158340+09:00",
  "keyword": [
+  {
+   "code": "ads005",
+   "keyword": "仕切り ランチバッグ",
+   "category_id": "23558",
+   "category_name": "仕切り ランチバッグ",
+   "cat_label": "レディーストートバッグ",
+   "title": "ミニトートバッグ レディース 仕切り 小さめ ショルダー 自立 マチ 収納 お弁当 撥水 バック ミ...",
+   "update_label": "2026/7/24",
+   "screenshot": "screenshots/keyword/ads005/20260724_仕切り_ランチバッグ.png",
+   "first_date": "2026-07-24"
+  },
   {
    "code": "ads065-1",
    "keyword": "業務用 エアコン",
@@ -1216,6 +1245,18 @@
    "first_date": "2026-07-08"
   }
  ],
- "keyword_updated": "2026-07-23T10:23:27.148719+09:00",
- "keyword_new": []
+ "keyword_updated": "2026-07-24T10:19:24.158340+09:00",
+ "keyword_new": [
+  {
+   "code": "ads005",
+   "keyword": "仕切り ランチバッグ",
+   "category_id": "23558",
+   "category_name": "仕切り ランチバッグ",
+   "cat_label": "レディーストートバッグ",
+   "title": "ミニトートバッグ レディース 仕切り 小さめ ショルダー 自立 マチ 収納 お弁当 撥水 バック ミ...",
+   "update_label": "2026/7/24",
+   "screenshot": "screenshots/keyword/ads005/20260724_仕切り_ランチバッグ.png",
+   "first_date": "2026-07-24"
+  }
+ ]
 }

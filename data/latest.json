@@ -1,5 +1,5 @@
 {
- "run_at": "2026-07-24T10:19:24.158340+09:00",
+ "run_at": "2026-07-24T14:25:03.103257+09:00",
  "categories_checked": 38,
  "daily": [
   {
@@ -11,17 +11,8 @@
    "screenshot": "screenshots/daily/ads011/20260724_cat15830_メンズクラッチバッグ.png"
   }
  ],
- "realtime": [
-  {
-   "category_id": "37190",
-   "category_name": "レディースブラックフォーマルバッグ",
-   "code": "ads082",
-   "title": "フォーマルバッグ 黒 大きめ 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 サブバッグ付 ペットボトルが入る ブラック バック 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/24",
-   "screenshot": "screenshots/realtime/ads082/20260724_cat37190_レディースブラックフォーマルバッグ.png"
-  }
- ],
- "realtime_updated": "2026-07-24T10:19:24.158340+09:00",
+ "realtime": [],
+ "realtime_updated": "2026-07-24T14:25:03.103257+09:00",
  "daily_updated": "2026-07-24T10:19:24.158340+09:00",
  "keyword": [
   {

@@ -1,5 +1,5 @@
 {
- "run_at": "2026-07-25T00:28:04.904189+09:00",
+ "run_at": "2026-07-25T02:41:24.889167+09:00",
  "categories_checked": 39,
  "daily": [
   {
@@ -11,17 +11,8 @@
    "screenshot": "screenshots/daily/ads011/20260724_cat15830_メンズクラッチバッグ.png"
   }
  ],
- "realtime": [
-  {
-   "category_id": "4352",
-   "category_name": "マザーズバッグ",
-   "code": "ads085",
-   "title": "トートバッグ レディース 軽い マザーズバッグ トート ヌビバッグ 大きめ 軽量 大容量 かわいい 通勤 生地 キルト トートバッグ 通学 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/24",
-   "screenshot": "screenshots/realtime/ads085/20260725_cat4352_マザーズバッグ.png"
-  }
- ],
- "realtime_updated": "2026-07-25T00:28:04.904189+09:00",
+ "realtime": [],
+ "realtime_updated": "2026-07-25T02:41:24.889167+09:00",
  "daily_updated": "2026-07-24T10:19:24.158340+09:00",
  "keyword": [
   {

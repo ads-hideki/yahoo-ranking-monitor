@@ -1,5 +1,5 @@
 {
- "run_at": "2026-07-25T17:13:04.081301+09:00",
+ "run_at": "2026-07-25T20:15:08.857357+09:00",
  "categories_checked": 39,
  "daily": [
   {
@@ -31,13 +31,21 @@
   {
    "category_id": "4352",
    "category_name": "マザーズバッグ",
-   "code": "ads008-m",
-   "title": "マザーズバッグ トート 2WAY サイズ M マザーズバック 高見え ショルダー 軽い 軽量 大容量 人気 おしゃれ Annekor アンコール 爆買｜バッグ 雑貨 Annekor アンコール",
+   "code": "ads010",
+   "title": "マザーズリュック 軽量 大容量 多機能 小さめ マザーズバッグ バッグ ママバッグ おしゃれ 大容量 洗える 洗濯 丸ごと洗える ブランド 撥水 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/7/25",
-   "screenshot": "screenshots/realtime/ads008-m/20260725_cat4352_マザーズバッグ.png"
+   "screenshot": "screenshots/realtime/ads010/20260725_cat4352_マザーズバッグ.png"
+  },
+  {
+   "category_id": "609",
+   "category_name": "生ごみ処理機",
+   "code": "ads058",
+   "title": "コンポスト バッグ おしゃれ 生ゴミ 不織布 コンポスト 容器 家庭用 生ゴミ処理機 説明書付 コンポストバッグ 生ごみ アンダル 有機栽培 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/25",
+   "screenshot": "screenshots/realtime/ads058/20260725_cat609_生ごみ処理機.png"
   }
  ],
- "realtime_updated": "2026-07-25T17:13:04.081301+09:00",
+ "realtime_updated": "2026-07-25T20:15:08.857357+09:00",
  "daily_updated": "2026-07-25T10:20:49.548330+09:00",
  "keyword": [
   {

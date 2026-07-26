@@ -1,8 +1,16 @@
 {
- "run_at": "2026-07-26T20:22:55.885998+09:00",
+ "run_at": "2026-07-26T22:38:53.075541+09:00",
  "categories_checked": 39,
  "daily": [],
  "realtime": [
+  {
+   "category_id": "15830",
+   "category_name": "メンズクラッチバッグ",
+   "code": "ads011",
+   "title": "クラッチバッグ メンズ 小さめ ブランド 結婚式 本革 レザー 2WAY 冠婚葬祭 セカンドバッグ アンコール Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/26",
+   "screenshot": "screenshots/realtime/ads011/20260726_cat15830_メンズクラッチバッグ.png"
+  },
   {
    "category_id": "35462",
    "category_name": "レディースビジネスバッグ",
@@ -10,17 +18,9 @@
    "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 入学 折らずにお届け 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/7/26",
    "screenshot": "screenshots/realtime/ads001/20260726_cat35462_レディースビジネスバッグ.png"
-  },
-  {
-   "category_id": "37190",
-   "category_name": "レディースブラックフォーマルバッグ",
-   "code": "ads082",
-   "title": "フォーマルバッグ 黒 大きめ 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 サブバッグ付 ペットボトルが入る ブラック バック 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/26",
-   "screenshot": "screenshots/realtime/ads082/20260726_cat37190_レディースブラックフォーマルバッグ.png"
   }
  ],
- "realtime_updated": "2026-07-26T20:22:55.885998+09:00",
+ "realtime_updated": "2026-07-26T22:38:53.075541+09:00",
  "daily_updated": "2026-07-26T10:23:39.521422+09:00",
  "keyword": [
   {

@@ -1,36 +1,44 @@
 {
- "run_at": "2026-07-26T07:58:48.364223+09:00",
+ "run_at": "2026-07-26T10:23:39.521422+09:00",
  "categories_checked": 39,
- "daily": [
-  {
-   "category_id": "15830",
-   "category_name": "メンズクラッチバッグ",
-   "code": "ads011",
-   "title": "クラッチバッグ メンズ 小さめ ブランド 結婚式 本革 レザー 2WAY 冠婚葬祭 セカンドバッグ アンコール Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/25",
-   "screenshot": "screenshots/daily/ads011/20260725_cat15830_メンズクラッチバッグ.png"
-  },
-  {
-   "category_id": "37190",
-   "category_name": "レディースブラックフォーマルバッグ",
-   "code": "ads082",
-   "title": "フォーマルバッグ 黒 大きめ 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 サブバッグ付 ペットボトルが入る ブラック バック 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/25",
-   "screenshot": "screenshots/daily/ads082/20260725_cat37190_レディースブラックフォーマルバッグ.png"
-  },
-  {
-   "category_id": "45462",
-   "category_name": "お香、インセンス",
-   "code": "ads066",
-   "title": "お香 アロマ 白檀 沈香 金木犀 ホワイトセージ おしゃれ お試し オシャレ 横置き 対応 セット リラクゼーション ヨガ お香 のような お線香 線香 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/25",
-   "screenshot": "screenshots/daily/ads066/20260725_cat45462_お香、インセンス.png"
-  }
- ],
+ "daily": [],
  "realtime": [],
- "realtime_updated": "2026-07-26T07:58:48.364223+09:00",
- "daily_updated": "2026-07-25T10:20:49.548330+09:00",
+ "realtime_updated": "2026-07-26T10:23:39.521422+09:00",
+ "daily_updated": "2026-07-26T10:23:39.521422+09:00",
  "keyword": [
+  {
+   "code": "ads010",
+   "keyword": "小さめ マザーズバッグ",
+   "category_id": "4352",
+   "category_name": "小さめ マザーズバッグ",
+   "cat_label": "マザーズバッグ",
+   "title": "マザーズリュック 軽量 大容量 多機能 小さめ マザーズバッグ バッグ ママバッグ おしゃれ 大容量...",
+   "update_label": "2026/7/26",
+   "screenshot": "screenshots/keyword/ads010/20260726_小さめ_マザーズバッグ.png",
+   "first_date": "2026-07-26"
+  },
+  {
+   "code": "ads093",
+   "keyword": "小さめ 本革",
+   "category_id": "37306",
+   "category_name": "小さめ 本革",
+   "cat_label": "レディースハンドバッグ",
+   "title": "ハンドバッグ レディース 小さめ 本革 バイカラー トートバッグ 2way 軽量 革 軽い ショルダ...",
+   "update_label": "2026/7/26",
+   "screenshot": "screenshots/keyword/ads093/20260726_小さめ_本革.png",
+   "first_date": "2026-07-26"
+  },
+  {
+   "code": "ads093",
+   "keyword": "本革 軽量",
+   "category_id": "37306",
+   "category_name": "本革 軽量",
+   "cat_label": "レディースハンドバッグ",
+   "title": "ハンドバッグ レディース 小さめ 本革 バイカラー トートバッグ 2way 軽量 革 軽い ショルダ...",
+   "update_label": "2026/7/26",
+   "screenshot": "screenshots/keyword/ads093/20260726_本革_軽量.png",
+   "first_date": "2026-07-26"
+  },
   {
    "code": "ads062-2",
    "keyword": "繰り返し 竹炭",
@@ -1329,84 +1337,40 @@
    "first_date": "2026-07-08"
   }
  ],
- "keyword_updated": "2026-07-25T10:20:49.548330+09:00",
+ "keyword_updated": "2026-07-26T10:23:39.521422+09:00",
  "keyword_new": [
   {
-   "code": "ads062-2",
-   "keyword": "繰り返し 竹炭",
-   "category_id": "46596",
-   "category_name": "繰り返し 竹炭",
-   "cat_label": "除湿、乾燥剤",
-   "title": "消臭 炭 除湿 調湿 繰り返し 竹炭 特大サイズ 2個セット 乾燥 天然素材 空間洗浄 空気清浄 ク...",
-   "update_label": "2026/7/25",
-   "screenshot": "screenshots/keyword/ads062-2/20260725_繰り返し_竹炭.png",
-   "first_date": "2026-07-25"
-  },
-  {
-   "code": "ads062-2",
-   "keyword": "竹炭 乾燥",
-   "category_id": "46596",
-   "category_name": "竹炭 乾燥",
-   "cat_label": "除湿、乾燥剤",
-   "title": "消臭 炭 除湿 調湿 繰り返し 竹炭 特大サイズ 2個セット 乾燥 天然素材 空間洗浄 空気清浄 ク...",
-   "update_label": "2026/7/25",
-   "screenshot": "screenshots/keyword/ads062-2/20260725_竹炭_乾燥.png",
-   "first_date": "2026-07-25"
-  },
-  {
-   "code": "ads060-5",
-   "keyword": "引っ越し 挨拶",
-   "category_id": "67327",
-   "category_name": "引っ越し 挨拶",
-   "cat_label": "食品用ラップ",
-   "title": "引っ越し 挨拶 ギフト ラップ おしゃれ のし付き 5個セット 品物 挨拶品 袋付 引っ越しギフト ...",
-   "update_label": "2026/7/25",
-   "screenshot": "screenshots/keyword/ads060-5/20260725_引っ越し_挨拶.png",
-   "first_date": "2026-07-25"
-  },
-  {
-   "code": "ads060-5",
-   "keyword": "挨拶 ギフト",
-   "category_id": "67327",
-   "category_name": "挨拶 ギフト",
-   "cat_label": "食品用ラップ",
-   "title": "引っ越し 挨拶 ギフト ラップ おしゃれ のし付き 5個セット 品物 挨拶品 袋付 引っ越しギフト ...",
-   "update_label": "2026/7/25",
-   "screenshot": "screenshots/keyword/ads060-5/20260725_挨拶_ギフト.png",
-   "first_date": "2026-07-25"
-  },
-  {
-   "code": "ads085",
-   "keyword": "トート ヌビバッグ",
+   "code": "ads010",
+   "keyword": "小さめ マザーズバッグ",
    "category_id": "4352",
-   "category_name": "トート ヌビバッグ",
+   "category_name": "小さめ マザーズバッグ",
    "cat_label": "マザーズバッグ",
-   "title": "トートバッグ レディース 軽い マザーズバッグ トート ヌビバッグ 大きめ 軽量 大容量 かわいい ...",
-   "update_label": "2026/7/25",
-   "screenshot": "screenshots/keyword/ads085/20260725_トート_ヌビバッグ.png",
-   "first_date": "2026-07-25"
+   "title": "マザーズリュック 軽量 大容量 多機能 小さめ マザーズバッグ バッグ ママバッグ おしゃれ 大容量...",
+   "update_label": "2026/7/26",
+   "screenshot": "screenshots/keyword/ads010/20260726_小さめ_マザーズバッグ.png",
+   "first_date": "2026-07-26"
   },
   {
-   "code": "ads095",
+   "code": "ads093",
    "keyword": "小さめ 本革",
    "category_id": "37306",
    "category_name": "小さめ 本革",
    "cat_label": "レディースハンドバッグ",
-   "title": "ハンドバッグ 本革 レディース 小さめ キューブバッグ バッグインバッグ レザー 革 バケツバッグ ...",
-   "update_label": "2026/7/25",
-   "screenshot": "screenshots/keyword/ads095/20260725_小さめ_本革.png",
-   "first_date": "2026-07-25"
+   "title": "ハンドバッグ レディース 小さめ 本革 バイカラー トートバッグ 2way 軽量 革 軽い ショルダ...",
+   "update_label": "2026/7/26",
+   "screenshot": "screenshots/keyword/ads093/20260726_小さめ_本革.png",
+   "first_date": "2026-07-26"
   },
   {
-   "code": "ads095",
-   "keyword": "ハンドバッグ 本革",
+   "code": "ads093",
+   "keyword": "本革 軽量",
    "category_id": "37306",
-   "category_name": "ハンドバッグ 本革",
+   "category_name": "本革 軽量",
    "cat_label": "レディースハンドバッグ",
-   "title": "ハンドバッグ 本革 レディース 小さめ キューブバッグ バッグインバッグ レザー 革 バケツバッグ ...",
-   "update_label": "2026/7/25",
-   "screenshot": "screenshots/keyword/ads095/20260725_ハンドバッグ_本革.png",
-   "first_date": "2026-07-25"
+   "title": "ハンドバッグ レディース 小さめ 本革 バイカラー トートバッグ 2way 軽量 革 軽い ショルダ...",
+   "update_label": "2026/7/26",
+   "screenshot": "screenshots/keyword/ads093/20260726_本革_軽量.png",
+   "first_date": "2026-07-26"
   }
  ]
 }

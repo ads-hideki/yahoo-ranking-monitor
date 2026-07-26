@@ -1295,5 +1295,38 @@
   "update_label": "2026/7/25",
   "screenshot": "screenshots/keyword/ads095/20260725_ハンドバッグ_本革.png",
   "first_date": "2026-07-25"
+ },
+ "ads010|小さめ マザーズバッグ": {
+  "code": "ads010",
+  "keyword": "小さめ マザーズバッグ",
+  "category_id": "4352",
+  "category_name": "小さめ マザーズバッグ",
+  "cat_label": "マザーズバッグ",
+  "title": "マザーズリュック 軽量 大容量 多機能 小さめ マザーズバッグ バッグ ママバッグ おしゃれ 大容量...",
+  "update_label": "2026/7/26",
+  "screenshot": "screenshots/keyword/ads010/20260726_小さめ_マザーズバッグ.png",
+  "first_date": "2026-07-26"
+ },
+ "ads093|小さめ 本革": {
+  "code": "ads093",
+  "keyword": "小さめ 本革",
+  "category_id": "37306",
+  "category_name": "小さめ 本革",
+  "cat_label": "レディースハンドバッグ",
+  "title": "ハンドバッグ レディース 小さめ 本革 バイカラー トートバッグ 2way 軽量 革 軽い ショルダ...",
+  "update_label": "2026/7/26",
+  "screenshot": "screenshots/keyword/ads093/20260726_小さめ_本革.png",
+  "first_date": "2026-07-26"
+ },
+ "ads093|本革 軽量": {
+  "code": "ads093",
+  "keyword": "本革 軽量",
+  "category_id": "37306",
+  "category_name": "本革 軽量",
+  "cat_label": "レディースハンドバッグ",
+  "title": "ハンドバッグ レディース 小さめ 本革 バイカラー トートバッグ 2way 軽量 革 軽い ショルダ...",
+  "update_label": "2026/7/26",
+  "screenshot": "screenshots/keyword/ads093/20260726_本革_軽量.png",
+  "first_date": "2026-07-26"
  }
 }

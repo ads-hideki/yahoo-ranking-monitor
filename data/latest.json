@@ -1,20 +1,55 @@
 {
- "run_at": "2026-07-27T08:02:06.771713+09:00",
+ "run_at": "2026-07-27T11:02:23.256733+09:00",
  "categories_checked": 39,
- "daily": [],
- "realtime": [
+ "daily": [
   {
    "category_id": "15830",
    "category_name": "メンズクラッチバッグ",
    "code": "ads011",
    "title": "クラッチバッグ メンズ 小さめ ブランド 結婚式 本革 レザー 2WAY 冠婚葬祭 セカンドバッグ アンコール Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/7/27",
-   "screenshot": "screenshots/realtime/ads011/20260727_cat15830_メンズクラッチバッグ.png"
+   "screenshot": "screenshots/daily/ads011/20260727_cat15830_メンズクラッチバッグ.png"
+  },
+  {
+   "category_id": "35462",
+   "category_name": "レディースビジネスバッグ",
+   "code": "ads001",
+   "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 入学 折らずにお届け 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/27",
+   "screenshot": "screenshots/daily/ads001/20260727_cat35462_レディースビジネスバッグ.png"
+  },
+  {
+   "category_id": "37190",
+   "category_name": "レディースブラックフォーマルバッグ",
+   "code": "ads082",
+   "title": "フォーマルバッグ 黒 大きめ 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 サブバッグ付 ペットボトルが入る ブラック バック 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/27",
+   "screenshot": "screenshots/daily/ads082/20260727_cat37190_レディースブラックフォーマルバッグ.png"
+  },
+  {
+   "category_id": "45462",
+   "category_name": "お香、インセンス",
+   "code": "ads066",
+   "title": "お香 アロマ 白檀 沈香 金木犀 ホワイトセージ おしゃれ お試し オシャレ 横置き 対応 セット リラクゼーション ヨガ お香 のような お線香 線香 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/27",
+   "screenshot": "screenshots/daily/ads066/20260727_cat45462_お香、インセンス.png"
   }
  ],
- "realtime_updated": "2026-07-27T08:02:06.771713+09:00",
- "daily_updated": "2026-07-26T10:23:39.521422+09:00",
+ "realtime": [],
+ "realtime_updated": "2026-07-27T11:02:23.256733+09:00",
+ "daily_updated": "2026-07-27T11:02:23.256733+09:00",
  "keyword": [
+  {
+   "code": "ads091",
+   "keyword": "大容量 キャリーオンバッグ",
+   "category_id": "23558",
+   "category_name": "大容量 キャリーオンバッグ",
+   "cat_label": "レディーストートバッグ",
+   "title": "ボストンバッグ レディース 軽量 大容量 キャリーオンバッグ トートバッグ ショルダーバッグ バッグ...",
+   "update_label": "2026/7/27",
+   "screenshot": "screenshots/keyword/ads091/20260727_大容量_キャリーオンバッグ.png",
+   "first_date": "2026-07-27"
+  },
   {
    "code": "ads010",
    "keyword": "小さめ マザーズバッグ",
@@ -1346,40 +1381,18 @@
    "first_date": "2026-07-08"
   }
  ],
- "keyword_updated": "2026-07-26T10:23:39.521422+09:00",
+ "keyword_updated": "2026-07-27T11:02:23.256733+09:00",
  "keyword_new": [
   {
-   "code": "ads010",
-   "keyword": "小さめ マザーズバッグ",
-   "category_id": "4352",
-   "category_name": "小さめ マザーズバッグ",
-   "cat_label": "マザーズバッグ",
-   "title": "マザーズリュック 軽量 大容量 多機能 小さめ マザーズバッグ バッグ ママバッグ おしゃれ 大容量...",
-   "update_label": "2026/7/26",
-   "screenshot": "screenshots/keyword/ads010/20260726_小さめ_マザーズバッグ.png",
-   "first_date": "2026-07-26"
-  },
-  {
-   "code": "ads093",
-   "keyword": "小さめ 本革",
-   "category_id": "37306",
-   "category_name": "小さめ 本革",
-   "cat_label": "レディースハンドバッグ",
-   "title": "ハンドバッグ レディース 小さめ 本革 バイカラー トートバッグ 2way 軽量 革 軽い ショルダ...",
-   "update_label": "2026/7/26",
-   "screenshot": "screenshots/keyword/ads093/20260726_小さめ_本革.png",
-   "first_date": "2026-07-26"
-  },
-  {
-   "code": "ads093",
-   "keyword": "本革 軽量",
-   "category_id": "37306",
-   "category_name": "本革 軽量",
-   "cat_label": "レディースハンドバッグ",
-   "title": "ハンドバッグ レディース 小さめ 本革 バイカラー トートバッグ 2way 軽量 革 軽い ショルダ...",
-   "update_label": "2026/7/26",
-   "screenshot": "screenshots/keyword/ads093/20260726_本革_軽量.png",
-   "first_date": "2026-07-26"
+   "code": "ads091",
+   "keyword": "大容量 キャリーオンバッグ",
+   "category_id": "23558",
+   "category_name": "大容量 キャリーオンバッグ",
+   "cat_label": "レディーストートバッグ",
+   "title": "ボストンバッグ レディース 軽量 大容量 キャリーオンバッグ トートバッグ ショルダーバッグ バッグ...",
+   "update_label": "2026/7/27",
+   "screenshot": "screenshots/keyword/ads091/20260727_大容量_キャリーオンバッグ.png",
+   "first_date": "2026-07-27"
   }
  ]
 }

@@ -53,14 +53,26 @@ def sanitize(s, n=30):
     return s[:n].strip("_") or "x"
 
 
+# ---- ページ遷移（堅牢化: networkidleは広告等で落ち着かずタイムアウトしやすい） ----
+def _goto(page, url, wait_until="domcontentloaded", tries=3, timeout=45000):
+    for i in range(tries):
+        try:
+            page.goto(url, wait_until=wait_until, timeout=timeout)
+            return True
+        except Exception as e:
+            print(f"    goto失敗({i+1}/{tries}): {str(e)[:70]}")
+            page.wait_for_timeout(2500)
+    return False
+
+
 # ---- 商品リスト取得 --------------------------------------------------------
 def crawl_products(page):
     """search.html を巡回して {code: title} を取得（88件想定）"""
     products = {}
     for off in range(1, 400, 30):
-        page.goto(f"https://store.shopping.yahoo.co.jp/{STORE}/search.html?b={off}",
-                  wait_until="networkidle", timeout=60000)
-        page.wait_for_timeout(800)
+        if not _goto(page, f"https://store.shopping.yahoo.co.jp/{STORE}/search.html?b={off}"):
+            continue
+        page.wait_for_timeout(1000)
         data = page.eval_on_selector_all(
             f"a[href*='/{STORE}/']",
             """(as, store) => as.map(a => {
@@ -87,8 +99,8 @@ def crawl_products(page):
 
 # ---- 商品→カテゴリ抽出 -----------------------------------------------------
 def fetch_category(page, code):
-    page.goto(f"https://store.shopping.yahoo.co.jp/{STORE}/{code}.html",
-              wait_until="domcontentloaded", timeout=60000)
+    if not _goto(page, f"https://store.shopping.yahoo.co.jp/{STORE}/{code}.html"):
+        return None
     html_ = page.content()
     m = re.search(r'"categoryId"\s*:\s*"?(\d+)"?', html_)
     if not m:
@@ -123,8 +135,9 @@ def build_mapping(page, refresh=False):
 def open_ranking(page, cat_id):
     """カテゴリランキングページを開く（デフォルト=デイリー）"""
     url = f"https://shopping.yahoo.co.jp/categoryranking/{cat_id}/list"
-    page.goto(url, wait_until="networkidle", timeout=60000)
-    page.wait_for_timeout(1000)
+    if not _goto(page, url):
+        raise RuntimeError("open_ranking goto失敗")
+    page.wait_for_timeout(1500)
 
 
 def select_period(page, period):

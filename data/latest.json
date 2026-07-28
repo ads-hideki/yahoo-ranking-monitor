@@ -1,5 +1,5 @@
 {
- "run_at": "2026-07-29T06:12:43.156997+09:00",
+ "run_at": "2026-07-29T08:04:04.895879+09:00",
  "categories_checked": 39,
  "daily": [
   {
@@ -45,6 +45,14 @@
    "screenshot": "screenshots/realtime/ads033/20260729_cat48240_レディース名刺入れ.png"
   },
   {
+   "category_id": "48241",
+   "category_name": "レディースIDカードケース",
+   "code": "ads043",
+   "title": "IDカードホルダー 本革 レディース リール 革 名前 横 型 IDカードケース 本革 両面 社員証 首掛け 首かけ ネームホルダー ストラップ 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/7/29",
+   "screenshot": "screenshots/realtime/ads043/20260729_cat48241_レディースIDカードケース.png"
+  },
+  {
    "category_id": "68710",
    "category_name": "レディース長財布",
    "code": "ads089",
@@ -53,7 +61,7 @@
    "screenshot": "screenshots/realtime/ads089/20260729_cat68710_レディース長財布.png"
   }
  ],
- "realtime_updated": "2026-07-29T06:12:43.156997+09:00",
+ "realtime_updated": "2026-07-29T08:04:04.895879+09:00",
  "daily_updated": "2026-07-28T10:15:23.281768+09:00",
  "keyword": [
   {

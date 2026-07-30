@@ -1361,5 +1361,38 @@
   "update_label": "2026/7/29",
   "screenshot": "screenshots/keyword/ads029-l/20260729_横型_ナイロン.png",
   "first_date": "2026-07-29"
+ },
+ "ads066-k|アロマ 白檀": {
+  "code": "ads066-k",
+  "keyword": "アロマ 白檀",
+  "category_id": "45462",
+  "category_name": "アロマ 白檀",
+  "cat_label": "お香、インセンス",
+  "title": "お香 コーン アロマ 白檀 ホワイトセージ パロサント コーン型 おしゃれ お試し オシャレ 横置き...",
+  "update_label": "2026/7/30",
+  "screenshot": "screenshots/keyword/ads066-k/20260730_アロマ_白檀.png",
+  "first_date": "2026-07-30"
+ },
+ "ads091|ボストンバッグ レディース": {
+  "code": "ads091",
+  "keyword": "ボストンバッグ レディース",
+  "category_id": "23558",
+  "category_name": "ボストンバッグ レディース",
+  "cat_label": "レディーストートバッグ",
+  "title": "ボストンバッグ レディース 軽量 大容量 キャリーオンバッグ トートバッグ ショルダーバッグ バッグ...",
+  "update_label": "2026/7/30",
+  "screenshot": "screenshots/keyword/ads091/20260730_ボストンバッグ_レディース.png",
+  "first_date": "2026-07-30"
+ },
+ "ads091|キャリーオンバッグ トートバッグ": {
+  "code": "ads091",
+  "keyword": "キャリーオンバッグ トートバッグ",
+  "category_id": "23558",
+  "category_name": "キャリーオンバッグ トートバッグ",
+  "cat_label": "レディーストートバッグ",
+  "title": "ボストンバッグ レディース 軽量 大容量 キャリーオンバッグ トートバッグ ショルダーバッグ バッグ...",
+  "update_label": "2026/7/30",
+  "screenshot": "screenshots/keyword/ads091/20260730_キャリーオンバッグ_トートバッグ.png",
+  "first_date": "2026-07-30"
  }
 }

@@ -1,5 +1,5 @@
 {
- "run_at": "2026-07-31T06:16:02.066013+09:00",
+ "run_at": "2026-07-31T08:12:12.339685+09:00",
  "categories_checked": 39,
  "daily": [
   {
@@ -27,25 +27,8 @@
    "screenshot": "screenshots/daily/ads089/20260730_cat68710_レディース長財布.png"
   }
  ],
- "realtime": [
-  {
-   "category_id": "45462",
-   "category_name": "お香、インセンス",
-   "code": "ads066",
-   "title": "お香 アロマ 白檀 沈香 金木犀 ホワイトセージ おしゃれ お試し オシャレ 横置き 対応 セット リラクゼーション ヨガ お香 のような お線香 線香 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/31",
-   "screenshot": "screenshots/realtime/ads066/20260731_cat45462_お香、インセンス.png"
-  },
-  {
-   "category_id": "4869",
-   "category_name": "マタニティグッズ、母子手帳ケース",
-   "code": "ads034",
-   "title": "母子手帳ケース ジャバラ 母子手帳 整理収納アドバイザー監修 3人分 2人分 マルチポーチ じゃばら カード 収納 マルチケース 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/31",
-   "screenshot": "screenshots/realtime/ads034/20260731_cat4869_マタニティグッズ、母子手帳ケース.png"
-  }
- ],
- "realtime_updated": "2026-07-31T06:16:02.066013+09:00",
+ "realtime": [],
+ "realtime_updated": "2026-07-31T08:12:12.339685+09:00",
  "daily_updated": "2026-07-30T10:10:47.756904+09:00",
  "keyword": [
   {

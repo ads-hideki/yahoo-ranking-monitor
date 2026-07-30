@@ -1,5 +1,5 @@
 {
- "run_at": "2026-07-30T10:10:47.756904+09:00",
+ "run_at": "2026-07-30T14:13:28.364764+09:00",
  "categories_checked": 39,
  "daily": [
   {
@@ -27,17 +27,8 @@
    "screenshot": "screenshots/daily/ads089/20260730_cat68710_レディース長財布.png"
   }
  ],
- "realtime": [
-  {
-   "category_id": "68518",
-   "category_name": "靴用消臭剤",
-   "code": "ads055",
-   "title": "靴 消臭 グッズ 除湿剤 繰り返し 竹炭 乾燥剤 繰り返し使用可 空気清浄 タンス クローゼット 脱臭 湿気 天然素材 6個セット アンダル 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/7/30",
-   "screenshot": "screenshots/realtime/ads055/20260730_cat68518_靴用消臭剤.png"
-  }
- ],
- "realtime_updated": "2026-07-30T10:10:47.756904+09:00",
+ "realtime": [],
+ "realtime_updated": "2026-07-30T14:13:28.364764+09:00",
  "daily_updated": "2026-07-30T10:10:47.756904+09:00",
  "keyword": [
   {

@@ -1,5 +1,5 @@
 {
- "run_at": "2026-08-01T14:32:11.297677+09:00",
+ "run_at": "2026-08-01T17:27:11.533204+09:00",
  "categories_checked": 39,
  "daily": [
   {
@@ -13,6 +13,22 @@
  ],
  "realtime": [
   {
+   "category_id": "23591",
+   "category_name": "レディースバッグインバッグ",
+   "code": "ads003",
+   "title": "バッグインバッグ 小さめ 自立 フェルト 監修 インナーバッグ バックインバック 底板 軽量 アンコール Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/1",
+   "screenshot": "screenshots/realtime/ads003/20260801_cat23591_レディースバッグインバッグ.png"
+  },
+  {
+   "category_id": "35462",
+   "category_name": "レディースビジネスバッグ",
+   "code": "ads041",
+   "title": "ビジネスバッグ レディース A4 軽量 自立 通勤 大容量 リクルートバッグ 就活 面接 トートバッグ 営業 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/1",
+   "screenshot": "screenshots/realtime/ads041/20260801_cat35462_レディースビジネスバッグ.png"
+  },
+  {
    "category_id": "48240",
    "category_name": "レディース名刺入れ",
    "code": "ads033",
@@ -21,7 +37,7 @@
    "screenshot": "screenshots/realtime/ads033/20260801_cat48240_レディース名刺入れ.png"
   }
  ],
- "realtime_updated": "2026-08-01T14:32:11.297677+09:00",
+ "realtime_updated": "2026-08-01T17:27:11.533204+09:00",
  "daily_updated": "2026-08-01T10:24:45.958797+09:00",
  "keyword": [
   {

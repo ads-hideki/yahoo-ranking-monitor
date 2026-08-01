@@ -1,5 +1,5 @@
 {
- "run_at": "2026-08-02T04:15:30.316389+09:00",
+ "run_at": "2026-08-02T05:59:05.491567+09:00",
  "categories_checked": 39,
  "daily": [
   {
@@ -12,14 +12,6 @@
   }
  ],
  "realtime": [
-  {
-   "category_id": "23591",
-   "category_name": "レディースバッグインバッグ",
-   "code": "ads003",
-   "title": "バッグインバッグ 小さめ 自立 フェルト 監修 インナーバッグ バックインバック 底板 軽量 アンコール Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/2",
-   "screenshot": "screenshots/realtime/ads003/20260802_cat23591_レディースバッグインバッグ.png"
-  },
   {
    "category_id": "4352",
    "category_name": "マザーズバッグ",
@@ -37,7 +29,7 @@
    "screenshot": "screenshots/realtime/ads033/20260802_cat48240_レディース名刺入れ.png"
   }
  ],
- "realtime_updated": "2026-08-02T04:15:30.316389+09:00",
+ "realtime_updated": "2026-08-02T05:59:05.491567+09:00",
  "daily_updated": "2026-08-01T10:24:45.958797+09:00",
  "keyword": [
   {

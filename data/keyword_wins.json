@@ -1394,5 +1394,38 @@
   "update_label": "2026/7/30",
   "screenshot": "screenshots/keyword/ads091/20260730_キャリーオンバッグ_トートバッグ.png",
   "first_date": "2026-07-30"
+ },
+ "ads022|ビジネスバッグ レディース": {
+  "code": "ads022",
+  "keyword": "ビジネスバッグ レディース",
+  "category_id": "35462",
+  "category_name": "ビジネスバッグ レディース",
+  "cat_label": "レディースビジネスバッグ",
+  "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学...",
+  "update_label": "2026/8/1",
+  "screenshot": "screenshots/keyword/ads022/20260801_ビジネスバッグ_レディース.png",
+  "first_date": "2026-08-01"
+ },
+ "ads022|レディース A4": {
+  "code": "ads022",
+  "keyword": "レディース A4",
+  "category_id": "35462",
+  "category_name": "レディース A4",
+  "cat_label": "レディースビジネスバッグ",
+  "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学...",
+  "update_label": "2026/8/1",
+  "screenshot": "screenshots/keyword/ads022/20260801_レディース_A4.png",
+  "first_date": "2026-08-01"
+ },
+ "ads022|A4 軽量": {
+  "code": "ads022",
+  "keyword": "A4 軽量",
+  "category_id": "35462",
+  "category_name": "A4 軽量",
+  "cat_label": "レディースビジネスバッグ",
+  "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学...",
+  "update_label": "2026/8/1",
+  "screenshot": "screenshots/keyword/ads022/20260801_A4_軽量.png",
+  "first_date": "2026-08-01"
  }
 }

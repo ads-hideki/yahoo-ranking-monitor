@@ -1,5 +1,5 @@
 {
- "run_at": "2026-08-02T02:05:01.310637+09:00",
+ "run_at": "2026-08-02T04:15:30.316389+09:00",
  "categories_checked": 39,
  "daily": [
   {
@@ -29,14 +29,6 @@
    "screenshot": "screenshots/realtime/ads008-l/20260802_cat4352_マザーズバッグ.png"
   },
   {
-   "category_id": "45462",
-   "category_name": "お香、インセンス",
-   "code": "ads066-k",
-   "title": "お香 コーン アロマ 白檀 ホワイトセージ パロサント コーン型 おしゃれ お試し オシャレ 横置き リラクゼーション ヨガ お香 のような お線香 線香 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/2",
-   "screenshot": "screenshots/realtime/ads066-k/20260802_cat45462_お香、インセンス.png"
-  },
-  {
    "category_id": "48240",
    "category_name": "レディース名刺入れ",
    "code": "ads033",
@@ -45,7 +37,7 @@
    "screenshot": "screenshots/realtime/ads033/20260802_cat48240_レディース名刺入れ.png"
   }
  ],
- "realtime_updated": "2026-08-02T02:05:01.310637+09:00",
+ "realtime_updated": "2026-08-02T04:15:30.316389+09:00",
  "daily_updated": "2026-08-01T10:24:45.958797+09:00",
  "keyword": [
   {

@@ -1,5 +1,5 @@
 {
- "run_at": "2026-08-02T17:29:57.015507+09:00",
+ "run_at": "2026-08-02T20:19:45.071743+09:00",
  "categories_checked": 39,
  "daily": [
   {
@@ -21,23 +21,23 @@
  ],
  "realtime": [
   {
-   "category_id": "23591",
-   "category_name": "レディースバッグインバッグ",
-   "code": "ads003",
-   "title": "バッグインバッグ 小さめ 自立 フェルト 監修 インナーバッグ バックインバック 底板 軽量 アンコール Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/2",
-   "screenshot": "screenshots/realtime/ads003/20260802_cat23591_レディースバッグインバッグ.png"
-  },
-  {
    "category_id": "35462",
    "category_name": "レディースビジネスバッグ",
    "code": "ads001",
    "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 入学 折らずにお届け 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/8/2",
    "screenshot": "screenshots/realtime/ads001/20260802_cat35462_レディースビジネスバッグ.png"
+  },
+  {
+   "category_id": "45462",
+   "category_name": "お香、インセンス",
+   "code": "ads066-k",
+   "title": "お香 コーン アロマ 白檀 ホワイトセージ パロサント コーン型 おしゃれ お試し オシャレ 横置き リラクゼーション ヨガ お香 のような お線香 線香 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/2",
+   "screenshot": "screenshots/realtime/ads066-k/20260802_cat45462_お香、インセンス.png"
   }
  ],
- "realtime_updated": "2026-08-02T17:29:57.015507+09:00",
+ "realtime_updated": "2026-08-02T20:19:45.071743+09:00",
  "daily_updated": "2026-08-02T10:22:38.810467+09:00",
  "keyword": [
   {

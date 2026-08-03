@@ -1,5 +1,5 @@
 {
- "run_at": "2026-08-04T01:30:03.975414+09:00",
+ "run_at": "2026-08-04T04:43:47.095302+09:00",
  "categories_checked": 38,
  "daily": [
   {
@@ -27,8 +27,33 @@
    "screenshot": "screenshots/daily/ads033/20260803_cat48240_レディース名刺入れ.png"
   }
  ],
- "realtime": [],
- "realtime_updated": "2026-08-04T01:30:03.975414+09:00",
+ "realtime": [
+  {
+   "category_id": "35462",
+   "category_name": "レディースビジネスバッグ",
+   "code": "ads041",
+   "title": "ビジネスバッグ レディース A4 軽量 自立 通勤 大容量 リクルートバッグ 就活 面接 トートバッグ 営業 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/4",
+   "screenshot": "screenshots/realtime/ads041/20260804_cat35462_レディースビジネスバッグ.png"
+  },
+  {
+   "category_id": "37190",
+   "category_name": "レディースブラックフォーマルバッグ",
+   "code": "ads082",
+   "title": "フォーマルバッグ 黒 大きめ 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 サブバッグ付 ペットボトルが入る ブラック バック 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/4",
+   "screenshot": "screenshots/realtime/ads082/20260804_cat37190_レディースブラックフォーマルバッグ.png"
+  },
+  {
+   "category_id": "48241",
+   "category_name": "レディースIDカードケース",
+   "code": "ads017",
+   "title": "ミニ財布 レディース 本革 財布 お札折らない カードケース 小さめ ブランド ジャバラ じゃばら ウォレット ミニ 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/4",
+   "screenshot": "screenshots/realtime/ads017/20260804_cat48241_レディースIDカードケース.png"
+  }
+ ],
+ "realtime_updated": "2026-08-04T04:43:47.095302+09:00",
  "daily_updated": "2026-08-03T10:23:12.507824+09:00",
  "keyword": [
   {

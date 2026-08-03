@@ -1,6 +1,6 @@
 {
- "run_at": "2026-08-03T10:23:12.507824+09:00",
- "categories_checked": 39,
+ "run_at": "2026-08-03T14:47:23.810332+09:00",
+ "categories_checked": 38,
  "daily": [
   {
    "category_id": "35462",
@@ -27,8 +27,17 @@
    "screenshot": "screenshots/daily/ads033/20260803_cat48240_レディース名刺入れ.png"
   }
  ],
- "realtime": [],
- "realtime_updated": "2026-08-03T10:23:12.507824+09:00",
+ "realtime": [
+  {
+   "category_id": "4235",
+   "category_name": "その他防災、防犯、セーフティ",
+   "code": "ads070-s",
+   "title": "【所ジョージの世田谷ベース掲載】 耐火バッグ モバイルバッテリー Sサイズ 耐火ケース 防火袋 A4 防災 耐火袋 防炎袋 防水 セーフティバッグ 貴重品 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/3",
+   "screenshot": "screenshots/realtime/ads070-s/20260803_cat4235_その他防災、防犯、セーフティ.png"
+  }
+ ],
+ "realtime_updated": "2026-08-03T14:47:23.810332+09:00",
  "daily_updated": "2026-08-03T10:23:12.507824+09:00",
  "keyword": [
   {

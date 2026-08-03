@@ -1,27 +1,35 @@
 {
- "run_at": "2026-08-03T07:59:15.977533+09:00",
+ "run_at": "2026-08-03T10:23:12.507824+09:00",
  "categories_checked": 39,
  "daily": [
+  {
+   "category_id": "35462",
+   "category_name": "レディースビジネスバッグ",
+   "code": "ads001",
+   "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 入学 折らずにお届け 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/3",
+   "screenshot": "screenshots/daily/ads001/20260803_cat35462_レディースビジネスバッグ.png"
+  },
   {
    "category_id": "45462",
    "category_name": "お香、インセンス",
    "code": "ads066-k",
    "title": "お香 コーン アロマ 白檀 ホワイトセージ パロサント コーン型 おしゃれ お試し オシャレ 横置き リラクゼーション ヨガ お香 のような お線香 線香 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/2",
-   "screenshot": "screenshots/daily/ads066-k/20260802_cat45462_お香、インセンス.png"
+   "update_label": "2026/8/3",
+   "screenshot": "screenshots/daily/ads066-k/20260803_cat45462_お香、インセンス.png"
   },
   {
    "category_id": "48240",
    "category_name": "レディース名刺入れ",
    "code": "ads033",
    "title": "名刺入れ レディース 本革 メンズ 革 レザー ブランド 大容量 名刺ケース マグネット おしゃれ ギフト 就職 転職 Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/2",
-   "screenshot": "screenshots/daily/ads033/20260802_cat48240_レディース名刺入れ.png"
+   "update_label": "2026/8/3",
+   "screenshot": "screenshots/daily/ads033/20260803_cat48240_レディース名刺入れ.png"
   }
  ],
  "realtime": [],
- "realtime_updated": "2026-08-03T07:59:15.977533+09:00",
- "daily_updated": "2026-08-02T10:22:38.810467+09:00",
+ "realtime_updated": "2026-08-03T10:23:12.507824+09:00",
+ "daily_updated": "2026-08-03T10:23:12.507824+09:00",
  "keyword": [
   {
    "code": "ads007",
@@ -1464,18 +1472,6 @@
    "first_date": "2026-07-08"
   }
  ],
- "keyword_updated": "2026-08-02T10:22:38.810467+09:00",
- "keyword_new": [
-  {
-   "code": "ads007",
-   "keyword": "ストラップ スマホポーチ",
-   "category_id": "23549",
-   "category_name": "ストラップ スマホポーチ",
-   "cat_label": "レディースショルダーバッグ",
-   "title": "スマホショルダー 本革 レディース バッグ スマホポーチ ショルダーバッグ スマホポーチ 斜めがけ ...",
-   "update_label": "2026/8/2",
-   "screenshot": "screenshots/keyword/ads007/20260802_ストラップ_スマホポーチ.png",
-   "first_date": "2026-08-02"
-  }
- ]
+ "keyword_updated": "2026-08-03T10:23:12.507824+09:00",
+ "keyword_new": []
 }

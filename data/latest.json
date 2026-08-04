@@ -1,45 +1,113 @@
 {
- "run_at": "2026-08-04T08:06:41.681762+09:00",
+ "run_at": "2026-08-04T10:14:54.755239+09:00",
  "categories_checked": 38,
  "daily": [
   {
    "category_id": "35462",
    "category_name": "レディースビジネスバッグ",
-   "code": "ads001",
-   "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 入学 折らずにお届け 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/3",
-   "screenshot": "screenshots/daily/ads001/20260803_cat35462_レディースビジネスバッグ.png"
+   "code": "ads041",
+   "title": "ビジネスバッグ レディース A4 軽量 自立 通勤 大容量 リクルートバッグ 就活 面接 トートバッグ 営業 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/4",
+   "screenshot": "screenshots/daily/ads041/20260804_cat35462_レディースビジネスバッグ.png"
   },
-  {
-   "category_id": "45462",
-   "category_name": "お香、インセンス",
-   "code": "ads066-k",
-   "title": "お香 コーン アロマ 白檀 ホワイトセージ パロサント コーン型 おしゃれ お試し オシャレ 横置き リラクゼーション ヨガ お香 のような お線香 線香 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/3",
-   "screenshot": "screenshots/daily/ads066-k/20260803_cat45462_お香、インセンス.png"
-  },
-  {
-   "category_id": "48240",
-   "category_name": "レディース名刺入れ",
-   "code": "ads033",
-   "title": "名刺入れ レディース 本革 メンズ 革 レザー ブランド 大容量 名刺ケース マグネット おしゃれ ギフト 就職 転職 Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/3",
-   "screenshot": "screenshots/daily/ads033/20260803_cat48240_レディース名刺入れ.png"
-  }
- ],
- "realtime": [
   {
    "category_id": "37190",
    "category_name": "レディースブラックフォーマルバッグ",
    "code": "ads082",
    "title": "フォーマルバッグ 黒 大きめ 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 サブバッグ付 ペットボトルが入る ブラック バック 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/8/4",
-   "screenshot": "screenshots/realtime/ads082/20260804_cat37190_レディースブラックフォーマルバッグ.png"
+   "screenshot": "screenshots/daily/ads082/20260804_cat37190_レディースブラックフォーマルバッグ.png"
+  },
+  {
+   "category_id": "609",
+   "category_name": "生ごみ処理機",
+   "code": "ads058",
+   "title": "コンポスト バッグ おしゃれ 生ゴミ 不織布 コンポスト 容器 家庭用 生ゴミ処理機 説明書付 コンポストバッグ 生ごみ アンダル 有機栽培 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/4",
+   "screenshot": "screenshots/daily/ads058/20260804_cat609_生ごみ処理機.png"
   }
  ],
- "realtime_updated": "2026-08-04T08:06:41.681762+09:00",
- "daily_updated": "2026-08-03T10:23:12.507824+09:00",
+ "realtime": [],
+ "realtime_updated": "2026-08-04T10:14:54.755239+09:00",
+ "daily_updated": "2026-08-04T10:14:54.755239+09:00",
  "keyword": [
+  {
+   "code": "ads050",
+   "keyword": "レディース 小さめ",
+   "category_id": "68716",
+   "category_name": "レディース 小さめ",
+   "cat_label": "レディース三つ折財布",
+   "title": "三つ折り財布 レディース 本革 財布 三つ折り カード収納 ミニ財布 ミニ 財布 ミニウォレット 小...",
+   "update_label": "2026/8/4",
+   "screenshot": "screenshots/keyword/ads050/20260804_レディース_小さめ.png",
+   "first_date": "2026-08-04"
+  },
+  {
+   "code": "ads050",
+   "keyword": "小さめ ブランド",
+   "category_id": "68716",
+   "category_name": "小さめ ブランド",
+   "cat_label": "レディース三つ折財布",
+   "title": "三つ折り財布 レディース 本革 財布 三つ折り カード収納 ミニ財布 ミニ 財布 ミニウォレット 小...",
+   "update_label": "2026/8/4",
+   "screenshot": "screenshots/keyword/ads050/20260804_小さめ_ブランド.png",
+   "first_date": "2026-08-04"
+  },
+  {
+   "code": "ads050",
+   "keyword": "ブランド 本革",
+   "category_id": "68716",
+   "category_name": "ブランド 本革",
+   "cat_label": "レディース三つ折財布",
+   "title": "三つ折り財布 レディース 本革 財布 三つ折り カード収納 ミニ財布 ミニ 財布 ミニウォレット 小...",
+   "update_label": "2026/8/4",
+   "screenshot": "screenshots/keyword/ads050/20260804_ブランド_本革.png",
+   "first_date": "2026-08-04"
+  },
+  {
+   "code": "ads044",
+   "keyword": "レディース 本革",
+   "category_id": "68713",
+   "category_name": "レディース 本革",
+   "cat_label": "レディース二つ折り財布",
+   "title": "二つ折り財布 レディース 本革 がま口 ミニ財布 レディース がま口 二つ折り ブランド 使いやすい...",
+   "update_label": "2026/8/4",
+   "screenshot": "screenshots/keyword/ads044/20260804_レディース_本革.png",
+   "first_date": "2026-08-04"
+  },
+  {
+   "code": "ads059-2",
+   "keyword": "押し入れ 調湿",
+   "category_id": "46596",
+   "category_name": "押し入れ 調湿",
+   "cat_label": "除湿、乾燥剤",
+   "title": "部屋 消臭 除湿 下駄箱 押し入れ 靴 調湿 繰り返し 竹炭 乾燥 天然素材 タンス クローゼット ...",
+   "update_label": "2026/8/4",
+   "screenshot": "screenshots/keyword/ads059-2/20260804_押し入れ_調湿.png",
+   "first_date": "2026-08-04"
+  },
+  {
+   "code": "ads070-s",
+   "keyword": "モバイルバッテリー Lサイズ",
+   "category_id": "4235",
+   "category_name": "モバイルバッテリー Lサイズ",
+   "cat_label": "その他防災、防犯、セーフティ",
+   "title": "【所ジョージの世田谷ベース掲載】 耐火バッグ モバイルバッテリー Sサイズ 耐火ケース 防火袋 A4...",
+   "update_label": "2026/8/4",
+   "screenshot": "screenshots/keyword/ads070-s/20260804_モバイルバッテリー_Lサイズ.png",
+   "first_date": "2026-08-04"
+  },
+  {
+   "code": "ads070-s",
+   "keyword": "モバイルバッテリー Sサイズ",
+   "category_id": "4235",
+   "category_name": "モバイルバッテリー Sサイズ",
+   "cat_label": "その他防災、防犯、セーフティ",
+   "title": "【所ジョージの世田谷ベース掲載】 耐火バッグ モバイルバッテリー Sサイズ 耐火ケース 防火袋 A4...",
+   "update_label": "2026/8/4",
+   "screenshot": "screenshots/keyword/ads070-s/20260804_モバイルバッテリー_Sサイズ.png",
+   "first_date": "2026-08-04"
+  },
   {
    "code": "ads007",
    "keyword": "ストラップ スマホポーチ",
@@ -1481,6 +1549,84 @@
    "first_date": "2026-07-08"
   }
  ],
- "keyword_updated": "2026-08-03T10:23:12.507824+09:00",
- "keyword_new": []
+ "keyword_updated": "2026-08-04T10:14:54.755239+09:00",
+ "keyword_new": [
+  {
+   "code": "ads050",
+   "keyword": "レディース 小さめ",
+   "category_id": "68716",
+   "category_name": "レディース 小さめ",
+   "cat_label": "レディース三つ折財布",
+   "title": "三つ折り財布 レディース 本革 財布 三つ折り カード収納 ミニ財布 ミニ 財布 ミニウォレット 小...",
+   "update_label": "2026/8/4",
+   "screenshot": "screenshots/keyword/ads050/20260804_レディース_小さめ.png",
+   "first_date": "2026-08-04"
+  },
+  {
+   "code": "ads050",
+   "keyword": "小さめ ブランド",
+   "category_id": "68716",
+   "category_name": "小さめ ブランド",
+   "cat_label": "レディース三つ折財布",
+   "title": "三つ折り財布 レディース 本革 財布 三つ折り カード収納 ミニ財布 ミニ 財布 ミニウォレット 小...",
+   "update_label": "2026/8/4",
+   "screenshot": "screenshots/keyword/ads050/20260804_小さめ_ブランド.png",
+   "first_date": "2026-08-04"
+  },
+  {
+   "code": "ads050",
+   "keyword": "ブランド 本革",
+   "category_id": "68716",
+   "category_name": "ブランド 本革",
+   "cat_label": "レディース三つ折財布",
+   "title": "三つ折り財布 レディース 本革 財布 三つ折り カード収納 ミニ財布 ミニ 財布 ミニウォレット 小...",
+   "update_label": "2026/8/4",
+   "screenshot": "screenshots/keyword/ads050/20260804_ブランド_本革.png",
+   "first_date": "2026-08-04"
+  },
+  {
+   "code": "ads044",
+   "keyword": "レディース 本革",
+   "category_id": "68713",
+   "category_name": "レディース 本革",
+   "cat_label": "レディース二つ折り財布",
+   "title": "二つ折り財布 レディース 本革 がま口 ミニ財布 レディース がま口 二つ折り ブランド 使いやすい...",
+   "update_label": "2026/8/4",
+   "screenshot": "screenshots/keyword/ads044/20260804_レディース_本革.png",
+   "first_date": "2026-08-04"
+  },
+  {
+   "code": "ads059-2",
+   "keyword": "押し入れ 調湿",
+   "category_id": "46596",
+   "category_name": "押し入れ 調湿",
+   "cat_label": "除湿、乾燥剤",
+   "title": "部屋 消臭 除湿 下駄箱 押し入れ 靴 調湿 繰り返し 竹炭 乾燥 天然素材 タンス クローゼット ...",
+   "update_label": "2026/8/4",
+   "screenshot": "screenshots/keyword/ads059-2/20260804_押し入れ_調湿.png",
+   "first_date": "2026-08-04"
+  },
+  {
+   "code": "ads070-s",
+   "keyword": "モバイルバッテリー Lサイズ",
+   "category_id": "4235",
+   "category_name": "モバイルバッテリー Lサイズ",
+   "cat_label": "その他防災、防犯、セーフティ",
+   "title": "【所ジョージの世田谷ベース掲載】 耐火バッグ モバイルバッテリー Sサイズ 耐火ケース 防火袋 A4...",
+   "update_label": "2026/8/4",
+   "screenshot": "screenshots/keyword/ads070-s/20260804_モバイルバッテリー_Lサイズ.png",
+   "first_date": "2026-08-04"
+  },
+  {
+   "code": "ads070-s",
+   "keyword": "モバイルバッテリー Sサイズ",
+   "category_id": "4235",
+   "category_name": "モバイルバッテリー Sサイズ",
+   "cat_label": "その他防災、防犯、セーフティ",
+   "title": "【所ジョージの世田谷ベース掲載】 耐火バッグ モバイルバッテリー Sサイズ 耐火ケース 防火袋 A4...",
+   "update_label": "2026/8/4",
+   "screenshot": "screenshots/keyword/ads070-s/20260804_モバイルバッテリー_Sサイズ.png",
+   "first_date": "2026-08-04"
+  }
+ ]
 }

@@ -1438,5 +1438,82 @@
   "update_label": "2026/8/2",
   "screenshot": "screenshots/keyword/ads007/20260802_ストラップ_スマホポーチ.png",
   "first_date": "2026-08-02"
+ },
+ "ads050|レディース 小さめ": {
+  "code": "ads050",
+  "keyword": "レディース 小さめ",
+  "category_id": "68716",
+  "category_name": "レディース 小さめ",
+  "cat_label": "レディース三つ折財布",
+  "title": "三つ折り財布 レディース 本革 財布 三つ折り カード収納 ミニ財布 ミニ 財布 ミニウォレット 小...",
+  "update_label": "2026/8/4",
+  "screenshot": "screenshots/keyword/ads050/20260804_レディース_小さめ.png",
+  "first_date": "2026-08-04"
+ },
+ "ads050|小さめ ブランド": {
+  "code": "ads050",
+  "keyword": "小さめ ブランド",
+  "category_id": "68716",
+  "category_name": "小さめ ブランド",
+  "cat_label": "レディース三つ折財布",
+  "title": "三つ折り財布 レディース 本革 財布 三つ折り カード収納 ミニ財布 ミニ 財布 ミニウォレット 小...",
+  "update_label": "2026/8/4",
+  "screenshot": "screenshots/keyword/ads050/20260804_小さめ_ブランド.png",
+  "first_date": "2026-08-04"
+ },
+ "ads050|ブランド 本革": {
+  "code": "ads050",
+  "keyword": "ブランド 本革",
+  "category_id": "68716",
+  "category_name": "ブランド 本革",
+  "cat_label": "レディース三つ折財布",
+  "title": "三つ折り財布 レディース 本革 財布 三つ折り カード収納 ミニ財布 ミニ 財布 ミニウォレット 小...",
+  "update_label": "2026/8/4",
+  "screenshot": "screenshots/keyword/ads050/20260804_ブランド_本革.png",
+  "first_date": "2026-08-04"
+ },
+ "ads044|レディース 本革": {
+  "code": "ads044",
+  "keyword": "レディース 本革",
+  "category_id": "68713",
+  "category_name": "レディース 本革",
+  "cat_label": "レディース二つ折り財布",
+  "title": "二つ折り財布 レディース 本革 がま口 ミニ財布 レディース がま口 二つ折り ブランド 使いやすい...",
+  "update_label": "2026/8/4",
+  "screenshot": "screenshots/keyword/ads044/20260804_レディース_本革.png",
+  "first_date": "2026-08-04"
+ },
+ "ads059-2|押し入れ 調湿": {
+  "code": "ads059-2",
+  "keyword": "押し入れ 調湿",
+  "category_id": "46596",
+  "category_name": "押し入れ 調湿",
+  "cat_label": "除湿、乾燥剤",
+  "title": "部屋 消臭 除湿 下駄箱 押し入れ 靴 調湿 繰り返し 竹炭 乾燥 天然素材 タンス クローゼット ...",
+  "update_label": "2026/8/4",
+  "screenshot": "screenshots/keyword/ads059-2/20260804_押し入れ_調湿.png",
+  "first_date": "2026-08-04"
+ },
+ "ads070-s|モバイルバッテリー Lサイズ": {
+  "code": "ads070-s",
+  "keyword": "モバイルバッテリー Lサイズ",
+  "category_id": "4235",
+  "category_name": "モバイルバッテリー Lサイズ",
+  "cat_label": "その他防災、防犯、セーフティ",
+  "title": "【所ジョージの世田谷ベース掲載】 耐火バッグ モバイルバッテリー Sサイズ 耐火ケース 防火袋 A4...",
+  "update_label": "2026/8/4",
+  "screenshot": "screenshots/keyword/ads070-s/20260804_モバイルバッテリー_Lサイズ.png",
+  "first_date": "2026-08-04"
+ },
+ "ads070-s|モバイルバッテリー Sサイズ": {
+  "code": "ads070-s",
+  "keyword": "モバイルバッテリー Sサイズ",
+  "category_id": "4235",
+  "category_name": "モバイルバッテリー Sサイズ",
+  "cat_label": "その他防災、防犯、セーフティ",
+  "title": "【所ジョージの世田谷ベース掲載】 耐火バッグ モバイルバッテリー Sサイズ 耐火ケース 防火袋 A4...",
+  "update_label": "2026/8/4",
+  "screenshot": "screenshots/keyword/ads070-s/20260804_モバイルバッテリー_Sサイズ.png",
+  "first_date": "2026-08-04"
  }
 }

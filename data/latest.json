@@ -1,36 +1,59 @@
 {
- "run_at": "2026-08-05T08:06:23.710473+09:00",
+ "run_at": "2026-08-05T10:16:23.472533+09:00",
  "categories_checked": 39,
  "daily": [
   {
    "category_id": "35462",
    "category_name": "レディースビジネスバッグ",
-   "code": "ads041",
-   "title": "ビジネスバッグ レディース A4 軽量 自立 通勤 大容量 リクルートバッグ 就活 面接 トートバッグ 営業 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/4",
-   "screenshot": "screenshots/daily/ads041/20260804_cat35462_レディースビジネスバッグ.png"
+   "code": "ads001",
+   "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 入学 折らずにお届け 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/5",
+   "screenshot": "screenshots/daily/ads001/20260805_cat35462_レディースビジネスバッグ.png"
   },
   {
-   "category_id": "37190",
-   "category_name": "レディースブラックフォーマルバッグ",
-   "code": "ads082",
-   "title": "フォーマルバッグ 黒 大きめ 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 サブバッグ付 ペットボトルが入る ブラック バック 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/4",
-   "screenshot": "screenshots/daily/ads082/20260804_cat37190_レディースブラックフォーマルバッグ.png"
-  },
-  {
-   "category_id": "609",
-   "category_name": "生ごみ処理機",
-   "code": "ads058",
-   "title": "コンポスト バッグ おしゃれ 生ゴミ 不織布 コンポスト 容器 家庭用 生ゴミ処理機 説明書付 コンポストバッグ 生ごみ アンダル 有機栽培 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/4",
-   "screenshot": "screenshots/daily/ads058/20260804_cat609_生ごみ処理機.png"
+   "category_id": "45462",
+   "category_name": "お香、インセンス",
+   "code": "ads066",
+   "title": "お香 アロマ 白檀 沈香 金木犀 ホワイトセージ おしゃれ お試し オシャレ 横置き 対応 セット リラクゼーション ヨガ お香 のような お線香 線香 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/5",
+   "screenshot": "screenshots/daily/ads066/20260805_cat45462_お香、インセンス.png"
   }
  ],
- "realtime": [],
- "realtime_updated": "2026-08-05T08:06:23.710473+09:00",
- "daily_updated": "2026-08-04T10:14:54.755239+09:00",
+ "realtime": [
+  {
+   "category_id": "45462",
+   "category_name": "お香、インセンス",
+   "code": "ads066",
+   "title": "お香 アロマ 白檀 沈香 金木犀 ホワイトセージ おしゃれ お試し オシャレ 横置き 対応 セット リラクゼーション ヨガ お香 のような お線香 線香 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/5",
+   "screenshot": "screenshots/realtime/ads066/20260805_cat45462_お香、インセンス.png"
+  }
+ ],
+ "realtime_updated": "2026-08-05T10:16:23.472533+09:00",
+ "daily_updated": "2026-08-05T10:16:23.472533+09:00",
  "keyword": [
+  {
+   "code": "ads061",
+   "keyword": "除湿剤 繰り返し",
+   "category_id": "68518",
+   "category_name": "除湿剤 繰り返し",
+   "cat_label": "靴用消臭剤",
+   "title": "【所ジョージの世田谷ベース掲載】 靴 消臭 グッズ 除湿剤 繰り返し 竹炭 乾燥剤 繰り返し使用可 ...",
+   "update_label": "2026/8/5",
+   "screenshot": "screenshots/keyword/ads061/20260805_除湿剤_繰り返し.png",
+   "first_date": "2026-08-05"
+  },
+  {
+   "code": "ads061",
+   "keyword": "消臭 脱臭",
+   "category_id": "68518",
+   "category_name": "消臭 脱臭",
+   "cat_label": "靴用消臭剤",
+   "title": "【所ジョージの世田谷ベース掲載】 靴 消臭 グッズ 除湿剤 繰り返し 竹炭 乾燥剤 繰り返し使用可 ...",
+   "update_label": "2026/8/5",
+   "screenshot": "screenshots/keyword/ads061/20260805_消臭_脱臭.png",
+   "first_date": "2026-08-05"
+  },
   {
    "code": "ads050",
    "keyword": "レディース 小さめ",
@@ -1549,84 +1572,29 @@
    "first_date": "2026-07-08"
   }
  ],
- "keyword_updated": "2026-08-04T10:14:54.755239+09:00",
+ "keyword_updated": "2026-08-05T10:16:23.472533+09:00",
  "keyword_new": [
   {
-   "code": "ads050",
-   "keyword": "レディース 小さめ",
-   "category_id": "68716",
-   "category_name": "レディース 小さめ",
-   "cat_label": "レディース三つ折財布",
-   "title": "三つ折り財布 レディース 本革 財布 三つ折り カード収納 ミニ財布 ミニ 財布 ミニウォレット 小...",
-   "update_label": "2026/8/4",
-   "screenshot": "screenshots/keyword/ads050/20260804_レディース_小さめ.png",
-   "first_date": "2026-08-04"
+   "code": "ads061",
+   "keyword": "除湿剤 繰り返し",
+   "category_id": "68518",
+   "category_name": "除湿剤 繰り返し",
+   "cat_label": "靴用消臭剤",
+   "title": "【所ジョージの世田谷ベース掲載】 靴 消臭 グッズ 除湿剤 繰り返し 竹炭 乾燥剤 繰り返し使用可 ...",
+   "update_label": "2026/8/5",
+   "screenshot": "screenshots/keyword/ads061/20260805_除湿剤_繰り返し.png",
+   "first_date": "2026-08-05"
   },
   {
-   "code": "ads050",
-   "keyword": "小さめ ブランド",
-   "category_id": "68716",
-   "category_name": "小さめ ブランド",
-   "cat_label": "レディース三つ折財布",
-   "title": "三つ折り財布 レディース 本革 財布 三つ折り カード収納 ミニ財布 ミニ 財布 ミニウォレット 小...",
-   "update_label": "2026/8/4",
-   "screenshot": "screenshots/keyword/ads050/20260804_小さめ_ブランド.png",
-   "first_date": "2026-08-04"
-  },
-  {
-   "code": "ads050",
-   "keyword": "ブランド 本革",
-   "category_id": "68716",
-   "category_name": "ブランド 本革",
-   "cat_label": "レディース三つ折財布",
-   "title": "三つ折り財布 レディース 本革 財布 三つ折り カード収納 ミニ財布 ミニ 財布 ミニウォレット 小...",
-   "update_label": "2026/8/4",
-   "screenshot": "screenshots/keyword/ads050/20260804_ブランド_本革.png",
-   "first_date": "2026-08-04"
-  },
-  {
-   "code": "ads044",
-   "keyword": "レディース 本革",
-   "category_id": "68713",
-   "category_name": "レディース 本革",
-   "cat_label": "レディース二つ折り財布",
-   "title": "二つ折り財布 レディース 本革 がま口 ミニ財布 レディース がま口 二つ折り ブランド 使いやすい...",
-   "update_label": "2026/8/4",
-   "screenshot": "screenshots/keyword/ads044/20260804_レディース_本革.png",
-   "first_date": "2026-08-04"
-  },
-  {
-   "code": "ads059-2",
-   "keyword": "押し入れ 調湿",
-   "category_id": "46596",
-   "category_name": "押し入れ 調湿",
-   "cat_label": "除湿、乾燥剤",
-   "title": "部屋 消臭 除湿 下駄箱 押し入れ 靴 調湿 繰り返し 竹炭 乾燥 天然素材 タンス クローゼット ...",
-   "update_label": "2026/8/4",
-   "screenshot": "screenshots/keyword/ads059-2/20260804_押し入れ_調湿.png",
-   "first_date": "2026-08-04"
-  },
-  {
-   "code": "ads070-s",
-   "keyword": "モバイルバッテリー Lサイズ",
-   "category_id": "4235",
-   "category_name": "モバイルバッテリー Lサイズ",
-   "cat_label": "その他防災、防犯、セーフティ",
-   "title": "【所ジョージの世田谷ベース掲載】 耐火バッグ モバイルバッテリー Sサイズ 耐火ケース 防火袋 A4...",
-   "update_label": "2026/8/4",
-   "screenshot": "screenshots/keyword/ads070-s/20260804_モバイルバッテリー_Lサイズ.png",
-   "first_date": "2026-08-04"
-  },
-  {
-   "code": "ads070-s",
-   "keyword": "モバイルバッテリー Sサイズ",
-   "category_id": "4235",
-   "category_name": "モバイルバッテリー Sサイズ",
-   "cat_label": "その他防災、防犯、セーフティ",
-   "title": "【所ジョージの世田谷ベース掲載】 耐火バッグ モバイルバッテリー Sサイズ 耐火ケース 防火袋 A4...",
-   "update_label": "2026/8/4",
-   "screenshot": "screenshots/keyword/ads070-s/20260804_モバイルバッテリー_Sサイズ.png",
-   "first_date": "2026-08-04"
+   "code": "ads061",
+   "keyword": "消臭 脱臭",
+   "category_id": "68518",
+   "category_name": "消臭 脱臭",
+   "cat_label": "靴用消臭剤",
+   "title": "【所ジョージの世田谷ベース掲載】 靴 消臭 グッズ 除湿剤 繰り返し 竹炭 乾燥剤 繰り返し使用可 ...",
+   "update_label": "2026/8/5",
+   "screenshot": "screenshots/keyword/ads061/20260805_消臭_脱臭.png",
+   "first_date": "2026-08-05"
   }
  ]
 }

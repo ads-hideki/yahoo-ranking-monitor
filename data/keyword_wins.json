@@ -1515,5 +1515,27 @@
   "update_label": "2026/8/4",
   "screenshot": "screenshots/keyword/ads070-s/20260804_モバイルバッテリー_Sサイズ.png",
   "first_date": "2026-08-04"
+ },
+ "ads061|除湿剤 繰り返し": {
+  "code": "ads061",
+  "keyword": "除湿剤 繰り返し",
+  "category_id": "68518",
+  "category_name": "除湿剤 繰り返し",
+  "cat_label": "靴用消臭剤",
+  "title": "【所ジョージの世田谷ベース掲載】 靴 消臭 グッズ 除湿剤 繰り返し 竹炭 乾燥剤 繰り返し使用可 ...",
+  "update_label": "2026/8/5",
+  "screenshot": "screenshots/keyword/ads061/20260805_除湿剤_繰り返し.png",
+  "first_date": "2026-08-05"
+ },
+ "ads061|消臭 脱臭": {
+  "code": "ads061",
+  "keyword": "消臭 脱臭",
+  "category_id": "68518",
+  "category_name": "消臭 脱臭",
+  "cat_label": "靴用消臭剤",
+  "title": "【所ジョージの世田谷ベース掲載】 靴 消臭 グッズ 除湿剤 繰り返し 竹炭 乾燥剤 繰り返し使用可 ...",
+  "update_label": "2026/8/5",
+  "screenshot": "screenshots/keyword/ads061/20260805_消臭_脱臭.png",
+  "first_date": "2026-08-05"
  }
 }

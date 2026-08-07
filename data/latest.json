@@ -1,5 +1,5 @@
 {
- "run_at": "2026-08-06T21:05:41.135112+09:00",
+ "run_at": "2026-08-07T09:06:12.593951+09:00",
  "categories_checked": 39,
  "daily": [
   {
@@ -27,33 +27,8 @@
    "screenshot": "screenshots/daily/ads033/20260806_cat48240_レディース名刺入れ.png"
   }
  ],
- "realtime": [
-  {
-   "category_id": "35462",
-   "category_name": "レディースビジネスバッグ",
-   "code": "ads022",
-   "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 折らずにお届け アンコール Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/6",
-   "screenshot": "screenshots/realtime/ads022/20260806_cat35462_レディースビジネスバッグ.png"
-  },
-  {
-   "category_id": "37190",
-   "category_name": "レディースブラックフォーマルバッグ",
-   "code": "ads102",
-   "title": "フォーマルバッグ 黒 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 入学式 卒業式 結婚式 法事 法要 ブラック バック 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/6",
-   "screenshot": "screenshots/realtime/ads102/20260806_cat37190_レディースブラックフォーマルバッグ.png"
-  },
-  {
-   "category_id": "4352",
-   "category_name": "マザーズバッグ",
-   "code": "ads004",
-   "title": "マザーズリュック 軽量 大容量 バッグ リュック マザーズバッグ バック ママ パパ ブランド 撥水 おしゃれ ペアレンツバッグ Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/6",
-   "screenshot": "screenshots/realtime/ads004/20260806_cat4352_マザーズバッグ.png"
-  }
- ],
- "realtime_updated": "2026-08-06T21:05:41.135112+09:00",
+ "realtime": [],
+ "realtime_updated": "2026-08-07T09:06:12.593951+09:00",
  "daily_updated": "2026-08-06T10:13:27.680895+09:00",
  "keyword": [
   {

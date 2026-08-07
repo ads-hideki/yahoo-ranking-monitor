@@ -1,5 +1,5 @@
 {
- "run_at": "2026-08-07T18:04:19.911031+09:00",
+ "run_at": "2026-08-07T19:57:00.208309+09:00",
  "categories_checked": 39,
  "daily": [
   {
@@ -37,6 +37,14 @@
  ],
  "realtime": [
   {
+   "category_id": "37190",
+   "category_name": "レディースブラックフォーマルバッグ",
+   "code": "ads102",
+   "title": "フォーマルバッグ 黒 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 入学式 卒業式 結婚式 法事 法要 ブラック バック 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/7",
+   "screenshot": "screenshots/realtime/ads102/20260807_cat37190_レディースブラックフォーマルバッグ.png"
+  },
+  {
    "category_id": "45462",
    "category_name": "お香、インセンス",
    "code": "ads066-k",
@@ -45,15 +53,15 @@
    "screenshot": "screenshots/realtime/ads066-k/20260807_cat45462_お香、インセンス.png"
   },
   {
-   "category_id": "609",
-   "category_name": "生ごみ処理機",
-   "code": "ads058-s",
-   "title": "コンポスト バッグ 小型 Sサイズ おしゃれ 生ゴミ 不織布 バッグ 容器 家庭用 生ゴミ処理機 説明書付 コンポストバッグ 生ごみ 有機栽培 爆買｜バッグ 雑貨 Annekor アンコール",
+   "category_id": "68710",
+   "category_name": "レディース長財布",
+   "code": "ads089",
+   "title": "長財布 レディース 本革 財布 小さい財布 大容量 薄い お札が折れない ブランド 使いやすい バイカラー 小さな長財布 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/8/7",
-   "screenshot": "screenshots/realtime/ads058-s/20260807_cat609_生ごみ処理機.png"
+   "screenshot": "screenshots/realtime/ads089/20260807_cat68710_レディース長財布.png"
   }
  ],
- "realtime_updated": "2026-08-07T18:04:19.911031+09:00",
+ "realtime_updated": "2026-08-07T19:57:00.208309+09:00",
  "daily_updated": "2026-08-07T10:56:38.588971+09:00",
  "keyword": [
   {

@@ -1537,5 +1537,49 @@
   "update_label": "2026/8/5",
   "screenshot": "screenshots/keyword/ads061/20260805_消臭_脱臭.png",
   "first_date": "2026-08-05"
+ },
+ "ads007|スマホショルダー 本革": {
+  "code": "ads007",
+  "keyword": "スマホショルダー 本革",
+  "category_id": "23549",
+  "category_name": "スマホショルダー 本革",
+  "cat_label": "レディースショルダーバッグ",
+  "title": "スマホショルダー 本革 レディース バッグ スマホポーチ ショルダーバッグ スマホポーチ 斜めがけ ...",
+  "update_label": "2026/8/7",
+  "screenshot": "screenshots/keyword/ads007/20260807_スマホショルダー_本革.png",
+  "first_date": "2026-08-07"
+ },
+ "ads102|葬式用バッグ 葬儀": {
+  "code": "ads102",
+  "keyword": "葬式用バッグ 葬儀",
+  "category_id": "37190",
+  "category_name": "葬式用バッグ 葬儀",
+  "cat_label": "レディースブラックフォーマルバッグ",
+  "title": "フォーマルバッグ 黒 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 入学式 卒業式 結婚式 法事...",
+  "update_label": "2026/8/7",
+  "screenshot": "screenshots/keyword/ads102/20260807_葬式用バッグ_葬儀.png",
+  "first_date": "2026-08-07"
+ },
+ "ads102|葬儀 葬式": {
+  "code": "ads102",
+  "keyword": "葬儀 葬式",
+  "category_id": "37190",
+  "category_name": "葬儀 葬式",
+  "cat_label": "レディースブラックフォーマルバッグ",
+  "title": "フォーマルバッグ 黒 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 入学式 卒業式 結婚式 法事...",
+  "update_label": "2026/8/7",
+  "screenshot": "screenshots/keyword/ads102/20260807_葬儀_葬式.png",
+  "first_date": "2026-08-07"
+ },
+ "ads102|葬式 軽い": {
+  "code": "ads102",
+  "keyword": "葬式 軽い",
+  "category_id": "37190",
+  "category_name": "葬式 軽い",
+  "cat_label": "レディースブラックフォーマルバッグ",
+  "title": "フォーマルバッグ 黒 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 入学式 卒業式 結婚式 法事...",
+  "update_label": "2026/8/7",
+  "screenshot": "screenshots/keyword/ads102/20260807_葬式_軽い.png",
+  "first_date": "2026-08-07"
  }
 }

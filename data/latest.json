@@ -1,5 +1,5 @@
 {
- "run_at": "2026-08-09T03:43:02.923754+09:00",
+ "run_at": "2026-08-09T05:35:18.964612+09:00",
  "categories_checked": 39,
  "daily": [
   {
@@ -29,15 +29,23 @@
  ],
  "realtime": [
   {
-   "category_id": "35462",
-   "category_name": "レディースビジネスバッグ",
-   "code": "ads001",
-   "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 入学 折らずにお届け 爆買｜バッグ 雑貨 Annekor アンコール",
+   "category_id": "37190",
+   "category_name": "レディースブラックフォーマルバッグ",
+   "code": "ads102",
+   "title": "フォーマルバッグ 黒 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 入学式 卒業式 結婚式 法事 法要 ブラック バック 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/8/9",
-   "screenshot": "screenshots/realtime/ads001/20260809_cat35462_レディースビジネスバッグ.png"
+   "screenshot": "screenshots/realtime/ads102/20260809_cat37190_レディースブラックフォーマルバッグ.png"
+  },
+  {
+   "category_id": "609",
+   "category_name": "生ごみ処理機",
+   "code": "ads058",
+   "title": "コンポスト バッグ おしゃれ 生ゴミ 不織布 コンポスト 容器 家庭用 生ゴミ処理機 説明書付 コンポストバッグ 生ごみ アンダル 有機栽培 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/9",
+   "screenshot": "screenshots/realtime/ads058/20260809_cat609_生ごみ処理機.png"
   }
  ],
- "realtime_updated": "2026-08-09T03:43:02.923754+09:00",
+ "realtime_updated": "2026-08-09T05:35:18.964612+09:00",
  "daily_updated": "2026-08-08T09:39:49.202500+09:00",
  "keyword": [
   {

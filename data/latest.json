@@ -1,5 +1,5 @@
 {
- "run_at": "2026-08-08T09:39:49.202500+09:00",
+ "run_at": "2026-08-08T12:37:21.753663+09:00",
  "categories_checked": 39,
  "daily": [
   {
@@ -27,8 +27,17 @@
    "screenshot": "screenshots/daily/ads066/20260808_cat45462_お香、インセンス.png"
   }
  ],
- "realtime": [],
- "realtime_updated": "2026-08-08T09:39:49.202500+09:00",
+ "realtime": [
+  {
+   "category_id": "35462",
+   "category_name": "レディースビジネスバッグ",
+   "code": "ads041",
+   "title": "ビジネスバッグ レディース A4 軽量 自立 通勤 大容量 リクルートバッグ 就活 面接 トートバッグ 営業 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/8",
+   "screenshot": "screenshots/realtime/ads041/20260808_cat35462_レディースビジネスバッグ.png"
+  }
+ ],
+ "realtime_updated": "2026-08-08T12:37:21.753663+09:00",
  "daily_updated": "2026-08-08T09:39:49.202500+09:00",
  "keyword": [
   {

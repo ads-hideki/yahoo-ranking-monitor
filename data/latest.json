@@ -1,52 +1,35 @@
 {
- "run_at": "2026-08-08T07:41:00.746517+09:00",
+ "run_at": "2026-08-08T09:39:49.202500+09:00",
  "categories_checked": 39,
  "daily": [
-  {
-   "category_id": "35462",
-   "category_name": "レディースビジネスバッグ",
-   "code": "ads022",
-   "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 折らずにお届け アンコール Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/7",
-   "screenshot": "screenshots/daily/ads022/20260807_cat35462_レディースビジネスバッグ.png"
-  },
   {
    "category_id": "37190",
    "category_name": "レディースブラックフォーマルバッグ",
    "code": "ads102",
    "title": "フォーマルバッグ 黒 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 入学式 卒業式 結婚式 法事 法要 ブラック バック 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/7",
-   "screenshot": "screenshots/daily/ads102/20260807_cat37190_レディースブラックフォーマルバッグ.png"
+   "update_label": "2026/8/8",
+   "screenshot": "screenshots/daily/ads102/20260808_cat37190_レディースブラックフォーマルバッグ.png"
   },
   {
    "category_id": "4352",
    "category_name": "マザーズバッグ",
    "code": "ads004",
    "title": "マザーズリュック 軽量 大容量 バッグ リュック マザーズバッグ バック ママ パパ ブランド 撥水 おしゃれ ペアレンツバッグ Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/7",
-   "screenshot": "screenshots/daily/ads004/20260807_cat4352_マザーズバッグ.png"
+   "update_label": "2026/8/8",
+   "screenshot": "screenshots/daily/ads004/20260808_cat4352_マザーズバッグ.png"
   },
   {
    "category_id": "45462",
    "category_name": "お香、インセンス",
    "code": "ads066",
    "title": "お香 アロマ 白檀 沈香 金木犀 ホワイトセージ おしゃれ お試し オシャレ 横置き 対応 セット リラクゼーション ヨガ お香 のような お線香 線香 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/7",
-   "screenshot": "screenshots/daily/ads066/20260807_cat45462_お香、インセンス.png"
-  }
- ],
- "realtime": [
-  {
-   "category_id": "45462",
-   "category_name": "お香、インセンス",
-   "code": "ads066",
-   "title": "お香 アロマ 白檀 沈香 金木犀 ホワイトセージ おしゃれ お試し オシャレ 横置き 対応 セット リラクゼーション ヨガ お香 のような お線香 線香 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/8/8",
-   "screenshot": "screenshots/realtime/ads066/20260808_cat45462_お香、インセンス.png"
+   "screenshot": "screenshots/daily/ads066/20260808_cat45462_お香、インセンス.png"
   }
  ],
- "realtime_updated": "2026-08-08T07:41:00.746517+09:00",
- "daily_updated": "2026-08-07T10:56:38.588971+09:00",
+ "realtime": [],
+ "realtime_updated": "2026-08-08T09:39:49.202500+09:00",
+ "daily_updated": "2026-08-08T09:39:49.202500+09:00",
  "keyword": [
   {
    "code": "ads007",
@@ -1632,51 +1615,6 @@
    "first_date": "2026-07-08"
   }
  ],
- "keyword_updated": "2026-08-07T10:56:38.588971+09:00",
- "keyword_new": [
-  {
-   "code": "ads007",
-   "keyword": "スマホショルダー 本革",
-   "category_id": "23549",
-   "category_name": "スマホショルダー 本革",
-   "cat_label": "レディースショルダーバッグ",
-   "title": "スマホショルダー 本革 レディース バッグ スマホポーチ ショルダーバッグ スマホポーチ 斜めがけ ...",
-   "update_label": "2026/8/7",
-   "screenshot": "screenshots/keyword/ads007/20260807_スマホショルダー_本革.png",
-   "first_date": "2026-08-07"
-  },
-  {
-   "code": "ads102",
-   "keyword": "葬式用バッグ 葬儀",
-   "category_id": "37190",
-   "category_name": "葬式用バッグ 葬儀",
-   "cat_label": "レディースブラックフォーマルバッグ",
-   "title": "フォーマルバッグ 黒 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 入学式 卒業式 結婚式 法事...",
-   "update_label": "2026/8/7",
-   "screenshot": "screenshots/keyword/ads102/20260807_葬式用バッグ_葬儀.png",
-   "first_date": "2026-08-07"
-  },
-  {
-   "code": "ads102",
-   "keyword": "葬儀 葬式",
-   "category_id": "37190",
-   "category_name": "葬儀 葬式",
-   "cat_label": "レディースブラックフォーマルバッグ",
-   "title": "フォーマルバッグ 黒 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 入学式 卒業式 結婚式 法事...",
-   "update_label": "2026/8/7",
-   "screenshot": "screenshots/keyword/ads102/20260807_葬儀_葬式.png",
-   "first_date": "2026-08-07"
-  },
-  {
-   "code": "ads102",
-   "keyword": "葬式 軽い",
-   "category_id": "37190",
-   "category_name": "葬式 軽い",
-   "cat_label": "レディースブラックフォーマルバッグ",
-   "title": "フォーマルバッグ 黒 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 入学式 卒業式 結婚式 法事...",
-   "update_label": "2026/8/7",
-   "screenshot": "screenshots/keyword/ads102/20260807_葬式_軽い.png",
-   "first_date": "2026-08-07"
-  }
- ]
+ "keyword_updated": "2026-08-08T09:39:49.202500+09:00",
+ "keyword_new": []
 }

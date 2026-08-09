@@ -1581,5 +1581,60 @@
   "update_label": "2026/8/7",
   "screenshot": "screenshots/keyword/ads102/20260807_葬式_軽い.png",
   "first_date": "2026-08-07"
+ },
+ "ads054-b|クリスタルチューナー セット": {
+  "code": "ads054-b",
+  "keyword": "クリスタルチューナー セット",
+  "category_id": "4848",
+  "category_name": "クリスタルチューナー セット",
+  "cat_label": "占い、開運",
+  "title": "クリスタルチューナー セット 4096Hz 音叉 ヒマラヤ産 マダガスカル産 ヒマラヤ水晶 監修 水...",
+  "update_label": "2026/8/9",
+  "screenshot": "screenshots/keyword/ads054-b/20260809_クリスタルチューナー_セット.png",
+  "first_date": "2026-08-09"
+ },
+ "ads054-b|セット 音叉": {
+  "code": "ads054-b",
+  "keyword": "セット 音叉",
+  "category_id": "4848",
+  "category_name": "セット 音叉",
+  "cat_label": "占い、開運",
+  "title": "クリスタルチューナー セット 4096Hz 音叉 ヒマラヤ産 マダガスカル産 ヒマラヤ水晶 監修 水...",
+  "update_label": "2026/8/9",
+  "screenshot": "screenshots/keyword/ads054-b/20260809_セット_音叉.png",
+  "first_date": "2026-08-09"
+ },
+ "ads060-3|引っ越し 挨拶": {
+  "code": "ads060-3",
+  "keyword": "引っ越し 挨拶",
+  "category_id": "67327",
+  "category_name": "引っ越し 挨拶",
+  "cat_label": "食品用ラップ",
+  "title": "引っ越し 挨拶 ギフト ラップ おしゃれ のし付き 3個セット 品物 挨拶品 袋付 引っ越しギフト ...",
+  "update_label": "2026/8/9",
+  "screenshot": "screenshots/keyword/ads060-3/20260809_引っ越し_挨拶.png",
+  "first_date": "2026-08-09"
+ },
+ "ads060-3|挨拶 ギフト": {
+  "code": "ads060-3",
+  "keyword": "挨拶 ギフト",
+  "category_id": "67327",
+  "category_name": "挨拶 ギフト",
+  "cat_label": "食品用ラップ",
+  "title": "引っ越し 挨拶 ギフト ラップ おしゃれ のし付き 3個セット 品物 挨拶品 袋付 引っ越しギフト ...",
+  "update_label": "2026/8/9",
+  "screenshot": "screenshots/keyword/ads060-3/20260809_挨拶_ギフト.png",
+  "first_date": "2026-08-09"
+ },
+ "ads060-3|ギフト ラップ": {
+  "code": "ads060-3",
+  "keyword": "ギフト ラップ",
+  "category_id": "67327",
+  "category_name": "ギフト ラップ",
+  "cat_label": "食品用ラップ",
+  "title": "引っ越し 挨拶 ギフト ラップ おしゃれ のし付き 3個セット 品物 挨拶品 袋付 引っ越しギフト ...",
+  "update_label": "2026/8/9",
+  "screenshot": "screenshots/keyword/ads060-3/20260809_ギフト_ラップ.png",
+  "first_date": "2026-08-09"
  }
 }

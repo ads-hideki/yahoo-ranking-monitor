@@ -1,5 +1,5 @@
 {
- "run_at": "2026-08-09T07:34:00.189940+09:00",
+ "run_at": "2026-08-09T09:41:51.428468+09:00",
  "categories_checked": 39,
  "daily": [
   {
@@ -7,35 +7,19 @@
    "category_name": "レディースブラックフォーマルバッグ",
    "code": "ads102",
    "title": "フォーマルバッグ 黒 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 入学式 卒業式 結婚式 法事 法要 ブラック バック 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/8",
-   "screenshot": "screenshots/daily/ads102/20260808_cat37190_レディースブラックフォーマルバッグ.png"
+   "update_label": "2026/8/9",
+   "screenshot": "screenshots/daily/ads102/20260809_cat37190_レディースブラックフォーマルバッグ.png"
   },
   {
-   "category_id": "4352",
-   "category_name": "マザーズバッグ",
-   "code": "ads004",
-   "title": "マザーズリュック 軽量 大容量 バッグ リュック マザーズバッグ バック ママ パパ ブランド 撥水 おしゃれ ペアレンツバッグ Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/8",
-   "screenshot": "screenshots/daily/ads004/20260808_cat4352_マザーズバッグ.png"
-  },
-  {
-   "category_id": "45462",
-   "category_name": "お香、インセンス",
-   "code": "ads066",
-   "title": "お香 アロマ 白檀 沈香 金木犀 ホワイトセージ おしゃれ お試し オシャレ 横置き 対応 セット リラクゼーション ヨガ お香 のような お線香 線香 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/8",
-   "screenshot": "screenshots/daily/ads066/20260808_cat45462_お香、インセンス.png"
+   "category_id": "68713",
+   "category_name": "レディース二つ折り財布",
+   "code": "ads090",
+   "title": "二つ折り財布 レディース 本革 二つ折り 財布 ミニ財布 バイカラー フラップ コンパクト 大容量 スキミング防止 おしゃれ 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/9",
+   "screenshot": "screenshots/daily/ads090/20260809_cat68713_レディース二つ折り財布.png"
   }
  ],
  "realtime": [
-  {
-   "category_id": "37190",
-   "category_name": "レディースブラックフォーマルバッグ",
-   "code": "ads102",
-   "title": "フォーマルバッグ 黒 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 入学式 卒業式 結婚式 法事 法要 ブラック バック 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/9",
-   "screenshot": "screenshots/realtime/ads102/20260809_cat37190_レディースブラックフォーマルバッグ.png"
-  },
   {
    "category_id": "45462",
    "category_name": "お香、インセンス",
@@ -53,9 +37,64 @@
    "screenshot": "screenshots/realtime/ads058/20260809_cat609_生ごみ処理機.png"
   }
  ],
- "realtime_updated": "2026-08-09T07:34:00.189940+09:00",
- "daily_updated": "2026-08-08T09:39:49.202500+09:00",
+ "realtime_updated": "2026-08-09T09:41:51.428468+09:00",
+ "daily_updated": "2026-08-09T09:41:51.428468+09:00",
  "keyword": [
+  {
+   "code": "ads054-b",
+   "keyword": "クリスタルチューナー セット",
+   "category_id": "4848",
+   "category_name": "クリスタルチューナー セット",
+   "cat_label": "占い、開運",
+   "title": "クリスタルチューナー セット 4096Hz 音叉 ヒマラヤ産 マダガスカル産 ヒマラヤ水晶 監修 水...",
+   "update_label": "2026/8/9",
+   "screenshot": "screenshots/keyword/ads054-b/20260809_クリスタルチューナー_セット.png",
+   "first_date": "2026-08-09"
+  },
+  {
+   "code": "ads054-b",
+   "keyword": "セット 音叉",
+   "category_id": "4848",
+   "category_name": "セット 音叉",
+   "cat_label": "占い、開運",
+   "title": "クリスタルチューナー セット 4096Hz 音叉 ヒマラヤ産 マダガスカル産 ヒマラヤ水晶 監修 水...",
+   "update_label": "2026/8/9",
+   "screenshot": "screenshots/keyword/ads054-b/20260809_セット_音叉.png",
+   "first_date": "2026-08-09"
+  },
+  {
+   "code": "ads060-3",
+   "keyword": "引っ越し 挨拶",
+   "category_id": "67327",
+   "category_name": "引っ越し 挨拶",
+   "cat_label": "食品用ラップ",
+   "title": "引っ越し 挨拶 ギフト ラップ おしゃれ のし付き 3個セット 品物 挨拶品 袋付 引っ越しギフト ...",
+   "update_label": "2026/8/9",
+   "screenshot": "screenshots/keyword/ads060-3/20260809_引っ越し_挨拶.png",
+   "first_date": "2026-08-09"
+  },
+  {
+   "code": "ads060-3",
+   "keyword": "挨拶 ギフト",
+   "category_id": "67327",
+   "category_name": "挨拶 ギフト",
+   "cat_label": "食品用ラップ",
+   "title": "引っ越し 挨拶 ギフト ラップ おしゃれ のし付き 3個セット 品物 挨拶品 袋付 引っ越しギフト ...",
+   "update_label": "2026/8/9",
+   "screenshot": "screenshots/keyword/ads060-3/20260809_挨拶_ギフト.png",
+   "first_date": "2026-08-09"
+  },
+  {
+   "code": "ads060-3",
+   "keyword": "ギフト ラップ",
+   "category_id": "67327",
+   "category_name": "ギフト ラップ",
+   "cat_label": "食品用ラップ",
+   "title": "引っ越し 挨拶 ギフト ラップ おしゃれ のし付き 3個セット 品物 挨拶品 袋付 引っ越しギフト ...",
+   "update_label": "2026/8/9",
+   "screenshot": "screenshots/keyword/ads060-3/20260809_ギフト_ラップ.png",
+   "first_date": "2026-08-09"
+  },
   {
    "code": "ads007",
    "keyword": "スマホショルダー 本革",
@@ -1640,6 +1679,62 @@
    "first_date": "2026-07-08"
   }
  ],
- "keyword_updated": "2026-08-08T09:39:49.202500+09:00",
- "keyword_new": []
+ "keyword_updated": "2026-08-09T09:41:51.428468+09:00",
+ "keyword_new": [
+  {
+   "code": "ads054-b",
+   "keyword": "クリスタルチューナー セット",
+   "category_id": "4848",
+   "category_name": "クリスタルチューナー セット",
+   "cat_label": "占い、開運",
+   "title": "クリスタルチューナー セット 4096Hz 音叉 ヒマラヤ産 マダガスカル産 ヒマラヤ水晶 監修 水...",
+   "update_label": "2026/8/9",
+   "screenshot": "screenshots/keyword/ads054-b/20260809_クリスタルチューナー_セット.png",
+   "first_date": "2026-08-09"
+  },
+  {
+   "code": "ads054-b",
+   "keyword": "セット 音叉",
+   "category_id": "4848",
+   "category_name": "セット 音叉",
+   "cat_label": "占い、開運",
+   "title": "クリスタルチューナー セット 4096Hz 音叉 ヒマラヤ産 マダガスカル産 ヒマラヤ水晶 監修 水...",
+   "update_label": "2026/8/9",
+   "screenshot": "screenshots/keyword/ads054-b/20260809_セット_音叉.png",
+   "first_date": "2026-08-09"
+  },
+  {
+   "code": "ads060-3",
+   "keyword": "引っ越し 挨拶",
+   "category_id": "67327",
+   "category_name": "引っ越し 挨拶",
+   "cat_label": "食品用ラップ",
+   "title": "引っ越し 挨拶 ギフト ラップ おしゃれ のし付き 3個セット 品物 挨拶品 袋付 引っ越しギフト ...",
+   "update_label": "2026/8/9",
+   "screenshot": "screenshots/keyword/ads060-3/20260809_引っ越し_挨拶.png",
+   "first_date": "2026-08-09"
+  },
+  {
+   "code": "ads060-3",
+   "keyword": "挨拶 ギフト",
+   "category_id": "67327",
+   "category_name": "挨拶 ギフト",
+   "cat_label": "食品用ラップ",
+   "title": "引っ越し 挨拶 ギフト ラップ おしゃれ のし付き 3個セット 品物 挨拶品 袋付 引っ越しギフト ...",
+   "update_label": "2026/8/9",
+   "screenshot": "screenshots/keyword/ads060-3/20260809_挨拶_ギフト.png",
+   "first_date": "2026-08-09"
+  },
+  {
+   "code": "ads060-3",
+   "keyword": "ギフト ラップ",
+   "category_id": "67327",
+   "category_name": "ギフト ラップ",
+   "cat_label": "食品用ラップ",
+   "title": "引っ越し 挨拶 ギフト ラップ おしゃれ のし付き 3個セット 品物 挨拶品 袋付 引っ越しギフト ...",
+   "update_label": "2026/8/9",
+   "screenshot": "screenshots/keyword/ads060-3/20260809_ギフト_ラップ.png",
+   "first_date": "2026-08-09"
+  }
+ ]
 }

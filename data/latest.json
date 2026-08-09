@@ -1,5 +1,5 @@
 {
- "run_at": "2026-08-09T14:10:32.973001+09:00",
+ "run_at": "2026-08-09T16:02:47.117096+09:00",
  "categories_checked": 39,
  "daily": [
   {
@@ -19,8 +19,17 @@
    "screenshot": "screenshots/daily/ads090/20260809_cat68713_レディース二つ折り財布.png"
   }
  ],
- "realtime": [],
- "realtime_updated": "2026-08-09T14:10:32.973001+09:00",
+ "realtime": [
+  {
+   "category_id": "35462",
+   "category_name": "レディースビジネスバッグ",
+   "code": "ads012",
+   "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ トートバッグ 大容量 折らずにお届け アンコール Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/9",
+   "screenshot": "screenshots/realtime/ads012/20260809_cat35462_レディースビジネスバッグ.png"
+  }
+ ],
+ "realtime_updated": "2026-08-09T16:02:47.117096+09:00",
  "daily_updated": "2026-08-09T09:41:51.428468+09:00",
  "keyword": [
   {

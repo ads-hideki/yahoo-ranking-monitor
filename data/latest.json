@@ -1,5 +1,5 @@
 {
- "run_at": "2026-08-11T01:57:52.527107+09:00",
+ "run_at": "2026-08-11T04:03:11.726624+09:00",
  "categories_checked": 39,
  "daily": [
   {
@@ -13,39 +13,15 @@
  ],
  "realtime": [
   {
-   "category_id": "24032",
-   "category_name": "レディースキーケース",
-   "code": "ads006",
-   "title": "キーケース レディース ブランド おしゃれ 革 スマートキー カード入れ キーリング バッグ 雑貨 アンコール 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/11",
-   "screenshot": "screenshots/realtime/ads006/20260811_cat24032_レディースキーケース.png"
-  },
-  {
-   "category_id": "35462",
-   "category_name": "レディースビジネスバッグ",
-   "code": "ads041",
-   "title": "ビジネスバッグ レディース A4 軽量 自立 通勤 大容量 リクルートバッグ 就活 面接 トートバッグ 営業 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/11",
-   "screenshot": "screenshots/realtime/ads041/20260811_cat35462_レディースビジネスバッグ.png"
-  },
-  {
-   "category_id": "37190",
-   "category_name": "レディースブラックフォーマルバッグ",
-   "code": "ads082",
-   "title": "フォーマルバッグ 黒 大きめ 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 サブバッグ付 ペットボトルが入る ブラック バック 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/11",
-   "screenshot": "screenshots/realtime/ads082/20260811_cat37190_レディースブラックフォーマルバッグ.png"
-  },
-  {
    "category_id": "4352",
    "category_name": "マザーズバッグ",
-   "code": "ads010",
-   "title": "マザーズリュック 軽量 大容量 多機能 小さめ マザーズバッグ バッグ ママバッグ おしゃれ 大容量 洗える 洗濯 丸ごと洗える ブランド 撥水 爆買｜バッグ 雑貨 Annekor アンコール",
+   "code": "ads004",
+   "title": "マザーズリュック 軽量 大容量 バッグ リュック マザーズバッグ バック ママ パパ ブランド 撥水 おしゃれ ペアレンツバッグ Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/8/11",
-   "screenshot": "screenshots/realtime/ads010/20260811_cat4352_マザーズバッグ.png"
+   "screenshot": "screenshots/realtime/ads004/20260811_cat4352_マザーズバッグ.png"
   }
  ],
- "realtime_updated": "2026-08-11T01:57:52.527107+09:00",
+ "realtime_updated": "2026-08-11T04:03:11.726624+09:00",
  "daily_updated": "2026-08-10T09:43:27.336006+09:00",
  "keyword": [
   {

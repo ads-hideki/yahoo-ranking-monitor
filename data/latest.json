@@ -1,5 +1,5 @@
 {
- "run_at": "2026-08-10T13:00:46.160717+09:00",
+ "run_at": "2026-08-10T16:49:08.129057+09:00",
  "categories_checked": 39,
  "daily": [
   {
@@ -13,23 +13,31 @@
  ],
  "realtime": [
   {
-   "category_id": "15830",
-   "category_name": "メンズクラッチバッグ",
-   "code": "ads011",
-   "title": "クラッチバッグ メンズ 小さめ ブランド 結婚式 本革 レザー 2WAY 冠婚葬祭 セカンドバッグ アンコール Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/10",
-   "screenshot": "screenshots/realtime/ads011/20260810_cat15830_メンズクラッチバッグ.png"
-  },
-  {
    "category_id": "35462",
    "category_name": "レディースビジネスバッグ",
    "code": "ads041",
    "title": "ビジネスバッグ レディース A4 軽量 自立 通勤 大容量 リクルートバッグ 就活 面接 トートバッグ 営業 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/8/10",
    "screenshot": "screenshots/realtime/ads041/20260810_cat35462_レディースビジネスバッグ.png"
+  },
+  {
+   "category_id": "37190",
+   "category_name": "レディースブラックフォーマルバッグ",
+   "code": "ads102",
+   "title": "フォーマルバッグ 黒 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 入学式 卒業式 結婚式 法事 法要 ブラック バック 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/10",
+   "screenshot": "screenshots/realtime/ads102/20260810_cat37190_レディースブラックフォーマルバッグ.png"
+  },
+  {
+   "category_id": "45462",
+   "category_name": "お香、インセンス",
+   "code": "ads066-k",
+   "title": "お香 コーン アロマ 白檀 ホワイトセージ パロサント コーン型 おしゃれ お試し オシャレ 横置き リラクゼーション ヨガ お香 のような お線香 線香 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/10",
+   "screenshot": "screenshots/realtime/ads066-k/20260810_cat45462_お香、インセンス.png"
   }
  ],
- "realtime_updated": "2026-08-10T13:00:46.160717+09:00",
+ "realtime_updated": "2026-08-10T16:49:08.129057+09:00",
  "daily_updated": "2026-08-10T09:43:27.336006+09:00",
  "keyword": [
   {

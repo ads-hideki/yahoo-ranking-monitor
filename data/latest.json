@@ -1,5 +1,5 @@
 {
- "run_at": "2026-08-11T18:03:27.351352+09:00",
+ "run_at": "2026-08-11T19:53:52.346806+09:00",
  "categories_checked": 39,
  "daily": [
   {
@@ -51,8 +51,17 @@
    "screenshot": "screenshots/daily/ads035/20260811_cat68725_その他レディース財布.png"
   }
  ],
- "realtime": [],
- "realtime_updated": "2026-08-11T18:03:27.351352+09:00",
+ "realtime": [
+  {
+   "category_id": "68713",
+   "category_name": "レディース二つ折り財布",
+   "code": "ads090",
+   "title": "二つ折り財布 レディース 本革 二つ折り 財布 ミニ財布 バイカラー フラップ コンパクト 大容量 スキミング防止 おしゃれ 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/11",
+   "screenshot": "screenshots/realtime/ads090/20260811_cat68713_レディース二つ折り財布.png"
+  }
+ ],
+ "realtime_updated": "2026-08-11T19:53:52.346806+09:00",
  "daily_updated": "2026-08-11T09:43:22.581228+09:00",
  "keyword": [
   {

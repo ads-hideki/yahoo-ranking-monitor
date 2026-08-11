@@ -1,5 +1,5 @@
 {
- "run_at": "2026-08-11T09:43:22.581228+09:00",
+ "run_at": "2026-08-11T12:48:43.308603+09:00",
  "categories_checked": 39,
  "daily": [
   {
@@ -51,17 +51,8 @@
    "screenshot": "screenshots/daily/ads035/20260811_cat68725_その他レディース財布.png"
   }
  ],
- "realtime": [
-  {
-   "category_id": "4352",
-   "category_name": "マザーズバッグ",
-   "code": "ads004",
-   "title": "マザーズリュック 軽量 大容量 バッグ リュック マザーズバッグ バック ママ パパ ブランド 撥水 おしゃれ ペアレンツバッグ Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/11",
-   "screenshot": "screenshots/realtime/ads004/20260811_cat4352_マザーズバッグ.png"
-  }
- ],
- "realtime_updated": "2026-08-11T09:43:22.581228+09:00",
+ "realtime": [],
+ "realtime_updated": "2026-08-11T12:48:43.308603+09:00",
  "daily_updated": "2026-08-11T09:43:22.581228+09:00",
  "keyword": [
   {

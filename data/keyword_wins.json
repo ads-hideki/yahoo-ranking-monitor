@@ -1636,5 +1636,49 @@
   "update_label": "2026/8/9",
   "screenshot": "screenshots/keyword/ads060-3/20260809_ギフト_ラップ.png",
   "first_date": "2026-08-09"
+ },
+ "ads010|マザーズリュック 軽量": {
+  "code": "ads010",
+  "keyword": "マザーズリュック 軽量",
+  "category_id": "4352",
+  "category_name": "マザーズリュック 軽量",
+  "cat_label": "マザーズバッグ",
+  "title": "マザーズリュック 軽量 大容量 多機能 小さめ マザーズバッグ バッグ ママバッグ おしゃれ 大容量...",
+  "update_label": "2026/8/11",
+  "screenshot": "screenshots/keyword/ads010/20260811_マザーズリュック_軽量.png",
+  "first_date": "2026-08-11"
+ },
+ "ads010|軽量 大容量": {
+  "code": "ads010",
+  "keyword": "軽量 大容量",
+  "category_id": "4352",
+  "category_name": "軽量 大容量",
+  "cat_label": "マザーズバッグ",
+  "title": "マザーズリュック 軽量 大容量 多機能 小さめ マザーズバッグ バッグ ママバッグ おしゃれ 大容量...",
+  "update_label": "2026/8/11",
+  "screenshot": "screenshots/keyword/ads010/20260811_軽量_大容量.png",
+  "first_date": "2026-08-11"
+ },
+ "ads005|小さめ ショルダー": {
+  "code": "ads005",
+  "keyword": "小さめ ショルダー",
+  "category_id": "23558",
+  "category_name": "小さめ ショルダー",
+  "cat_label": "レディーストートバッグ",
+  "title": "ミニトートバッグ レディース 仕切り 小さめ ショルダー 自立 マチ 収納 お弁当 撥水 バック ミ...",
+  "update_label": "2026/8/11",
+  "screenshot": "screenshots/keyword/ads005/20260811_小さめ_ショルダー.png",
+  "first_date": "2026-08-11"
+ },
+ "ads005|ショルダー 自立": {
+  "code": "ads005",
+  "keyword": "ショルダー 自立",
+  "category_id": "23558",
+  "category_name": "ショルダー 自立",
+  "cat_label": "レディーストートバッグ",
+  "title": "ミニトートバッグ レディース 仕切り 小さめ ショルダー 自立 マチ 収納 お弁当 撥水 バック ミ...",
+  "update_label": "2026/8/11",
+  "screenshot": "screenshots/keyword/ads005/20260811_ショルダー_自立.png",
+  "first_date": "2026-08-11"
  }
 }

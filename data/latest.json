@@ -1,5 +1,5 @@
 {
- "run_at": "2026-08-13T00:01:43.727854+09:00",
+ "run_at": "2026-08-13T02:00:30.393737+09:00",
  "categories_checked": 39,
  "daily": [
   {
@@ -29,23 +29,23 @@
  ],
  "realtime": [
   {
-   "category_id": "37190",
-   "category_name": "レディースブラックフォーマルバッグ",
-   "code": "ads082",
-   "title": "フォーマルバッグ 黒 大きめ 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 サブバッグ付 ペットボトルが入る ブラック バック 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/12",
-   "screenshot": "screenshots/realtime/ads082/20260813_cat37190_レディースブラックフォーマルバッグ.png"
+   "category_id": "35462",
+   "category_name": "レディースビジネスバッグ",
+   "code": "ads022",
+   "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 折らずにお届け アンコール Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/13",
+   "screenshot": "screenshots/realtime/ads022/20260813_cat35462_レディースビジネスバッグ.png"
   },
   {
-   "category_id": "68716",
-   "category_name": "レディース三つ折財布",
-   "code": "ads050",
-   "title": "三つ折り財布 レディース 本革 財布 三つ折り カード収納 ミニ財布 ミニ 財布 ミニウォレット 小さめ スリム コンパクト スキミング 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/12",
-   "screenshot": "screenshots/realtime/ads050/20260813_cat68716_レディース三つ折財布.png"
+   "category_id": "68725",
+   "category_name": "その他レディース財布",
+   "code": "ads035",
+   "title": "ミニ財布 レディース 二つ折り 財布 本革 お札折らない 薄い 財布 コンパクト財布 キャッシュレス 極薄 スリム スキミング防止 一粒万倍日 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/13",
+   "screenshot": "screenshots/realtime/ads035/20260813_cat68725_その他レディース財布.png"
   }
  ],
- "realtime_updated": "2026-08-13T00:01:43.727854+09:00",
+ "realtime_updated": "2026-08-13T02:00:30.393737+09:00",
  "daily_updated": "2026-08-12T09:51:08.785387+09:00",
  "keyword": [
   {

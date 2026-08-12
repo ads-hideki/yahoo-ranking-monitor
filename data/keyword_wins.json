@@ -1680,5 +1680,38 @@
   "update_label": "2026/8/11",
   "screenshot": "screenshots/keyword/ads005/20260811_ショルダー_自立.png",
   "first_date": "2026-08-11"
+ },
+ "ads006|レディース ブランド": {
+  "code": "ads006",
+  "keyword": "レディース ブランド",
+  "category_id": "24032",
+  "category_name": "レディース ブランド",
+  "cat_label": "レディースキーケース",
+  "title": "キーケース レディース ブランド おしゃれ 革 スマートキー カード入れ キーリング バッグ 雑貨 ...",
+  "update_label": "2026/8/12",
+  "screenshot": "screenshots/keyword/ads006/20260812_レディース_ブランド.png",
+  "first_date": "2026-08-12"
+ },
+ "ads006|ブランド おしゃれ": {
+  "code": "ads006",
+  "keyword": "ブランド おしゃれ",
+  "category_id": "24032",
+  "category_name": "ブランド おしゃれ",
+  "cat_label": "レディースキーケース",
+  "title": "キーケース レディース ブランド おしゃれ 革 スマートキー カード入れ キーリング バッグ 雑貨 ...",
+  "update_label": "2026/8/12",
+  "screenshot": "screenshots/keyword/ads006/20260812_ブランド_おしゃれ.png",
+  "first_date": "2026-08-12"
+ },
+ "ads006|おしゃれ スマートキー": {
+  "code": "ads006",
+  "keyword": "おしゃれ スマートキー",
+  "category_id": "24032",
+  "category_name": "おしゃれ スマートキー",
+  "cat_label": "レディースキーケース",
+  "title": "キーケース レディース ブランド おしゃれ 革 スマートキー カード入れ キーリング バッグ 雑貨 ...",
+  "update_label": "2026/8/12",
+  "screenshot": "screenshots/keyword/ads006/20260812_おしゃれ_スマートキー.png",
+  "first_date": "2026-08-12"
  }
 }

@@ -1,5 +1,5 @@
 {
- "run_at": "2026-08-13T02:00:30.393737+09:00",
+ "run_at": "2026-08-13T04:06:37.190586+09:00",
  "categories_checked": 39,
  "daily": [
   {
@@ -37,6 +37,14 @@
    "screenshot": "screenshots/realtime/ads022/20260813_cat35462_レディースビジネスバッグ.png"
   },
   {
+   "category_id": "68710",
+   "category_name": "レディース長財布",
+   "code": "ads089",
+   "title": "長財布 レディース 本革 財布 小さい財布 大容量 薄い お札が折れない ブランド 使いやすい バイカラー 小さな長財布 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/13",
+   "screenshot": "screenshots/realtime/ads089/20260813_cat68710_レディース長財布.png"
+  },
+  {
    "category_id": "68725",
    "category_name": "その他レディース財布",
    "code": "ads035",
@@ -45,7 +53,7 @@
    "screenshot": "screenshots/realtime/ads035/20260813_cat68725_その他レディース財布.png"
   }
  ],
- "realtime_updated": "2026-08-13T02:00:30.393737+09:00",
+ "realtime_updated": "2026-08-13T04:06:37.190586+09:00",
  "daily_updated": "2026-08-12T09:51:08.785387+09:00",
  "keyword": [
   {

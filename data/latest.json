@@ -1,5 +1,5 @@
 {
- "run_at": "2026-08-14T02:00:08.044447+09:00",
+ "run_at": "2026-08-14T04:07:24.948562+09:00",
  "categories_checked": 39,
  "daily": [
   {
@@ -37,15 +37,15 @@
  ],
  "realtime": [
   {
-   "category_id": "15830",
-   "category_name": "メンズクラッチバッグ",
-   "code": "ads011",
-   "title": "クラッチバッグ メンズ 小さめ ブランド 結婚式 本革 レザー 2WAY 冠婚葬祭 セカンドバッグ アンコール Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
+   "category_id": "35462",
+   "category_name": "レディースビジネスバッグ",
+   "code": "ads001",
+   "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 入学 折らずにお届け 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/8/14",
-   "screenshot": "screenshots/realtime/ads011/20260814_cat15830_メンズクラッチバッグ.png"
+   "screenshot": "screenshots/realtime/ads001/20260814_cat35462_レディースビジネスバッグ.png"
   }
  ],
- "realtime_updated": "2026-08-14T02:00:08.044447+09:00",
+ "realtime_updated": "2026-08-14T04:07:24.948562+09:00",
  "daily_updated": "2026-08-13T09:52:32.494650+09:00",
  "keyword": [
   {

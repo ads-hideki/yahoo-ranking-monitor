@@ -1713,5 +1713,27 @@
   "update_label": "2026/8/12",
   "screenshot": "screenshots/keyword/ads006/20260812_おしゃれ_スマートキー.png",
   "first_date": "2026-08-12"
+ },
+ "ads021-l|ミニトートバッグ 帆布": {
+  "code": "ads021-l",
+  "keyword": "ミニトートバッグ 帆布",
+  "category_id": "23558",
+  "category_name": "ミニトートバッグ 帆布",
+  "cat_label": "レディーストートバッグ",
+  "title": "トートバッグ レディース 帆布トートバッグ キャンバス 仕切り ランチバッグ 通勤バッグ 大容量 バ...",
+  "update_label": "2026/8/13",
+  "screenshot": "screenshots/keyword/ads021-l/20260813_ミニトートバッグ_帆布.png",
+  "first_date": "2026-08-13"
+ },
+ "ads021-l|キャンバス 仕切り": {
+  "code": "ads021-l",
+  "keyword": "キャンバス 仕切り",
+  "category_id": "23558",
+  "category_name": "キャンバス 仕切り",
+  "cat_label": "レディーストートバッグ",
+  "title": "トートバッグ レディース 帆布トートバッグ キャンバス 仕切り ランチバッグ 通勤バッグ 大容量 バ...",
+  "update_label": "2026/8/13",
+  "screenshot": "screenshots/keyword/ads021-l/20260813_キャンバス_仕切り.png",
+  "first_date": "2026-08-13"
  }
 }

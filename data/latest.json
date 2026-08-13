@@ -1,30 +1,38 @@
 {
- "run_at": "2026-08-13T07:45:59.968626+09:00",
+ "run_at": "2026-08-13T09:52:32.494650+09:00",
  "categories_checked": 39,
  "daily": [
   {
-   "category_id": "15830",
-   "category_name": "メンズクラッチバッグ",
-   "code": "ads011",
-   "title": "クラッチバッグ メンズ 小さめ ブランド 結婚式 本革 レザー 2WAY 冠婚葬祭 セカンドバッグ アンコール Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/12",
-   "screenshot": "screenshots/daily/ads011/20260812_cat15830_メンズクラッチバッグ.png"
+   "category_id": "35462",
+   "category_name": "レディースビジネスバッグ",
+   "code": "ads022",
+   "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 折らずにお届け アンコール Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/13",
+   "screenshot": "screenshots/daily/ads022/20260813_cat35462_レディースビジネスバッグ.png"
   },
   {
    "category_id": "37190",
    "category_name": "レディースブラックフォーマルバッグ",
    "code": "ads082",
    "title": "フォーマルバッグ 黒 大きめ 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 サブバッグ付 ペットボトルが入る ブラック バック 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/12",
-   "screenshot": "screenshots/daily/ads082/20260812_cat37190_レディースブラックフォーマルバッグ.png"
+   "update_label": "2026/8/13",
+   "screenshot": "screenshots/daily/ads082/20260813_cat37190_レディースブラックフォーマルバッグ.png"
   },
   {
    "category_id": "45462",
    "category_name": "お香、インセンス",
    "code": "ads066",
    "title": "お香 アロマ 白檀 沈香 金木犀 ホワイトセージ おしゃれ お試し オシャレ 横置き 対応 セット リラクゼーション ヨガ お香 のような お線香 線香 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/12",
-   "screenshot": "screenshots/daily/ads066/20260812_cat45462_お香、インセンス.png"
+   "update_label": "2026/8/13",
+   "screenshot": "screenshots/daily/ads066/20260813_cat45462_お香、インセンス.png"
+  },
+  {
+   "category_id": "68725",
+   "category_name": "その他レディース財布",
+   "code": "ads035",
+   "title": "ミニ財布 レディース 二つ折り 財布 本革 お札折らない 薄い 財布 コンパクト財布 キャッシュレス 極薄 スリム スキミング防止 一粒万倍日 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/13",
+   "screenshot": "screenshots/daily/ads035/20260813_cat68725_その他レディース財布.png"
   }
  ],
  "realtime": [
@@ -35,19 +43,33 @@
    "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 入学 折らずにお届け 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/8/13",
    "screenshot": "screenshots/realtime/ads001/20260813_cat35462_レディースビジネスバッグ.png"
-  },
-  {
-   "category_id": "68710",
-   "category_name": "レディース長財布",
-   "code": "ads089",
-   "title": "長財布 レディース 本革 財布 小さい財布 大容量 薄い お札が折れない ブランド 使いやすい バイカラー 小さな長財布 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/13",
-   "screenshot": "screenshots/realtime/ads089/20260813_cat68710_レディース長財布.png"
   }
  ],
- "realtime_updated": "2026-08-13T07:45:59.968626+09:00",
- "daily_updated": "2026-08-12T09:51:08.785387+09:00",
+ "realtime_updated": "2026-08-13T09:52:32.494650+09:00",
+ "daily_updated": "2026-08-13T09:52:32.494650+09:00",
  "keyword": [
+  {
+   "code": "ads021-l",
+   "keyword": "ミニトートバッグ 帆布",
+   "category_id": "23558",
+   "category_name": "ミニトートバッグ 帆布",
+   "cat_label": "レディーストートバッグ",
+   "title": "トートバッグ レディース 帆布トートバッグ キャンバス 仕切り ランチバッグ 通勤バッグ 大容量 バ...",
+   "update_label": "2026/8/13",
+   "screenshot": "screenshots/keyword/ads021-l/20260813_ミニトートバッグ_帆布.png",
+   "first_date": "2026-08-13"
+  },
+  {
+   "code": "ads021-l",
+   "keyword": "キャンバス 仕切り",
+   "category_id": "23558",
+   "category_name": "キャンバス 仕切り",
+   "cat_label": "レディーストートバッグ",
+   "title": "トートバッグ レディース 帆布トートバッグ キャンバス 仕切り ランチバッグ 通勤バッグ 大容量 バ...",
+   "update_label": "2026/8/13",
+   "screenshot": "screenshots/keyword/ads021-l/20260813_キャンバス_仕切り.png",
+   "first_date": "2026-08-13"
+  },
   {
    "code": "ads006",
    "keyword": "レディース ブランド",
@@ -1764,40 +1786,29 @@
    "first_date": "2026-07-08"
   }
  ],
- "keyword_updated": "2026-08-12T09:51:08.785387+09:00",
+ "keyword_updated": "2026-08-13T09:52:32.494650+09:00",
  "keyword_new": [
   {
-   "code": "ads006",
-   "keyword": "レディース ブランド",
-   "category_id": "24032",
-   "category_name": "レディース ブランド",
-   "cat_label": "レディースキーケース",
-   "title": "キーケース レディース ブランド おしゃれ 革 スマートキー カード入れ キーリング バッグ 雑貨 ...",
-   "update_label": "2026/8/12",
-   "screenshot": "screenshots/keyword/ads006/20260812_レディース_ブランド.png",
-   "first_date": "2026-08-12"
+   "code": "ads021-l",
+   "keyword": "ミニトートバッグ 帆布",
+   "category_id": "23558",
+   "category_name": "ミニトートバッグ 帆布",
+   "cat_label": "レディーストートバッグ",
+   "title": "トートバッグ レディース 帆布トートバッグ キャンバス 仕切り ランチバッグ 通勤バッグ 大容量 バ...",
+   "update_label": "2026/8/13",
+   "screenshot": "screenshots/keyword/ads021-l/20260813_ミニトートバッグ_帆布.png",
+   "first_date": "2026-08-13"
   },
   {
-   "code": "ads006",
-   "keyword": "ブランド おしゃれ",
-   "category_id": "24032",
-   "category_name": "ブランド おしゃれ",
-   "cat_label": "レディースキーケース",
-   "title": "キーケース レディース ブランド おしゃれ 革 スマートキー カード入れ キーリング バッグ 雑貨 ...",
-   "update_label": "2026/8/12",
-   "screenshot": "screenshots/keyword/ads006/20260812_ブランド_おしゃれ.png",
-   "first_date": "2026-08-12"
-  },
-  {
-   "code": "ads006",
-   "keyword": "おしゃれ スマートキー",
-   "category_id": "24032",
-   "category_name": "おしゃれ スマートキー",
-   "cat_label": "レディースキーケース",
-   "title": "キーケース レディース ブランド おしゃれ 革 スマートキー カード入れ キーリング バッグ 雑貨 ...",
-   "update_label": "2026/8/12",
-   "screenshot": "screenshots/keyword/ads006/20260812_おしゃれ_スマートキー.png",
-   "first_date": "2026-08-12"
+   "code": "ads021-l",
+   "keyword": "キャンバス 仕切り",
+   "category_id": "23558",
+   "category_name": "キャンバス 仕切り",
+   "cat_label": "レディーストートバッグ",
+   "title": "トートバッグ レディース 帆布トートバッグ キャンバス 仕切り ランチバッグ 通勤バッグ 大容量 バ...",
+   "update_label": "2026/8/13",
+   "screenshot": "screenshots/keyword/ads021-l/20260813_キャンバス_仕切り.png",
+   "first_date": "2026-08-13"
   }
  ]
 }

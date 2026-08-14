@@ -1,5 +1,5 @@
 {
- "run_at": "2026-08-14T20:00:22.711786+09:00",
+ "run_at": "2026-08-14T22:15:38.468821+09:00",
  "categories_checked": 39,
  "daily": [
   {
@@ -19,25 +19,8 @@
    "screenshot": "screenshots/daily/ads001/20260814_cat35462_レディースビジネスバッグ.png"
   }
  ],
- "realtime": [
-  {
-   "category_id": "22845",
-   "category_name": "リュックサック、デイパック",
-   "code": "ads101",
-   "title": "リュック レディース おしゃれ 小さめ 軽量 通勤 A4 通学 シンプル  ナイロン 軽い 撥水 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/14",
-   "screenshot": "screenshots/realtime/ads101/20260814_cat22845_リュックサック、デイパック.png"
-  },
-  {
-   "category_id": "23549",
-   "category_name": "レディースショルダーバッグ",
-   "code": "ads037",
-   "title": "スマホポーチ ショルダー レディース スマホショルダー 入れたまま 財布 キルティング ブランド アンコール Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/14",
-   "screenshot": "screenshots/realtime/ads037/20260814_cat23549_レディースショルダーバッグ.png"
-  }
- ],
- "realtime_updated": "2026-08-14T20:00:22.711786+09:00",
+ "realtime": [],
+ "realtime_updated": "2026-08-14T22:15:38.468821+09:00",
  "daily_updated": "2026-08-14T09:51:41.180288+09:00",
  "keyword": [
   {

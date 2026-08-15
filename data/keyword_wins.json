@@ -1735,5 +1735,38 @@
   "update_label": "2026/8/13",
   "screenshot": "screenshots/keyword/ads021-l/20260813_キャンバス_仕切り.png",
   "first_date": "2026-08-13"
+ },
+ "ads002-l|バッグインバッグ リュック": {
+  "code": "ads002-l",
+  "keyword": "バッグインバッグ リュック",
+  "category_id": "23591",
+  "category_name": "バッグインバッグ リュック",
+  "cat_label": "レディースバッグインバッグ",
+  "title": "バッグインバッグ リュック 縦型 自立 A4 大きめ 小さめ 監修 リュックインバッグ バッグインバ...",
+  "update_label": "2026/8/15",
+  "screenshot": "screenshots/keyword/ads002-l/20260815_バッグインバッグ_リュック.png",
+  "first_date": "2026-08-15"
+ },
+ "ads002-l|リュック 縦型": {
+  "code": "ads002-l",
+  "keyword": "リュック 縦型",
+  "category_id": "23591",
+  "category_name": "リュック 縦型",
+  "cat_label": "レディースバッグインバッグ",
+  "title": "バッグインバッグ リュック 縦型 自立 A4 大きめ 小さめ 監修 リュックインバッグ バッグインバ...",
+  "update_label": "2026/8/15",
+  "screenshot": "screenshots/keyword/ads002-l/20260815_リュック_縦型.png",
+  "first_date": "2026-08-15"
+ },
+ "ads002-l|縦型 自立": {
+  "code": "ads002-l",
+  "keyword": "縦型 自立",
+  "category_id": "23591",
+  "category_name": "縦型 自立",
+  "cat_label": "レディースバッグインバッグ",
+  "title": "バッグインバッグ リュック 縦型 自立 A4 大きめ 小さめ 監修 リュックインバッグ バッグインバ...",
+  "update_label": "2026/8/15",
+  "screenshot": "screenshots/keyword/ads002-l/20260815_縦型_自立.png",
+  "first_date": "2026-08-15"
  }
 }

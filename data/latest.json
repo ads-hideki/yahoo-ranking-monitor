@@ -1,5 +1,5 @@
 {
- "run_at": "2026-08-15T09:28:41.690799+09:00",
+ "run_at": "2026-08-15T11:56:02.556352+09:00",
  "categories_checked": 39,
  "daily": [
   {
@@ -29,15 +29,15 @@
  ],
  "realtime": [
   {
-   "category_id": "45462",
-   "category_name": "お香、インセンス",
-   "code": "ads066-k",
-   "title": "お香 コーン アロマ 白檀 ホワイトセージ パロサント コーン型 おしゃれ お試し オシャレ 横置き リラクゼーション ヨガ お香 のような お線香 線香 爆買｜バッグ 雑貨 Annekor アンコール",
+   "category_id": "35462",
+   "category_name": "レディースビジネスバッグ",
+   "code": "ads001",
+   "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 入学 折らずにお届け 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/8/15",
-   "screenshot": "screenshots/realtime/ads066-k/20260815_cat45462_お香、インセンス.png"
+   "screenshot": "screenshots/realtime/ads001/20260815_cat35462_レディースビジネスバッグ.png"
   }
  ],
- "realtime_updated": "2026-08-15T09:28:41.690799+09:00",
+ "realtime_updated": "2026-08-15T11:56:02.556352+09:00",
  "daily_updated": "2026-08-15T09:28:41.690799+09:00",
  "keyword": [
   {

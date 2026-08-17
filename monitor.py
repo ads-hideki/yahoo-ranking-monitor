@@ -294,7 +294,7 @@ def discover_keywords(page, mapping, our_codes, stamp, ts):
     新規獲得のみ history/メールに出す（2回目以降はスクショも撮らない）。
     return: (new_winners, rows, ledger_list)"""
     import urllib.parse
-    MAX_PER_PRODUCT = 3  # 台帳に載せる1商品あたりの上限
+    MAX_PER_PRODUCT = 1  # 1商品につきキーワード1件（初回獲得のみ）。以降その商品は通知・画像とも不要
     ours = {c.lower() for c in our_codes}
     ledger = {}
     if os.path.exists(KEYWORD_WINS_JSON):

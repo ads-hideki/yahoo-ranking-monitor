@@ -1,5 +1,5 @@
 {
- "run_at": "2026-08-17T17:48:49.675035+09:00",
+ "run_at": "2026-08-17T19:35:55.998146+09:00",
  "categories_checked": 39,
  "daily": [
   {
@@ -35,8 +35,17 @@
    "screenshot": "screenshots/daily/ads035/20260817_cat68725_その他レディース財布.png"
   }
  ],
- "realtime": [],
- "realtime_updated": "2026-08-17T17:48:49.675035+09:00",
+ "realtime": [
+  {
+   "category_id": "42946",
+   "category_name": "スマートキーカバー",
+   "code": "ads047-s",
+   "title": "＼選べる2タイプ／ スマートキーケース 窓付き 2個 本革 トヨタ レザー スズキ ホンダ 日産 バイカラー レディース メンズ ダイハツ キーケース 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/17",
+   "screenshot": "screenshots/realtime/ads047-s/20260817_cat42946_スマートキーカバー.png"
+  }
+ ],
+ "realtime_updated": "2026-08-17T19:35:55.998146+09:00",
  "daily_updated": "2026-08-17T09:28:01.717507+09:00",
  "keyword": [
   {

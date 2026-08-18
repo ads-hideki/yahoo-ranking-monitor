@@ -1,5 +1,5 @@
 {
- "run_at": "2026-08-18T12:03:39.464323+09:00",
+ "run_at": "2026-08-18T13:39:51.581221+09:00",
  "categories_checked": 39,
  "daily": [
   {
@@ -35,8 +35,25 @@
    "screenshot": "screenshots/daily/ads035/20260818_cat68725_その他レディース財布.png"
   }
  ],
- "realtime": [],
- "realtime_updated": "2026-08-18T12:03:39.464323+09:00",
+ "realtime": [
+  {
+   "category_id": "24144",
+   "category_name": "ポケットティッシュカバー",
+   "code": "ads084",
+   "title": "ポケットティッシュケース 本革 ポーチ 掛けられる ポケットティッシュケース 革 レザー バイカラー フラップ付 かわいい おしゃれ 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/18",
+   "screenshot": "screenshots/realtime/ads084/20260818_cat24144_ポケットティッシュカバー.png"
+  },
+  {
+   "category_id": "37190",
+   "category_name": "レディースブラックフォーマルバッグ",
+   "code": "ads082",
+   "title": "フォーマルバッグ 黒 大きめ 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 サブバッグ付 ペットボトルが入る ブラック バック 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/18",
+   "screenshot": "screenshots/realtime/ads082/20260818_cat37190_レディースブラックフォーマルバッグ.png"
+  }
+ ],
+ "realtime_updated": "2026-08-18T13:39:51.581221+09:00",
  "daily_updated": "2026-08-18T09:27:50.087168+09:00",
  "keyword": [
   {

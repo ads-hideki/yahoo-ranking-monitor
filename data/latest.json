@@ -1,5 +1,5 @@
 {
- "run_at": "2026-08-18T19:33:10.839376+09:00",
+ "run_at": "2026-08-18T21:54:16.291126+09:00",
  "categories_checked": 39,
  "daily": [
   {
@@ -35,33 +35,8 @@
    "screenshot": "screenshots/daily/ads035/20260818_cat68725_その他レディース財布.png"
   }
  ],
- "realtime": [
-  {
-   "category_id": "4235",
-   "category_name": "その他防災、防犯、セーフティ",
-   "code": "ads070-sml",
-   "title": "【所ジョージの世田谷ベース掲載】 耐火バッグ モバイルバッテリー S M L サイズ セット 耐火ケース 防火袋 A4 防災 耐火袋 防炎袋 防水 セーフティ爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/18",
-   "screenshot": "screenshots/realtime/ads070-sml/20260818_cat4235_その他防災、防犯、セーフティ.png"
-  },
-  {
-   "category_id": "4352",
-   "category_name": "マザーズバッグ",
-   "code": "ads031",
-   "title": "マザーズバッグ リュック マザーズリュック 大容量 整理収納アドバイザー監修 ブランド 軽量 おしゃれ Annekor アンコール 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/18",
-   "screenshot": "screenshots/realtime/ads031/20260818_cat4352_マザーズバッグ.png"
-  },
-  {
-   "category_id": "68725",
-   "category_name": "その他レディース財布",
-   "code": "ads035",
-   "title": "ミニ財布 レディース 二つ折り 財布 本革 お札折らない 薄い 財布 コンパクト財布 キャッシュレス 極薄 スリム スキミング防止 一粒万倍日 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/18",
-   "screenshot": "screenshots/realtime/ads035/20260818_cat68725_その他レディース財布.png"
-  }
- ],
- "realtime_updated": "2026-08-18T19:33:10.839376+09:00",
+ "realtime": [],
+ "realtime_updated": "2026-08-18T21:54:16.291126+09:00",
  "daily_updated": "2026-08-18T09:27:50.087168+09:00",
  "keyword": [
   {

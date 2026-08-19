@@ -1,5 +1,5 @@
 {
- "run_at": "2026-08-19T09:27:44.016778+09:00",
+ "run_at": "2026-08-19T19:40:43.973847+09:00",
  "categories_checked": 39,
  "daily": [
   {
@@ -27,8 +27,25 @@
    "screenshot": "screenshots/daily/ads035/20260819_cat68725_その他レディース財布.png"
   }
  ],
- "realtime": [],
- "realtime_updated": "2026-08-19T09:27:44.016778+09:00",
+ "realtime": [
+  {
+   "category_id": "15830",
+   "category_name": "メンズクラッチバッグ",
+   "code": "ads011",
+   "title": "クラッチバッグ メンズ 小さめ ブランド 結婚式 本革 レザー 2WAY 冠婚葬祭 セカンドバッグ アンコール Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/19",
+   "screenshot": "screenshots/realtime/ads011/20260819_cat15830_メンズクラッチバッグ.png"
+  },
+  {
+   "category_id": "23591",
+   "category_name": "レディースバッグインバッグ",
+   "code": "ads003",
+   "title": "バッグインバッグ 小さめ 自立 フェルト 監修 インナーバッグ バックインバック 底板 軽量 アンコール Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/19",
+   "screenshot": "screenshots/realtime/ads003/20260819_cat23591_レディースバッグインバッグ.png"
+  }
+ ],
+ "realtime_updated": "2026-08-19T19:40:43.973847+09:00",
  "daily_updated": "2026-08-19T09:27:44.016778+09:00",
  "keyword": [
   {

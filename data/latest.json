@@ -1,30 +1,22 @@
 {
- "run_at": "2026-08-20T07:28:55.910125+09:00",
+ "run_at": "2026-08-20T09:27:47.912883+09:00",
  "categories_checked": 39,
  "daily": [
+  {
+   "category_id": "4352",
+   "category_name": "マザーズバッグ",
+   "code": "ads008-l",
+   "title": "＼TVドラマ衣装提供商品／ マザーズバッグ トート 2WAY サイズ L マザーズバック 高見え ショルダー 軽い 軽量 大容量 人気 おしゃれ Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/20",
+   "screenshot": "screenshots/daily/ads008-l/20260820_cat4352_マザーズバッグ.png"
+  },
   {
    "category_id": "45462",
    "category_name": "お香、インセンス",
    "code": "ads066",
    "title": "お香 アロマ 白檀 沈香 金木犀 ホワイトセージ おしゃれ お試し オシャレ 横置き 対応 セット リラクゼーション ヨガ お香 のような お線香 線香 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/19",
-   "screenshot": "screenshots/daily/ads066/20260819_cat45462_お香、インセンス.png"
-  },
-  {
-   "category_id": "68713",
-   "category_name": "レディース二つ折り財布",
-   "code": "ads090",
-   "title": "二つ折り財布 レディース 本革 二つ折り 財布 ミニ財布 バイカラー フラップ コンパクト 大容量 スキミング防止 おしゃれ 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/19",
-   "screenshot": "screenshots/daily/ads090/20260819_cat68713_レディース二つ折り財布.png"
-  },
-  {
-   "category_id": "68725",
-   "category_name": "その他レディース財布",
-   "code": "ads035",
-   "title": "ミニ財布 レディース 二つ折り 財布 本革 お札折らない 薄い 財布 コンパクト財布 キャッシュレス 極薄 スリム スキミング防止 一粒万倍日 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/19",
-   "screenshot": "screenshots/daily/ads035/20260819_cat68725_その他レディース財布.png"
+   "update_label": "2026/8/20",
+   "screenshot": "screenshots/daily/ads066/20260820_cat45462_お香、インセンス.png"
   }
  ],
  "realtime": [
@@ -37,8 +29,8 @@
    "screenshot": "screenshots/realtime/ads004/20260820_cat4352_マザーズバッグ.png"
   }
  ],
- "realtime_updated": "2026-08-20T07:28:55.910125+09:00",
- "daily_updated": "2026-08-19T09:27:44.016778+09:00",
+ "realtime_updated": "2026-08-20T09:27:47.912883+09:00",
+ "daily_updated": "2026-08-20T09:27:47.912883+09:00",
  "keyword": [
   {
    "code": "ads070-sml",
@@ -742,18 +734,6 @@
    "first_date": "2026-07-08"
   }
  ],
- "keyword_updated": "2026-08-19T09:27:44.016778+09:00",
- "keyword_new": [
-  {
-   "code": "ads070-sml",
-   "keyword": "耐火バッグ モバイルバッテリー",
-   "category_id": "4235",
-   "category_name": "耐火バッグ モバイルバッテリー",
-   "cat_label": "その他防災、防犯、セーフティ",
-   "title": "【所ジョージの世田谷ベース掲載】 耐火バッグ モバイルバッテリー S M L サイズ セット 耐火ケ...",
-   "update_label": "2026/8/19",
-   "screenshot": "screenshots/keyword/ads070-sml/20260819_耐火バッグ_モバイルバッテリー.png",
-   "first_date": "2026-08-19"
-  }
- ]
+ "keyword_updated": "2026-08-20T09:27:47.912883+09:00",
+ "keyword_new": []
 }

@@ -1,5 +1,5 @@
 {
- "run_at": "2026-08-21T01:39:24.931099+09:00",
+ "run_at": "2026-08-21T03:45:57.502718+09:00",
  "categories_checked": 40,
  "daily": [
   {
@@ -19,25 +19,8 @@
    "screenshot": "screenshots/daily/ads066/20260820_cat45462_お香、インセンス.png"
   }
  ],
- "realtime": [
-  {
-   "category_id": "35462",
-   "category_name": "レディースビジネスバッグ",
-   "code": "ads041",
-   "title": "ビジネスバッグ レディース A4 軽量 自立 通勤 大容量 リクルートバッグ 就活 面接 トートバッグ 営業 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/21",
-   "screenshot": "screenshots/realtime/ads041/20260821_cat35462_レディースビジネスバッグ.png"
-  },
-  {
-   "category_id": "74092",
-   "category_name": "車内収納用品",
-   "code": "ads067",
-   "title": "シートボックス 腰クッション 車用 収納ボックス 車内 クッション カー用品 大容量 車内収納 小物入れ 荷物入れ 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/20",
-   "screenshot": "screenshots/realtime/ads067/20260821_cat74092_車内収納用品.png"
-  }
- ],
- "realtime_updated": "2026-08-21T01:39:24.931099+09:00",
+ "realtime": [],
+ "realtime_updated": "2026-08-21T03:45:57.502718+09:00",
  "daily_updated": "2026-08-20T09:27:47.912883+09:00",
  "keyword": [
   {

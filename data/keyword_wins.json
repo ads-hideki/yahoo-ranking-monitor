@@ -699,5 +699,38 @@
   "update_label": "2026/8/19",
   "screenshot": "screenshots/keyword/ads070-sml/20260819_耐火バッグ_モバイルバッテリー.png",
   "first_date": "2026-08-19"
+ },
+ "ads008-xl|トート サイズ": {
+  "code": "ads008-xl",
+  "keyword": "トート サイズ",
+  "category_id": "4352",
+  "category_name": "トート サイズ",
+  "cat_label": "マザーズバッグ",
+  "title": "マザーズバッグ トート 2WAY サイズ XL マザーズバック 高見え ショルダー 軽い 軽量 大容...",
+  "update_label": "2026/8/21",
+  "screenshot": "screenshots/keyword/ads008-xl/20260821_トート_サイズ.png",
+  "first_date": "2026-08-21"
+ },
+ "ads028|大きめ 本革": {
+  "code": "ads028",
+  "keyword": "大きめ 本革",
+  "category_id": "23549",
+  "category_name": "大きめ 本革",
+  "cat_label": "レディースショルダーバッグ",
+  "title": "ショルダーバッグ レディース 本革 革 斜めがけ ブランド 軽い 大きめ スマホショルダー バッグ ...",
+  "update_label": "2026/8/21",
+  "screenshot": "screenshots/keyword/ads028/20260821_大きめ_本革.png",
+  "first_date": "2026-08-21"
+ },
+ "ads009|大容量 キャリーオンバッグ": {
+  "code": "ads009",
+  "keyword": "大容量 キャリーオンバッグ",
+  "category_id": "23558",
+  "category_name": "大容量 キャリーオンバッグ",
+  "cat_label": "レディーストートバッグ",
+  "title": "トートバッグ 帆布 A4 大きめ 大容量 レディース キャンバストート バッグ きれいめ かわいい ...",
+  "update_label": "2026/8/21",
+  "screenshot": "screenshots/keyword/ads009/20260821_大容量_キャリーオンバッグ.png",
+  "first_date": "2026-08-21"
  }
 }

@@ -1,28 +1,70 @@
 {
- "run_at": "2026-08-21T07:31:46.970998+09:00",
+ "run_at": "2026-08-21T09:31:11.489707+09:00",
  "categories_checked": 40,
  "daily": [
   {
-   "category_id": "4352",
-   "category_name": "マザーズバッグ",
-   "code": "ads008-l",
-   "title": "＼TVドラマ衣装提供商品／ マザーズバッグ トート 2WAY サイズ L マザーズバック 高見え ショルダー 軽い 軽量 大容量 人気 おしゃれ Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/20",
-   "screenshot": "screenshots/daily/ads008-l/20260820_cat4352_マザーズバッグ.png"
+   "category_id": "35462",
+   "category_name": "レディースビジネスバッグ",
+   "code": "ads041",
+   "title": "ビジネスバッグ レディース A4 軽量 自立 通勤 大容量 リクルートバッグ 就活 面接 トートバッグ 営業 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/21",
+   "screenshot": "screenshots/daily/ads041/20260821_cat35462_レディースビジネスバッグ.png"
   },
   {
-   "category_id": "45462",
-   "category_name": "お香、インセンス",
-   "code": "ads066",
-   "title": "お香 アロマ 白檀 沈香 金木犀 ホワイトセージ おしゃれ お試し オシャレ 横置き 対応 セット リラクゼーション ヨガ お香 のような お線香 線香 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/20",
-   "screenshot": "screenshots/daily/ads066/20260820_cat45462_お香、インセンス.png"
+   "category_id": "4352",
+   "category_name": "マザーズバッグ",
+   "code": "ads004",
+   "title": "マザーズリュック 軽量 大容量 バッグ リュック マザーズバッグ バック ママ パパ ブランド 撥水 おしゃれ ペアレンツバッグ Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/21",
+   "screenshot": "screenshots/daily/ads004/20260821_cat4352_マザーズバッグ.png"
   }
  ],
- "realtime": [],
- "realtime_updated": "2026-08-21T07:31:46.970998+09:00",
- "daily_updated": "2026-08-20T09:27:47.912883+09:00",
+ "realtime": [
+  {
+   "category_id": "68725",
+   "category_name": "その他レディース財布",
+   "code": "ads035",
+   "title": "ミニ財布 レディース 二つ折り 財布 本革 お札折らない 薄い 財布 コンパクト財布 キャッシュレス 極薄 スリム スキミング防止 一粒万倍日 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/21",
+   "screenshot": "screenshots/realtime/ads035/20260821_cat68725_その他レディース財布.png"
+  }
+ ],
+ "realtime_updated": "2026-08-21T09:31:11.489707+09:00",
+ "daily_updated": "2026-08-21T09:31:11.489707+09:00",
  "keyword": [
+  {
+   "code": "ads008-xl",
+   "keyword": "トート サイズ",
+   "category_id": "4352",
+   "category_name": "トート サイズ",
+   "cat_label": "マザーズバッグ",
+   "title": "マザーズバッグ トート 2WAY サイズ XL マザーズバック 高見え ショルダー 軽い 軽量 大容...",
+   "update_label": "2026/8/21",
+   "screenshot": "screenshots/keyword/ads008-xl/20260821_トート_サイズ.png",
+   "first_date": "2026-08-21"
+  },
+  {
+   "code": "ads028",
+   "keyword": "大きめ 本革",
+   "category_id": "23549",
+   "category_name": "大きめ 本革",
+   "cat_label": "レディースショルダーバッグ",
+   "title": "ショルダーバッグ レディース 本革 革 斜めがけ ブランド 軽い 大きめ スマホショルダー バッグ ...",
+   "update_label": "2026/8/21",
+   "screenshot": "screenshots/keyword/ads028/20260821_大きめ_本革.png",
+   "first_date": "2026-08-21"
+  },
+  {
+   "code": "ads009",
+   "keyword": "大容量 キャリーオンバッグ",
+   "category_id": "23558",
+   "category_name": "大容量 キャリーオンバッグ",
+   "cat_label": "レディーストートバッグ",
+   "title": "トートバッグ 帆布 A4 大きめ 大容量 レディース キャンバストート バッグ きれいめ かわいい ...",
+   "update_label": "2026/8/21",
+   "screenshot": "screenshots/keyword/ads009/20260821_大容量_キャリーオンバッグ.png",
+   "first_date": "2026-08-21"
+  },
   {
    "code": "ads070-sml",
    "keyword": "耐火バッグ モバイルバッテリー",
@@ -725,6 +767,40 @@
    "first_date": "2026-07-08"
   }
  ],
- "keyword_updated": "2026-08-20T09:27:47.912883+09:00",
- "keyword_new": []
+ "keyword_updated": "2026-08-21T09:31:11.489707+09:00",
+ "keyword_new": [
+  {
+   "code": "ads008-xl",
+   "keyword": "トート サイズ",
+   "category_id": "4352",
+   "category_name": "トート サイズ",
+   "cat_label": "マザーズバッグ",
+   "title": "マザーズバッグ トート 2WAY サイズ XL マザーズバック 高見え ショルダー 軽い 軽量 大容...",
+   "update_label": "2026/8/21",
+   "screenshot": "screenshots/keyword/ads008-xl/20260821_トート_サイズ.png",
+   "first_date": "2026-08-21"
+  },
+  {
+   "code": "ads028",
+   "keyword": "大きめ 本革",
+   "category_id": "23549",
+   "category_name": "大きめ 本革",
+   "cat_label": "レディースショルダーバッグ",
+   "title": "ショルダーバッグ レディース 本革 革 斜めがけ ブランド 軽い 大きめ スマホショルダー バッグ ...",
+   "update_label": "2026/8/21",
+   "screenshot": "screenshots/keyword/ads028/20260821_大きめ_本革.png",
+   "first_date": "2026-08-21"
+  },
+  {
+   "code": "ads009",
+   "keyword": "大容量 キャリーオンバッグ",
+   "category_id": "23558",
+   "category_name": "大容量 キャリーオンバッグ",
+   "cat_label": "レディーストートバッグ",
+   "title": "トートバッグ 帆布 A4 大きめ 大容量 レディース キャンバストート バッグ きれいめ かわいい ...",
+   "update_label": "2026/8/21",
+   "screenshot": "screenshots/keyword/ads009/20260821_大容量_キャリーオンバッグ.png",
+   "first_date": "2026-08-21"
+  }
+ ]
 }

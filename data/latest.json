@@ -1,5 +1,5 @@
 {
- "run_at": "2026-08-21T15:54:02.554082+09:00",
+ "run_at": "2026-08-21T17:46:13.454086+09:00",
  "categories_checked": 40,
  "daily": [
   {
@@ -21,15 +21,23 @@
  ],
  "realtime": [
   {
-   "category_id": "4352",
-   "category_name": "マザーズバッグ",
-   "code": "ads004",
-   "title": "マザーズリュック 軽量 大容量 バッグ リュック マザーズバッグ バック ママ パパ ブランド 撥水 おしゃれ ペアレンツバッグ Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
+   "category_id": "37190",
+   "category_name": "レディースブラックフォーマルバッグ",
+   "code": "ads082",
+   "title": "フォーマルバッグ 黒 大きめ 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 サブバッグ付 ペットボトルが入る ブラック バック 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/8/21",
-   "screenshot": "screenshots/realtime/ads004/20260821_cat4352_マザーズバッグ.png"
+   "screenshot": "screenshots/realtime/ads082/20260821_cat37190_レディースブラックフォーマルバッグ.png"
+  },
+  {
+   "category_id": "609",
+   "category_name": "生ごみ処理機",
+   "code": "ads058",
+   "title": "コンポスト バッグ おしゃれ 生ゴミ 不織布 コンポスト 容器 家庭用 生ゴミ処理機 説明書付 コンポストバッグ 生ごみ アンダル 有機栽培 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/21",
+   "screenshot": "screenshots/realtime/ads058/20260821_cat609_生ごみ処理機.png"
   }
  ],
- "realtime_updated": "2026-08-21T15:54:02.554082+09:00",
+ "realtime_updated": "2026-08-21T17:46:13.454086+09:00",
  "daily_updated": "2026-08-21T09:31:11.489707+09:00",
  "keyword": [
   {

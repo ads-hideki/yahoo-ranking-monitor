@@ -1,5 +1,5 @@
 {
- "run_at": "2026-08-22T03:42:14.350880+09:00",
+ "run_at": "2026-08-22T05:30:30.588231+09:00",
  "categories_checked": 40,
  "daily": [
   {
@@ -19,8 +19,25 @@
    "screenshot": "screenshots/daily/ads004/20260821_cat4352_マザーズバッグ.png"
   }
  ],
- "realtime": [],
- "realtime_updated": "2026-08-22T03:42:14.350880+09:00",
+ "realtime": [
+  {
+   "category_id": "37306",
+   "category_name": "レディースハンドバッグ",
+   "code": "ads095",
+   "title": "ハンドバッグ 本革 レディース 小さめ キューブバッグ バッグインバッグ レザー 革 バケツバッグ トートバッグ Mサイズ Sサイズ 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/22",
+   "screenshot": "screenshots/realtime/ads095/20260822_cat37306_レディースハンドバッグ.png"
+  },
+  {
+   "category_id": "68713",
+   "category_name": "レディース二つ折り財布",
+   "code": "ads090",
+   "title": "二つ折り財布 レディース 本革 二つ折り 財布 ミニ財布 バイカラー フラップ コンパクト 大容量 スキミング防止 おしゃれ 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/22",
+   "screenshot": "screenshots/realtime/ads090/20260822_cat68713_レディース二つ折り財布.png"
+  }
+ ],
+ "realtime_updated": "2026-08-22T05:30:30.588231+09:00",
  "daily_updated": "2026-08-21T09:31:11.489707+09:00",
  "keyword": [
   {

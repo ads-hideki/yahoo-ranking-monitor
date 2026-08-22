@@ -1,8 +1,16 @@
 {
- "run_at": "2026-08-22T17:34:52.795337+09:00",
+ "run_at": "2026-08-22T19:27:58.669187+09:00",
  "categories_checked": 40,
  "daily": [],
  "realtime": [
+  {
+   "category_id": "35462",
+   "category_name": "レディースビジネスバッグ",
+   "code": "ads022",
+   "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 折らずにお届け アンコール Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/22",
+   "screenshot": "screenshots/realtime/ads022/20260822_cat35462_レディースビジネスバッグ.png"
+  },
   {
    "category_id": "4352",
    "category_name": "マザーズバッグ",
@@ -12,7 +20,7 @@
    "screenshot": "screenshots/realtime/ads008-l/20260822_cat4352_マザーズバッグ.png"
   }
  ],
- "realtime_updated": "2026-08-22T17:34:52.795337+09:00",
+ "realtime_updated": "2026-08-22T19:27:58.669187+09:00",
  "daily_updated": "2026-08-22T09:28:14.794160+09:00",
  "keyword": [
   {

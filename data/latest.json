@@ -1,5 +1,5 @@
 {
- "run_at": "2026-08-24T12:07:31.445031+09:00",
+ "run_at": "2026-08-24T13:50:22.244167+09:00",
  "categories_checked": 40,
  "daily": [
   {
@@ -43,17 +43,8 @@
    "screenshot": "screenshots/daily/ads035/20260824_cat68725_その他レディース財布.png"
   }
  ],
- "realtime": [
-  {
-   "category_id": "48240",
-   "category_name": "レディース名刺入れ",
-   "code": "ads033",
-   "title": "名刺入れ レディース 本革 メンズ 革 レザー ブランド 大容量 名刺ケース マグネット おしゃれ ギフト 就職 転職 Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/24",
-   "screenshot": "screenshots/realtime/ads033/20260824_cat48240_レディース名刺入れ.png"
-  }
- ],
- "realtime_updated": "2026-08-24T12:07:31.445031+09:00",
+ "realtime": [],
+ "realtime_updated": "2026-08-24T13:50:22.244167+09:00",
  "daily_updated": "2026-08-24T09:29:45.228699+09:00",
  "keyword": [
   {

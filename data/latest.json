@@ -1,5 +1,5 @@
 {
- "run_at": "2026-08-25T05:35:05.045301+09:00",
+ "run_at": "2026-08-25T07:31:00.878155+09:00",
  "categories_checked": 40,
  "daily": [
   {
@@ -43,33 +43,8 @@
    "screenshot": "screenshots/daily/ads035/20260824_cat68725_その他レディース財布.png"
   }
  ],
- "realtime": [
-  {
-   "category_id": "35462",
-   "category_name": "レディースビジネスバッグ",
-   "code": "ads041",
-   "title": "ビジネスバッグ レディース A4 軽量 自立 通勤 大容量 リクルートバッグ 就活 面接 トートバッグ 営業 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/25",
-   "screenshot": "screenshots/realtime/ads041/20260825_cat35462_レディースビジネスバッグ.png"
-  },
-  {
-   "category_id": "37190",
-   "category_name": "レディースブラックフォーマルバッグ",
-   "code": "ads082",
-   "title": "フォーマルバッグ 黒 大きめ 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 サブバッグ付 ペットボトルが入る ブラック バック 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/25",
-   "screenshot": "screenshots/realtime/ads082/20260825_cat37190_レディースブラックフォーマルバッグ.png"
-  },
-  {
-   "category_id": "4352",
-   "category_name": "マザーズバッグ",
-   "code": "ads010",
-   "title": "マザーズリュック 軽量 大容量 多機能 小さめ マザーズバッグ バッグ ママバッグ おしゃれ 大容量 洗える 洗濯 丸ごと洗える ブランド 撥水 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/25",
-   "screenshot": "screenshots/realtime/ads010/20260825_cat4352_マザーズバッグ.png"
-  }
- ],
- "realtime_updated": "2026-08-25T05:35:05.045301+09:00",
+ "realtime": [],
+ "realtime_updated": "2026-08-25T07:31:00.878155+09:00",
  "daily_updated": "2026-08-24T09:29:45.228699+09:00",
  "keyword": [
   {

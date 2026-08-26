@@ -1,5 +1,5 @@
 {
- "run_at": "2026-08-27T01:50:39.894319+09:00",
+ "run_at": "2026-08-27T04:53:31.008949+09:00",
  "categories_checked": 40,
  "daily": [
   {
@@ -21,15 +21,15 @@
  ],
  "realtime": [
   {
-   "category_id": "50157",
-   "category_name": "書類ケース、図面ケース",
-   "code": "ads020",
-   "title": "通帳ケース 磁気防止 本革 カード おしゃれ スキミング防止 おすすめ 大容量 じゃばら 印鑑も入る 爆買｜バッグ 雑貨 Annekor アンコール",
+   "category_id": "4869",
+   "category_name": "マタニティグッズ、母子手帳ケース",
+   "code": "ads034",
+   "title": "母子手帳ケース ジャバラ 母子手帳 整理収納アドバイザー監修 3人分 2人分 マルチポーチ じゃばら カード 収納 マルチケース 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/8/27",
-   "screenshot": "screenshots/realtime/ads020/20260827_cat50157_書類ケース、図面ケース.png"
+   "screenshot": "screenshots/realtime/ads034/20260827_cat4869_マタニティグッズ、母子手帳ケース.png"
   }
  ],
- "realtime_updated": "2026-08-27T01:50:39.894319+09:00",
+ "realtime_updated": "2026-08-27T04:53:31.008949+09:00",
  "daily_updated": "2026-08-26T09:30:33.921482+09:00",
  "keyword": [
   {

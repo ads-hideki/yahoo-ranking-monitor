@@ -1,5 +1,5 @@
 {
- "run_at": "2026-08-26T19:39:16.998566+09:00",
+ "run_at": "2026-08-26T22:00:14.604935+09:00",
  "categories_checked": 40,
  "daily": [
   {
@@ -19,8 +19,17 @@
    "screenshot": "screenshots/daily/ads008-l/20260826_cat4352_マザーズバッグ.png"
   }
  ],
- "realtime": [],
- "realtime_updated": "2026-08-26T19:39:16.998566+09:00",
+ "realtime": [
+  {
+   "category_id": "4352",
+   "category_name": "マザーズバッグ",
+   "code": "ads010",
+   "title": "マザーズリュック 軽量 大容量 多機能 小さめ マザーズバッグ バッグ ママバッグ おしゃれ 大容量 洗える 洗濯 丸ごと洗える ブランド 撥水 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/26",
+   "screenshot": "screenshots/realtime/ads010/20260826_cat4352_マザーズバッグ.png"
+  }
+ ],
+ "realtime_updated": "2026-08-26T22:00:14.604935+09:00",
  "daily_updated": "2026-08-26T09:30:33.921482+09:00",
  "keyword": [
   {

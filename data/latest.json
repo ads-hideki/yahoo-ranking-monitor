@@ -1,5 +1,5 @@
 {
- "run_at": "2026-08-29T09:29:17.345104+09:00",
+ "run_at": "2026-08-29T13:26:38.086791+09:00",
  "categories_checked": 40,
  "daily": [
   {
@@ -8,7 +8,7 @@
    "code": "ads001",
    "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 入学 折らずにお届け 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/8/28",
-   "screenshot": "screenshots/daily/ads001/20260828_cat35462_レディースビジネスバッグ.png"
+   "screenshot": "screenshots/daily/ads001/20260829_cat35462_レディースビジネスバッグ.png"
   },
   {
    "category_id": "37190",
@@ -16,7 +16,7 @@
    "code": "ads102",
    "title": "フォーマルバッグ 黒 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 入学式 卒業式 結婚式 法事 法要 ブラック バック 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/8/28",
-   "screenshot": "screenshots/daily/ads102/20260828_cat37190_レディースブラックフォーマルバッグ.png"
+   "screenshot": "screenshots/daily/ads102/20260829_cat37190_レディースブラックフォーマルバッグ.png"
   },
   {
    "category_id": "4352",
@@ -24,7 +24,7 @@
    "code": "ads004",
    "title": "マザーズリュック 軽量 大容量 バッグ リュック マザーズバッグ バック ママ パパ ブランド 撥水 おしゃれ ペアレンツバッグ Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/8/28",
-   "screenshot": "screenshots/daily/ads004/20260828_cat4352_マザーズバッグ.png"
+   "screenshot": "screenshots/daily/ads004/20260829_cat4352_マザーズバッグ.png"
   },
   {
    "category_id": "68710",
@@ -32,12 +32,12 @@
    "code": "ads089",
    "title": "長財布 レディース 本革 財布 小さい財布 大容量 薄い お札が折れない ブランド 使いやすい バイカラー 小さな長財布 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/8/28",
-   "screenshot": "screenshots/daily/ads089/20260828_cat68710_レディース長財布.png"
+   "screenshot": "screenshots/daily/ads089/20260829_cat68710_レディース長財布.png"
   }
  ],
  "realtime": [],
- "realtime_updated": "2026-08-29T09:29:17.345104+09:00",
- "daily_updated": "2026-08-28T16:14:55.180636+09:00",
+ "realtime_updated": "2026-08-29T13:26:38.086791+09:00",
+ "daily_updated": "2026-08-29T13:26:38.086791+09:00",
  "keyword": [
   {
    "code": "ads202-2",
@@ -796,6 +796,6 @@
    "first_date": "2026-07-08"
   }
  ],
- "keyword_updated": "2026-08-28T16:14:55.180636+09:00",
+ "keyword_updated": "2026-08-29T13:26:38.086791+09:00",
  "keyword_new": []
 }

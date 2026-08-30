@@ -1,5 +1,5 @@
 {
- "run_at": "2026-08-30T17:06:05.219576+09:00",
+ "run_at": "2026-08-30T23:44:46.096856+09:00",
  "categories_checked": 40,
  "daily": [
   {
@@ -29,28 +29,12 @@
  ],
  "realtime": [
   {
-   "category_id": "45462",
-   "category_name": "お香、インセンス",
-   "code": "ads066",
-   "title": "お香 アロマ 白檀 沈香 金木犀 ホワイトセージ おしゃれ お試し オシャレ 横置き 対応 セット リラクゼーション ヨガ お香 のような お線香 線香 爆買｜バッグ 雑貨 Annekor アンコール",
+   "category_id": "37190",
+   "category_name": "レディースブラックフォーマルバッグ",
+   "code": "ads102",
+   "title": "フォーマルバッグ 黒 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 入学式 卒業式 結婚式 法事 法要 ブラック バック 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/8/30",
-   "screenshot": "screenshots/realtime/ads066/20260830_cat45462_お香、インセンス.png"
-  },
-  {
-   "category_id": "48241",
-   "category_name": "レディースIDカードケース",
-   "code": "ads017",
-   "title": "ミニ財布 レディース 本革 財布 お札折らない カードケース 小さめ ブランド ジャバラ じゃばら ウォレット ミニ 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/30",
-   "screenshot": "screenshots/realtime/ads017/20260830_cat48241_レディースIDカードケース.png"
-  },
-  {
-   "category_id": "609",
-   "category_name": "生ごみ処理機",
-   "code": "ads058",
-   "title": "コンポスト バッグ おしゃれ 生ゴミ 不織布 コンポスト 容器 家庭用 生ゴミ処理機 説明書付 コンポストバッグ 生ごみ アンダル 有機栽培 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/30",
-   "screenshot": "screenshots/realtime/ads058/20260830_cat609_生ごみ処理機.png"
+   "screenshot": "screenshots/realtime/ads102/20260830_cat37190_レディースブラックフォーマルバッグ.png"
   },
   {
    "category_id": "68725",
@@ -61,7 +45,7 @@
    "screenshot": "screenshots/realtime/ads035/20260830_cat68725_その他レディース財布.png"
   }
  ],
- "realtime_updated": "2026-08-30T17:06:05.219576+09:00",
+ "realtime_updated": "2026-08-30T23:44:46.096856+09:00",
  "daily_updated": "2026-08-30T10:54:16.110194+09:00",
  "keyword": [
   {

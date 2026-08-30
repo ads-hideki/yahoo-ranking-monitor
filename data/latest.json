@@ -1,5 +1,5 @@
 {
- "run_at": "2026-08-31T04:11:59.267911+09:00",
+ "run_at": "2026-08-31T07:33:26.090476+09:00",
  "categories_checked": 40,
  "daily": [
   {
@@ -45,6 +45,14 @@
    "screenshot": "screenshots/realtime/ads071/20260831_cat4235_その他防災、防犯、セーフティ.png"
   },
   {
+   "category_id": "50157",
+   "category_name": "書類ケース、図面ケース",
+   "code": "ads020",
+   "title": "通帳ケース 磁気防止 本革 カード おしゃれ スキミング防止 おすすめ 大容量 じゃばら 印鑑も入る 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/8/31",
+   "screenshot": "screenshots/realtime/ads020/20260831_cat50157_書類ケース、図面ケース.png"
+  },
+  {
    "category_id": "609",
    "category_name": "生ごみ処理機",
    "code": "ads058",
@@ -53,7 +61,7 @@
    "screenshot": "screenshots/realtime/ads058/20260831_cat609_生ごみ処理機.png"
   }
  ],
- "realtime_updated": "2026-08-31T04:11:59.267911+09:00",
+ "realtime_updated": "2026-08-31T07:33:26.090476+09:00",
  "daily_updated": "2026-08-30T10:54:16.110194+09:00",
  "keyword": [
   {

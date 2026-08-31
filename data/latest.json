@@ -1,5 +1,5 @@
 {
- "run_at": "2026-08-31T17:25:12.346305+09:00",
+ "run_at": "2026-09-01T02:28:32.514288+09:00",
  "categories_checked": 40,
  "daily": [
   {
@@ -37,15 +37,39 @@
  ],
  "realtime": [
   {
+   "category_id": "35462",
+   "category_name": "レディースビジネスバッグ",
+   "code": "ads001",
+   "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 入学 折らずにお届け 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/9/1",
+   "screenshot": "screenshots/realtime/ads001/20260901_cat35462_レディースビジネスバッグ.png"
+  },
+  {
+   "category_id": "37190",
+   "category_name": "レディースブラックフォーマルバッグ",
+   "code": "ads102",
+   "title": "フォーマルバッグ 黒 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 入学式 卒業式 結婚式 法事 法要 ブラック バック 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/9/1",
+   "screenshot": "screenshots/realtime/ads102/20260901_cat37190_レディースブラックフォーマルバッグ.png"
+  },
+  {
+   "category_id": "4235",
+   "category_name": "その他防災、防犯、セーフティ",
+   "code": "ads071",
+   "title": "【所ジョージの世田谷ベース掲載】 耐火バッグ モバイルバッテリー 専用 耐火ケース 防火袋 防災 耐火袋 防炎袋 防水 セーフティバッグ 貴重品 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/9/1",
+   "screenshot": "screenshots/realtime/ads071/20260901_cat4235_その他防災、防犯、セーフティ.png"
+  },
+  {
    "category_id": "45462",
    "category_name": "お香、インセンス",
-   "code": "ads066-k",
-   "title": "お香 コーン アロマ 白檀 ホワイトセージ パロサント コーン型 おしゃれ お試し オシャレ 横置き リラクゼーション ヨガ お香 のような お線香 線香 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/8/31",
-   "screenshot": "screenshots/realtime/ads066-k/20260831_cat45462_お香、インセンス.png"
+   "code": "ads066",
+   "title": "お香 アロマ 白檀 沈香 金木犀 ホワイトセージ おしゃれ お試し オシャレ 横置き 対応 セット リラクゼーション ヨガ お香 のような お線香 線香 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/9/1",
+   "screenshot": "screenshots/realtime/ads066/20260901_cat45462_お香、インセンス.png"
   }
  ],
- "realtime_updated": "2026-08-31T17:25:12.346305+09:00",
+ "realtime_updated": "2026-09-01T02:28:32.514288+09:00",
  "daily_updated": "2026-08-31T10:49:54.794810+09:00",
  "keyword": [
   {

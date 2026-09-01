@@ -1,5 +1,5 @@
 {
- "run_at": "2026-09-02T05:49:31.864248+09:00",
+ "run_at": "2026-09-02T08:53:42.466209+09:00",
  "categories_checked": 40,
  "daily": [
   {
@@ -45,15 +45,23 @@
  ],
  "realtime": [
   {
-   "category_id": "35462",
-   "category_name": "レディースビジネスバッグ",
-   "code": "ads022",
-   "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 折らずにお届け アンコール Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
+   "category_id": "4352",
+   "category_name": "マザーズバッグ",
+   "code": "ads008-xl",
+   "title": "マザーズバッグ トート 2WAY サイズ XL マザーズバック 高見え ショルダー 軽い 軽量 大容量 人気 おしゃれ Annekor アンコール 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/9/2",
-   "screenshot": "screenshots/realtime/ads022/20260902_cat35462_レディースビジネスバッグ.png"
+   "screenshot": "screenshots/realtime/ads008-xl/20260902_cat4352_マザーズバッグ.png"
+  },
+  {
+   "category_id": "68710",
+   "category_name": "レディース長財布",
+   "code": "ads089",
+   "title": "長財布 レディース 本革 財布 小さい財布 大容量 薄い お札が折れない ブランド 使いやすい バイカラー 小さな長財布 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/9/2",
+   "screenshot": "screenshots/realtime/ads089/20260902_cat68710_レディース長財布.png"
   }
  ],
- "realtime_updated": "2026-09-02T05:49:31.864248+09:00",
+ "realtime_updated": "2026-09-02T08:53:42.466209+09:00",
  "daily_updated": "2026-09-01T11:12:48.403571+09:00",
  "keyword": [
   {

@@ -1,5 +1,5 @@
 {
- "run_at": "2026-09-02T21:39:43.330791+09:00",
+ "run_at": "2026-09-03T02:46:01.190496+09:00",
  "categories_checked": 40,
  "daily": [
   {
@@ -21,15 +21,23 @@
  ],
  "realtime": [
   {
-   "category_id": "68716",
-   "category_name": "レディース三つ折財布",
-   "code": "ads050",
-   "title": "三つ折り財布 レディース 本革 財布 三つ折り カード収納 ミニ財布 ミニ 財布 ミニウォレット 小さめ スリム コンパクト スキミング 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/9/2",
-   "screenshot": "screenshots/realtime/ads050/20260902_cat68716_レディース三つ折財布.png"
+   "category_id": "35462",
+   "category_name": "レディースビジネスバッグ",
+   "code": "ads041",
+   "title": "ビジネスバッグ レディース A4 軽量 自立 通勤 大容量 リクルートバッグ 就活 面接 トートバッグ 営業 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/9/3",
+   "screenshot": "screenshots/realtime/ads041/20260903_cat35462_レディースビジネスバッグ.png"
+  },
+  {
+   "category_id": "4235",
+   "category_name": "その他防災、防犯、セーフティ",
+   "code": "ads071",
+   "title": "【所ジョージの世田谷ベース掲載】 耐火バッグ モバイルバッテリー 専用 耐火ケース 防火袋 防災 耐火袋 防炎袋 防水 セーフティバッグ 貴重品 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/9/3",
+   "screenshot": "screenshots/realtime/ads071/20260903_cat4235_その他防災、防犯、セーフティ.png"
   }
  ],
- "realtime_updated": "2026-09-02T21:39:43.330791+09:00",
+ "realtime_updated": "2026-09-03T02:46:01.190496+09:00",
  "daily_updated": "2026-09-02T10:35:45.369315+09:00",
  "keyword": [
   {

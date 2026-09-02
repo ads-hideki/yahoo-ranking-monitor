@@ -1,5 +1,5 @@
 {
- "run_at": "2026-09-02T10:35:45.369315+09:00",
+ "run_at": "2026-09-02T15:57:54.131501+09:00",
  "categories_checked": 40,
  "daily": [
   {
@@ -19,17 +19,8 @@
    "screenshot": "screenshots/daily/ads035/20260902_cat68725_その他レディース財布.png"
   }
  ],
- "realtime": [
-  {
-   "category_id": "4352",
-   "category_name": "マザーズバッグ",
-   "code": "ads008-xl",
-   "title": "マザーズバッグ トート 2WAY サイズ XL マザーズバック 高見え ショルダー 軽い 軽量 大容量 人気 おしゃれ Annekor アンコール 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/9/2",
-   "screenshot": "screenshots/realtime/ads008-xl/20260902_cat4352_マザーズバッグ.png"
-  }
- ],
- "realtime_updated": "2026-09-02T10:35:45.369315+09:00",
+ "realtime": [],
+ "realtime_updated": "2026-09-02T15:57:54.131501+09:00",
  "daily_updated": "2026-09-02T10:35:45.369315+09:00",
  "keyword": [
   {

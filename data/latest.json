@@ -1,5 +1,5 @@
 {
- "run_at": "2026-09-03T02:46:01.190496+09:00",
+ "run_at": "2026-09-03T05:49:17.829502+09:00",
  "categories_checked": 40,
  "daily": [
   {
@@ -21,12 +21,12 @@
  ],
  "realtime": [
   {
-   "category_id": "35462",
-   "category_name": "レディースビジネスバッグ",
-   "code": "ads041",
-   "title": "ビジネスバッグ レディース A4 軽量 自立 通勤 大容量 リクルートバッグ 就活 面接 トートバッグ 営業 爆買｜バッグ 雑貨 Annekor アンコール",
+   "category_id": "37190",
+   "category_name": "レディースブラックフォーマルバッグ",
+   "code": "ads082",
+   "title": "フォーマルバッグ 黒 大きめ 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 サブバッグ付 ペットボトルが入る ブラック バック 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/9/3",
-   "screenshot": "screenshots/realtime/ads041/20260903_cat35462_レディースビジネスバッグ.png"
+   "screenshot": "screenshots/realtime/ads082/20260903_cat37190_レディースブラックフォーマルバッグ.png"
   },
   {
    "category_id": "4235",
@@ -37,7 +37,7 @@
    "screenshot": "screenshots/realtime/ads071/20260903_cat4235_その他防災、防犯、セーフティ.png"
   }
  ],
- "realtime_updated": "2026-09-03T02:46:01.190496+09:00",
+ "realtime_updated": "2026-09-03T05:49:17.829502+09:00",
  "daily_updated": "2026-09-02T10:35:45.369315+09:00",
  "keyword": [
   {

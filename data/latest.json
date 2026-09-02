@@ -1,5 +1,5 @@
 {
- "run_at": "2026-09-02T15:57:54.131501+09:00",
+ "run_at": "2026-09-02T21:39:43.330791+09:00",
  "categories_checked": 40,
  "daily": [
   {
@@ -19,8 +19,17 @@
    "screenshot": "screenshots/daily/ads035/20260902_cat68725_その他レディース財布.png"
   }
  ],
- "realtime": [],
- "realtime_updated": "2026-09-02T15:57:54.131501+09:00",
+ "realtime": [
+  {
+   "category_id": "68716",
+   "category_name": "レディース三つ折財布",
+   "code": "ads050",
+   "title": "三つ折り財布 レディース 本革 財布 三つ折り カード収納 ミニ財布 ミニ 財布 ミニウォレット 小さめ スリム コンパクト スキミング 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/9/2",
+   "screenshot": "screenshots/realtime/ads050/20260902_cat68716_レディース三つ折財布.png"
+  }
+ ],
+ "realtime_updated": "2026-09-02T21:39:43.330791+09:00",
  "daily_updated": "2026-09-02T10:35:45.369315+09:00",
  "keyword": [
   {

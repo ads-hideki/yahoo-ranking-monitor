@@ -1,5 +1,5 @@
 {
- "run_at": "2026-09-05T05:33:13.148182+09:00",
+ "run_at": "2026-09-05T08:50:20.581344+09:00",
  "categories_checked": 41,
  "daily": [
   {
@@ -21,20 +21,12 @@
  ],
  "realtime": [
   {
-   "category_id": "35462",
-   "category_name": "レディースビジネスバッグ",
-   "code": "ads022",
-   "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 折らずにお届け アンコール Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
+   "category_id": "37190",
+   "category_name": "レディースブラックフォーマルバッグ",
+   "code": "ads082",
+   "title": "フォーマルバッグ 黒 大きめ 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 サブバッグ付 ペットボトルが入る ブラック バック 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/9/5",
-   "screenshot": "screenshots/realtime/ads022/20260905_cat35462_レディースビジネスバッグ.png"
-  },
-  {
-   "category_id": "4235",
-   "category_name": "その他防災、防犯、セーフティ",
-   "code": "ads071",
-   "title": "【所ジョージの世田谷ベース掲載】 耐火バッグ モバイルバッテリー 専用 耐火ケース 防火袋 防災 耐火袋 防炎袋 防水 セーフティバッグ 貴重品 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/9/5",
-   "screenshot": "screenshots/realtime/ads071/20260905_cat4235_その他防災、防犯、セーフティ.png"
+   "screenshot": "screenshots/realtime/ads082/20260905_cat37190_レディースブラックフォーマルバッグ.png"
   },
   {
    "category_id": "48240",
@@ -45,7 +37,7 @@
    "screenshot": "screenshots/realtime/ads033/20260905_cat48240_レディース名刺入れ.png"
   }
  ],
- "realtime_updated": "2026-09-05T05:33:13.148182+09:00",
+ "realtime_updated": "2026-09-05T08:50:20.581344+09:00",
  "daily_updated": "2026-09-04T10:33:02.249438+09:00",
  "keyword": [
   {

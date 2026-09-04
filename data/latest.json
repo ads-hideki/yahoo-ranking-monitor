@@ -1,36 +1,27 @@
 {
- "run_at": "2026-09-04T08:52:42.526092+09:00",
+ "run_at": "2026-09-04T10:33:02.249438+09:00",
  "categories_checked": 41,
  "daily": [
   {
-   "category_id": "4235",
-   "category_name": "その他防災、防犯、セーフティ",
-   "code": "ads071",
-   "title": "【所ジョージの世田谷ベース掲載】 耐火バッグ モバイルバッテリー 専用 耐火ケース 防火袋 防災 耐火袋 防炎袋 防水 セーフティバッグ 貴重品 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/9/3",
-   "screenshot": "screenshots/daily/ads071/20260903_cat4235_その他防災、防犯、セーフティ.png"
+   "category_id": "35462",
+   "category_name": "レディースビジネスバッグ",
+   "code": "ads022",
+   "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 折らずにお届け アンコール Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/9/4",
+   "screenshot": "screenshots/daily/ads022/20260904_cat35462_レディースビジネスバッグ.png"
   },
   {
-   "category_id": "68716",
-   "category_name": "レディース三つ折財布",
-   "code": "ads050",
-   "title": "三つ折り財布 レディース 本革 財布 三つ折り カード収納 ミニ財布 ミニ 財布 ミニウォレット 小さめ スリム コンパクト スキミング 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/9/3",
-   "screenshot": "screenshots/daily/ads050/20260903_cat68716_レディース三つ折財布.png"
-  }
- ],
- "realtime": [
-  {
-   "category_id": "15830",
-   "category_name": "メンズクラッチバッグ",
-   "code": "ads011",
-   "title": "クラッチバッグ メンズ 小さめ ブランド 結婚式 本革 レザー 2WAY 冠婚葬祭 セカンドバッグ アンコール Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
+   "category_id": "48240",
+   "category_name": "レディース名刺入れ",
+   "code": "ads033",
+   "title": "名刺入れ レディース 本革 メンズ 革 レザー ブランド 大容量 名刺ケース マグネット おしゃれ ギフト 就職 転職 Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/9/4",
-   "screenshot": "screenshots/realtime/ads011/20260904_cat15830_メンズクラッチバッグ.png"
+   "screenshot": "screenshots/daily/ads033/20260904_cat48240_レディース名刺入れ.png"
   }
  ],
- "realtime_updated": "2026-09-04T08:52:42.526092+09:00",
- "daily_updated": "2026-09-03T10:39:42.409432+09:00",
+ "realtime": [],
+ "realtime_updated": "2026-09-04T10:33:02.249438+09:00",
+ "daily_updated": "2026-09-04T10:33:02.249438+09:00",
  "keyword": [
   {
    "code": "ads071",
@@ -800,6 +791,6 @@
    "first_date": "2026-07-08"
   }
  ],
- "keyword_updated": "2026-09-03T10:39:42.409432+09:00",
+ "keyword_updated": "2026-09-04T10:33:02.249438+09:00",
  "keyword_new": []
 }

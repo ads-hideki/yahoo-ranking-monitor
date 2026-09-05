@@ -1,33 +1,8 @@
 {
- "run_at": "2026-09-05T08:50:20.581344+09:00",
+ "run_at": "2026-09-05T10:34:54.530999+09:00",
  "categories_checked": 41,
- "daily": [
-  {
-   "category_id": "35462",
-   "category_name": "レディースビジネスバッグ",
-   "code": "ads022",
-   "title": "ビジネスバッグ レディース A4 軽量 自立 リクルートバッグ 就活 面接 トートバッグ 通勤 通学 大容量 折らずにお届け アンコール Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/9/4",
-   "screenshot": "screenshots/daily/ads022/20260904_cat35462_レディースビジネスバッグ.png"
-  },
-  {
-   "category_id": "48240",
-   "category_name": "レディース名刺入れ",
-   "code": "ads033",
-   "title": "名刺入れ レディース 本革 メンズ 革 レザー ブランド 大容量 名刺ケース マグネット おしゃれ ギフト 就職 転職 Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/9/4",
-   "screenshot": "screenshots/daily/ads033/20260904_cat48240_レディース名刺入れ.png"
-  }
- ],
+ "daily": [],
  "realtime": [
-  {
-   "category_id": "37190",
-   "category_name": "レディースブラックフォーマルバッグ",
-   "code": "ads082",
-   "title": "フォーマルバッグ 黒 大きめ 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 サブバッグ付 ペットボトルが入る ブラック バック 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/9/5",
-   "screenshot": "screenshots/realtime/ads082/20260905_cat37190_レディースブラックフォーマルバッグ.png"
-  },
   {
    "category_id": "48240",
    "category_name": "レディース名刺入れ",
@@ -35,11 +10,30 @@
    "title": "名刺入れ レディース 本革 メンズ 革 レザー ブランド 大容量 名刺ケース マグネット おしゃれ ギフト 就職 転職 Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/9/5",
    "screenshot": "screenshots/realtime/ads033/20260905_cat48240_レディース名刺入れ.png"
+  },
+  {
+   "category_id": "68725",
+   "category_name": "その他レディース財布",
+   "code": "ads035",
+   "title": "ミニ財布 レディース 二つ折り 財布 本革 お札折らない 薄い 財布 コンパクト財布 キャッシュレス 極薄 スリム スキミング防止 一粒万倍日 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/9/5",
+   "screenshot": "screenshots/realtime/ads035/20260905_cat68725_その他レディース財布.png"
   }
  ],
- "realtime_updated": "2026-09-05T08:50:20.581344+09:00",
- "daily_updated": "2026-09-04T10:33:02.249438+09:00",
+ "realtime_updated": "2026-09-05T10:34:54.530999+09:00",
+ "daily_updated": "2026-09-05T10:34:54.530999+09:00",
  "keyword": [
+  {
+   "code": "ads062",
+   "keyword": "部屋 消臭",
+   "category_id": "46596",
+   "category_name": "部屋 消臭",
+   "cat_label": "除湿、乾燥剤",
+   "title": "消臭 炭 除湿 調湿 繰り返し 竹炭 特大サイズ 乾燥 天然素材 空間洗浄 空気清浄 部屋 クローゼ...",
+   "update_label": "2026/9/5",
+   "screenshot": "screenshots/keyword/ads062/20260905_部屋_消臭.png",
+   "first_date": "2026-09-05"
+  },
   {
    "code": "ads071",
    "keyword": "耐火バッグ モバイルバッテリー",
@@ -808,6 +802,18 @@
    "first_date": "2026-07-08"
   }
  ],
- "keyword_updated": "2026-09-04T10:33:02.249438+09:00",
- "keyword_new": []
+ "keyword_updated": "2026-09-05T10:34:54.530999+09:00",
+ "keyword_new": [
+  {
+   "code": "ads062",
+   "keyword": "部屋 消臭",
+   "category_id": "46596",
+   "category_name": "部屋 消臭",
+   "cat_label": "除湿、乾燥剤",
+   "title": "消臭 炭 除湿 調湿 繰り返し 竹炭 特大サイズ 乾燥 天然素材 空間洗浄 空気清浄 部屋 クローゼ...",
+   "update_label": "2026/9/5",
+   "screenshot": "screenshots/keyword/ads062/20260905_部屋_消臭.png",
+   "first_date": "2026-09-05"
+  }
+ ]
 }

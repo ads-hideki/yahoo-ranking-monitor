@@ -1,7 +1,24 @@
 {
- "run_at": "2026-09-06T08:47:28.762442+09:00",
+ "run_at": "2026-09-06T10:28:47.386430+09:00",
  "categories_checked": 41,
- "daily": [],
+ "daily": [
+  {
+   "category_id": "35462",
+   "category_name": "レディースビジネスバッグ",
+   "code": "ads041",
+   "title": "ビジネスバッグ レディース A4 軽量 自立 通勤 大容量 リクルートバッグ 就活 面接 トートバッグ 営業 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/9/6",
+   "screenshot": "screenshots/daily/ads041/20260906_cat35462_レディースビジネスバッグ.png"
+  },
+  {
+   "category_id": "37190",
+   "category_name": "レディースブラックフォーマルバッグ",
+   "code": "ads102",
+   "title": "フォーマルバッグ 黒 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 入学式 卒業式 結婚式 法事 法要 ブラック バック 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/9/6",
+   "screenshot": "screenshots/daily/ads102/20260906_cat37190_レディースブラックフォーマルバッグ.png"
+  }
+ ],
  "realtime": [
   {
    "category_id": "23591",
@@ -10,10 +27,18 @@
    "title": "バッグインバッグ 小さめ 自立 フェルト 監修 インナーバッグ バックインバック 底板 軽量 アンコール Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/9/6",
    "screenshot": "screenshots/realtime/ads003/20260906_cat23591_レディースバッグインバッグ.png"
+  },
+  {
+   "category_id": "37190",
+   "category_name": "レディースブラックフォーマルバッグ",
+   "code": "ads102",
+   "title": "フォーマルバッグ 黒 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 入学式 卒業式 結婚式 法事 法要 ブラック バック 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/9/6",
+   "screenshot": "screenshots/realtime/ads102/20260906_cat37190_レディースブラックフォーマルバッグ.png"
   }
  ],
- "realtime_updated": "2026-09-06T08:47:28.762442+09:00",
- "daily_updated": "2026-09-05T10:34:54.530999+09:00",
+ "realtime_updated": "2026-09-06T10:28:47.386430+09:00",
+ "daily_updated": "2026-09-06T10:28:47.386430+09:00",
  "keyword": [
   {
    "code": "ads062",
@@ -794,18 +819,6 @@
    "first_date": "2026-07-08"
   }
  ],
- "keyword_updated": "2026-09-05T10:34:54.530999+09:00",
- "keyword_new": [
-  {
-   "code": "ads062",
-   "keyword": "部屋 消臭",
-   "category_id": "46596",
-   "category_name": "部屋 消臭",
-   "cat_label": "除湿、乾燥剤",
-   "title": "消臭 炭 除湿 調湿 繰り返し 竹炭 特大サイズ 乾燥 天然素材 空間洗浄 空気清浄 部屋 クローゼ...",
-   "update_label": "2026/9/5",
-   "screenshot": "screenshots/keyword/ads062/20260905_部屋_消臭.png",
-   "first_date": "2026-09-05"
-  }
- ]
+ "keyword_updated": "2026-09-06T10:28:47.386430+09:00",
+ "keyword_new": []
 }

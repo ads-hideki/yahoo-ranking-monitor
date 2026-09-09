@@ -1,52 +1,43 @@
 {
- "run_at": "2026-09-09T08:56:55.188487+09:00",
+ "run_at": "2026-09-09T10:44:36.720254+09:00",
  "categories_checked": 41,
  "daily": [
-  {
-   "category_id": "23591",
-   "category_name": "レディースバッグインバッグ",
-   "code": "ads003",
-   "title": "バッグインバッグ 小さめ 自立 フェルト 監修 インナーバッグ バックインバック 底板 軽量 アンコール Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/9/8",
-   "screenshot": "screenshots/daily/ads003/20260908_cat23591_レディースバッグインバッグ.png"
-  },
   {
    "category_id": "35462",
    "category_name": "レディースビジネスバッグ",
    "code": "ads041",
    "title": "ビジネスバッグ レディース A4 軽量 自立 通勤 大容量 リクルートバッグ 就活 面接 トートバッグ 営業 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/9/8",
-   "screenshot": "screenshots/daily/ads041/20260908_cat35462_レディースビジネスバッグ.png"
+   "update_label": "2026/9/9",
+   "screenshot": "screenshots/daily/ads041/20260909_cat35462_レディースビジネスバッグ.png"
+  },
+  {
+   "category_id": "4352",
+   "category_name": "マザーズバッグ",
+   "code": "ads004",
+   "title": "マザーズリュック 軽量 大容量 バッグ リュック マザーズバッグ バック ママ パパ ブランド 撥水 おしゃれ ペアレンツバッグ Annekor 爆買｜バッグ 雑貨 Annekor アンコール",
+   "update_label": "2026/9/9",
+   "screenshot": "screenshots/daily/ads004/20260909_cat4352_マザーズバッグ.png"
   },
   {
    "category_id": "45462",
    "category_name": "お香、インセンス",
    "code": "ads066",
    "title": "お香 アロマ 白檀 沈香 金木犀 ホワイトセージ おしゃれ お試し オシャレ 横置き 対応 セット リラクゼーション ヨガ お香 のような お線香 線香 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/9/8",
-   "screenshot": "screenshots/daily/ads066/20260908_cat45462_お香、インセンス.png"
+   "update_label": "2026/9/9",
+   "screenshot": "screenshots/daily/ads066/20260909_cat45462_お香、インセンス.png"
   },
   {
    "category_id": "68725",
    "category_name": "その他レディース財布",
-   "code": "ads035",
-   "title": "ミニ財布 レディース 二つ折り 財布 本革 お札折らない 薄い 財布 コンパクト財布 キャッシュレス 極薄 スリム スキミング防止 一粒万倍日 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/9/8",
-   "screenshot": "screenshots/daily/ads035/20260908_cat68725_その他レディース財布.png"
-  }
- ],
- "realtime": [
-  {
-   "category_id": "4235",
-   "category_name": "その他防災、防犯、セーフティ",
-   "code": "ads071",
-   "title": "【所ジョージの世田谷ベース掲載】 耐火バッグ モバイルバッテリー 専用 耐火ケース 防火袋 防災 耐火袋 防炎袋 防水 セーフティバッグ 貴重品 爆買｜バッグ 雑貨 Annekor アンコール",
+   "code": "ads042",
+   "title": "長財布 レディース 薄い 本革 軽量 大容量 財布 二つ折り 薄型 極薄 コンパクト財布 キャッシュレス スリム スキミング防止 一粒万倍日 爆買｜バッグ 雑貨 Annekor アンコール",
    "update_label": "2026/9/9",
-   "screenshot": "screenshots/realtime/ads071/20260909_cat4235_その他防災、防犯、セーフティ.png"
+   "screenshot": "screenshots/daily/ads042/20260909_cat68725_その他レディース財布.png"
   }
  ],
- "realtime_updated": "2026-09-09T08:56:55.188487+09:00",
- "daily_updated": "2026-09-08T10:36:56.941508+09:00",
+ "realtime": [],
+ "realtime_updated": "2026-09-09T10:44:36.720254+09:00",
+ "daily_updated": "2026-09-09T10:44:36.720254+09:00",
  "keyword": [
   {
    "code": "ads062",
@@ -827,6 +818,6 @@
    "first_date": "2026-07-08"
   }
  ],
- "keyword_updated": "2026-09-08T10:36:56.941508+09:00",
+ "keyword_updated": "2026-09-09T10:44:36.720254+09:00",
  "keyword_new": []
 }

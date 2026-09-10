@@ -1,5 +1,5 @@
 {
- "run_at": "2026-09-10T21:48:10.639256+09:00",
+ "run_at": "2026-09-11T02:35:47.020471+09:00",
  "categories_checked": 41,
  "daily": [
   {
@@ -19,17 +19,8 @@
    "screenshot": "screenshots/daily/ads035/20260910_cat68725_その他レディース財布.png"
   }
  ],
- "realtime": [
-  {
-   "category_id": "37190",
-   "category_name": "レディースブラックフォーマルバッグ",
-   "code": "ads102",
-   "title": "フォーマルバッグ 黒 葬式用バッグ 葬儀 葬式 軽い 大容量 冠婚葬祭 入学式 卒業式 結婚式 法事 法要 ブラック バック 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/9/10",
-   "screenshot": "screenshots/realtime/ads102/20260910_cat37190_レディースブラックフォーマルバッグ.png"
-  }
- ],
- "realtime_updated": "2026-09-10T21:48:10.639256+09:00",
+ "realtime": [],
+ "realtime_updated": "2026-09-11T02:35:47.020471+09:00",
  "daily_updated": "2026-09-10T10:39:45.994391+09:00",
  "keyword": [
   {

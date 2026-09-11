@@ -1,27 +1,10 @@
 {
- "run_at": "2026-09-11T08:52:07.755979+09:00",
+ "run_at": "2026-09-11T10:38:33.388308+09:00",
  "categories_checked": 41,
- "daily": [
-  {
-   "category_id": "45462",
-   "category_name": "お香、インセンス",
-   "code": "ads066",
-   "title": "お香 アロマ 白檀 沈香 金木犀 ホワイトセージ おしゃれ お試し オシャレ 横置き 対応 セット リラクゼーション ヨガ お香 のような お線香 線香 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/9/10",
-   "screenshot": "screenshots/daily/ads066/20260910_cat45462_お香、インセンス.png"
-  },
-  {
-   "category_id": "68725",
-   "category_name": "その他レディース財布",
-   "code": "ads035",
-   "title": "ミニ財布 レディース 二つ折り 財布 本革 お札折らない 薄い 財布 コンパクト財布 キャッシュレス 極薄 スリム スキミング防止 一粒万倍日 爆買｜バッグ 雑貨 Annekor アンコール",
-   "update_label": "2026/9/10",
-   "screenshot": "screenshots/daily/ads035/20260910_cat68725_その他レディース財布.png"
-  }
- ],
+ "daily": [],
  "realtime": [],
- "realtime_updated": "2026-09-11T08:52:07.755979+09:00",
- "daily_updated": "2026-09-10T10:39:45.994391+09:00",
+ "realtime_updated": "2026-09-11T10:38:33.388308+09:00",
+ "daily_updated": "2026-09-11T10:38:33.388308+09:00",
  "keyword": [
   {
    "code": "ads062",
@@ -802,6 +785,6 @@
    "first_date": "2026-07-08"
   }
  ],
- "keyword_updated": "2026-09-10T10:39:45.994391+09:00",
+ "keyword_updated": "2026-09-11T10:38:33.388308+09:00",
  "keyword_new": []
 }

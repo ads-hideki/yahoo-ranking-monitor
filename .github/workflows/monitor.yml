@@ -5,10 +5,14 @@ name: Yahoo ranking monitor
 #   ・"0 0 * * *"                          = JST 09:00 … 全取得（デイリー+リアルタイム）＋メール送信
 #   ・"0 2,4,...,22 * * *"（09時以外の2時間おき）= リアルタイムのみ取得
 # ※GitHubのcronは混雑時に数分〜遅延することがある（仕様）。
+# ★2026-09-19〜 一時停止中：YahooがGitHubからのランキング閲覧をブロック（9/11頃〜）。
+#   ・メール：停止（手動 send_email=true のときだけ送信）
+#   ・2時間おきリアルタイム：停止
+#   ・朝9時の1日1回だけ「復旧確認」として実行（ブロック中は即終了・データ更新なし）
 on:
   schedule:
-    - cron: "0 0 * * *"                              # JST 09:00 … 全取得＋メール
-    - cron: "0 2,4,6,8,10,12,14,16,18,20,22 * * *"   # 2時間おき（09時以外）… リアルタイムのみ
+    - cron: "0 0 * * *"                              # JST 09:00 … 復旧確認（メールなし）
+    # - cron: "0 2,4,6,8,10,12,14,16,18,20,22 * * *" # 2時間おき … 停止中
   workflow_dispatch:                                  # 手動実行（全取得）
     inputs:
       send_email:
@@ -76,12 +80,12 @@ jobs:
 
       # ---- 毎朝9時（または手動でsend_email=true）に1位をメール通知 ----
       - name: Build email
-        if: github.event.schedule == '0 0 * * *' || github.event.inputs.send_email == 'true'
+        if: github.event.inputs.send_email == 'true'
         run: python notify_email.py
 
       # 本文に埋め込む画像（当日撮影分）が Pages で公開されるまで待つ
       - name: Wait for images on Pages
-        if: github.event.schedule == '0 0 * * *' || github.event.inputs.send_email == 'true'
+        if: github.event.inputs.send_email == 'true'
         run: |
           while IFS= read -r url; do
             [ -z "$url" ] && continue
@@ -94,7 +98,7 @@ jobs:
 
       - name: Read email fields
         id: mail
-        if: github.event.schedule == '0 0 * * *' || github.event.inputs.send_email == 'true'
+        if: github.event.inputs.send_email == 'true'
         run: |
           echo "subject=$(cat email_subject.txt)" >> "$GITHUB_OUTPUT"
           {
@@ -105,7 +109,7 @@ jobs:
           } >> "$GITHUB_OUTPUT"
 
       - name: Send mail
-        if: env.HAS_MAIL == 'true' && (github.event.schedule == '0 0 * * *' || github.event.inputs.send_email == 'true')
+        if: env.HAS_MAIL == 'true' && (github.event.inputs.send_email == 'true')
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: smtp.gmail.com

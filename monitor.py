@@ -594,6 +594,11 @@ def main():
             except Exception as e:
                 print(f"  cat {cat_id}: 取得失敗 {e}")
                 continue
+            if "現在表示できません" in (page.title() or ""):
+                # Yahooのアクセス拒否ページ。0件でデータを上書きせず即終了する
+                print(f"[BLOCKED] Yahooがランキング閲覧を拒否中（cat {cat_id}）。データは更新せず終了します。")
+                browser.close()
+                return
             line = [f"  cat {cat_id}"]
             for period, label in run_periods:
                 try:

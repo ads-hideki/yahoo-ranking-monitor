@@ -586,6 +586,7 @@ def main():
 
         rows = []
         winners = {pk: [] for pk, _ in run_periods}
+        diag_left = [3]
         for cat_id, codes in sorted(cats.items()):
             our_in_cat = {c.lower() for c in codes}
             try:
@@ -601,6 +602,13 @@ def main():
                 except Exception as e:
                     print(f"  cat {cat_id} {label}: 失敗 {e}")
                     continue
+                if not rk["items"] and diag_left[0] > 0:  # 取得0件時の診断（最大3回）
+                    diag_left[0] -= 1
+                    try:
+                        body = page.inner_text("body")[:300].replace("\n", " ")
+                    except Exception:
+                        body = "(body取得不可)"
+                    print(f"    [診断] 0件 url={page.url} title={page.title()!r} body={body!r}")
                 hits = [it for it in rk["items"]
                         if it["store"] == STORE and it["code"].lower() in our_in_cat]
                 top = rk["items"][0] if rk["items"] else None
